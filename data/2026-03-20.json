@@ -1,6 +1,6 @@
 {
   "date": "2026-03-20",
-  "timestamp": "2026-03-20T16:15:07.687150",
+  "timestamp": "2026-03-20T09:20:52.797467",
   "marketStatus": "closed",
   "overallSentiment": "bearish",
   "sentimentScore": -24,
@@ -365,20 +365,20 @@
     ]
   },
   "indicators": {
-    "vix": 23.81,
-    "vixChange": -1.28,
-    "dxy": 99.31,
-    "dxyChange": -0.78,
+    "vix": 24.14,
+    "vixChange": -0.95,
+    "dxy": 99.35,
+    "dxyChange": -0.74,
     "us10y": 4.28,
     "us10yChange": 0.02,
     "us2y": 3.61,
     "us2yChange": 0.0,
-    "gold": 4705.8,
-    "goldChange": 105.1,
-    "oil": 93.66,
-    "oilChange": -2.48,
-    "btc": 71283.52,
-    "btcChange": 1370.73
+    "gold": 4697.6,
+    "goldChange": 96.9,
+    "oil": 95.46,
+    "oilChange": -0.68,
+    "btc": 70759.35,
+    "btcChange": 846.56
   },
   "sectors": [
     {
@@ -479,51 +479,67 @@
       "sentiment": "negative"
     },
     {
-      "title": "Trump signals DOJ should continue Powell probe, complicating Warsh Fed nomination",
-      "summary": "Powell has accused the DOJ of investigating him in retaliation for his refusal to lower interest rates as much or as quickly as Trump has demanded.",
+      "title": "Oil prices move lower as U.S. weighs releasing sanctioned Iranian crude to boost supply",
+      "summary": "Oil prices were lower on Friday after Treasury Secretary Scott Bessent said Washington may soon lift sanctions on Iranian crude stored aboard tankers.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/19/trump-powell-warsh-fed-doj-pirro.html",
-      "publishedAt": "Thu, 19 Mar 2026 19:52:34 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Copper joins gold in broad commodities sell-off. There's a worrying reason behind it",
-      "summary": "After major rallies, metals were under pressure on Thursday as rising oil prices increased both inflation and growth worries.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/19/copper-joins-gold-in-broad-commodities-sell-off-theres-a-worrying-reason-behind-it.html",
-      "publishedAt": "Thu, 19 Mar 2026 17:24:32 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy",
-      "summary": "During the meeting, Trump praised Japan for \"stepping up\" to assist in efforts to secure the Strait of Hormuz, \"unlike NATO.\"",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/20/trump-pearl-harbor-japan-takaichi-iran-war.html",
-      "publishedAt": "Fri, 20 Mar 2026 08:13:33 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "The Iran war is sending shockwaves through the world's busiest IPO market",
-      "summary": "Market volatility and geopolitical tensions have choked liquidity in India’s IPO market, forcing high‑profile companies to hit pause.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/20/iran-war-dampen-most-active-ipo-market.html",
-      "publishedAt": "Fri, 20 Mar 2026 06:44:20 GMT",
+      "url": "https://www.cnbc.com/2026/03/20/oil-wti-brent-us-weighs-releasing-sanctioned-iranian-crude.html",
+      "publishedAt": "Fri, 20 Mar 2026 09:09:26 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Government bonds face ‘perfect storm’ as Iran war rattles Europe's central banks",
-      "summary": "Bond yields have surged as Europe's central banks grapple with new inflation fears.",
+      "title": "U.S. says Cuba is prohibited from taking Russian oil as two tankers head to island",
+      "summary": "The fuel-starved Caribbean island is facing its biggest test since the collapse of the Soviet Union under a U.S. oil blockade.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/19/interest-rates-bonds-bank-of-england-european-central-bank-investors-iran-war-ecb-inflation.html",
-      "publishedAt": "Thu, 19 Mar 2026 16:30:25 GMT",
+      "url": "https://www.cnbc.com/2026/03/20/cuba-crisis-fuel-tankers-russia-oil-gas-energy-us-trump.html",
+      "publishedAt": "Fri, 20 Mar 2026 08:54:28 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "U.S. prosecutors charge Super Micro Computer employees with smuggling Nvidia chips to China",
+      "summary": "The U.S. government has been trying to crack down on illegal shipments of top-tier Nvidia artificial intelligence chips to China.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html",
+      "publishedAt": "Fri, 20 Mar 2026 01:13:33 GMT",
       "sentiment": "negative"
+    },
+    {
+      "title": "Trump invokes emergency powers with $23 billion in Gulf arms sales as Iran war wages on: WSJ report",
+      "summary": "The U.S. approved roughly $23 billion in weapons sales to three Gulf nations, moving to bolster their defenses as the Middle East war continued to escalate.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/20/us-arms-weapon-sales-middle-east-iran-israel-war.html",
+      "publishedAt": "Fri, 20 Mar 2026 07:35:51 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FedEx beats on top and bottom lines, raises guidance on strong performance",
+      "summary": "FedEx posted strong fiscal third quarter results on Thursday and raised its guidance following a strong performance.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/19/fedex-fdx-q3-2026-earnings.html",
+      "publishedAt": "Thu, 19 Mar 2026 22:26:33 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "‘The money is tax-free’: I’m 76 and won $50,000 in a settlement related to cancer from nuclear waste. What should I do with it?",
+      "summary": "“The money is tax-free and does not affect our income, which comes from investments and Social Security.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-money-is-tax-free-im-76-and-won-50-000-in-a-settlement-related-to-cancer-from-nuclear-waste-what-should-i-do-with-it-5549449e?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 20 Mar 2026 09:15:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Macaulay Culkin and Brenda Song buy a new luxury home in L.A. for $10.3 million",
+      "summary": "Not long after they sold their big Toluca Lake estate for $14.24 million, the couple have reportedly snagged a deal on a home in Sherman Oaks, Calif.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/macaulay-culkin-and-brenda-song-buy-a-new-luxury-home-in-l-a-for-10-3-million-ec34ba5d?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 20 Mar 2026 09:01:00 GMT",
+      "sentiment": "neutral"
     },
     {
       "title": "Super Micro co-founder engaged in backdoor scheme to divert Nvidia chips to China, U.S. government says",
       "summary": "Shares of Super Micro fall, though the company itself was not named in the federal indictment that charged Wally Liaw and two others",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/super-micro-cofounder-engaged-in-backdoor-scheme-to-divert-nvidia-chips-to-china-u-s-government-says-5efbea7a?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Mar 2026 02:20:00 GMT",
+      "publishedAt": "Fri, 20 Mar 2026 08:53:00 GMT",
       "sentiment": "negative"
     },
     {
@@ -540,22 +556,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/the-tv-megamerger-that-knocked-jimmy-kimmel-off-the-air-is-illegal-state-officials-say-974176e3?mod=mw_rss_topstories",
       "publishedAt": "Fri, 20 Mar 2026 00:53:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Planet Labs’ stock soars as the satellite company says AI will unlock more business",
-      "summary": "The company, a Google partner, delivered record revenue for its latest fiscal year, reflecting growing demand for satellite imagery.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/planet-labs-stock-soars-as-the-satellite-company-says-ai-will-unlock-more-business-de4a262c?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Mar 2026 00:31:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "FedEx is upbeat about shipping demand despite surging fuel costs — and the stock is rallying",
-      "summary": "Shares of FedEx rose in extended trading Thursday after the package-delivery giant said it expected slightly better sales and profits for this year, even as the Iran war threatens larger shipping disruptions and drives fuel prices higher.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/fedex-is-getting-more-upbeat-about-the-year-despite-surging-fuel-costs-6b48ed2e?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Mar 2026 00:28:00 GMT",
       "sentiment": "positive"
     }
   ],
