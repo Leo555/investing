@@ -1,42 +1,37 @@
 {
   "date": "2026-03-20",
-  "timestamp": "2026-03-20T09:20:52.797467",
+  "timestamp": "2026-03-20T22:30:43.082534",
   "marketStatus": "closed",
   "overallSentiment": "bearish",
-  "sentimentScore": -24,
+  "sentimentScore": -69,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
-    "price": 22090.69,
-    "change": -61.73,
-    "changePercent": -0.28,
-    "open": 21871.04,
-    "high": 22187.06,
-    "low": 21851.05,
-    "previousClose": 22152.42,
-    "volume": 7026102000,
-    "avgVolume": 8863818600,
+    "price": 21647.61,
+    "change": -443.08,
+    "changePercent": -2.01,
+    "open": 21989.33,
+    "high": 21997.09,
+    "low": 21522.75,
+    "previousClose": 22090.69,
+    "volume": 10441715000,
+    "avgVolume": 9058839250,
     "yearHigh": 24019.99,
     "yearLow": 14784.03,
     "pe": null,
     "marketCap": null,
-    "sma20": 22595.44,
-    "sma50": 23000.69,
+    "sma20": 22533.51,
+    "sma50": 22961.95,
     "sma200": null,
-    "rsi14": 39.4,
-    "macdLine": -211.4564,
-    "macdSignal": -170.3741,
-    "macdHistogram": -41.0823,
-    "bollingerUpper": 23154.55,
-    "bollingerMiddle": 22595.44,
-    "bollingerLower": 22036.32,
-    "atr14": 407.63,
+    "rsi14": 32.2,
+    "macdLine": -256.9167,
+    "macdSignal": -182.2447,
+    "macdHistogram": -74.6719,
+    "bollingerUpper": 23211.78,
+    "bollingerMiddle": 22533.51,
+    "bollingerLower": 21855.24,
+    "atr14": 412.71,
     "priceHistory": [
-      {
-        "date": "2026-02-05",
-        "close": 22540.59,
-        "volume": 10109230000
-      },
       {
         "date": "2026-02-06",
         "close": 23031.21,
@@ -180,43 +175,43 @@
       {
         "date": "2026-03-19",
         "close": 22090.69,
-        "volume": 7026102000
+        "volume": 8547870000
+      },
+      {
+        "date": "2026-03-20",
+        "close": 21647.61,
+        "volume": 10441715000
       }
     ]
   },
   "sp500": {
     "symbol": "^GSPC",
     "name": "S&P 500",
-    "price": 6606.49,
-    "change": -18.21,
-    "changePercent": -0.27,
-    "open": 6583.12,
-    "high": 6636.74,
-    "low": 6557.82,
-    "previousClose": 6624.7,
-    "volume": 3244958000,
-    "avgVolume": 5616539900,
+    "price": 6506.48,
+    "change": -100.01,
+    "changePercent": -1.51,
+    "open": 6594.66,
+    "high": 6594.66,
+    "low": 6473.52,
+    "previousClose": 6606.49,
+    "volume": 7040255000,
+    "avgVolume": 5833350250,
     "yearHigh": 7002.28,
     "yearLow": 4835.04,
     "pe": null,
     "marketCap": null,
-    "sma20": 6790.72,
-    "sma50": 6866.05,
+    "sma20": 6770.57,
+    "sma50": 6857.76,
     "sma200": null,
-    "rsi14": 29.5,
-    "macdLine": -66.0485,
-    "macdSignal": -46.016,
-    "macdHistogram": -20.0325,
-    "bollingerUpper": 6993.81,
-    "bollingerMiddle": 6790.72,
-    "bollingerLower": 6587.64,
-    "atr14": 102.46,
+    "rsi14": 25.3,
+    "macdLine": -77.8617,
+    "macdSignal": -51.7415,
+    "macdHistogram": -26.1202,
+    "bollingerUpper": 7000.69,
+    "bollingerMiddle": 6770.57,
+    "bollingerLower": 6540.45,
+    "atr14": 104.52,
     "priceHistory": [
-      {
-        "date": "2026-02-05",
-        "close": 6798.4,
-        "volume": 6989120000
-      },
       {
         "date": "2026-02-06",
         "close": 6932.3,
@@ -360,203 +355,208 @@
       {
         "date": "2026-03-19",
         "close": 6606.49,
-        "volume": 3244958000
+        "volume": 5973390000
+      },
+      {
+        "date": "2026-03-20",
+        "close": 6506.48,
+        "volume": 7040255000
       }
     ]
   },
   "indicators": {
-    "vix": 24.14,
-    "vixChange": -0.95,
-    "dxy": 99.35,
-    "dxyChange": -0.74,
-    "us10y": 4.28,
-    "us10yChange": 0.02,
-    "us2y": 3.61,
-    "us2yChange": 0.0,
-    "gold": 4697.6,
-    "goldChange": 96.9,
-    "oil": 95.46,
-    "oilChange": -0.68,
-    "btc": 70759.35,
-    "btcChange": 846.56
+    "vix": 26.78,
+    "vixChange": 2.72,
+    "dxy": 99.5,
+    "dxyChange": 0.27,
+    "us10y": 4.39,
+    "us10yChange": 0.11,
+    "us2y": 3.62,
+    "us2yChange": 0.01,
+    "gold": 4492.0,
+    "goldChange": -108.7,
+    "oil": 98.09,
+    "oilChange": 1.95,
+    "btc": 70728.54,
+    "btcChange": 815.75
   },
   "sectors": [
     {
-      "name": "能源",
-      "symbol": "XLE",
-      "changePercent": 1.59
-    },
-    {
-      "name": "科技",
-      "symbol": "XLK",
-      "changePercent": 0.34
-    },
-    {
       "name": "金融",
       "symbol": "XLF",
-      "changePercent": 0.04
+      "changePercent": 0.18
     },
     {
-      "name": "房地产",
-      "symbol": "XLRE",
-      "changePercent": -0.24
-    },
-    {
-      "name": "医疗",
-      "symbol": "XLV",
-      "changePercent": -0.36
-    },
-    {
-      "name": "公用事业",
-      "symbol": "XLU",
-      "changePercent": -0.41
+      "name": "能源",
+      "symbol": "XLE",
+      "changePercent": -0.08
     },
     {
       "name": "通信",
       "symbol": "XLC",
-      "changePercent": -0.46
-    },
-    {
-      "name": "工业",
-      "symbol": "XLI",
-      "changePercent": -0.68
-    },
-    {
-      "name": "消费",
-      "symbol": "XLY",
-      "changePercent": -0.79
+      "changePercent": -0.8
     },
     {
       "name": "日常消费品",
       "symbol": "XLP",
-      "changePercent": -0.81
+      "changePercent": -0.83
+    },
+    {
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": -0.87
+    },
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": -1.46
     },
     {
       "name": "材料",
       "symbol": "XLB",
-      "changePercent": -1.53
+      "changePercent": -1.59
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": -1.79
+    },
+    {
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": -2.27
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": -3.17
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": -4.06
     }
   ],
   "news": [
     {
-      "title": "Could Investing $10,000 in VONG Make You a Millionaire?",
-      "summary": "This growth stock ETF has a strong track record of outperforming the S&P 500 -- but can it grow fast enough to make you a millionaire?",
+      "title": "Dow Jones Breaks Lower As Oil Prices, Yields Soar But Trump Mulls 'Winding Down' Iran War",
+      "summary": "The major indexes broke long-term support as oil prices and bond yields soar. President Trump said late Friday he's mulling \"winding down\" the Iran war hours after saying that was not \"acceptable.\"",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/03/20/could-investing-10000-in-vong-make-you-a-million/?.tsrc=rss",
-      "publishedAt": "Fri, 20 Mar 2026 04:50:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Guggenheim Initiates ADP as Buy, Says Fears around AI Are Premature",
-      "summary": "Automatic Data Processing, Inc. (NASDAQ:ADP) is included among the 15 Dividend Stocks to Buy for Steady Income. On March 19, Guggenheim initiated coverage of Automatic Data Processing, Inc. (NASDAQ:ADP) with a Buy rating. The firm also set a $270 price target on the stock. The analyst noted that ADP",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/guggenheim-initiates-adp-buy-says-042748279.html?.tsrc=rss",
-      "publishedAt": "Fri, 20 Mar 2026 04:27:48 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Dow Jones Futures Rise; Stocks Slash Losses, Oil Prices Fall On Trump Iran War Comments",
-      "summary": "Stocks came off 2026 lows and oil prices reversed lower amid Iran war comments from President Trump and Israeli PM Netanyahu. Tesla stock broke key levels.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/309cd0d9-0b3e-3394-9d80-10b568cc2062/dow-jones-futures-rise%3B.html?.tsrc=rss",
-      "publishedAt": "Fri, 20 Mar 2026 03:03:33 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Palantir Stock Is 2,500% More Expensive Than the S&P 500 Average. History Is Clear About What Happens Next.",
-      "summary": "Palantir's CEO says traditional valuation metrics \"no longer apply\" to his company.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/03/19/palantir-stock-is-2500-more-expensive-than-the-sp/?.tsrc=rss",
-      "publishedAt": "Fri, 20 Mar 2026 02:50:00 +0000",
+      "url": "https://finance.yahoo.com/m/4b986b69-078c-3b77-948f-5e9fc43f37c2/dow-jones-breaks-lower-as-oil.html?.tsrc=rss",
+      "publishedAt": "Fri, 20 Mar 2026 22:15:41 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "This Transportation Stock May Outperform the S&P 500 in 2026",
-      "summary": "Tesla has had a worse 2026 than the S&P 500, but its decline is more likely a bump in the road than a crash.",
+      "title": "What Investors Should Know About a $24 Million Exit From a Medical Device Stock Down 9% This Past Year",
+      "summary": "This medical technology firm delivers integrated blood management solutions to healthcare providers and plasma centers worldwide.",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/03/19/this-transportation-stock-may-outperform-the-sp-50/?.tsrc=rss",
-      "publishedAt": "Fri, 20 Mar 2026 01:25:00 +0000",
+      "url": "https://www.fool.com/coverage/filings/2026/03/20/what-investors-should-know-about-a-usd24-million-exit-from-a-medical-device-stock-down-9-this-past-year/?.tsrc=rss",
+      "publishedAt": "Fri, 20 Mar 2026 22:03:10 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "Oil prices move lower as U.S. weighs releasing sanctioned Iranian crude to boost supply",
-      "summary": "Oil prices were lower on Friday after Treasury Secretary Scott Bessent said Washington may soon lift sanctions on Iranian crude stored aboard tankers.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/20/oil-wti-brent-us-weighs-releasing-sanctioned-iranian-crude.html",
-      "publishedAt": "Fri, 20 Mar 2026 09:09:26 GMT",
+      "title": "Stock Market Today, March 20: Planet Labs Surges After Record Revenue and Upbeat Guidance",
+      "summary": "Record revenue, a swelling backlog, and new AI initiatives are redefining this satellite-imagery player’s trajectory, today, March 20, 2026.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/20/stock-market-today-march-20-planet-labs-surges-after-record-revenue-and-upbeat-guidance/?.tsrc=rss",
+      "publishedAt": "Fri, 20 Mar 2026 21:54:35 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "U.S. says Cuba is prohibited from taking Russian oil as two tankers head to island",
-      "summary": "The fuel-starved Caribbean island is facing its biggest test since the collapse of the Soviet Union under a U.S. oil blockade.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/20/cuba-crisis-fuel-tankers-russia-oil-gas-energy-us-trump.html",
-      "publishedAt": "Fri, 20 Mar 2026 08:54:28 GMT",
+      "title": "The S&P 500 has a Super Micro-sized problem on its hands",
+      "summary": "Server builder Super MicroComputer has not been without its controversies. Despite that, it has found a home in the 401(K)s, IRAs, and brokerages of millions of American investors. It has been costing them; maybe not a lot, but that's still more than zero. In 2020, the fast-growing computer ...",
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/investing/stocks/the-sp-500-has-a-super-micro-sized-problem-on-its-hands?.tsrc=rss",
+      "publishedAt": "Fri, 20 Mar 2026 21:52:22 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "U.S. prosecutors charge Super Micro Computer employees with smuggling Nvidia chips to China",
+      "title": "Why Dell Technologies Stock Just Jumped",
+      "summary": "Dell stock popped after a federal arrest rocked its biggest AI server rival.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/03/20/why-dell-technologies-stock-just-jumped/?.tsrc=rss",
+      "publishedAt": "Fri, 20 Mar 2026 21:48:22 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump says he doesn't want Iran war ceasefire, but is considering 'winding down' military ops",
+      "summary": "President Donald Trump also said the Strait of Hormuz, \"will have to be guarded and policed, as necessary, by other Nations who use it.\"",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/20/trump-iran-war-ceasefire.html",
+      "publishedAt": "Fri, 20 Mar 2026 22:23:55 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Gold drops nearly 10% in worst weekly rout since 2011",
+      "summary": "The metal saw bumpy trading on Friday morning, after joining a broad sell-off the previous day.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/20/gold-silver-price-metal-market-oil-brent-wti-futures-iran-war-inflation.html",
+      "publishedAt": "Fri, 20 Mar 2026 20:44:28 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Super Micro co-founder indicted on Nvidia smuggling charges leaves board",
+      "summary": "Super Micro said Yih-Shyan \"Wally\" Liaw, a co-founder, has resigned from the server maker's board after he was indicted in the U.S.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/20/super-micro-co-founder-leaves-board.html",
+      "publishedAt": "Fri, 20 Mar 2026 21:33:06 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "ChatGPT's ad pilot has the industry excited, but some insiders are frustrated with the slow rollout",
+      "summary": "AI search ads are seen as having massive potential by ad industry insiders and analysts, but OpenAI rival Anthropic has pledged to not have them.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/20/chatgpt-ads-testing-openai.html",
+      "publishedAt": "Fri, 20 Mar 2026 21:30:35 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China",
       "summary": "The U.S. government has been trying to crack down on illegal shipments of top-tier Nvidia artificial intelligence chips to China.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html",
-      "publishedAt": "Fri, 20 Mar 2026 01:13:33 GMT",
+      "publishedAt": "Fri, 20 Mar 2026 20:23:56 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "Trump invokes emergency powers with $23 billion in Gulf arms sales as Iran war wages on: WSJ report",
-      "summary": "The U.S. approved roughly $23 billion in weapons sales to three Gulf nations, moving to bolster their defenses as the Middle East war continued to escalate.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/20/us-arms-weapon-sales-middle-east-iran-israel-war.html",
-      "publishedAt": "Fri, 20 Mar 2026 07:35:51 GMT",
+      "title": "‘Six figures are missing’: My aunt’s attorney took over her bank account. Two random doctors declared her incompetent. How do I fix this?",
+      "summary": "“The attorney found two doctors — one who briefly spoke to her and signed off, and another who never saw her and simply stamped the form.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/six-figures-are-missing-my-aunts-attorney-took-over-her-bank-account-two-random-doctors-declared-her-incompetent-how-do-i-fix-this-8abf81ee?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 20 Mar 2026 21:39:00 GMT",
       "sentiment": "neutral"
-    },
-    {
-      "title": "FedEx beats on top and bottom lines, raises guidance on strong performance",
-      "summary": "FedEx posted strong fiscal third quarter results on Thursday and raised its guidance following a strong performance.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/19/fedex-fdx-q3-2026-earnings.html",
-      "publishedAt": "Thu, 19 Mar 2026 22:26:33 GMT",
-      "sentiment": "positive"
     },
     {
       "title": "‘The money is tax-free’: I’m 76 and won $50,000 in a settlement related to cancer from nuclear waste. What should I do with it?",
       "summary": "“The money is tax-free and does not affect our income, which comes from investments and Social Security.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/the-money-is-tax-free-im-76-and-won-50-000-in-a-settlement-related-to-cancer-from-nuclear-waste-what-should-i-do-with-it-5549449e?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Mar 2026 09:15:00 GMT",
+      "publishedAt": "Fri, 20 Mar 2026 21:37:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Macaulay Culkin and Brenda Song buy a new luxury home in L.A. for $10.3 million",
-      "summary": "Not long after they sold their big Toluca Lake estate for $14.24 million, the couple have reportedly snagged a deal on a home in Sherman Oaks, Calif.",
+      "title": "‘This guy has no manners’: My Airbnb guest requested I buy bacon and beer. The $30 bill remains unpaid. Do I insist?",
+      "summary": "“I don’t want him to retaliate with a bad review.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/macaulay-culkin-and-brenda-song-buy-a-new-luxury-home-in-l-a-for-10-3-million-ec34ba5d?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Mar 2026 09:01:00 GMT",
+      "url": "https://www.marketwatch.com/story/this-guy-has-no-manners-my-airbnb-guest-requested-i-buy-bacon-and-beer-the-30-bill-remains-unpaid-do-i-insist-e98ccecd?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 20 Mar 2026 21:37:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Super Micro co-founder engaged in backdoor scheme to divert Nvidia chips to China, U.S. government says",
-      "summary": "Shares of Super Micro fall, though the company itself was not named in the federal indictment that charged Wally Liaw and two others",
+      "title": "Super Micro’s stock sinks 33% after co-founder’s indictment. Here are Wall Street’s biggest questions.",
+      "summary": "While Super Micro wasn’t named in a recently unsealed lawsuit, analysts say the charges raise concerns about credibility and controls.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/super-micro-cofounder-engaged-in-backdoor-scheme-to-divert-nvidia-chips-to-china-u-s-government-says-5efbea7a?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Mar 2026 08:53:00 GMT",
-      "sentiment": "negative"
+      "url": "https://www.marketwatch.com/story/super-micros-stock-sinks-after-co-founders-indictment-here-are-wall-streets-biggest-questions-bd90d712?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 20 Mar 2026 21:36:00 GMT",
+      "sentiment": "neutral"
     },
     {
-      "title": "This is Jeff Bezos’s plan to rival Elon Musk in the race for space-based data centers",
-      "summary": "Blue Origin plans to launch an up-to-51,600-satellite constellation called ‘Project Sunrise’ to power AI.",
+      "title": "Chuck Norris never dies: How a meme made the actor a cultural icon and multimillion-dollar brand",
+      "summary": "Memes didn’t just make Chuck Norris funny — they made him an icon, revived his career and may keep paying dividends for decades to come.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-is-jeff-bezoss-plan-to-rival-elon-musk-in-the-race-for-space-based-data-centers-77f46b25?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Mar 2026 01:00:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The Trump administration just greenlit the TV megamerger at the center of Jimmy Kimmel’s suspension. It still may not be legal.",
-      "summary": "Eight state attorneys general have filed an antitrust suit against the $6.2 billion Nexstar-Tegna merger, which the Trump administration backed after Nexstar moved to suspend Kimmel’s show.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-tv-megamerger-that-knocked-jimmy-kimmel-off-the-air-is-illegal-state-officials-say-974176e3?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Mar 2026 00:53:00 GMT",
-      "sentiment": "positive"
+      "url": "https://www.marketwatch.com/story/chuck-norris-never-dies-how-a-meme-made-him-a-cultural-icon-and-multimillion-dollar-brand-5dbcd6e4?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 20 Mar 2026 21:29:00 GMT",
+      "sentiment": "neutral"
     }
   ],
   "fearGreedIndex": null,
