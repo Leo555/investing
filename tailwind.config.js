@@ -4,9 +4,28 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
+        // 语义化颜色，通过 CSS 变量实现主题切换
+        surface: {
+          primary: 'var(--bg-primary)',
+          secondary: 'var(--bg-secondary)',
+          card: 'var(--bg-card)',
+          'card-hover': 'var(--bg-card-hover)',
+          inset: 'var(--bg-inset)',
+        },
+        content: {
+          primary: 'var(--text-primary)',
+          secondary: 'var(--text-secondary)',
+          muted: 'var(--text-muted)',
+          inverse: 'var(--text-inverse)',
+        },
+        border: {
+          DEFAULT: 'var(--border-color)',
+          subtle: 'var(--border-subtle)',
+        },
         bull: {
           50: '#f0fdf4',
           100: '#dcfce7',
@@ -20,12 +39,6 @@ module.exports = {
           500: '#ef4444',
           600: '#dc2626',
           700: '#b91c1c',
-        },
-        neutral: {
-          50: '#fefce8',
-          100: '#fef9c3',
-          500: '#eab308',
-          600: '#ca8a04',
         },
       },
     },

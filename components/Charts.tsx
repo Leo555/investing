@@ -29,7 +29,7 @@ export function SentimentGauge({ score, sentiment }: { score: number; sentiment:
         <path
           d="M 20 100 A 80 80 0 0 1 180 100"
           fill="none"
-          stroke="#1e293b"
+          stroke="var(--gauge-track)"
           strokeWidth="16"
           strokeLinecap="round"
         />
@@ -64,9 +64,9 @@ export function SentimentGauge({ score, sentiment }: { score: number; sentiment:
           <circle cx="100" cy="100" r="6" fill={getColor()} />
         </g>
         {/* 刻度标签 */}
-        <text x="15" y="115" fill="#64748b" fontSize="10" textAnchor="middle">-100</text>
-        <text x="100" y="18" fill="#64748b" fontSize="10" textAnchor="middle">0</text>
-        <text x="185" y="115" fill="#64748b" fontSize="10" textAnchor="middle">+100</text>
+        <text x="15" y="115" fill="var(--gauge-text)" fontSize="10" textAnchor="middle">-100</text>
+        <text x="100" y="18" fill="var(--gauge-text)" fontSize="10" textAnchor="middle">0</text>
+        <text x="185" y="115" fill="var(--gauge-text)" fontSize="10" textAnchor="middle">+100</text>
       </svg>
       <div className="text-center -mt-2">
         <span className="text-3xl font-bold" style={{ color: getColor() }}>
@@ -91,7 +91,9 @@ export function ChangeDisplay({
   size?: 'sm' | 'md' | 'lg';
 }) {
   const isPositive = (value ?? percent ?? 0) >= 0;
-  const color = isPositive ? 'text-green-400' : 'text-red-400';
+  const color = isPositive
+    ? 'text-green-600 dark:text-green-400'
+    : 'text-red-600 dark:text-red-400';
   const arrow = isPositive ? '▲' : '▼';
 
   const sizeClasses = {
@@ -141,16 +143,16 @@ export function MetricCard({
   };
 
   return (
-    <div className="bg-[#1a2332] border border-[#1e293b] rounded-xl p-4 card-hover">
-      <div className="text-sm text-slate-400 mb-1">{label}</div>
-      <div className="text-xl font-bold text-white">{formatValue(value)}</div>
+    <div className="bg-surface-card border border-border rounded-xl p-4 card-hover">
+      <div className="text-sm text-content-secondary mb-1">{label}</div>
+      <div className="text-xl font-bold text-content-primary">{formatValue(value)}</div>
       {(change !== null && change !== undefined) && (
         <div className="mt-1">
           <ChangeDisplay value={change} percent={changePercent ?? undefined} size="sm" />
         </div>
       )}
       {description && (
-        <div className="text-xs text-slate-500 mt-2">{description}</div>
+        <div className="text-xs text-content-muted mt-2">{description}</div>
       )}
     </div>
   );
@@ -161,30 +163,30 @@ export function RSIIndicator({ value }: { value: number | null }) {
   if (!value) return null;
 
   const getZone = () => {
-    if (value >= 70) return { label: '超买', color: 'text-red-400', bg: 'bg-red-500/20' };
-    if (value <= 30) return { label: '超卖', color: 'text-green-400', bg: 'bg-green-500/20' };
-    return { label: '正常', color: 'text-yellow-400', bg: 'bg-yellow-500/20' };
+    if (value >= 70) return { label: '超买', color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/20' };
+    if (value <= 30) return { label: '超卖', color: 'text-green-600 dark:text-green-400', bg: 'bg-green-500/20' };
+    return { label: '正常', color: 'text-yellow-600 dark:text-yellow-400', bg: 'bg-yellow-500/20' };
   };
 
   const zone = getZone();
   const position = (value / 100) * 100;
 
   return (
-    <div className="bg-[#1a2332] border border-[#1e293b] rounded-xl p-4">
+    <div className="bg-surface-card border border-border rounded-xl p-4">
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm text-slate-400">RSI (14)</span>
+        <span className="text-sm text-content-secondary">RSI (14)</span>
         <span className={`text-xs px-2 py-0.5 rounded-full ${zone.bg} ${zone.color}`}>
           {zone.label}
         </span>
       </div>
-      <div className="text-2xl font-bold text-white mb-3">{value.toFixed(1)}</div>
+      <div className="text-2xl font-bold text-content-primary mb-3">{value.toFixed(1)}</div>
       <div className="relative h-2 bg-gradient-to-r from-green-500 via-yellow-500 to-red-500 rounded-full">
         <div
-          className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-white rounded-full shadow-lg border-2 border-slate-700"
+          className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-white dark:bg-white rounded-full shadow-lg border-2 border-slate-300 dark:border-slate-700"
           style={{ left: `${Math.min(98, Math.max(2, position))}%` }}
         />
       </div>
-      <div className="flex justify-between text-xs text-slate-500 mt-1">
+      <div className="flex justify-between text-xs text-content-muted mt-1">
         <span>超卖 30</span>
         <span>50</span>
         <span>超买 70</span>
@@ -209,8 +211,8 @@ export function FearGreedGauge({ value }: { value: number | null }) {
   const angle = -90 + (value / 100) * 180;
 
   return (
-    <div className="bg-[#1a2332] border border-[#1e293b] rounded-xl p-4">
-      <div className="text-sm text-slate-400 mb-2">恐惧 & 贪婪指数</div>
+    <div className="bg-surface-card border border-border rounded-xl p-4">
+      <div className="text-sm text-content-secondary mb-2">恐惧 & 贪婪指数</div>
       <div className="flex flex-col items-center">
         <svg viewBox="0 0 200 120" className="w-40 h-24">
           <defs>
@@ -222,7 +224,7 @@ export function FearGreedGauge({ value }: { value: number | null }) {
               <stop offset="100%" stopColor="#22c55e" />
             </linearGradient>
           </defs>
-          <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="#1e293b" strokeWidth="14" strokeLinecap="round" />
+          <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="var(--gauge-track)" strokeWidth="14" strokeLinecap="round" />
           <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="url(#fgGradient)" strokeWidth="14" strokeLinecap="round" opacity="0.4" />
           <g transform={`rotate(${angle}, 100, 100)`}>
             <line x1="100" y1="100" x2="100" y2="35" stroke={zone.color} strokeWidth="2.5" strokeLinecap="round" />
@@ -244,15 +246,15 @@ export function SectorHeatmap({ sectors }: { sectors: { name: string; symbol: st
   const getColor = (change: number) => {
     if (change > 2) return 'bg-green-500/40 border-green-500/50';
     if (change > 0.5) return 'bg-green-500/20 border-green-500/30';
-    if (change > -0.5) return 'bg-slate-500/20 border-slate-500/30';
+    if (change > -0.5) return 'bg-slate-500/10 dark:bg-slate-500/20 border-slate-400/30 dark:border-slate-500/30';
     if (change > -2) return 'bg-red-500/20 border-red-500/30';
     return 'bg-red-500/40 border-red-500/50';
   };
 
   const getTextColor = (change: number) => {
-    if (change > 0) return 'text-green-400';
-    if (change < 0) return 'text-red-400';
-    return 'text-slate-400';
+    if (change > 0) return 'text-green-600 dark:text-green-400';
+    if (change < 0) return 'text-red-600 dark:text-red-400';
+    return 'text-content-secondary';
   };
 
   return (
@@ -262,7 +264,7 @@ export function SectorHeatmap({ sectors }: { sectors: { name: string; symbol: st
           key={sector.symbol}
           className={`${getColor(sector.changePercent)} border rounded-lg p-3 text-center`}
         >
-          <div className="text-xs text-slate-300 mb-1">{sector.name}</div>
+          <div className="text-xs text-content-secondary mb-1">{sector.name}</div>
           <div className={`text-sm font-bold ${getTextColor(sector.changePercent)}`}>
             {sector.changePercent > 0 ? '+' : ''}{sector.changePercent.toFixed(2)}%
           </div>
@@ -275,9 +277,9 @@ export function SectorHeatmap({ sectors }: { sectors: { name: string; symbol: st
 // 新闻卡片
 export function NewsCard({ news }: { news: { title: string; summary: string; source: string; url: string; sentiment: string } }) {
   const sentimentConfig = {
-    positive: { color: 'text-green-400', bg: 'bg-green-500/10', border: 'border-green-500/20', icon: '📈' },
-    negative: { color: 'text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/20', icon: '📉' },
-    neutral: { color: 'text-slate-400', bg: 'bg-slate-500/10', border: 'border-slate-500/20', icon: '📊' },
+    positive: { color: 'text-green-600 dark:text-green-400', bg: 'bg-green-500/10', border: 'border-green-500/20', icon: '📈' },
+    negative: { color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/20', icon: '📉' },
+    neutral: { color: 'text-content-secondary', bg: 'bg-slate-500/5 dark:bg-slate-500/10', border: 'border-border', icon: '📊' },
   };
 
   const config = sentimentConfig[news.sentiment as keyof typeof sentimentConfig] || sentimentConfig.neutral;
@@ -291,13 +293,13 @@ export function NewsCard({ news }: { news: { title: string; summary: string; sou
     >
       <div className="flex items-start justify-between gap-2">
         <div className="flex-1">
-          <h4 className="text-sm font-medium text-white leading-snug mb-1">
+          <h4 className="text-sm font-medium text-content-primary leading-snug mb-1">
             {news.title}
           </h4>
           {news.summary && (
-            <p className="text-xs text-slate-400 line-clamp-2 mb-2">{news.summary}</p>
+            <p className="text-xs text-content-muted line-clamp-2 mb-2">{news.summary}</p>
           )}
-          <div className="flex items-center gap-2 text-xs text-slate-500">
+          <div className="flex items-center gap-2 text-xs text-content-muted">
             <span>{news.source}</span>
           </div>
         </div>
@@ -366,8 +368,8 @@ export function MAStatus({
   ];
 
   return (
-    <div className="bg-[#1a2332] border border-[#1e293b] rounded-xl p-4">
-      <div className="text-sm text-slate-400 mb-3">均线系统</div>
+    <div className="bg-surface-card border border-border rounded-xl p-4">
+      <div className="text-sm text-content-secondary mb-3">均线系统</div>
       <div className="space-y-2">
         {items.map((item) => {
           if (!item.value) return null;
@@ -375,16 +377,16 @@ export function MAStatus({
           const diff = ((price - item.value) / item.value) * 100;
           return (
             <div key={item.label} className="flex items-center justify-between">
-              <span className="text-xs text-slate-400">{item.label}</span>
+              <span className="text-xs text-content-secondary">{item.label}</span>
               <div className="flex items-center gap-2">
-                <span className="text-xs text-slate-300">
+                <span className="text-xs text-content-secondary">
                   {item.value.toLocaleString('en-US', { minimumFractionDigits: 2 })}
                 </span>
                 <span
                   className={`text-xs px-1.5 py-0.5 rounded ${
                     aboveMA
-                      ? 'bg-green-500/20 text-green-400'
-                      : 'bg-red-500/20 text-red-400'
+                      ? 'bg-green-500/20 text-green-600 dark:text-green-400'
+                      : 'bg-red-500/20 text-red-600 dark:text-red-400'
                   }`}
                 >
                   {aboveMA ? '▲' : '▼'} {Math.abs(diff).toFixed(1)}%

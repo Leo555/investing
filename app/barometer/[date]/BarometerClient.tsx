@@ -12,6 +12,7 @@ import {
   Sparkline,
   MAStatus,
 } from '@/components/Charts';
+import { ThemeToggle } from '@/components/ThemeProvider';
 import { BarometerData } from '@/lib/types';
 
 export default function BarometerClient({ data }: { data: BarometerData }) {
@@ -25,16 +26,21 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
 
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      {/* 浮动主题切换按钮 */}
+      <div className="fixed bottom-6 right-6 z-50">
+        <ThemeToggle />
+      </div>
+
       {/* 顶部总览 */}
-      <section className={`${getSentimentClass()} border border-[#1e293b] rounded-2xl p-6 sm:p-8 mb-8`}>
+      <section className={`${getSentimentClass()} border border-border rounded-2xl p-6 sm:p-8 mb-8`}>
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="text-center lg:text-left">
-            <div className="text-sm text-slate-400 mb-1">
+            <div className="text-sm text-content-secondary mb-1">
               {new Date(data.date + 'T00:00:00').toLocaleDateString('zh-CN', {
                 year: 'numeric', month: 'long', day: 'numeric', weekday: 'long'
               })}
             </div>
-            <h2 className="text-3xl font-bold text-white mb-2">市场晴雨表</h2>
+            <h2 className="text-3xl font-bold text-content-primary mb-2">市场晴雨表</h2>
             <div className="flex items-center justify-center lg:justify-start gap-3 flex-wrap">
               <span className={`sentiment-badge ${
                 data.overallSentiment === 'bullish' ? 'sentiment-bullish' :
@@ -44,7 +50,7 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
                 {data.overallSentiment === 'bullish' ? '🟢 看涨' :
                  data.overallSentiment === 'bearish' ? '🔴 看跌' : '🟡 中性'}
               </span>
-              <span className="text-sm text-slate-400">
+              <span className="text-sm text-content-muted">
                 更新于 {new Date(data.timestamp).toLocaleTimeString('zh-CN')}
               </span>
             </div>
@@ -61,7 +67,7 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
 
       {/* 宏观指标 */}
       <section className="mb-8">
-        <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+        <h3 className="text-lg font-semibold text-content-primary mb-4 flex items-center gap-2">
           <span>🌍</span> 宏观指标
         </h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -128,13 +134,13 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
 
       {/* 技术分析 */}
       <section className="mb-8">
-        <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+        <h3 className="text-lg font-semibold text-content-primary mb-4 flex items-center gap-2">
           <span>📐</span> 技术分析
         </h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* 纳指技术指标 */}
           <div>
-            <h4 className="text-sm font-medium text-slate-400 mb-3">NASDAQ 技术指标</h4>
+            <h4 className="text-sm font-medium text-content-secondary mb-3">NASDAQ 技术指标</h4>
             <div className="space-y-4">
               <RSIIndicator value={data.nasdaq.rsi14} />
               <MAStatus
@@ -159,7 +165,7 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
 
           {/* 标普技术指标 */}
           <div>
-            <h4 className="text-sm font-medium text-slate-400 mb-3">S&P 500 技术指标</h4>
+            <h4 className="text-sm font-medium text-content-secondary mb-3">S&P 500 技术指标</h4>
             <div className="space-y-4">
               <RSIIndicator value={data.sp500.rsi14} />
               <MAStatus
@@ -202,7 +208,7 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
           )}
         </div>
         <div className="lg:col-span-2">
-          <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+          <h3 className="text-lg font-semibold text-content-primary mb-4 flex items-center gap-2">
             <span>🏭</span> 板块表现
           </h3>
           <SectorHeatmap sectors={data.sectors} />
@@ -211,7 +217,7 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
 
       {/* 新闻 */}
       <section className="mb-8">
-        <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+        <h3 className="text-lg font-semibold text-content-primary mb-4 flex items-center gap-2">
           <span>📰</span> 影响市场的新闻 ({data.news.length})
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -222,8 +228,8 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
       </section>
 
       {/* 免责声明 */}
-      <footer className="border-t border-[#1e293b] pt-6 mt-12">
-        <div className="text-center text-sm text-slate-500">
+      <footer className="border-t border-border pt-6 mt-12">
+        <div className="text-center text-sm text-content-muted">
           <p>数据来源: Yahoo Finance, CNBC, MarketWatch, Reuters</p>
           <p className="mt-1">
             ⚠️ 本站仅供参考，不构成任何投资建议。投资有风险，入市需谨慎。
@@ -240,17 +246,17 @@ function IndexCard({ index }: { index: BarometerData['nasdaq'] }) {
   const sparkData = index.priceHistory.map(p => p.close);
 
   return (
-    <div className="bg-[#1a2332] border border-[#1e293b] rounded-2xl p-6">
+    <div className="bg-surface-card border border-border rounded-2xl p-6">
       <div className="flex items-start justify-between mb-4">
         <div>
-          <h3 className="text-lg font-bold text-white">{index.name}</h3>
-          <div className="text-xs text-slate-400">{index.symbol}</div>
+          <h3 className="text-lg font-bold text-content-primary">{index.name}</h3>
+          <div className="text-xs text-content-muted">{index.symbol}</div>
         </div>
         {sparkData.length > 1 && <Sparkline data={sparkData} width={100} height={36} />}
       </div>
 
       <div className="flex items-baseline gap-3 mb-4">
-        <span className="text-3xl font-bold text-white">
+        <span className="text-3xl font-bold text-content-primary">
           {index.price.toLocaleString('en-US', { minimumFractionDigits: 2 })}
         </span>
         <ChangeDisplay value={index.change} percent={index.changePercent} size="md" />
@@ -287,11 +293,15 @@ function MiniStat({
     ? (value >= 1e9 ? `${(value / 1e9).toFixed(1)}B` : value >= 1e6 ? `${(value / 1e6).toFixed(1)}M` : value.toLocaleString())
     : value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
-  const textColor = highlight === 'green' ? 'text-green-400' : highlight === 'red' ? 'text-red-400' : 'text-white';
+  const textColor = highlight === 'green'
+    ? 'text-green-600 dark:text-green-400'
+    : highlight === 'red'
+      ? 'text-red-600 dark:text-red-400'
+      : 'text-content-primary';
 
   return (
-    <div className="bg-[#111827] rounded-lg p-2.5">
-      <div className="text-xs text-slate-500">{label}</div>
+    <div className="bg-surface-inset rounded-lg p-2.5">
+      <div className="text-xs text-content-muted">{label}</div>
       <div className={`text-sm font-medium ${textColor}`}>{formatted}</div>
     </div>
   );
@@ -311,32 +321,32 @@ function MACDCard({
   const isBullish = histogram && histogram > 0;
 
   return (
-    <div className="bg-[#1a2332] border border-[#1e293b] rounded-xl p-4">
+    <div className="bg-surface-card border border-border rounded-xl p-4">
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm text-slate-400">MACD (12,26,9)</span>
+        <span className="text-sm text-content-secondary">MACD (12,26,9)</span>
         <span className={`text-xs px-2 py-0.5 rounded-full ${
-          isBullish ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'
+          isBullish ? 'bg-green-500/20 text-green-600 dark:text-green-400' : 'bg-red-500/20 text-red-600 dark:text-red-400'
         }`}>
           {isBullish ? '多头' : '空头'}
         </span>
       </div>
       <div className="grid grid-cols-3 gap-3">
         <div>
-          <div className="text-xs text-slate-500">MACD</div>
-          <div className={`text-sm font-medium ${line > 0 ? 'text-green-400' : 'text-red-400'}`}>
+          <div className="text-xs text-content-muted">MACD</div>
+          <div className={`text-sm font-medium ${line > 0 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'}`}>
             {line.toFixed(2)}
           </div>
         </div>
         {signal !== null && (
           <div>
-            <div className="text-xs text-slate-500">Signal</div>
-            <div className="text-sm font-medium text-slate-300">{signal.toFixed(2)}</div>
+            <div className="text-xs text-content-muted">Signal</div>
+            <div className="text-sm font-medium text-content-secondary">{signal.toFixed(2)}</div>
           </div>
         )}
         {histogram !== null && (
           <div>
-            <div className="text-xs text-slate-500">Histogram</div>
-            <div className={`text-sm font-medium ${histogram > 0 ? 'text-green-400' : 'text-red-400'}`}>
+            <div className="text-xs text-content-muted">Histogram</div>
+            <div className={`text-sm font-medium ${histogram > 0 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'}`}>
               {histogram.toFixed(2)}
             </div>
           </div>
@@ -363,33 +373,33 @@ function BollingerCard({
   const position = range > 0 ? ((price - lower) / range) * 100 : 50;
 
   return (
-    <div className="bg-[#1a2332] border border-[#1e293b] rounded-xl p-4">
+    <div className="bg-surface-card border border-border rounded-xl p-4">
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm text-slate-400">布林带 (20,2)</span>
-        <span className="text-xs text-slate-500">
+        <span className="text-sm text-content-secondary">布林带 (20,2)</span>
+        <span className="text-xs text-content-muted">
           位置: {position.toFixed(0)}%
         </span>
       </div>
       <div className="space-y-1.5">
         <div className="flex items-center justify-between">
-          <span className="text-xs text-slate-500">上轨</span>
-          <span className="text-xs text-red-400">{upper.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
+          <span className="text-xs text-content-muted">上轨</span>
+          <span className="text-xs text-red-600 dark:text-red-400">{upper.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
         </div>
         {/* 可视化位置 */}
-        <div className="relative h-2 bg-[#111827] rounded-full overflow-hidden">
+        <div className="relative h-2 bg-surface-inset rounded-full overflow-hidden">
           <div className="absolute inset-y-0 left-0 right-0 bg-gradient-to-r from-red-500/20 via-yellow-500/20 to-green-500/20" />
           <div
-            className="absolute top-1/2 -translate-y-1/2 w-2.5 h-2.5 bg-blue-400 rounded-full shadow"
+            className="absolute top-1/2 -translate-y-1/2 w-2.5 h-2.5 bg-blue-500 dark:bg-blue-400 rounded-full shadow"
             style={{ left: `${Math.min(97, Math.max(3, position))}%` }}
           />
         </div>
         <div className="flex items-center justify-between">
-          <span className="text-xs text-slate-500">中轨</span>
-          <span className="text-xs text-yellow-400">{middle.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
+          <span className="text-xs text-content-muted">中轨</span>
+          <span className="text-xs text-yellow-600 dark:text-yellow-400">{middle.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
         </div>
         <div className="flex items-center justify-between">
-          <span className="text-xs text-slate-500">下轨</span>
-          <span className="text-xs text-green-400">{lower.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
+          <span className="text-xs text-content-muted">下轨</span>
+          <span className="text-xs text-green-600 dark:text-green-400">{lower.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
         </div>
       </div>
     </div>
