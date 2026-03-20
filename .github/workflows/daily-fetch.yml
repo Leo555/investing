@@ -1,0 +1,50 @@
+name: Daily Data Fetch & Deploy
+
+on:
+  schedule:
+    # 美东时间每天下午5点 (UTC 22:00)，美股收盘后
+    - cron: '0 22 * * 1-5'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch market data
+        run: python3 scripts/fetch_data.py
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Commit data files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --staged --quiet || git commit -m "📊 Update market data for $(date +%Y-%m-%d)"
+          git push
