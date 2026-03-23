@@ -1,6 +1,6 @@
 {
   "date": "2026-03-23",
-  "timestamp": "2026-03-23T02:13:41.094884",
+  "timestamp": "2026-03-23T10:17:09.602196",
   "marketStatus": "closed",
   "overallSentiment": "bearish",
   "sentimentScore": -77,
@@ -367,18 +367,18 @@
   "indicators": {
     "vix": 26.78,
     "vixChange": 2.72,
-    "dxy": 99.59,
-    "dxyChange": -0.06,
+    "dxy": 99.6,
+    "dxyChange": -0.05,
     "us10y": 4.39,
     "us10yChange": 0.11,
     "us2y": 3.62,
     "us2yChange": 0.01,
-    "gold": 4413.3,
-    "goldChange": -157.1,
-    "oil": 98.75,
-    "oilChange": 0.43,
-    "btc": 68017.2,
-    "btcChange": -694.33
+    "gold": 4417.5,
+    "goldChange": -152.9,
+    "oil": 98.77,
+    "oilChange": 0.45,
+    "btc": 67930.05,
+    "btcChange": -781.47
   },
   "sectors": [
     {

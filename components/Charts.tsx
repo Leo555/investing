@@ -258,13 +258,13 @@ export function SectorHeatmap({ sectors }: { sectors: { name: string; symbol: st
   };
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
       {sectors.map((sector) => (
         <div
           key={sector.symbol}
-          className={`${getColor(sector.changePercent)} border rounded-lg p-3 text-center`}
+          className={`${getColor(sector.changePercent)} border rounded-lg p-3 text-center flex flex-col items-center justify-center min-h-[60px]`}
         >
-          <div className="text-xs text-content-secondary mb-1">{sector.name}</div>
+          <div className="text-xs text-content-secondary mb-1 truncate w-full">{sector.name}</div>
           <div className={`text-sm font-bold ${getTextColor(sector.changePercent)}`}>
             {sector.changePercent > 0 ? '+' : ''}{sector.changePercent.toFixed(2)}%
           </div>
