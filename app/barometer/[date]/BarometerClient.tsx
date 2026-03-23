@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import {
   SentimentGauge,
   ChangeDisplay,
@@ -14,6 +14,12 @@ import {
 } from '@/components/Charts';
 import { ThemeToggle } from '@/components/ThemeProvider';
 import { BarometerData } from '@/lib/types';
+
+// 将 "2026-03-20" 格式化为 "3月20日"
+function formatDateShort(dateStr: string): string {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
+}
 
 export default function BarometerClient({ data }: { data: BarometerData }) {
   const getSentimentClass = () => {
@@ -218,16 +224,7 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
       </section>
 
       {/* 新闻 */}
-      <section className="mb-8">
-        <h3 className="text-lg font-semibold text-content-primary mb-4 flex items-center gap-2">
-          <span>📰</span> 影响市场的新闻 ({data.news.length})
-        </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {data.news.map((news, index) => (
-            <NewsCard key={index} news={news} />
-          ))}
-        </div>
-      </section>
+      <NewsSection news={data.news} />
 
       {/* 免责声明 */}
       <footer className="border-t border-border pt-6 mt-12">
@@ -246,6 +243,11 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
 function IndexCard({ index }: { index: BarometerData['nasdaq'] }) {
   const isPositive = index.change >= 0;
   const sparkData = index.priceHistory.map(p => p.close);
+
+  // 当日最高/最低的副标题：交易日期 + 美股常规交易时段
+  const tradingSubtitle = index.tradingDate
+    ? `${formatDateShort(index.tradingDate)} 9:30-16:00 ET`
+    : undefined;
 
   return (
     <div className="bg-surface-card border border-border rounded-2xl p-6">
@@ -267,12 +269,12 @@ function IndexCard({ index }: { index: BarometerData['nasdaq'] }) {
       <div className="grid grid-cols-2 gap-3">
         <MiniStat label="开盘" value={index.open} />
         <MiniStat label="前收" value={index.previousClose} />
-        <MiniStat label="最高" value={index.high} highlight="green" />
-        <MiniStat label="最低" value={index.low} highlight="red" />
+        <MiniStat label="最高" value={index.high} highlight="green" subtitle={tradingSubtitle} />
+        <MiniStat label="最低" value={index.low} highlight="red" subtitle={tradingSubtitle} />
         <MiniStat label="成交量" value={index.volume} format="volume" />
         <MiniStat label="平均成交量" value={index.avgVolume} format="volume" />
-        <MiniStat label="52周高" value={index.yearHigh} />
-        <MiniStat label="52周低" value={index.yearLow} />
+        <MiniStat label="52周高" value={index.yearHigh} subtitle={index.yearHighDate ? formatDateShort(index.yearHighDate) : undefined} />
+        <MiniStat label="52周低" value={index.yearLow} subtitle={index.yearLowDate ? formatDateShort(index.yearLowDate) : undefined} />
         {index.pe && <MiniStat label="P/E" value={index.pe} />}
         {index.atr14 && <MiniStat label="ATR(14)" value={index.atr14} />}
       </div>
@@ -285,11 +287,13 @@ function MiniStat({
   value,
   format = 'price',
   highlight,
+  subtitle,
 }: {
   label: string;
   value: number;
   format?: 'price' | 'volume';
   highlight?: 'green' | 'red';
+  subtitle?: string;
 }) {
   const formatted = format === 'volume'
     ? (value >= 1e9 ? `${(value / 1e9).toFixed(1)}B` : value >= 1e6 ? `${(value / 1e6).toFixed(1)}M` : value.toLocaleString())
@@ -305,6 +309,7 @@ function MiniStat({
     <div className="bg-surface-inset rounded-lg p-2.5">
       <div className="text-xs text-content-muted">{label}</div>
       <div className={`text-sm font-medium ${textColor}`}>{formatted}</div>
+      {subtitle && <div className="text-[10px] text-content-muted mt-0.5">{subtitle}</div>}
     </div>
   );
 }
@@ -405,5 +410,51 @@ function BollingerCard({
         </div>
       </div>
     </div>
+  );
+}
+
+// 新闻模块：默认显示前 3 条，点击展开显示全部
+const NEWS_PREVIEW_COUNT = 3;
+
+function NewsSection({ news }: { news: BarometerData['news'] }) {
+  const [expanded, setExpanded] = useState(false);
+  const hasMore = news.length > NEWS_PREVIEW_COUNT;
+  const visibleNews = expanded ? news : news.slice(0, NEWS_PREVIEW_COUNT);
+
+  return (
+    <section className="mb-8">
+      <h3 className="text-lg font-semibold text-content-primary mb-4 flex items-center gap-2">
+        <span>📰</span> 影响市场的新闻 ({news.length})
+      </h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {visibleNews.map((item, index) => (
+          <NewsCard key={index} news={item} />
+        ))}
+      </div>
+      {hasMore && (
+        <div className="flex justify-center mt-4">
+          <button
+            onClick={() => setExpanded(!expanded)}
+            className="inline-flex items-center gap-1.5 px-5 py-2 text-sm font-medium text-content-secondary bg-surface-card border border-border rounded-full hover:bg-surface-inset hover:text-content-primary transition-colors"
+          >
+            {expanded ? (
+              <>
+                收起
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                </svg>
+              </>
+            ) : (
+              <>
+                查看全部 {news.length} 条新闻
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </>
+            )}
+          </button>
+        </div>
+      )}
+    </section>
   );
 }

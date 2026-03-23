@@ -31,10 +31,16 @@ def fetch_index_data(symbol: str, name: str) -> dict:
         print(f"警告: 无法获取 {symbol} 的历史数据")
         return _empty_index(symbol, name)
     
+    # 获取 1 年历史数据，用于查找 52 周高低价对应日期
+    hist_1y = ticker.history(period="1y")
+    
     info = ticker.info or {}
     
     current = hist.iloc[-1]
     prev = hist.iloc[-2] if len(hist) > 1 else current
+    
+    # 记录当天最高/最低价对应的交易日期
+    trading_date = hist.index[-1].strftime("%Y-%m-%d")
     
     price = float(current["Close"])
     prev_close = float(prev["Close"])
@@ -46,6 +52,15 @@ def fetch_index_data(symbol: str, name: str) -> dict:
     volumes = hist["Volume"].values.tolist()
     highs = hist["High"].values.tolist()
     lows = hist["Low"].values.tolist()
+    
+    # 查找 52 周高低价对应日期
+    year_high_date = None
+    year_low_date = None
+    if not hist_1y.empty:
+        high_idx = hist_1y["High"].idxmax()
+        low_idx = hist_1y["Low"].idxmin()
+        year_high_date = high_idx.strftime("%Y-%m-%d") if high_idx is not None else None
+        year_low_date = low_idx.strftime("%Y-%m-%d") if low_idx is not None else None
     
     sma20 = _sma(closes, 20)
     sma50 = _sma(closes, 50)
@@ -73,6 +88,7 @@ def fetch_index_data(symbol: str, name: str) -> dict:
         "price": round(price, 2),
         "change": round(change, 2),
         "changePercent": round(change_pct, 2),
+        "tradingDate": trading_date,
         "open": round(float(current["Open"]), 2),
         "high": round(float(current["High"]), 2),
         "low": round(float(current["Low"]), 2),
@@ -80,7 +96,9 @@ def fetch_index_data(symbol: str, name: str) -> dict:
         "volume": int(current["Volume"]),
         "avgVolume": int(sum(volumes[-20:]) / min(20, len(volumes))),
         "yearHigh": round(float(info.get("fiftyTwoWeekHigh", max(highs))), 2),
+        "yearHighDate": year_high_date,
         "yearLow": round(float(info.get("fiftyTwoWeekLow", min(lows))), 2),
+        "yearLowDate": year_low_date,
         "pe": _safe_round(info.get("trailingPE")),
         "marketCap": info.get("marketCap"),
         "sma20": _safe_round(sma20),
@@ -458,8 +476,9 @@ def _empty_index(symbol: str, name: str) -> dict:
     return {
         "symbol": symbol, "name": name,
         "price": 0, "change": 0, "changePercent": 0,
+        "tradingDate": None,
         "open": 0, "high": 0, "low": 0, "previousClose": 0,
-        "volume": 0, "avgVolume": 0, "yearHigh": 0, "yearLow": 0,
+        "volume": 0, "avgVolume": 0, "yearHigh": 0, "yearHighDate": None, "yearLow": 0, "yearLowDate": None,
         "pe": None, "marketCap": None,
         "sma20": None, "sma50": None, "sma200": None,
         "rsi14": None, "macdLine": None, "macdSignal": None, "macdHistogram": None,

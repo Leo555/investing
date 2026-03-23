@@ -6,6 +6,7 @@ export interface IndexData {
   price: number;
   change: number;
   changePercent: number;
+  tradingDate: string | null;
   open: number;
   high: number;
   low: number;
@@ -13,7 +14,9 @@ export interface IndexData {
   volume: number;
   avgVolume: number;
   yearHigh: number;
+  yearHighDate: string | null;
   yearLow: number;
+  yearLowDate: string | null;
   pe: number | null;
   marketCap: number | null;
   // 技术指标
