@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-03-23",
-    "overallSentiment": "bearish",
-    "sentimentScore": -77,
-    "nasdaqPrice": 21647.61,
-    "nasdaqChange": -443.08,
-    "nasdaqChangePercent": -2.01,
-    "sp500Price": 6506.48,
-    "sp500Change": -100.01,
-    "sp500ChangePercent": -1.51,
-    "vix": 26.78,
+    "overallSentiment": "neutral",
+    "sentimentScore": -11,
+    "nasdaqPrice": 21946.76,
+    "nasdaqChange": 299.15,
+    "nasdaqChangePercent": 1.38,
+    "sp500Price": 6581.0,
+    "sp500Change": 74.52,
+    "sp500ChangePercent": 1.15,
+    "vix": 26.15,
     "newsCount": 15
   },
   {
