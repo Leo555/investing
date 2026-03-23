@@ -2,9 +2,10 @@ name: Daily Data Fetch & Deploy
 
 on:
   schedule:
-    # 美东时间每天下午5点 (UTC 22:00)，美股收盘后
-    # 仅工作日执行（周一到周五）
-    - cron: '0 22 * * 1-5'
+    # 美股收盘后 UTC 22:00 执行
+    # 注意：cron 星期基于 UTC，UTC 22:00 = 北京时间次日 06:00
+    # 周日到周四 UTC 执行 → 对应北京时间周一到周五早上6点更新
+    - cron: '0 22 * * 0-4'
   workflow_dispatch: # 允许手动触发
 
 permissions:
