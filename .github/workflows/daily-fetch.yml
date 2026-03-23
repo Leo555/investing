@@ -3,6 +3,7 @@ name: Daily Data Fetch & Deploy
 on:
   schedule:
     # 美东时间每天下午5点 (UTC 22:00)，美股收盘后
+    # 仅工作日执行（周一到周五）
     - cron: '0 22 * * 1-5'
   workflow_dispatch: # 允许手动触发
 
@@ -12,10 +13,14 @@ permissions:
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 10
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # 确保获取最新的代码，避免 push 冲突
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -28,23 +33,41 @@ jobs:
 
       - name: Fetch market data
         run: python3 scripts/fetch_data.py
+        env:
+          # 设置 Python 不缓冲输出，方便看日志
+          PYTHONUNBUFFERED: "1"
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
+      - name: Check if data was generated
+        id: check_data
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -f "data/${TODAY}.json" ]; then
+            echo "has_new_data=true" >> $GITHUB_OUTPUT
+            echo "✅ 数据文件已生成: data/${TODAY}.json"
+          else
+            # 可能因为时区差异导致日期不同，检查 data 目录是否有新文件
+            LATEST=$(ls -t data/*.json 2>/dev/null | head -1)
+            if [ -n "$LATEST" ]; then
+              echo "has_new_data=true" >> $GITHUB_OUTPUT
+              echo "✅ 找到最新数据文件: ${LATEST}"
+            else
+              echo "has_new_data=false" >> $GITHUB_OUTPUT
+              echo "⚠️ 没有找到新的数据文件"
+            fi
+          fi
 
-      - name: Install Node dependencies
-        run: npm ci
-
-      - name: Build static site
-        run: npm run build
-
-      - name: Commit data files
+      - name: Commit and push data files
+        if: steps.check_data.outputs.has_new_data == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/
-          git diff --staged --quiet || git commit -m "📊 Update market data for $(date +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "📌 没有新的数据变化，跳过提交"
+          else
+            git commit -m "📊 Update market data for $(date -u +%Y-%m-%d)"
+            # 使用 rebase 策略拉取远程变更，避免 push 冲突
+            git pull --rebase origin main || true
+            git push origin main
+            echo "✅ 数据已提交并推送"
+          fi

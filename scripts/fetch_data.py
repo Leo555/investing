@@ -509,24 +509,63 @@ def main():
     today = datetime.now().strftime("%Y-%m-%d")
     print(f"📊 正在获取 {today} 的市场数据...")
     
-    # 1. 获取指数数据
+    max_retries = 3
+    
+    # 1. 获取指数数据（带重试）
     print("  → 获取纳斯达克数据...")
-    nasdaq = fetch_index_data("^IXIC", "NASDAQ Composite")
+    nasdaq = None
+    for attempt in range(max_retries):
+        try:
+            nasdaq = fetch_index_data("^IXIC", "NASDAQ Composite")
+            if nasdaq and nasdaq.get("price", 0) > 0:
+                break
+        except Exception as e:
+            print(f"    ⚠️ 第 {attempt + 1} 次尝试失败: {e}")
+    if not nasdaq or nasdaq.get("price", 0) == 0:
+        nasdaq = _empty_index("^IXIC", "NASDAQ Composite")
+        print("    ⚠️ 纳指数据获取失败，使用空数据")
     
     print("  → 获取标普500数据...")
-    sp500 = fetch_index_data("^GSPC", "S&P 500")
+    sp500 = None
+    for attempt in range(max_retries):
+        try:
+            sp500 = fetch_index_data("^GSPC", "S&P 500")
+            if sp500 and sp500.get("price", 0) > 0:
+                break
+        except Exception as e:
+            print(f"    ⚠️ 第 {attempt + 1} 次尝试失败: {e}")
+    if not sp500 or sp500.get("price", 0) == 0:
+        sp500 = _empty_index("^GSPC", "S&P 500")
+        print("    ⚠️ 标普数据获取失败，使用空数据")
+    
+    # 如果两个核心指数的数据都获取失败，退出
+    if nasdaq.get("price", 0) == 0 and sp500.get("price", 0) == 0:
+        print("❌ 核心指数数据全部获取失败，退出")
+        sys.exit(1)
     
     # 2. 获取市场指标
     print("  → 获取市场宏观指标...")
-    indicators = fetch_market_indicators()
+    try:
+        indicators = fetch_market_indicators()
+    except Exception as e:
+        print(f"    ⚠️ 宏观指标获取失败: {e}")
+        indicators = {}
     
     # 3. 获取板块表现
     print("  → 获取板块表现...")
-    sectors = fetch_sector_performance()
+    try:
+        sectors = fetch_sector_performance()
+    except Exception as e:
+        print(f"    ⚠️ 板块数据获取失败: {e}")
+        sectors = []
     
     # 4. 获取新闻
     print("  → 获取财经新闻...")
-    news = fetch_news()
+    try:
+        news = fetch_news()
+    except Exception as e:
+        print(f"    ⚠️ 新闻获取失败: {e}")
+        news = []
     
     # 5. 获取恐惧贪婪指数
     print("  → 获取恐惧贪婪指数...")
