@@ -1,0 +1,571 @@
+{
+  "date": "2026-03-29",
+  "timestamp": "2026-03-29T22:18:05.263092",
+  "marketStatus": "closed",
+  "overallSentiment": "bearish",
+  "sentimentScore": -74,
+  "nasdaq": {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "price": 20948.36,
+    "change": -459.72,
+    "changePercent": -2.15,
+    "tradingDate": "2026-03-27",
+    "open": 21287.19,
+    "high": 21293.5,
+    "low": 20909.93,
+    "previousClose": 21408.08,
+    "volume": 8713310000,
+    "avgVolume": 9057496000,
+    "yearHigh": 24019.99,
+    "yearHighDate": "2025-10-29",
+    "yearLow": 14784.03,
+    "yearLowDate": "2025-04-07",
+    "pe": null,
+    "marketCap": null,
+    "sma20": 22223.78,
+    "sma50": 22760.52,
+    "sma200": null,
+    "rsi14": 24.8,
+    "macdLine": -382.4291,
+    "macdSignal": -265.8545,
+    "macdHistogram": -116.5747,
+    "bollingerUpper": 23206.37,
+    "bollingerMiddle": 22223.78,
+    "bollingerLower": 21241.18,
+    "atr14": 388.72,
+    "priceHistory": [
+      {
+        "date": "2026-02-13",
+        "close": 22546.67,
+        "volume": 7964830000
+      },
+      {
+        "date": "2026-02-17",
+        "close": 22578.38,
+        "volume": 7654300000
+      },
+      {
+        "date": "2026-02-18",
+        "close": 22753.63,
+        "volume": 7705590000
+      },
+      {
+        "date": "2026-02-19",
+        "close": 22682.73,
+        "volume": 6984780000
+      },
+      {
+        "date": "2026-02-20",
+        "close": 22886.07,
+        "volume": 8063070000
+      },
+      {
+        "date": "2026-02-23",
+        "close": 22627.27,
+        "volume": 8263920000
+      },
+      {
+        "date": "2026-02-24",
+        "close": 22863.68,
+        "volume": 7932270000
+      },
+      {
+        "date": "2026-02-25",
+        "close": 23152.08,
+        "volume": 8427450000
+      },
+      {
+        "date": "2026-02-26",
+        "close": 22878.38,
+        "volume": 9033470000
+      },
+      {
+        "date": "2026-02-27",
+        "close": 22668.21,
+        "volume": 9552610000
+      },
+      {
+        "date": "2026-03-02",
+        "close": 22748.86,
+        "volume": 8303030000
+      },
+      {
+        "date": "2026-03-03",
+        "close": 22516.69,
+        "volume": 9705500000
+      },
+      {
+        "date": "2026-03-04",
+        "close": 22807.48,
+        "volume": 10918410000
+      },
+      {
+        "date": "2026-03-05",
+        "close": 22748.99,
+        "volume": 10994660000
+      },
+      {
+        "date": "2026-03-06",
+        "close": 22387.68,
+        "volume": 9300220000
+      },
+      {
+        "date": "2026-03-09",
+        "close": 22695.95,
+        "volume": 9797740000
+      },
+      {
+        "date": "2026-03-10",
+        "close": 22697.1,
+        "volume": 8800580000
+      },
+      {
+        "date": "2026-03-11",
+        "close": 22716.13,
+        "volume": 8348570000
+      },
+      {
+        "date": "2026-03-12",
+        "close": 22311.98,
+        "volume": 8490850000
+      },
+      {
+        "date": "2026-03-13",
+        "close": 22105.36,
+        "volume": 8278740000
+      },
+      {
+        "date": "2026-03-16",
+        "close": 22374.18,
+        "volume": 8208800000
+      },
+      {
+        "date": "2026-03-17",
+        "close": 22479.53,
+        "volume": 8505210000
+      },
+      {
+        "date": "2026-03-18",
+        "close": 22152.42,
+        "volume": 9325170000
+      },
+      {
+        "date": "2026-03-19",
+        "close": 22090.69,
+        "volume": 8547870000
+      },
+      {
+        "date": "2026-03-20",
+        "close": 21647.61,
+        "volume": 11743490000
+      },
+      {
+        "date": "2026-03-23",
+        "close": 21946.76,
+        "volume": 8895880000
+      },
+      {
+        "date": "2026-03-24",
+        "close": 21761.89,
+        "volume": 8488380000
+      },
+      {
+        "date": "2026-03-25",
+        "close": 21929.82,
+        "volume": 8056920000
+      },
+      {
+        "date": "2026-03-26",
+        "close": 21408.08,
+        "volume": 7726590000
+      },
+      {
+        "date": "2026-03-27",
+        "close": 20948.36,
+        "volume": 8713310000
+      }
+    ]
+  },
+  "sp500": {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "price": 6368.85,
+    "change": -108.31,
+    "changePercent": -1.67,
+    "tradingDate": "2026-03-27",
+    "open": 6453.89,
+    "high": 6453.89,
+    "low": 6356.08,
+    "previousClose": 6477.16,
+    "volume": 5303490000,
+    "avgVolume": 5862493000,
+    "yearHigh": 7002.28,
+    "yearHighDate": "2026-01-28",
+    "yearLow": 4835.04,
+    "yearLowDate": "2025-04-07",
+    "pe": null,
+    "marketCap": null,
+    "sma20": 6676.25,
+    "sma50": 6814.16,
+    "sma200": null,
+    "rsi14": 23.8,
+    "macdLine": -102.0553,
+    "macdSignal": -77.1879,
+    "macdHistogram": -24.8674,
+    "bollingerUpper": 6947.39,
+    "bollingerMiddle": 6676.25,
+    "bollingerLower": 6405.11,
+    "atr14": 96.93,
+    "priceHistory": [
+      {
+        "date": "2026-02-13",
+        "close": 6836.17,
+        "volume": 5718360000
+      },
+      {
+        "date": "2026-02-17",
+        "close": 6843.22,
+        "volume": 5418480000
+      },
+      {
+        "date": "2026-02-18",
+        "close": 6881.31,
+        "volume": 5098160000
+      },
+      {
+        "date": "2026-02-19",
+        "close": 6861.89,
+        "volume": 5151690000
+      },
+      {
+        "date": "2026-02-20",
+        "close": 6909.51,
+        "volume": 5432480000
+      },
+      {
+        "date": "2026-02-23",
+        "close": 6837.75,
+        "volume": 5638350000
+      },
+      {
+        "date": "2026-02-24",
+        "close": 6890.07,
+        "volume": 5266090000
+      },
+      {
+        "date": "2026-02-25",
+        "close": 6946.13,
+        "volume": 5328060000
+      },
+      {
+        "date": "2026-02-26",
+        "close": 6908.86,
+        "volume": 5889550000
+      },
+      {
+        "date": "2026-02-27",
+        "close": 6878.88,
+        "volume": 6665660000
+      },
+      {
+        "date": "2026-03-02",
+        "close": 6881.62,
+        "volume": 6079080000
+      },
+      {
+        "date": "2026-03-03",
+        "close": 6816.63,
+        "volume": 6442080000
+      },
+      {
+        "date": "2026-03-04",
+        "close": 6869.5,
+        "volume": 5252170000
+      },
+      {
+        "date": "2026-03-05",
+        "close": 6830.71,
+        "volume": 5989300000
+      },
+      {
+        "date": "2026-03-06",
+        "close": 6740.02,
+        "volume": 5793120000
+      },
+      {
+        "date": "2026-03-09",
+        "close": 6795.99,
+        "volume": 6709410000
+      },
+      {
+        "date": "2026-03-10",
+        "close": 6781.48,
+        "volume": 5944950000
+      },
+      {
+        "date": "2026-03-11",
+        "close": 6775.8,
+        "volume": 5511090000
+      },
+      {
+        "date": "2026-03-12",
+        "close": 6672.62,
+        "volume": 6292170000
+      },
+      {
+        "date": "2026-03-13",
+        "close": 6632.19,
+        "volume": 5337120000
+      },
+      {
+        "date": "2026-03-16",
+        "close": 6699.38,
+        "volume": 5176290000
+      },
+      {
+        "date": "2026-03-17",
+        "close": 6716.09,
+        "volume": 5063390000
+      },
+      {
+        "date": "2026-03-18",
+        "close": 6624.7,
+        "volume": 5275480000
+      },
+      {
+        "date": "2026-03-19",
+        "close": 6606.49,
+        "volume": 5973390000
+      },
+      {
+        "date": "2026-03-20",
+        "close": 6506.48,
+        "volume": 10025820000
+      },
+      {
+        "date": "2026-03-23",
+        "close": 6581.0,
+        "volume": 6020650000
+      },
+      {
+        "date": "2026-03-24",
+        "close": 6556.37,
+        "volume": 5278580000
+      },
+      {
+        "date": "2026-03-25",
+        "close": 6591.9,
+        "volume": 4936720000
+      },
+      {
+        "date": "2026-03-26",
+        "close": 6477.16,
+        "volume": 4845560000
+      },
+      {
+        "date": "2026-03-27",
+        "close": 6368.85,
+        "volume": 5303490000
+      }
+    ]
+  },
+  "indicators": {
+    "vix": 31.05,
+    "vixChange": 3.61,
+    "dxy": 100.29,
+    "dxyChange": 0.14,
+    "us10y": 4.44,
+    "us10yChange": 0.02,
+    "us2y": 3.61,
+    "us2yChange": -0.01,
+    "gold": 4524.3,
+    "goldChange": 32.3,
+    "oil": 99.64,
+    "oilChange": 0.0,
+    "btc": 66268.66,
+    "btcChange": -51.04
+  },
+  "sectors": [
+    {
+      "name": "能源",
+      "symbol": "XLE",
+      "changePercent": 1.69
+    },
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": 0.79
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": 0.57
+    },
+    {
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": -0.37
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": -0.69
+    },
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": -1.28
+    },
+    {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": -1.63
+    },
+    {
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": -1.7
+    },
+    {
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": -1.95
+    },
+    {
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": -2.53
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": -2.89
+    }
+  ],
+  "news": [
+    {
+      "title": "Dow Jones Futures Fall, Oil Prices Run Past $100 As U.S. Mulls Ground Troops In Iran",
+      "summary": "The U.S. reportedly is making plans for Iran war ground operations. The stock market is already at six-month lows with oil prices at $100. Tesla deliveries loom.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/390ee993-3b8e-3011-9287-1cde0325dcb7/dow-jones-futures-fall%2C-oil.html?.tsrc=rss",
+      "publishedAt": "Sun, 29 Mar 2026 22:12:44 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "IWM vs. QQQ: How Small-Cap Diversification Compares to Large-Cap Growth for Investors",
+      "summary": "Explore how IWM’s broader sector exposure and higher yield stack up against QQQ’s tech-heavy approach for ETF investors.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/coverage/etfs/2026/03/29/iwm-vs-qqq-how-small-cap-diversification-compares-to-large-cap-growth-for-investors/?.tsrc=rss",
+      "publishedAt": "Sun, 29 Mar 2026 20:43:19 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Why the SaaS Sell-Off Is Creating Generational Buying Opportunities",
+      "summary": "Not every SaaS stock will be a winner, but ones with these traits likely will be.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/03/29/why-the-saas-sell-off-is-creating-generational-buy/?.tsrc=rss",
+      "publishedAt": "Sun, 29 Mar 2026 20:05:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "What I'm Watching With Brookfield To See If They Beat The Market",
+      "summary": "Brookfield Corporation is building out an insurance business, but the plan is to operate like Berkshire Hathaway.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/03/29/what-im-watching-with-brookfield-to-see-if-they-be/?.tsrc=rss",
+      "publishedAt": "Sun, 29 Mar 2026 18:35:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Choosing an ETF for Bond Exposure: VanEck's SMB vs. Vanguard's VCSH",
+      "summary": "Explore how portfolio diversification and tax treatment set these two short-term bond ETFs apart for income-focused investors.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/coverage/etfs/2026/03/29/choosing-an-etf-for-bond-exposure-vaneck-s-smb-vs-vanguard-s-vcsh/?.tsrc=rss",
+      "publishedAt": "Sun, 29 Mar 2026 18:24:14 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Pakistan prepared to host U.S.-Iran talks in 'coming days' as Trump weighs deploying ground troops",
+      "summary": "Foreign ministers of Pakistan, Saudi Arabia, Turkey and Egypt all arrived in Islamabad to discuss the evolving regional situation in the Middle East.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/29/bahrain-aluminum-giant-says-iranian-attack-targeted-its-facilit.html",
+      "publishedAt": "Sun, 29 Mar 2026 21:59:35 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Trump ban on investor homebuying may come at cost of a bigger real estate deal",
+      "summary": "President Trump's plan to ban big investors from home ownership may not be the key to reviving the American Dream in affordable housing legislation.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/29/affordable-housing-trump-ban-investor-home-buying-real-estate.html",
+      "publishedAt": "Sun, 29 Mar 2026 13:43:41 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Eli Lilly reaches $2.75 billion deal with Insilico to bring AI-developed drugs to the global market",
+      "summary": "U.S. pharmaceutical giant Eli Lilly will give Hong Kong-listed Insilico $115 million upfront to bring some of its AI-discovered drugs to the global market.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/29/eli-lilly-reaches-deal-to-bring-ai-developed-drugs-to-global-market.html",
+      "publishedAt": "Sun, 29 Mar 2026 13:36:29 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Meta's court losses spell potential trouble for AI research, consumer safety",
+      "summary": "Meta's two courtroom defeats centered on different cases but both involved allegations that the company knew about its products' harms.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/29/metas-court-losses-spell-trouble-for-ai-research-consumer-safety.html",
+      "publishedAt": "Sun, 29 Mar 2026 17:15:02 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "New fees, fewer flights: Higher fuel prices pinch consumer budgets beyond the gas pump",
+      "summary": "As corporate policies change, Americans will feel higher oil prices in their wallets beyond the gas pump.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/28/oil-doordash-lyft-usps-united.html",
+      "publishedAt": "Sat, 28 Mar 2026 15:48:34 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "U.S. stock futures sink, oil prices surge as Iran war shows no signs of letting up",
+      "summary": "U.S. stock-index futures fell and oil prices surged again on Sunday, following sharp losses on Wall Street on Friday, as investors are waking up to the reality that the economic effects of the Iran war — now entering its fifth week — are likely to last longer than first expected.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-sink-oil-prices-surge-as-iran-war-shows-no-signs-of-letting-up-5c463163?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 29 Mar 2026 22:16:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Is Trump losing his grip on the stock market? Sustained declines suggest the president’s influence has waned.",
+      "summary": "President Trump’s willingness to de-escalate the Iran conflict has kept stocks from even larger losses in March — but is he losing his grip on markets?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/is-trump-losing-his-grip-on-the-market-sustained-stock-declines-suggest-the-presidents-influence-has-waned-02bc5938?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 29 Mar 2026 19:51:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Investors have nowhere to hide as financial markets groan under the weight of the Iran conflict",
+      "summary": "Four weeks into the Iran conflict, global financial markets are starting to show some serious signs of strain.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/investors-have-nowhere-to-hide-as-financial-markets-groan-under-the-weight-of-the-iran-conflict-41d3d2a2?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 29 Mar 2026 19:30:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘It feels slimy’: My friend offered to be my adviser, but didn’t tell me he’s paid to push financial products. Can I trust him?",
+      "summary": "“His revenue sharing, which he did not disclose, creates conflicts of interest as advisers may be incentivized to recommend funds that pay them more.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/it-feels-slimy-my-friend-offered-to-be-my-adviser-but-didnt-tell-me-hes-paid-to-push-financial-products-can-i-trust-him-4de53a0a?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 29 Mar 2026 14:58:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Nike’s stock is at 9-year lows ahead of earnings. It faces these questions as doubt grows over its turnaround.",
+      "summary": "The sportswear giant has been trying to focus more on the needs of athletes, but analysts say new products aren’t catching on.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/nikes-stock-is-at-9-year-lows-ahead-of-earnings-it-faces-these-questions-as-doubt-grows-over-its-turnaround-7861a90c?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 29 Mar 2026 14:00:00 GMT",
+      "sentiment": "neutral"
+    }
+  ],
+  "fearGreedIndex": null,
+  "advanceDeclineRatio": null,
+  "putCallRatio": null
+}
