@@ -1,0 +1,571 @@
+{
+  "date": "2026-03-30",
+  "timestamp": "2026-03-30T22:22:59.652310",
+  "marketStatus": "closed",
+  "overallSentiment": "bearish",
+  "sentimentScore": -55,
+  "nasdaq": {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "price": 20794.64,
+    "change": -153.72,
+    "changePercent": -0.73,
+    "tradingDate": "2026-03-30",
+    "open": 21096.24,
+    "high": 21139.72,
+    "low": 20690.25,
+    "previousClose": 20948.36,
+    "volume": 7902863000,
+    "avgVolume": 9037487650,
+    "yearHigh": 24019.99,
+    "yearHighDate": "2025-10-29",
+    "yearLow": 14784.03,
+    "yearLowDate": "2025-04-07",
+    "pe": null,
+    "marketCap": null,
+    "sma20": 22126.07,
+    "sma50": 22705.81,
+    "sma200": null,
+    "rsi14": 23.7,
+    "macdLine": -441.8201,
+    "macdSignal": -298.7745,
+    "macdHistogram": -143.0456,
+    "bollingerUpper": 23257.72,
+    "bollingerMiddle": 22126.07,
+    "bollingerLower": 20994.41,
+    "atr14": 399.5,
+    "priceHistory": [
+      {
+        "date": "2026-02-17",
+        "close": 22578.38,
+        "volume": 7654300000
+      },
+      {
+        "date": "2026-02-18",
+        "close": 22753.63,
+        "volume": 7705590000
+      },
+      {
+        "date": "2026-02-19",
+        "close": 22682.73,
+        "volume": 6984780000
+      },
+      {
+        "date": "2026-02-20",
+        "close": 22886.07,
+        "volume": 8063070000
+      },
+      {
+        "date": "2026-02-23",
+        "close": 22627.27,
+        "volume": 8263920000
+      },
+      {
+        "date": "2026-02-24",
+        "close": 22863.68,
+        "volume": 7932270000
+      },
+      {
+        "date": "2026-02-25",
+        "close": 23152.08,
+        "volume": 8427450000
+      },
+      {
+        "date": "2026-02-26",
+        "close": 22878.38,
+        "volume": 9033470000
+      },
+      {
+        "date": "2026-02-27",
+        "close": 22668.21,
+        "volume": 9552610000
+      },
+      {
+        "date": "2026-03-02",
+        "close": 22748.86,
+        "volume": 8303030000
+      },
+      {
+        "date": "2026-03-03",
+        "close": 22516.69,
+        "volume": 9705500000
+      },
+      {
+        "date": "2026-03-04",
+        "close": 22807.48,
+        "volume": 10918410000
+      },
+      {
+        "date": "2026-03-05",
+        "close": 22748.99,
+        "volume": 10994660000
+      },
+      {
+        "date": "2026-03-06",
+        "close": 22387.68,
+        "volume": 9300220000
+      },
+      {
+        "date": "2026-03-09",
+        "close": 22695.95,
+        "volume": 9797740000
+      },
+      {
+        "date": "2026-03-10",
+        "close": 22697.1,
+        "volume": 8800580000
+      },
+      {
+        "date": "2026-03-11",
+        "close": 22716.13,
+        "volume": 8348570000
+      },
+      {
+        "date": "2026-03-12",
+        "close": 22311.98,
+        "volume": 8490850000
+      },
+      {
+        "date": "2026-03-13",
+        "close": 22105.36,
+        "volume": 8278740000
+      },
+      {
+        "date": "2026-03-16",
+        "close": 22374.18,
+        "volume": 8208800000
+      },
+      {
+        "date": "2026-03-17",
+        "close": 22479.53,
+        "volume": 8505210000
+      },
+      {
+        "date": "2026-03-18",
+        "close": 22152.42,
+        "volume": 9325170000
+      },
+      {
+        "date": "2026-03-19",
+        "close": 22090.69,
+        "volume": 8547870000
+      },
+      {
+        "date": "2026-03-20",
+        "close": 21647.61,
+        "volume": 11743490000
+      },
+      {
+        "date": "2026-03-23",
+        "close": 21946.76,
+        "volume": 8895880000
+      },
+      {
+        "date": "2026-03-24",
+        "close": 21761.89,
+        "volume": 8488380000
+      },
+      {
+        "date": "2026-03-25",
+        "close": 21929.82,
+        "volume": 8056920000
+      },
+      {
+        "date": "2026-03-26",
+        "close": 21408.08,
+        "volume": 7726590000
+      },
+      {
+        "date": "2026-03-27",
+        "close": 20948.36,
+        "volume": 8713310000
+      },
+      {
+        "date": "2026-03-30",
+        "close": 20794.64,
+        "volume": 7902863000
+      }
+    ]
+  },
+  "sp500": {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "price": 6343.72,
+    "change": -25.13,
+    "changePercent": -0.39,
+    "tradingDate": "2026-03-30",
+    "open": 6403.37,
+    "high": 6427.31,
+    "low": 6316.91,
+    "previousClose": 6368.85,
+    "volume": 3264973000,
+    "avgVolume": 5721787650,
+    "yearHigh": 7002.28,
+    "yearHighDate": "2026-01-28",
+    "yearLow": 4835.04,
+    "yearLowDate": "2025-04-07",
+    "pe": null,
+    "marketCap": null,
+    "sma20": 6649.35,
+    "sma50": 6802.15,
+    "sma200": null,
+    "rsi14": 23.5,
+    "macdLine": -113.5565,
+    "macdSignal": -84.2713,
+    "macdHistogram": -29.2852,
+    "bollingerUpper": 6939.71,
+    "bollingerMiddle": 6649.35,
+    "bollingerLower": 6359.0,
+    "atr14": 98.72,
+    "priceHistory": [
+      {
+        "date": "2026-02-17",
+        "close": 6843.22,
+        "volume": 5418480000
+      },
+      {
+        "date": "2026-02-18",
+        "close": 6881.31,
+        "volume": 5098160000
+      },
+      {
+        "date": "2026-02-19",
+        "close": 6861.89,
+        "volume": 5151690000
+      },
+      {
+        "date": "2026-02-20",
+        "close": 6909.51,
+        "volume": 5432480000
+      },
+      {
+        "date": "2026-02-23",
+        "close": 6837.75,
+        "volume": 5638350000
+      },
+      {
+        "date": "2026-02-24",
+        "close": 6890.07,
+        "volume": 5266090000
+      },
+      {
+        "date": "2026-02-25",
+        "close": 6946.13,
+        "volume": 5328060000
+      },
+      {
+        "date": "2026-02-26",
+        "close": 6908.86,
+        "volume": 5889550000
+      },
+      {
+        "date": "2026-02-27",
+        "close": 6878.88,
+        "volume": 6665660000
+      },
+      {
+        "date": "2026-03-02",
+        "close": 6881.62,
+        "volume": 6079080000
+      },
+      {
+        "date": "2026-03-03",
+        "close": 6816.63,
+        "volume": 6442080000
+      },
+      {
+        "date": "2026-03-04",
+        "close": 6869.5,
+        "volume": 5252170000
+      },
+      {
+        "date": "2026-03-05",
+        "close": 6830.71,
+        "volume": 5989300000
+      },
+      {
+        "date": "2026-03-06",
+        "close": 6740.02,
+        "volume": 5793120000
+      },
+      {
+        "date": "2026-03-09",
+        "close": 6795.99,
+        "volume": 6709410000
+      },
+      {
+        "date": "2026-03-10",
+        "close": 6781.48,
+        "volume": 5944950000
+      },
+      {
+        "date": "2026-03-11",
+        "close": 6775.8,
+        "volume": 5511090000
+      },
+      {
+        "date": "2026-03-12",
+        "close": 6672.62,
+        "volume": 6292170000
+      },
+      {
+        "date": "2026-03-13",
+        "close": 6632.19,
+        "volume": 5337120000
+      },
+      {
+        "date": "2026-03-16",
+        "close": 6699.38,
+        "volume": 5176290000
+      },
+      {
+        "date": "2026-03-17",
+        "close": 6716.09,
+        "volume": 5063390000
+      },
+      {
+        "date": "2026-03-18",
+        "close": 6624.7,
+        "volume": 5275480000
+      },
+      {
+        "date": "2026-03-19",
+        "close": 6606.49,
+        "volume": 5973390000
+      },
+      {
+        "date": "2026-03-20",
+        "close": 6506.48,
+        "volume": 10025820000
+      },
+      {
+        "date": "2026-03-23",
+        "close": 6581.0,
+        "volume": 6020650000
+      },
+      {
+        "date": "2026-03-24",
+        "close": 6556.37,
+        "volume": 5278580000
+      },
+      {
+        "date": "2026-03-25",
+        "close": 6591.9,
+        "volume": 4936720000
+      },
+      {
+        "date": "2026-03-26",
+        "close": 6477.16,
+        "volume": 4845560000
+      },
+      {
+        "date": "2026-03-27",
+        "close": 6368.85,
+        "volume": 5303490000
+      },
+      {
+        "date": "2026-03-30",
+        "close": 6343.72,
+        "volume": 3264973000
+      }
+    ]
+  },
+  "indicators": {
+    "vix": 30.61,
+    "vixChange": -0.44,
+    "dxy": 100.49,
+    "dxyChange": 0.34,
+    "us10y": 4.34,
+    "us10yChange": -0.1,
+    "us2y": 3.6,
+    "us2yChange": -0.01,
+    "gold": 4536.3,
+    "goldChange": 44.3,
+    "oil": 104.9,
+    "oilChange": 5.26,
+    "btc": 66764.62,
+    "btcChange": 809.7
+  },
+  "sectors": [
+    {
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": 1.15
+    },
+    {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": 0.86
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": 0.72
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": 0.5
+    },
+    {
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": 0.39
+    },
+    {
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": 0.37
+    },
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": 0.12
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": -0.02
+    },
+    {
+      "name": "能源",
+      "symbol": "XLE",
+      "changePercent": -0.96
+    },
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": -1.63
+    },
+    {
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": -1.86
+    }
+  ],
+  "news": [
+    {
+      "title": "Stock Market Today, March 30: Microsoft Rises on Copilot Expansion and New AI Product Launches",
+      "summary": "Microsoft rose as Copilot rollout and enterprise demand drive AI growth, with focus turning to how quickly that momentum can translate into revenue without adding pressure on profits.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-microsoft-rises-on-copilot-expansion-and-new-ai-product-launches/?.tsrc=rss",
+      "publishedAt": "Mon, 30 Mar 2026 21:55:05 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Stock Market Today, March 30: High Oil Prices Drive Risk-Off Sentiment, Nasdaq Falls 0.7%",
+      "summary": "Inflation and growth worries impacted tech stocks as investors question AI price tags today, March 30, 2026.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-high-oil-prices-drive-risk-off-sentiment-nasdaq-falls-0-7/?.tsrc=rss",
+      "publishedAt": "Mon, 30 Mar 2026 21:46:57 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Triumph Financial (TFIN): Buy, Sell, or Hold Post Q4 Earnings?",
+      "summary": "Even during a down period for the markets, Triumph Financial has gone against the grain, climbing to $55.68. Its shares have yielded a 11.3% return over the last six months, beating the S&P 500 by 14.4%. This run-up might have investors contemplating their next move.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/triumph-financial-tfin-buy-sell-214218345.html?.tsrc=rss",
+      "publishedAt": "Mon, 30 Mar 2026 21:42:18 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Stock Market Today, March 30: Boston Scientific Falls After Delivering Underwhelming Trial Results",
+      "summary": "Today, March 30, 2026, investors send Boston Scientific shares lower as they dig deeper into the company's latest trial update.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-boston-scientific-falls-after-delivering-underwhelming-trial-results/?.tsrc=rss",
+      "publishedAt": "Mon, 30 Mar 2026 21:38:32 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "This Stock Popped 15% in Its Trading Debut. Meet Quantum’s New Kid on the Block.",
+      "summary": "Xanadu Quantum Technologies  defied a broad selloff in its trading debut, ending Friday’s session at $11.50, up 15% from its opening price.  One would expect boundless enthusiasm on management’s part after a day like that, but CEO Christian Weedbrook is maintaining a “business as usual” approach as ",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/7d3ca318-e6ce-3b93-8a53-ab8e03c784b8/this-stock-popped-15%25-in-its.html?.tsrc=rss",
+      "publishedAt": "Mon, 30 Mar 2026 21:36:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022",
+      "summary": "Oil prices climbed on Monday after Yemen's Houthis said they had fired missiles at Israel, opening a new front in the U.S.- and Israeli-led conflict with Iran.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html",
+      "publishedAt": "Mon, 30 Mar 2026 20:02:10 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
+      "summary": "The Iran war has stalled shipments of oil and its products through the Strait of Hormuz, raising concerns among Chinese manufacturers about supply chain disruptions.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/30/china-suppliers-warn-higher-us-prices-hormuz-closure.html",
+      "publishedAt": "Mon, 30 Mar 2026 20:19:38 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Bill Ackman says it’s one of the best times in a long time to buy quality stocks",
+      "summary": "Ackman's bullish stance comes at a time when markets have been rattled by rising energy prices and sticky inflation concerns.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/30/bill-ackman-says-its-one-of-the-best-times-in-a-long-time-to-buy-quality-stocks.html",
+      "publishedAt": "Mon, 30 Mar 2026 15:46:33 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "401(k) alternative asset rule proposed by Labor Department",
+      "summary": "The Department of Labor has proposed a rule to let 401(k) plans more easily include alternative assets such as private equity, cryptocurrencies and real estate.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/30/401ks-alternative-investments.html",
+      "publishedAt": "Mon, 30 Mar 2026 17:45:35 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Powell sees inflation outlook in check, no need to hike rates because of oil shock",
+      "summary": "Federal Reserve Chair Jerome Powell spoke Monday at Harvard University.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/30/powell-sees-inflation-outlook-in-check-no-wider-crisis-yet-in-private-credit.html",
+      "publishedAt": "Mon, 30 Mar 2026 19:34:25 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "U.S. stocks are faring worse than during past geopolitical shocks — and there’s plenty of room for them to fall further",
+      "summary": "The S&P 500 is down 7.4% since the Iran conflict began — worse than the median 6.1% decline during previous geopolitical shocks.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/u-s-stocks-are-faring-worse-than-during-past-geopolitical-shocks-and-theres-plenty-of-room-for-them-to-fall-further-30a17285?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 30 Mar 2026 20:59:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "This AI power company’s Trump-named power project still has no customers in sight",
+      "summary": "Fermi’s stock sank to a record low, as Project Matador has yet to secure its first client, and the company didn’t provide clarity on when it would.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-ai-power-companys-trump-named-power-project-still-has-no-customers-in-sight-8ad766b3?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 30 Mar 2026 20:41:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Sysco goes all in on the ‘cash and carry’ food-service business with a $29 billion buyout",
+      "summary": "Sysco’s stock tumbles after announcing a $29.1 billion cash-and-stock deal to buy Jetro Restaurant Depot.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/sysco-goes-all-in-on-the-cash-and-carry-food-service-business-with-a-29-billion-buyout-5e06c72c?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 30 Mar 2026 20:38:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Microsoft’s stock may extend a record stretch of lagging performance that’s ignited fierce debate",
+      "summary": "Analysts are divided over whether Microsoft’s diversified business model is a long-term AI advantage or a convenient present-day excuse.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/microsofts-stock-may-extend-a-record-stretch-of-lagging-performance-thats-ignited-fierce-debate-ff1a2576?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 30 Mar 2026 20:22:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "This is a reason the Middle East’s major oil-producing countries have been selling their U.S. Treasurys",
+      "summary": "A need for liquidity may be playing a role in the decision of some countries to reduce their holdings of U.S. government debt.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-is-a-reason-the-middle-easts-major-oil-producing-countries-have-been-selling-their-u-s-treasurys-e5df841c?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 30 Mar 2026 20:05:00 GMT",
+      "sentiment": "negative"
+    }
+  ],
+  "fearGreedIndex": null,
+  "advanceDeclineRatio": null,
+  "putCallRatio": null
+}
