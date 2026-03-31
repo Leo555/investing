@@ -13,7 +13,7 @@ import {
   MAStatus,
 } from '@/components/Charts';
 import { ThemeToggle } from '@/components/ThemeProvider';
-import { BarometerData } from '@/lib/types';
+import { BarometerData, ValuationItem } from '@/lib/types';
 
 // 将 "2026-03-20" 格式化为 "3月20日"
 function formatDateShort(dateStr: string): string {
@@ -95,6 +95,23 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
         <IndexCard index={data.nasdaq} />
         <IndexCard index={data.sp500} />
       </section>
+
+      {/* 定投参考 */}
+      {data.valuation && (
+        <section className="mb-8">
+          <h3 className="text-lg font-semibold text-content-primary mb-4 flex items-center gap-2">
+            <span>💰</span> 定投参考
+          </h3>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {data.valuation.nasdaq && (
+              <ValuationCard name="纳斯达克 100" etf="QQQ" data={data.valuation.nasdaq} />
+            )}
+            {data.valuation.sp500 && (
+              <ValuationCard name="标普 500" etf="SPY" data={data.valuation.sp500} />
+            )}
+          </div>
+        </section>
+      )}
 
       {/* 宏观指标 */}
       <section className="mb-8">
@@ -279,7 +296,12 @@ function IndexCard({ index }: { index: BarometerData['nasdaq'] }) {
       <div className="flex items-start justify-between mb-4">
         <div>
           <h3 className="text-lg font-bold text-content-primary">{index.name}</h3>
-          <div className="text-xs text-content-muted">{index.symbol}</div>
+          <div className="text-xs text-content-muted">
+            {index.symbol}
+            {index.tradingDate && (
+              <span className="ml-1.5">· {new Date(index.tradingDate + 'T00:00:00').toLocaleDateString('zh-CN', { month: 'short', day: 'numeric', weekday: 'short' })} 收盘</span>
+            )}
+          </div>
         </div>
         {sparkData.length > 1 && <Sparkline data={sparkData} width={100} height={36} />}
       </div>
@@ -481,5 +503,112 @@ function NewsSection({ news }: { news: BarometerData['news'] }) {
         </div>
       )}
     </section>
+  );
+}
+
+// 定投参考卡片
+function ValuationCard({ name, etf, data }: { name: string; etf: string; data: ValuationItem }) {
+  const peLevel = data.pe
+    ? data.pe > 30 ? { label: '偏贵', color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/10' }
+    : data.pe > 22 ? { label: '合理', color: 'text-yellow-600 dark:text-yellow-400', bg: 'bg-yellow-500/10' }
+    : { label: '便宜', color: 'text-green-600 dark:text-green-400', bg: 'bg-green-500/10' }
+    : null;
+
+  const drawdownLevel = data.drawdownATH != null
+    ? data.drawdownATH < -20 ? { label: '深度回调', color: 'text-green-600 dark:text-green-400' }
+    : data.drawdownATH < -10 ? { label: '明显回调', color: 'text-green-600 dark:text-green-400' }
+    : data.drawdownATH < -5 ? { label: '小幅回调', color: 'text-yellow-600 dark:text-yellow-400' }
+    : { label: '接近高点', color: 'text-red-600 dark:text-red-400' }
+    : null;
+
+  return (
+    <div className="bg-surface-card border border-border rounded-2xl p-5">
+      <div className="flex items-center justify-between mb-4">
+        <div>
+          <h4 className="text-base font-bold text-content-primary">{name}</h4>
+          <span className="text-xs text-content-muted">基于 {etf} ETF</span>
+        </div>
+        {peLevel && (
+          <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${peLevel.bg} ${peLevel.color}`}>
+            {peLevel.label}
+          </span>
+        )}
+      </div>
+
+      <div className="space-y-4">
+        {/* PE */}
+        {data.pe != null && (
+          <div>
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="text-sm text-content-secondary">市盈率 (PE)</span>
+              <span className="text-lg font-bold text-content-primary">{data.pe.toFixed(2)}</span>
+            </div>
+            {/* PE 分位数进度条 */}
+            {data.pePercentile != null && (
+              <div>
+                <div className="flex items-center justify-between text-xs text-content-muted mb-1">
+                  <span>便宜 ({data.peRangeLow})</span>
+                  <span>历史分位 {data.pePercentile}%</span>
+                  <span>昂贵 ({data.peRangeHigh})</span>
+                </div>
+                <div className="relative h-2.5 bg-gradient-to-r from-green-500/30 via-yellow-500/30 to-red-500/30 rounded-full overflow-hidden">
+                  <div
+                    className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-blue-500 dark:bg-blue-400 rounded-full shadow-md border-2 border-white dark:border-gray-800"
+                    style={{ left: `${Math.min(97, Math.max(3, data.pePercentile))}%` }}
+                  />
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* 回撤 */}
+        <div className="grid grid-cols-2 gap-3">
+          {data.drawdown52w != null && (
+            <div className="bg-surface-inset rounded-lg p-3">
+              <div className="text-xs text-content-muted mb-0.5">距52周高点</div>
+              <div className={`text-base font-bold ${data.drawdown52w < -10 ? 'text-green-600 dark:text-green-400' : data.drawdown52w < -5 ? 'text-yellow-600 dark:text-yellow-400' : 'text-content-primary'}`}>
+                {data.drawdown52w.toFixed(2)}%
+              </div>
+              {data.high52w && (
+                <div className="text-[10px] text-content-muted mt-0.5">
+                  高点 {data.high52w.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+                </div>
+              )}
+            </div>
+          )}
+          {data.drawdownATH != null && (
+            <div className="bg-surface-inset rounded-lg p-3">
+              <div className="text-xs text-content-muted mb-0.5">距历史最高</div>
+              <div className={`text-base font-bold ${data.drawdownATH < -10 ? 'text-green-600 dark:text-green-400' : data.drawdownATH < -5 ? 'text-yellow-600 dark:text-yellow-400' : 'text-content-primary'}`}>
+                {data.drawdownATH.toFixed(2)}%
+              </div>
+              {data.allTimeHigh && (
+                <div className="text-[10px] text-content-muted mt-0.5">
+                  ATH {data.allTimeHigh.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+
+        {/* 定投建议 */}
+        {drawdownLevel && (
+          <div className={`text-xs ${drawdownLevel.color} flex items-center gap-1.5`}>
+            <span>{drawdownLevel.label}</span>
+            <span className="text-content-muted">·</span>
+            <span className="text-content-muted">
+              {data.drawdownATH != null && data.drawdownATH < -20
+                ? '可考虑加大定投'
+                : data.drawdownATH != null && data.drawdownATH < -10
+                  ? '可考虑适当加仓'
+                  : data.drawdownATH != null && data.drawdownATH < -5
+                    ? '正常定投即可'
+                    : '注意控制仓位'}
+            </span>
+          </div>
+        )}
+      </div>
+    </div>
   );
 }

@@ -153,6 +153,65 @@ def fetch_market_indicators() -> dict:
     return result
 
 
+def fetch_valuation_data() -> dict:
+    """获取估值和回撤数据，用于定投参考"""
+    # SPY 跟踪 S&P 500, QQQ 跟踪 NASDAQ 100
+    etf_map = {
+        "sp500": {"symbol": "SPY", "pe_range": (14, 35)},
+        "nasdaq": {"symbol": "QQQ", "pe_range": (18, 45)},
+    }
+    
+    result = {}
+    for key, cfg in etf_map.items():
+        sym = cfg["symbol"]
+        pe_low, pe_high = cfg["pe_range"]
+        try:
+            ticker = yf.Ticker(sym)
+            info = ticker.info or {}
+            
+            pe = _safe_round(info.get("trailingPE"), 2)
+            
+            # PE 在 10 年历史范围内的分位数
+            pe_percentile = None
+            if pe:
+                pe_percentile = round(max(0, min(100, (pe - pe_low) / (pe_high - pe_low) * 100)))
+            
+            # 获取 52 周和 5 年历史，计算回撤
+            hist_1y = ticker.history(period="1y")
+            hist_5y = ticker.history(period="5y", interval="1wk")
+            
+            current_price = float(hist_1y.iloc[-1]["Close"]) if not hist_1y.empty else 0
+            
+            # 52 周最高点回撤
+            high_52w = float(hist_1y["High"].max()) if not hist_1y.empty else 0
+            drawdown_52w = round((current_price - high_52w) / high_52w * 100, 2) if high_52w > 0 else None
+            
+            # 历史最高点 (ATH) 回撤
+            all_time_high = float(hist_5y["High"].max()) if not hist_5y.empty else high_52w
+            drawdown_ath = round((current_price - all_time_high) / all_time_high * 100, 2) if all_time_high > 0 else None
+            
+            result[key] = {
+                "pe": pe,
+                "pePercentile": pe_percentile,
+                "peRangeLow": pe_low,
+                "peRangeHigh": pe_high,
+                "drawdown52w": drawdown_52w,
+                "high52w": _safe_round(high_52w),
+                "drawdownATH": drawdown_ath,
+                "allTimeHigh": _safe_round(all_time_high),
+            }
+        except Exception as e:
+            print(f"获取 {sym} 估值数据失败: {e}")
+            result[key] = {
+                "pe": None, "pePercentile": None,
+                "peRangeLow": pe_low, "peRangeHigh": pe_high,
+                "drawdown52w": None, "high52w": None,
+                "drawdownATH": None, "allTimeHigh": None,
+            }
+    
+    return result
+
+
 def fetch_sector_performance() -> list:
     """获取板块表现"""
     sectors = {
@@ -609,10 +668,18 @@ def main():
     print("  → 获取恐惧贪婪指数...")
     fear_greed = fetch_fear_greed()
     
-    # 6. 计算综合情绪
+    # 6. 获取估值和回撤数据（定投参考）
+    print("  → 获取估值和回撤数据...")
+    try:
+        valuation = fetch_valuation_data()
+    except Exception as e:
+        print(f"    ⚠️ 估值数据获取失败: {e}")
+        valuation = {}
+    
+    # 7. 计算综合情绪
     sentiment_score, sentiment = calculate_sentiment(nasdaq, sp500, indicators, news)
     
-    # 7. 组装数据
+    # 8. 组装数据
     # date: 文件日期使用预测目标日（方便按日期查看）
     # dataDate: 数据实际对应的交易日
     # forecastDate: 预测的下一个交易日
@@ -630,6 +697,7 @@ def main():
         "sectors": sectors,
         "news": news,
         "fearGreedIndex": fear_greed,
+        "valuation": valuation,
         "advanceDeclineRatio": None,
         "putCallRatio": None,
     }

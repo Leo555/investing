@@ -67,6 +67,22 @@ export interface SectorPerformance {
   changePercent: number;
 }
 
+export interface ValuationItem {
+  pe: number | null;
+  pePercentile: number | null;  // PE 在历史范围的分位数 0-100
+  peRangeLow: number;
+  peRangeHigh: number;
+  drawdown52w: number | null;   // 距 52 周高点回撤 %
+  high52w: number | null;
+  drawdownATH: number | null;   // 距历史最高点回撤 %
+  allTimeHigh: number | null;
+}
+
+export interface ValuationData {
+  sp500?: ValuationItem;
+  nasdaq?: ValuationItem;
+}
+
 export interface BarometerData {
   date: string;
   dataDate?: string;        // 数据实际对应的交易日
@@ -81,6 +97,7 @@ export interface BarometerData {
   sectors: SectorPerformance[];
   news: NewsItem[];
   fearGreedIndex: number | null; // 0-100
+  valuation?: ValuationData;
   advanceDeclineRatio: number | null;
   putCallRatio: number | null;
 }
