@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
+import { I18nProvider } from '@/components/I18nProvider';
 
 const siteUrl = 'https://investing.lz5z.com';
 
@@ -89,7 +90,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen antialiased">
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider><I18nProvider>{children}</I18nProvider></ThemeProvider>
       </body>
     </html>
   );
