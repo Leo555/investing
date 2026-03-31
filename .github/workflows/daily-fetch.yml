@@ -66,8 +66,38 @@ jobs:
             echo "📌 没有新的数据变化，跳过提交"
           else
             git commit -m "📊 Update market data for $(date -u +%Y-%m-%d)"
-            # 使用 rebase 策略拉取远程变更，避免 push 冲突
-            git pull --rebase origin main || true
-            git push origin main
-            echo "✅ 数据已提交并推送"
+            
+            # 拉取远程变更，处理可能的冲突
+            MAX_RETRIES=3
+            for i in $(seq 1 $MAX_RETRIES); do
+              echo "🔄 尝试推送 (第 $i 次)..."
+              
+              # 先尝试 pull --rebase
+              if git pull --rebase origin main; then
+                echo "✅ Rebase 成功"
+              else
+                echo "⚠️ Rebase 遇到冲突，自动解决..."
+                # 对 data/ 目录的冲突文件使用本地版本（Actions 生成的最新数据）
+                git diff --name-only --diff-filter=U | while read file; do
+                  echo "  解决冲突: $file (使用本地版本)"
+                  git checkout --theirs "$file"
+                  git add "$file"
+                done
+                GIT_EDITOR=true git rebase --continue || git rebase --skip || true
+              fi
+              
+              # 尝试推送
+              if git push origin main; then
+                echo "✅ 数据已提交并推送"
+                break
+              else
+                echo "⚠️ 推送失败，重试..."
+                sleep 2
+              fi
+              
+              if [ $i -eq $MAX_RETRIES ]; then
+                echo "❌ 推送失败，已达最大重试次数"
+                exit 1
+              fi
+            done
           fi

@@ -47,18 +47,44 @@ export interface NewsItem {
 export interface MarketIndicators {
   vix: number | null;
   vixChange: number | null;
-  dxy: number | null;         // 美元指数
+  vixHistory?: number[];
+  vixHistoryStart?: string;
+  vixHistoryEnd?: string;
+  dxy: number | null;
   dxyChange: number | null;
-  us10y: number | null;       // 10年期美债收益率
+  dxyHistory?: number[];
+  dxyHistoryStart?: string;
+  dxyHistoryEnd?: string;
+  us10y: number | null;
   us10yChange: number | null;
-  us2y: number | null;        // 2年期美债收益率
+  us10yHistory?: number[];
+  us10yHistoryStart?: string;
+  us10yHistoryEnd?: string;
+  us2y: number | null;
   us2yChange: number | null;
+  us2yHistory?: number[];
+  us2yHistoryStart?: string;
+  us2yHistoryEnd?: string;
   gold: number | null;
   goldChange: number | null;
+  goldHistory?: number[];
+  goldHistoryStart?: string;
+  goldHistoryEnd?: string;
   oil: number | null;
   oilChange: number | null;
+  oilHistory?: number[];
+  oilHistoryStart?: string;
+  oilHistoryEnd?: string;
   btc: number | null;
   btcChange: number | null;
+  btcHistory?: number[];
+  btcHistoryStart?: string;
+  btcHistoryEnd?: string;
+  eth: number | null;
+  ethChange: number | null;
+  ethHistory?: number[];
+  ethHistoryStart?: string;
+  ethHistoryEnd?: string;
 }
 
 export interface SectorPerformance {
@@ -69,13 +95,17 @@ export interface SectorPerformance {
 
 export interface ValuationItem {
   pe: number | null;
-  pePercentile: number | null;  // PE 在历史范围的分位数 0-100
+  forwardPE: number | null;       // 前瞻 PE
+  pePercentile1y: number | null;  // 1 年 PE 分位数 0-100
+  pePercentile5y: number | null;  // 5 年 PE 分位数 0-100
+  pePercentile10y: number | null; // 10 年 PE 分位数 0-100
   peRangeLow: number;
   peRangeHigh: number;
-  drawdown52w: number | null;   // 距 52 周高点回撤 %
+  drawdown52w: number | null;     // 距 52 周高点回撤 %
   high52w: number | null;
-  drawdownATH: number | null;   // 距历史最高点回撤 %
+  drawdownATH: number | null;     // 距历史最高点回撤 %
   allTimeHigh: number | null;
+  currentPrice: number | null;
 }
 
 export interface ValuationData {

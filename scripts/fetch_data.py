@@ -23,18 +23,35 @@ DATA_DIR.mkdir(exist_ok=True)
 
 def fetch_index_data(symbol: str, name: str) -> dict:
     """获取指数数据和技术指标"""
-    ticker = yf.Ticker(symbol)
+    try:
+        ticker = yf.Ticker(symbol)
+    except Exception as e:
+        print(f"⚠️ 创建 {symbol} Ticker 失败: {e}")
+        return _empty_index(symbol, name)
     
     # 获取最近60天的历史数据用于计算技术指标
-    hist = ticker.history(period="3mo")
+    try:
+        hist = ticker.history(period="3mo")
+    except Exception as e:
+        print(f"⚠️ 获取 {symbol} 3个月历史失败: {e}")
+        return _empty_index(symbol, name)
+    
     if hist.empty:
         print(f"警告: 无法获取 {symbol} 的历史数据")
         return _empty_index(symbol, name)
     
     # 获取 1 年历史数据，用于查找 52 周高低价对应日期
-    hist_1y = ticker.history(period="1y")
+    try:
+        hist_1y = ticker.history(period="1y")
+    except Exception as e:
+        print(f"⚠️ 获取 {symbol} 1年历史失败: {e}")
+        hist_1y = hist  # 降级使用 3 个月数据
     
-    info = ticker.info or {}
+    try:
+        info = ticker.info or {}
+    except Exception as e:
+        print(f"⚠️ 获取 {symbol} info 失败: {e}")
+        info = {}
     
     current = hist.iloc[-1]
     prev = hist.iloc[-2] if len(hist) > 1 else current
@@ -56,19 +73,54 @@ def fetch_index_data(symbol: str, name: str) -> dict:
     # 查找 52 周高低价对应日期
     year_high_date = None
     year_low_date = None
-    if not hist_1y.empty:
-        high_idx = hist_1y["High"].idxmax()
-        low_idx = hist_1y["Low"].idxmin()
-        year_high_date = high_idx.strftime("%Y-%m-%d") if high_idx is not None else None
-        year_low_date = low_idx.strftime("%Y-%m-%d") if low_idx is not None else None
+    try:
+        if not hist_1y.empty:
+            high_idx = hist_1y["High"].idxmax()
+            low_idx = hist_1y["Low"].idxmin()
+            year_high_date = high_idx.strftime("%Y-%m-%d") if high_idx is not None else None
+            year_low_date = low_idx.strftime("%Y-%m-%d") if low_idx is not None else None
+    except Exception as e:
+        print(f"⚠️ 计算 {symbol} 52周高低日期失败: {e}")
     
-    sma20 = _sma(closes, 20)
-    sma50 = _sma(closes, 50)
-    sma200 = _sma(closes, 200) if len(closes) >= 200 else None
-    rsi14 = _rsi(closes, 14)
-    macd_line, macd_signal, macd_hist = _macd(closes)
-    bb_upper, bb_middle, bb_lower = _bollinger(closes, 20)
-    atr14 = _atr(highs, lows, closes, 14)
+    # 技术指标（每个独立计算，互不影响）
+    sma20 = None
+    sma50 = None
+    sma200 = None
+    rsi14 = None
+    macd_line = None
+    macd_signal = None
+    macd_hist = None
+    bb_upper = None
+    bb_middle = None
+    bb_lower = None
+    atr14 = None
+    
+    try:
+        sma20 = _sma(closes, 20)
+        sma50 = _sma(closes, 50)
+        sma200 = _sma(closes, 200) if len(closes) >= 200 else None
+    except Exception as e:
+        print(f"⚠️ 计算 {symbol} SMA 失败: {e}")
+    
+    try:
+        rsi14 = _rsi(closes, 14)
+    except Exception as e:
+        print(f"⚠️ 计算 {symbol} RSI 失败: {e}")
+    
+    try:
+        macd_line, macd_signal, macd_hist = _macd(closes)
+    except Exception as e:
+        print(f"⚠️ 计算 {symbol} MACD 失败: {e}")
+    
+    try:
+        bb_upper, bb_middle, bb_lower = _bollinger(closes, 20)
+    except Exception as e:
+        print(f"⚠️ 计算 {symbol} Bollinger 失败: {e}")
+    
+    try:
+        atr14 = _atr(highs, lows, closes, 14)
+    except Exception as e:
+        print(f"⚠️ 计算 {symbol} ATR 失败: {e}")
     
     # 最近30天价格历史
     dates = hist.index[-30:].strftime("%Y-%m-%d").tolist()
@@ -117,7 +169,7 @@ def fetch_index_data(symbol: str, name: str) -> dict:
 
 
 def fetch_market_indicators() -> dict:
-    """获取市场宏观指标"""
+    """获取市场宏观指标（含近30天历史）"""
     symbols = {
         "vix": "^VIX",
         "dxy": "DX-Y.NYB",
@@ -126,87 +178,167 @@ def fetch_market_indicators() -> dict:
         "gold": "GC=F",
         "oil": "CL=F",
         "btc": "BTC-USD",
+        "eth": "ETH-USD",
     }
     
     result = {}
     for key, sym in symbols.items():
         try:
             ticker = yf.Ticker(sym)
-            hist = ticker.history(period="5d")
+            hist = ticker.history(period="2mo")
             if len(hist) >= 2:
                 current = float(hist.iloc[-1]["Close"])
                 prev = float(hist.iloc[-2]["Close"])
                 change = current - prev
                 result[key] = round(current, 2)
                 result[f"{key}Change"] = round(change, 2)
+                # 最近 30 个交易日收盘价
+                recent = hist.iloc[-30:] if len(hist) >= 30 else hist
+                result[f"{key}History"] = [round(float(v), 2) for v in recent["Close"].values]
+                result[f"{key}HistoryStart"] = recent.index[0].strftime("%Y-%m-%d")
+                result[f"{key}HistoryEnd"] = recent.index[-1].strftime("%Y-%m-%d")
             elif len(hist) == 1:
                 result[key] = round(float(hist.iloc[-1]["Close"]), 2)
                 result[f"{key}Change"] = 0
+                result[f"{key}History"] = [round(float(hist.iloc[-1]["Close"]), 2)]
             else:
                 result[key] = None
                 result[f"{key}Change"] = None
+                result[f"{key}History"] = []
         except Exception as e:
             print(f"获取 {sym} 失败: {e}")
             result[key] = None
             result[f"{key}Change"] = None
+            result[f"{key}History"] = []
     
     return result
 
 
 def fetch_valuation_data() -> dict:
-    """获取估值和回撤数据，用于定投参考"""
+    """获取估值和回撤数据，用于定投参考
+    
+    使用 SPY/QQQ ETF 获取:
+    - 当前 PE (trailing)
+    - 前瞻 PE (forward, 基于预估盈利增长率)
+    - 1年/5年/10年 PE 历史分位数
+    - 距最高点回撤
+    """
+    import numpy as np
+    
     # SPY 跟踪 S&P 500, QQQ 跟踪 NASDAQ 100
+    # PE 历史范围来自长期数据 (用于 10 年分位计算)
+    # earningsGrowth: 预估年盈利增长率, 用于估算 forward PE
     etf_map = {
-        "sp500": {"symbol": "SPY", "pe_range": (14, 35)},
-        "nasdaq": {"symbol": "QQQ", "pe_range": (18, 45)},
+        "sp500": {"symbol": "SPY", "pe_10y_range": (14, 35), "pe_5y_range": (18, 30), "earningsGrowth": 0.10},
+        "nasdaq": {"symbol": "QQQ", "pe_10y_range": (18, 45), "pe_5y_range": (22, 38), "earningsGrowth": 0.15},
     }
     
     result = {}
     for key, cfg in etf_map.items():
         sym = cfg["symbol"]
-        pe_low, pe_high = cfg["pe_range"]
         try:
             ticker = yf.Ticker(sym)
-            info = ticker.info or {}
+            try:
+                info = ticker.info or {}
+            except Exception as e:
+                print(f"⚠️ 获取 {sym} info 失败: {e}")
+                info = {}
             
             pe = _safe_round(info.get("trailingPE"), 2)
             
-            # PE 在 10 年历史范围内的分位数
-            pe_percentile = None
-            if pe:
-                pe_percentile = round(max(0, min(100, (pe - pe_low) / (pe_high - pe_low) * 100)))
+            # 前瞻 PE: 优先用 yfinance 提供的, 否则用预估增长率估算
+            forward_pe = _safe_round(info.get("forwardPE"), 2)
+            if not forward_pe and pe:
+                growth = cfg["earningsGrowth"]
+                forward_pe = _safe_round(pe / (1 + growth), 2)
             
-            # 获取 52 周和 5 年历史，计算回撤
-            hist_1y = ticker.history(period="1y")
-            hist_5y = ticker.history(period="5y", interval="1wk")
+            # 计算历史 PE 分位数
+            # 方法: 用当前 PE 和 ETF 价格反推隐含 EPS
+            # 再用历史价格 / 隐含 EPS 得到历史 PE 序列
+            # 最后计算当前 PE 在该序列中的百分位
+            # 注意: 这假设 EPS 恒定, 1年内较准确, 5年/10年会因盈利增长而偏高
+            #       但这已比硬编码经验范围更准确
+            percentile_1y = None
+            percentile_5y = None
+            percentile_10y = None
             
-            current_price = float(hist_1y.iloc[-1]["Close"]) if not hist_1y.empty else 0
+            pe_low, pe_high = cfg["pe_10y_range"]
             
-            # 52 周最高点回撤
-            high_52w = float(hist_1y["High"].max()) if not hist_1y.empty else 0
-            drawdown_52w = round((current_price - high_52w) / high_52w * 100, 2) if high_52w > 0 else None
+            if pe and pe > 0:
+                hist_latest = ticker.history(period="1d")
+                if not hist_latest.empty:
+                    current_etf_price = float(hist_latest.iloc[-1]["Close"])
+                    implied_eps = current_etf_price / pe
+                    
+                    if implied_eps > 0:
+                        for period, label in [("1y", "1y"), ("5y", "5y"), ("10y", "10y")]:
+                            try:
+                                interval = "1d" if period == "1y" else "1wk"
+                                hist_p = ticker.history(period=period, interval=interval)
+                                if not hist_p.empty and len(hist_p) > 10:
+                                    pe_series = hist_p["Close"].values / implied_eps
+                                    pct = float(np.sum(pe_series < pe) / len(pe_series) * 100)
+                                    if label == "1y":
+                                        percentile_1y = round(pct)
+                                    elif label == "5y":
+                                        percentile_5y = round(pct)
+                                    else:
+                                        percentile_10y = round(pct)
+                            except Exception:
+                                pass
             
-            # 历史最高点 (ATH) 回撤
-            all_time_high = float(hist_5y["High"].max()) if not hist_5y.empty else high_52w
-            drawdown_ath = round((current_price - all_time_high) / all_time_high * 100, 2) if all_time_high > 0 else None
+            # 回撤计算
+            current_price = 0
+            high_52w = 0
+            drawdown_52w = None
+            all_time_high = 0
+            drawdown_ath = None
+            
+            try:
+                hist_1y = ticker.history(period="1y")
+                if not hist_1y.empty:
+                    current_price = float(hist_1y.iloc[-1]["Close"])
+                    high_52w = float(hist_1y["High"].max())
+                    drawdown_52w = round((current_price - high_52w) / high_52w * 100, 2) if high_52w > 0 else None
+            except Exception as e:
+                print(f"⚠️ 获取 {sym} 52周回撤失败: {e}")
+            
+            try:
+                hist_max = ticker.history(period="max", interval="1wk")
+                if not hist_max.empty:
+                    all_time_high = float(hist_max["High"].max())
+                else:
+                    all_time_high = high_52w
+                drawdown_ath = round((current_price - all_time_high) / all_time_high * 100, 2) if all_time_high > 0 else None
+            except Exception as e:
+                print(f"⚠️ 获取 {sym} ATH回撤失败: {e}")
+                all_time_high = high_52w
+                drawdown_ath = drawdown_52w
             
             result[key] = {
                 "pe": pe,
-                "pePercentile": pe_percentile,
+                "forwardPE": forward_pe,
+                "pePercentile1y": percentile_1y,
+                "pePercentile5y": percentile_5y,
+                "pePercentile10y": percentile_10y,
                 "peRangeLow": pe_low,
                 "peRangeHigh": pe_high,
                 "drawdown52w": drawdown_52w,
                 "high52w": _safe_round(high_52w),
                 "drawdownATH": drawdown_ath,
                 "allTimeHigh": _safe_round(all_time_high),
+                "currentPrice": _safe_round(current_price),
             }
         except Exception as e:
             print(f"获取 {sym} 估值数据失败: {e}")
+            pe_low, pe_high = cfg["pe_10y_range"]
             result[key] = {
-                "pe": None, "pePercentile": None,
+                "pe": None, "forwardPE": None,
+                "pePercentile1y": None, "pePercentile5y": None, "pePercentile10y": None,
                 "peRangeLow": pe_low, "peRangeHigh": pe_high,
                 "drawdown52w": None, "high52w": None,
                 "drawdownATH": None, "allTimeHigh": None,
+                "currentPrice": None,
             }
     
     return result

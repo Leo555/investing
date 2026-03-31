@@ -92,8 +92,8 @@ export function ChangeDisplay({
 }) {
   const isPositive = (value ?? percent ?? 0) >= 0;
   const color = isPositive
-    ? 'text-green-600 dark:text-green-400'
-    : 'text-red-600 dark:text-red-400';
+    ? 'text-red-600 dark:text-red-400'
+    : 'text-green-600 dark:text-green-400';
   const arrow = isPositive ? '▲' : '▼';
 
   const sizeClasses = {
@@ -119,6 +119,9 @@ export function MetricCard({
   changePercent,
   format = 'number',
   description,
+  history,
+  historyStart,
+  historyEnd,
 }: {
   label: string;
   value: number | null;
@@ -126,6 +129,9 @@ export function MetricCard({
   changePercent?: number | null;
   format?: 'number' | 'percent' | 'currency' | 'integer';
   description?: string;
+  history?: number[];
+  historyStart?: string;
+  historyEnd?: string;
 }) {
   if (value === null || value === undefined) return null;
 
@@ -142,10 +148,30 @@ export function MetricCard({
     }
   };
 
+  const fmtDate = (d: string) => {
+    const dt = new Date(d + 'T00:00:00');
+    return dt.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
+  };
+
   return (
     <div className="bg-surface-card border border-border rounded-xl p-4 card-hover">
-      <div className="text-sm text-content-secondary mb-1">{label}</div>
-      <div className="text-xl font-bold text-content-primary">{formatValue(value)}</div>
+      <div className="flex items-start justify-between">
+        <div className="flex-1 min-w-0">
+          <div className="text-sm text-content-secondary mb-1">{label}</div>
+          <div className="text-xl font-bold text-content-primary">{formatValue(value)}</div>
+        </div>
+        {history && history.length > 1 && (
+          <div className="text-right shrink-0">
+            <Sparkline data={history} width={64} height={28} />
+            {historyStart && historyEnd && (
+              <div className="flex justify-between text-[8px] text-content-muted mt-0.5 leading-none" style={{ width: 64 }}>
+                <span>{fmtDate(historyStart)}</span>
+                <span>{fmtDate(historyEnd)}</span>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
       {(change !== null && change !== undefined) && (
         <div className="mt-1">
           <ChangeDisplay value={change} percent={changePercent ?? undefined} size="sm" />
@@ -244,16 +270,16 @@ export function FearGreedGauge({ value }: { value: number | null }) {
 // 板块热力图
 export function SectorHeatmap({ sectors }: { sectors: { name: string; symbol: string; changePercent: number }[] }) {
   const getColor = (change: number) => {
-    if (change > 2) return 'bg-green-500/40 border-green-500/50';
-    if (change > 0.5) return 'bg-green-500/20 border-green-500/30';
+    if (change > 2) return 'bg-red-500/40 border-red-500/50';
+    if (change > 0.5) return 'bg-red-500/20 border-red-500/30';
     if (change > -0.5) return 'bg-slate-500/10 dark:bg-slate-500/20 border-slate-400/30 dark:border-slate-500/30';
-    if (change > -2) return 'bg-red-500/20 border-red-500/30';
-    return 'bg-red-500/40 border-red-500/50';
+    if (change > -2) return 'bg-green-500/20 border-green-500/30';
+    return 'bg-green-500/40 border-green-500/50';
   };
 
   const getTextColor = (change: number) => {
-    if (change > 0) return 'text-green-600 dark:text-green-400';
-    if (change < 0) return 'text-red-600 dark:text-red-400';
+    if (change > 0) return 'text-red-600 dark:text-red-400';
+    if (change < 0) return 'text-green-600 dark:text-green-400';
     return 'text-content-secondary';
   };
 
@@ -277,8 +303,8 @@ export function SectorHeatmap({ sectors }: { sectors: { name: string; symbol: st
 // 新闻卡片
 export function NewsCard({ news }: { news: { title: string; summary: string; source: string; url: string; sentiment: string } }) {
   const sentimentConfig = {
-    positive: { color: 'text-green-600 dark:text-green-400', bg: 'bg-green-500/10', border: 'border-green-500/20', icon: '📈' },
-    negative: { color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/20', icon: '📉' },
+    positive: { color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/20', icon: '📈' },
+    negative: { color: 'text-green-600 dark:text-green-400', bg: 'bg-green-500/10', border: 'border-green-500/20', icon: '📉' },
     neutral: { color: 'text-content-secondary', bg: 'bg-slate-500/5 dark:bg-slate-500/10', border: 'border-border', icon: '📊' },
   };
 
@@ -334,7 +360,7 @@ export function Sparkline({
     .join(' ');
 
   const isPositive = data[data.length - 1] >= data[0];
-  const color = isPositive ? '#22c55e' : '#ef4444';
+  const color = isPositive ? '#ef4444' : '#22c55e';
 
   return (
     <svg width={width} height={height} className="inline-block">
@@ -385,8 +411,8 @@ export function MAStatus({
                 <span
                   className={`text-xs px-1.5 py-0.5 rounded ${
                     aboveMA
-                      ? 'bg-green-500/20 text-green-600 dark:text-green-400'
-                      : 'bg-red-500/20 text-red-600 dark:text-red-400'
+                      ? 'bg-red-500/20 text-red-600 dark:text-red-400'
+                      : 'bg-green-500/20 text-green-600 dark:text-green-400'
                   }`}
                 >
                   {aboveMA ? '▲' : '▼'} {Math.abs(diff).toFixed(1)}%

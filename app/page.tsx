@@ -20,7 +20,7 @@ export default function HomePage() {
             </div>
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/Leo555/investing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-content-muted hover:text-content-primary transition-colors text-sm"

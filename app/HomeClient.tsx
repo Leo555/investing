@@ -11,9 +11,9 @@ export default function HomeClient({ summaries }: { summaries: BarometerSummary[
   const getSentimentConfig = (sentiment: string) => {
     switch (sentiment) {
       case 'bullish':
-        return { label: '看涨', color: 'text-green-600 dark:text-green-400', bg: 'bg-green-500/20', border: 'border-green-500/30', emoji: '🟢' };
+        return { label: '看涨', color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/20', border: 'border-red-500/30', emoji: '🔴' };
       case 'bearish':
-        return { label: '看跌', color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/20', border: 'border-red-500/30', emoji: '🔴' };
+        return { label: '看跌', color: 'text-green-600 dark:text-green-400', bg: 'bg-green-500/20', border: 'border-green-500/30', emoji: '🟢' };
       default:
         return { label: '中性', color: 'text-yellow-600 dark:text-yellow-400', bg: 'bg-yellow-500/20', border: 'border-yellow-500/30', emoji: '🟡' };
     }
@@ -127,7 +127,7 @@ export default function HomeClient({ summaries }: { summaries: BarometerSummary[
                         <div className={`text-sm font-bold ${
                           summary.vix > 25 ? 'text-red-600 dark:text-red-400' :
                           summary.vix > 20 ? 'text-yellow-600 dark:text-yellow-400' :
-                          'text-green-600 dark:text-green-400'
+                          'text-content-primary'
                         }`}>
                           {summary.vix.toFixed(2)}
                         </div>
@@ -156,7 +156,7 @@ function IndexMini({
   changePercent: number;
 }) {
   const isPositive = change >= 0;
-  const color = isPositive ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400';
+  const color = isPositive ? 'text-red-600 dark:text-red-400' : 'text-green-600 dark:text-green-400';
   const arrow = isPositive ? '▲' : '▼';
 
   return (
