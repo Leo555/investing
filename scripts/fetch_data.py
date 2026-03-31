@@ -715,6 +715,30 @@ def update_index(summaries_path: str, data: dict):
         json.dump(summaries, f, indent=2, ensure_ascii=False)
 
 
+def _clean_index_duplicates(index_path: str, data_date: str, keep_date: str):
+    """清理 index.json 中同一 dataDate 产生的重复记录，只保留 keep_date"""
+    try:
+        if not os.path.exists(index_path):
+            return
+        with open(index_path) as f:
+            summaries = json.load(f)
+        
+        # 检查对应的 json 文件是否存在，不存在的记录删掉
+        cleaned = []
+        for s in summaries:
+            json_file = os.path.join(os.path.dirname(index_path), f"{s['date']}.json")
+            if os.path.exists(json_file) or s["date"] == keep_date:
+                cleaned.append(s)
+            else:
+                print(f"  🗑️ 清理索引中的孤立记录: {s['date']}")
+        
+        if len(cleaned) != len(summaries):
+            with open(index_path, "w") as f:
+                json.dump(cleaned, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"⚠️ 清理索引失败: {e}")
+
+
 def _next_trading_date(d: datetime) -> str:
     """计算下一个美股交易日（跳过周末）"""
     next_d = d + timedelta(days=1)
@@ -725,7 +749,8 @@ def _next_trading_date(d: datetime) -> str:
 
 
 def main():
-    now = datetime.now()
+    from zoneinfo import ZoneInfo
+    now = datetime.now(ZoneInfo("Asia/Shanghai"))
     print(f"📊 脚本运行时间: {now.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"   将获取最近交易日收盘数据，生成下一交易日预测晴雨表\n")
     
@@ -836,13 +861,29 @@ def main():
     
     # 8. 保存数据（文件名使用预测日期）
     output_path = DATA_DIR / f"{forecast_date}.json"
+    if output_path.exists():
+        print(f"  ⚠️ 已存在 {output_path}，将覆盖旧数据")
     with open(output_path, "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"  ✅ 数据已保存到 {output_path}")
     
-    # 9. 更新索引
+    # 9. 清理同一个 dataDate 生成的其他预测文件（防止同一天多次执行产生不同日期的文件）
+    for f in DATA_DIR.glob("*.json"):
+        if f.name == "index.json" or f.name == f"{forecast_date}.json":
+            continue
+        try:
+            existing = json.load(open(f))
+            if existing.get("dataDate") == data_date and existing.get("date") != forecast_date:
+                print(f"  🗑️ 清理重复文件: {f.name} (同一交易日 {data_date} 的旧预测)")
+                f.unlink()
+        except Exception:
+            pass
+    
+    # 10. 更新索引（自动替换相同 date 的旧记录）
     index_path = DATA_DIR / "index.json"
     update_index(str(index_path), data)
+    # 清理 index 中可能残留的重复 dataDate 记录
+    _clean_index_duplicates(str(index_path), data_date, forecast_date)
     print(f"  ✅ 索引已更新 {index_path}")
     
     print(f"\n🎯 市场情绪: {sentiment.upper()} (得分: {sentiment_score})")
