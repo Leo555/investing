@@ -69,6 +69,8 @@ export interface SectorPerformance {
 
 export interface BarometerData {
   date: string;
+  dataDate?: string;        // 数据实际对应的交易日
+  forecastDate?: string;    // 预测的下一个交易日
   timestamp: string;
   marketStatus: 'open' | 'closed' | 'pre-market' | 'after-hours';
   overallSentiment: 'bullish' | 'bearish' | 'neutral';

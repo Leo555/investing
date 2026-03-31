@@ -524,9 +524,19 @@ def update_index(summaries_path: str, data: dict):
         json.dump(summaries, f, indent=2, ensure_ascii=False)
 
 
+def _next_trading_date(d: datetime) -> str:
+    """计算下一个美股交易日（跳过周末）"""
+    next_d = d + timedelta(days=1)
+    # 跳过周末: 5=Saturday, 6=Sunday
+    while next_d.weekday() in (5, 6):
+        next_d += timedelta(days=1)
+    return next_d.strftime("%Y-%m-%d")
+
+
 def main():
-    today = datetime.now().strftime("%Y-%m-%d")
-    print(f"📊 正在获取 {today} 的市场数据...")
+    now = datetime.now()
+    print(f"📊 脚本运行时间: {now.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"   将获取最近交易日收盘数据，生成下一交易日预测晴雨表\n")
     
     max_retries = 3
     
@@ -562,6 +572,15 @@ def main():
         print("❌ 核心指数数据全部获取失败，退出")
         sys.exit(1)
     
+    # 确定数据对应的交易日和下一个交易日（预测目标）
+    # tradingDate 来自 yfinance 返回的实际最近交易日
+    data_date = nasdaq.get("tradingDate") or sp500.get("tradingDate") or now.strftime("%Y-%m-%d")
+    data_date_dt = datetime.strptime(data_date, "%Y-%m-%d")
+    forecast_date = _next_trading_date(data_date_dt)
+    
+    print(f"\n  📅 数据交易日: {data_date}")
+    print(f"  🔮 预测目标日: {forecast_date}\n")
+    
     # 2. 获取市场指标
     print("  → 获取市场宏观指标...")
     try:
@@ -594,9 +613,14 @@ def main():
     sentiment_score, sentiment = calculate_sentiment(nasdaq, sp500, indicators, news)
     
     # 7. 组装数据
+    # date: 文件日期使用预测目标日（方便按日期查看）
+    # dataDate: 数据实际对应的交易日
+    # forecastDate: 预测的下一个交易日
     data = {
-        "date": today,
-        "timestamp": datetime.now().isoformat(),
+        "date": forecast_date,
+        "dataDate": data_date,
+        "forecastDate": forecast_date,
+        "timestamp": now.isoformat(),
         "marketStatus": "closed",
         "overallSentiment": sentiment,
         "sentimentScore": sentiment_score,
@@ -610,8 +634,8 @@ def main():
         "putCallRatio": None,
     }
     
-    # 8. 保存数据
-    output_path = DATA_DIR / f"{today}.json"
+    # 8. 保存数据（文件名使用预测日期）
+    output_path = DATA_DIR / f"{forecast_date}.json"
     with open(output_path, "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"  ✅ 数据已保存到 {output_path}")
@@ -622,6 +646,7 @@ def main():
     print(f"  ✅ 索引已更新 {index_path}")
     
     print(f"\n🎯 市场情绪: {sentiment.upper()} (得分: {sentiment_score})")
+    print(f"   基于 {data_date} 收盘数据 → 预测 {forecast_date} 走势")
     print(f"   纳指: {nasdaq['price']} ({nasdaq['changePercent']:+.2f}%)")
     print(f"   标普: {sp500['price']} ({sp500['changePercent']:+.2f}%)")
     if indicators.get("vix"):

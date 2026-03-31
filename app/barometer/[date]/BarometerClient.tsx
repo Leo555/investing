@@ -41,12 +41,34 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
       <section className={`${getSentimentClass()} border border-border rounded-2xl p-6 sm:p-8 mb-8`}>
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="text-center lg:text-left">
-            <div className="text-sm text-content-secondary mb-1">
-              {new Date(data.date + 'T00:00:00').toLocaleDateString('zh-CN', {
-                year: 'numeric', month: 'long', day: 'numeric', weekday: 'long'
-              })}
-            </div>
-            <h2 className="text-3xl font-bold text-content-primary mb-2">市场晴雨表</h2>
+            {data.forecastDate ? (
+              <>
+                <div className="text-sm text-content-secondary mb-1">
+                  基于{' '}
+                  <span className="font-medium text-content-primary">
+                    {new Date((data.dataDate || data.date) + 'T00:00:00').toLocaleDateString('zh-CN', {
+                      month: 'long', day: 'numeric', weekday: 'short'
+                    })}
+                  </span>
+                  {' '}收盘数据
+                </div>
+                <h2 className="text-3xl font-bold text-content-primary mb-1">
+                  {new Date(data.forecastDate + 'T00:00:00').toLocaleDateString('zh-CN', {
+                    month: 'long', day: 'numeric', weekday: 'long'
+                  })}
+                  {' '}预测
+                </h2>
+              </>
+            ) : (
+              <>
+                <div className="text-sm text-content-secondary mb-1">
+                  {new Date(data.date + 'T00:00:00').toLocaleDateString('zh-CN', {
+                    year: 'numeric', month: 'long', day: 'numeric', weekday: 'long'
+                  })}
+                </div>
+                <h2 className="text-3xl font-bold text-content-primary mb-2">市场晴雨表</h2>
+              </>
+            )}
             <div className="flex items-center justify-center lg:justify-start gap-3 flex-wrap">
               <span className={`sentiment-badge ${
                 data.overallSentiment === 'bullish' ? 'sentiment-bullish' :
