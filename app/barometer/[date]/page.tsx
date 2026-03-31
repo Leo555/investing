@@ -1,10 +1,32 @@
 import { getAllDates, getBarometerData } from '@/lib/data';
 import BarometerClient from './BarometerClient';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
 export async function generateStaticParams() {
   const dates = getAllDates();
   return dates.map((date) => ({ date }));
+}
+
+export async function generateMetadata({ params }: { params: { date: string } }): Promise<Metadata> {
+  const data = getBarometerData(params.date);
+  if (!data) {
+    return { title: `${params.date} - 未找到数据` };
+  }
+
+  const sentiment = data.overallSentiment === 'bullish' ? '看涨' : data.overallSentiment === 'bearish' ? '看跌' : '中性';
+  const title = `${params.date} 美股晴雨表 - ${sentiment} | 纳指 ${data.nasdaq.price.toLocaleString()} 标普 ${data.sp500.price.toLocaleString()}`;
+  const description = `${params.date} 美股市场${sentiment}，纳斯达克 ${data.nasdaq.price.toLocaleString()}（${data.nasdaq.changePercent >= 0 ? '+' : ''}${data.nasdaq.changePercent.toFixed(2)}%），标普500 ${data.sp500.price.toLocaleString()}（${data.sp500.changePercent >= 0 ? '+' : ''}${data.sp500.changePercent.toFixed(2)}%）。PE估值、历史分位、市场回撤等定投参考数据。`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+    },
+  };
 }
 
 export default function BarometerPage({ params }: { params: { date: string } }) {
