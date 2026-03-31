@@ -2,39 +2,39 @@
   "date": "2026-04-01",
   "dataDate": "2026-03-31",
   "forecastDate": "2026-04-01",
-  "timestamp": "2026-04-01T00:50:27.522922",
+  "timestamp": "2026-03-31T17:00:55.610323",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": -5,
+  "sentimentScore": 1,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
-    "price": 21444.39,
-    "change": 649.75,
-    "changePercent": 3.12,
+    "price": 21469.9,
+    "change": 675.26,
+    "changePercent": 3.25,
     "tradingDate": "2026-03-31",
     "open": 21064.33,
     "high": 21519.4,
     "low": 21063.38,
     "previousClose": 20794.64,
-    "volume": 5120592000,
-    "avgVolume": 8874818100,
+    "volume": 5283487000,
+    "avgVolume": 8882962850,
     "yearHigh": 24019.99,
     "yearHighDate": "2025-10-29",
     "yearLow": 14784.03,
     "yearLowDate": "2025-04-07",
     "pe": null,
     "marketCap": null,
-    "sma20": 22072.45,
-    "sma50": 22664.39,
+    "sma20": 22073.73,
+    "sma50": 22664.9,
     "sma200": null,
-    "rsi14": 35.1,
-    "macdLine": -428.8614,
-    "macdSignal": -323.7985,
-    "macdHistogram": -105.0629,
-    "bollingerUpper": 23226.39,
-    "bollingerMiddle": 22072.45,
-    "bollingerLower": 20918.51,
+    "rsi14": 35.4,
+    "macdLine": -426.8259,
+    "macdSignal": -323.5723,
+    "macdHistogram": -103.2536,
+    "bollingerUpper": 23224.94,
+    "bollingerMiddle": 22073.73,
+    "bollingerLower": 20922.52,
     "atr14": 431.6,
     "priceHistory": [
       {
@@ -184,40 +184,40 @@
       },
       {
         "date": "2026-03-31",
-        "close": 21444.39,
-        "volume": 5120592000
+        "close": 21469.9,
+        "volume": 5283487000
       }
     ]
   },
   "sp500": {
     "symbol": "^GSPC",
     "name": "S&P 500",
-    "price": 6488.95,
-    "change": 145.23,
-    "changePercent": 2.29,
+    "price": 6495.97,
+    "change": 152.25,
+    "changePercent": 2.4,
     "tradingDate": "2026-03-31",
     "open": 6395.88,
     "high": 6517.52,
     "low": 6395.88,
     "previousClose": 6343.72,
-    "volume": 1389334000,
-    "avgVolume": 5578833700,
+    "volume": 1462077000,
+    "avgVolume": 5582470850,
     "yearHigh": 7002.28,
     "yearHighDate": "2026-01-28",
     "yearLow": 4835.04,
     "yearLowDate": "2025-04-07",
     "pe": null,
     "marketCap": null,
-    "sma20": 6632.97,
-    "sma50": 6793.13,
+    "sma20": 6633.32,
+    "sma50": 6793.27,
     "sma200": null,
-    "rsi14": 35.1,
-    "macdLine": -109.3925,
-    "macdSignal": -89.6539,
-    "macdHistogram": -19.7386,
-    "bollingerUpper": 6920.68,
-    "bollingerMiddle": 6632.97,
-    "bollingerLower": 6345.26,
+    "rsi14": 35.6,
+    "macdLine": -108.8325,
+    "macdSignal": -89.5917,
+    "macdHistogram": -19.2408,
+    "bollingerUpper": 6920.35,
+    "bollingerMiddle": 6633.32,
+    "bollingerLower": 6346.29,
     "atr14": 106.45,
     "priceHistory": [
       {
@@ -367,14 +367,14 @@
       },
       {
         "date": "2026-03-31",
-        "close": 6488.95,
-        "volume": 1389334000
+        "close": 6495.97,
+        "volume": 1462077000
       }
     ]
   },
   "indicators": {
-    "vix": 27.28,
-    "vixChange": -3.33,
+    "vix": 26.53,
+    "vixChange": -4.08,
     "vixHistory": [
       19.62,
       20.23,
@@ -405,12 +405,12 @@
       27.44,
       31.05,
       30.61,
-      27.28
+      26.53
     ],
     "vixHistoryStart": "2026-02-18",
     "vixHistoryEnd": "2026-03-31",
-    "dxy": 99.96,
-    "dxyChange": -0.55,
+    "dxy": 99.99,
+    "dxyChange": -0.52,
     "dxyHistory": [
       97.7,
       97.93,
@@ -441,12 +441,12 @@
       99.9,
       100.15,
       100.51,
-      99.96
+      99.99
     ],
     "dxyHistoryStart": "2026-02-18",
     "dxyHistoryEnd": "2026-03-31",
-    "us10y": 4.32,
-    "us10yChange": -0.02,
+    "us10y": 4.3,
+    "us10yChange": -0.05,
     "us10yHistory": [
       4.08,
       4.07,
@@ -477,7 +477,7 @@
       4.42,
       4.44,
       4.34,
-      4.32
+      4.3
     ],
     "us10yHistoryStart": "2026-02-18",
     "us10yHistoryEnd": "2026-03-31",
@@ -517,8 +517,8 @@
     ],
     "us2yHistoryStart": "2026-02-18",
     "us2yHistoryEnd": "2026-03-31",
-    "gold": 4670.9,
-    "goldChange": 144.9,
+    "gold": 4679.0,
+    "goldChange": 153.0,
     "goldHistory": [
       4986.5,
       4975.9,
@@ -549,12 +549,12 @@
       4375.5,
       4492.0,
       4526.0,
-      4670.9
+      4679.0
     ],
     "goldHistoryStart": "2026-02-18",
     "goldHistoryEnd": "2026-03-31",
-    "oil": 102.03,
-    "oilChange": -0.85,
+    "oil": 101.28,
+    "oilChange": -1.6,
     "oilHistory": [
       65.19,
       66.43,
@@ -585,12 +585,12 @@
       94.48,
       99.64,
       102.88,
-      102.03
+      101.28
     ],
     "oilHistoryStart": "2026-02-18",
     "oilHistoryEnd": "2026-03-31",
-    "btc": 67593.92,
-    "btcChange": 902.48,
+    "btc": 67534.2,
+    "btcChange": 842.75,
     "btcHistory": [
       68775.85,
       68293.65,
@@ -621,12 +621,12 @@
       66319.7,
       65954.92,
       66691.45,
-      67593.92
+      67534.2
     ],
     "btcHistoryStart": "2026-03-02",
     "btcHistoryEnd": "2026-03-31",
-    "eth": 2091.06,
-    "ethChange": 67.55,
+    "eth": 2087.42,
+    "ethChange": 63.91,
     "ethHistory": [
       2027.27,
       1982.77,
@@ -657,7 +657,7 @@
       1992.69,
       1982.56,
       2023.51,
-      2091.06
+      2087.42
     ],
     "ethHistoryStart": "2026-03-02",
     "ethHistoryEnd": "2026-03-31"
@@ -666,60 +666,76 @@
     {
       "name": "科技",
       "symbol": "XLK",
-      "changePercent": 3.25
+      "changePercent": 3.41
     },
     {
       "name": "消费",
       "symbol": "XLY",
-      "changePercent": 2.63
+      "changePercent": 2.83
     },
     {
       "name": "通信",
       "symbol": "XLC",
-      "changePercent": 2.34
+      "changePercent": 2.56
     },
     {
       "name": "工业",
       "symbol": "XLI",
-      "changePercent": 2.31
-    },
-    {
-      "name": "房地产",
-      "symbol": "XLRE",
-      "changePercent": 1.67
+      "changePercent": 2.39
     },
     {
       "name": "金融",
       "symbol": "XLF",
-      "changePercent": 1.55
+      "changePercent": 1.75
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": 1.7
     },
     {
       "name": "医疗",
       "symbol": "XLV",
-      "changePercent": 1.34
+      "changePercent": 1.41
     },
     {
       "name": "材料",
       "symbol": "XLB",
-      "changePercent": 1.27
+      "changePercent": 1.26
+    },
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": -0.31
     },
     {
       "name": "能源",
       "symbol": "XLE",
-      "changePercent": -0.08
+      "changePercent": -0.41
     },
     {
       "name": "公用事业",
       "symbol": "XLU",
       "changePercent": -0.44
-    },
-    {
-      "name": "日常消费品",
-      "symbol": "XLP",
-      "changePercent": -0.47
     }
   ],
   "news": [
+    {
+      "title": "Irenic Capital Discloses Snapchat Stake, Seeks Strategy Changes to Boost Valuation",
+      "summary": "Irenic sent a letter to Snapchat CEO Evan Spiegel arguing that the social-media company’s market capitalization should be closer to $35 billion, as opposed to its current enterprise value of around $7.9 billion.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/e35b1196-c50c-32b4-9cdb-5ec80440a9f6/irenic-capital-discloses.html?.tsrc=rss",
+      "publishedAt": "Tue, 31 Mar 2026 16:32:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Stocks Jump on Hopes War Could End Soon, Gas Tops $4 a Gallon",
+      "summary": "Stocks jumped after President Trump told aides that he’s willing to end the war without fully reopening the Strait of Hormuz.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/6b089110-67d8-3c3a-93cb-01b68bb1a7f2/stocks-jump-on-hopes-war.html?.tsrc=rss",
+      "publishedAt": "Tue, 31 Mar 2026 16:19:00 +0000",
+      "sentiment": "positive"
+    },
     {
       "title": "Goldman Sachs has a message on Nvidia stock for investors",
       "summary": "The Goldman Sachs trading desk has circulated a note flagging what it describes as a significant disconnect in Nvidia stock. The core observation is that NVDA is now trading at a forward price-to-earnings ratio below the S&P 500 for the first time in more than a decade, even as the company ...",
@@ -745,22 +761,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "The Mosaic Company (MOS) Declined on Mixed Earnings Despite Tight Phosphate Market Outlook",
-      "summary": "Ariel Investments, an investment management company, released its “Ariel Focus Fund” fourth-quarter 2025 investor letter. A copy of the letter can be downloaded here. Ariel Focus Fund delivered mixed results in the fourth quarter of 2025, declining -0.50% and underperforming both the S&P 500 and Rus",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mosaic-company-mos-declined-mixed-161404456.html?.tsrc=rss",
-      "publishedAt": "Tue, 31 Mar 2026 16:12:26 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Oracle Corporation (ORCL) Faces Near-Term Pressure but AI and Cloud Growth Remain Intact",
-      "summary": "Ariel Investments, an investment management company, released its “Ariel Focus Fund” fourth-quarter 2025 investor letter. A copy of the letter can be downloaded here. Ariel Focus Fund delivered mixed results in the fourth quarter of 2025, declining -0.50% and underperforming both the S&P 500 and Rus",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-corporation-orcl-faces-near-160806186.html?.tsrc=rss",
-      "publishedAt": "Tue, 31 Mar 2026 16:08:06 +0000",
-      "sentiment": "negative"
-    },
-    {
       "title": "Why $4 a gallon gas prices won’t trigger Fed interest rate hikes — and could lead to cuts",
       "summary": "While there's still plenty of uncertainty about where rates are headed, Wall Street commentary shifted back to expectations for cuts.",
       "source": "CNBC",
@@ -773,7 +773,7 @@
       "summary": "Oracle has ratcheted up its capital expenditures as it builds data center infrastructure that can handle AI workloads.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
-      "publishedAt": "Tue, 31 Mar 2026 16:36:50 GMT",
+      "publishedAt": "Tue, 31 Mar 2026 16:54:56 GMT",
       "sentiment": "negative"
     },
     {
@@ -844,32 +844,32 @@
   "fearGreedIndex": null,
   "valuation": {
     "sp500": {
-      "pe": 25.67,
-      "forwardPE": 23.34,
+      "pe": 25.68,
+      "forwardPE": 23.35,
       "pePercentile1y": 46,
-      "pePercentile5y": 89,
+      "pePercentile5y": 90,
       "pePercentile10y": 95,
       "peRangeLow": 14,
       "peRangeHigh": 35,
-      "drawdown52w": -7.01,
+      "drawdown52w": -7.0,
       "high52w": 695.94,
-      "drawdownATH": -7.01,
+      "drawdownATH": -7.0,
       "allTimeHigh": 695.94,
-      "currentPrice": 647.14
+      "currentPrice": 647.23
     },
     "nasdaq": {
-      "pe": 30.93,
-      "forwardPE": 26.9,
+      "pe": 30.91,
+      "forwardPE": 26.88,
       "pePercentile1y": 42,
       "pePercentile5y": 89,
       "pePercentile10y": 94,
       "peRangeLow": 18,
       "peRangeHigh": 45,
-      "drawdown52w": -9.59,
+      "drawdown52w": -9.7,
       "high52w": 635.8,
-      "drawdownATH": -9.59,
+      "drawdownATH": -9.7,
       "allTimeHigh": 635.8,
-      "currentPrice": 574.8
+      "currentPrice": 574.14
     }
   },
   "advanceDeclineRatio": null,
