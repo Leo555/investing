@@ -2,39 +2,39 @@
   "date": "2026-04-01",
   "dataDate": "2026-03-31",
   "forecastDate": "2026-04-01",
-  "timestamp": "2026-03-31T17:05:09.803487",
+  "timestamp": "2026-03-31T17:07:51.066103",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
   "sentimentScore": 1,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
-    "price": 21508.04,
-    "change": 713.4,
-    "changePercent": 3.43,
+    "price": 21477.56,
+    "change": 682.92,
+    "changePercent": 3.28,
     "tradingDate": "2026-03-31",
     "open": 21064.33,
     "high": 21532.18,
     "low": 21063.38,
     "previousClose": 20794.64,
-    "volume": 5351570000,
-    "avgVolume": 8886367000,
+    "volume": 5387122000,
+    "avgVolume": 8888144600,
     "yearHigh": 24019.99,
     "yearHighDate": "2025-10-29",
     "yearLow": 14784.03,
     "yearLowDate": "2025-04-07",
     "pe": null,
     "marketCap": null,
-    "sma20": 22075.63,
-    "sma50": 22665.66,
+    "sma20": 22074.11,
+    "sma50": 22665.05,
     "sma200": null,
-    "rsi14": 36.0,
-    "macdLine": -423.7838,
-    "macdSignal": -323.2343,
-    "macdHistogram": -100.5495,
-    "bollingerUpper": 23222.96,
-    "bollingerMiddle": 22075.63,
-    "bollingerLower": 20928.31,
+    "rsi14": 35.6,
+    "macdLine": -426.2155,
+    "macdSignal": -323.5045,
+    "macdHistogram": -102.711,
+    "bollingerUpper": 23224.52,
+    "bollingerMiddle": 22074.11,
+    "bollingerLower": 20923.7,
     "atr14": 432.51,
     "priceHistory": [
       {
@@ -184,40 +184,40 @@
       },
       {
         "date": "2026-03-31",
-        "close": 21508.04,
-        "volume": 5351570000
+        "close": 21477.56,
+        "volume": 5387122000
       }
     ]
   },
   "sp500": {
     "symbol": "^GSPC",
     "name": "S&P 500",
-    "price": 6504.11,
-    "change": 160.39,
-    "changePercent": 2.53,
+    "price": 6495.13,
+    "change": 151.41,
+    "changePercent": 2.39,
     "tradingDate": "2026-03-31",
     "open": 6395.88,
     "high": 6517.52,
     "low": 6395.88,
     "previousClose": 6343.72,
-    "volume": 1494418000,
-    "avgVolume": 5584087900,
+    "volume": 1512807000,
+    "avgVolume": 5585007350,
     "yearHigh": 7002.28,
     "yearHighDate": "2026-01-28",
     "yearLow": 4835.04,
     "yearLowDate": "2025-04-07",
     "pe": null,
     "marketCap": null,
-    "sma20": 6633.73,
-    "sma50": 6793.43,
+    "sma20": 6633.28,
+    "sma50": 6793.25,
     "sma200": null,
-    "rsi14": 36.1,
-    "macdLine": -108.1832,
-    "macdSignal": -89.5196,
-    "macdHistogram": -18.6637,
-    "bollingerUpper": 6920.0,
-    "bollingerMiddle": 6633.73,
-    "bollingerLower": 6347.46,
+    "rsi14": 35.6,
+    "macdLine": -108.8996,
+    "macdSignal": -89.5992,
+    "macdHistogram": -19.3004,
+    "bollingerUpper": 6920.39,
+    "bollingerMiddle": 6633.28,
+    "bollingerLower": 6346.17,
     "atr14": 106.45,
     "priceHistory": [
       {
@@ -367,14 +367,14 @@
       },
       {
         "date": "2026-03-31",
-        "close": 6504.11,
-        "volume": 1494418000
+        "close": 6495.13,
+        "volume": 1512807000
       }
     ]
   },
   "indicators": {
-    "vix": 26.33,
-    "vixChange": -4.28,
+    "vix": 26.45,
+    "vixChange": -4.16,
     "vixHistory": [
       19.62,
       20.23,
@@ -405,12 +405,12 @@
       27.44,
       31.05,
       30.61,
-      26.33
+      26.45
     ],
     "vixHistoryStart": "2026-02-18",
     "vixHistoryEnd": "2026-03-31",
-    "dxy": 100.03,
-    "dxyChange": -0.48,
+    "dxy": 100.0,
+    "dxyChange": -0.51,
     "dxyHistory": [
       97.7,
       97.93,
@@ -441,7 +441,7 @@
       99.9,
       100.15,
       100.51,
-      100.03
+      100.0
     ],
     "dxyHistoryStart": "2026-02-18",
     "dxyHistoryEnd": "2026-03-31",
@@ -517,8 +517,8 @@
     ],
     "us2yHistoryStart": "2026-02-18",
     "us2yHistoryEnd": "2026-03-31",
-    "gold": 4667.4,
-    "goldChange": 141.4,
+    "gold": 4670.1,
+    "goldChange": 144.1,
     "goldHistory": [
       4986.5,
       4975.9,
@@ -549,12 +549,12 @@
       4375.5,
       4492.0,
       4526.0,
-      4667.4
+      4670.1
     ],
     "goldHistoryStart": "2026-02-18",
     "goldHistoryEnd": "2026-03-31",
-    "oil": 101.6,
-    "oilChange": -1.28,
+    "oil": 101.91,
+    "oilChange": -0.97,
     "oilHistory": [
       65.19,
       66.43,
@@ -585,12 +585,12 @@
       94.48,
       99.64,
       102.88,
-      101.6
+      101.91
     ],
     "oilHistoryStart": "2026-02-18",
     "oilHistoryEnd": "2026-03-31",
-    "btc": 67624.45,
-    "btcChange": 933.01,
+    "btc": 67777.86,
+    "btcChange": 1086.41,
     "btcHistory": [
       68775.85,
       68293.65,
@@ -621,12 +621,12 @@
       66319.7,
       65954.92,
       66691.45,
-      67624.45
+      67777.86
     ],
     "btcHistoryStart": "2026-03-02",
     "btcHistoryEnd": "2026-03-31",
-    "eth": 2090.42,
-    "ethChange": 66.91,
+    "eth": 2095.03,
+    "ethChange": 71.51,
     "ethHistory": [
       2027.27,
       1982.77,
@@ -657,7 +657,7 @@
       1992.69,
       1982.56,
       2023.51,
-      2090.42
+      2095.03
     ],
     "ethHistoryStart": "2026-03-02",
     "ethHistoryEnd": "2026-03-31"
@@ -666,57 +666,57 @@
     {
       "name": "科技",
       "symbol": "XLK",
-      "changePercent": 3.6
+      "changePercent": 3.44
     },
     {
       "name": "消费",
       "symbol": "XLY",
-      "changePercent": 3.06
+      "changePercent": 2.97
     },
     {
       "name": "通信",
       "symbol": "XLC",
-      "changePercent": 2.62
+      "changePercent": 2.57
     },
     {
       "name": "工业",
       "symbol": "XLI",
-      "changePercent": 2.57
+      "changePercent": 2.46
     },
     {
       "name": "金融",
       "symbol": "XLF",
-      "changePercent": 1.87
+      "changePercent": 1.81
     },
     {
       "name": "房地产",
       "symbol": "XLRE",
-      "changePercent": 1.72
+      "changePercent": 1.59
     },
     {
       "name": "医疗",
       "symbol": "XLV",
-      "changePercent": 1.49
+      "changePercent": 1.43
     },
     {
       "name": "材料",
       "symbol": "XLB",
-      "changePercent": 1.3
+      "changePercent": 1.12
     },
     {
       "name": "日常消费品",
       "symbol": "XLP",
-      "changePercent": -0.37
+      "changePercent": -0.43
     },
     {
       "name": "公用事业",
       "symbol": "XLU",
-      "changePercent": -0.45
+      "changePercent": -0.63
     },
     {
       "name": "能源",
       "symbol": "XLE",
-      "changePercent": -0.89
+      "changePercent": -1.48
     }
   ],
   "news": [
@@ -844,32 +844,32 @@
   "fearGreedIndex": null,
   "valuation": {
     "sp500": {
-      "pe": 25.7,
-      "forwardPE": 23.36,
+      "pe": 25.68,
+      "forwardPE": 23.35,
       "pePercentile1y": 46,
-      "pePercentile5y": 90,
+      "pePercentile5y": 89,
       "pePercentile10y": 95,
       "peRangeLow": 14,
       "peRangeHigh": 35,
-      "drawdown52w": -6.91,
+      "drawdown52w": -7.0,
       "high52w": 695.94,
-      "drawdownATH": -6.91,
+      "drawdownATH": -7.0,
       "allTimeHigh": 695.94,
-      "currentPrice": 647.83
+      "currentPrice": 647.24
     },
     "nasdaq": {
-      "pe": 30.94,
+      "pe": 30.93,
       "forwardPE": 26.9,
-      "pePercentile1y": 43,
+      "pePercentile1y": 42,
       "pePercentile5y": 89,
       "pePercentile10y": 94,
       "peRangeLow": 18,
       "peRangeHigh": 45,
-      "drawdown52w": -9.59,
+      "drawdown52w": -9.64,
       "high52w": 635.8,
-      "drawdownATH": -9.59,
+      "drawdownATH": -9.64,
       "allTimeHigh": 635.8,
-      "currentPrice": 574.85
+      "currentPrice": 574.53
     }
   },
   "advanceDeclineRatio": null,
