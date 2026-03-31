@@ -57,7 +57,10 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
                  data.overallSentiment === 'bearish' ? '🔴 看跌' : '🟡 中性'}
               </span>
               <span className="text-sm text-content-muted">
-                更新于 {new Date(data.timestamp).toLocaleTimeString('zh-CN')}
+                更新于 {new Date(data.timestamp).toLocaleString('zh-CN', {
+                  year: 'numeric', month: '2-digit', day: '2-digit',
+                  hour: '2-digit', minute: '2-digit', second: '2-digit'
+                })}
               </span>
             </div>
           </div>
