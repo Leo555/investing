@@ -2,40 +2,40 @@
   "date": "2026-04-01",
   "dataDate": "2026-03-31",
   "forecastDate": "2026-04-01",
-  "timestamp": "2026-03-31T17:07:51.066103",
+  "timestamp": "2026-04-01T11:58:45.189986+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": 1,
+  "sentimentScore": 8,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
-    "price": 21477.56,
-    "change": 682.92,
-    "changePercent": 3.28,
+    "price": 21590.63,
+    "change": 795.99,
+    "changePercent": 3.83,
     "tradingDate": "2026-03-31",
     "open": 21064.33,
-    "high": 21532.18,
+    "high": 21642.62,
     "low": 21063.38,
     "previousClose": 20794.64,
-    "volume": 5387122000,
-    "avgVolume": 8888144600,
+    "volume": 9047720000,
+    "avgVolume": 9071174500,
     "yearHigh": 24019.99,
     "yearHighDate": "2025-10-29",
     "yearLow": 14784.03,
     "yearLowDate": "2025-04-07",
     "pe": null,
     "marketCap": null,
-    "sma20": 22074.11,
-    "sma50": 22665.05,
+    "sma20": 22079.76,
+    "sma50": 22667.31,
     "sma200": null,
-    "rsi14": 35.6,
-    "macdLine": -426.2155,
-    "macdSignal": -323.5045,
-    "macdHistogram": -102.711,
-    "bollingerUpper": 23224.52,
-    "bollingerMiddle": 22074.11,
-    "bollingerLower": 20923.7,
-    "atr14": 432.51,
+    "rsi14": 37.2,
+    "macdLine": -418.0897,
+    "macdSignal": -323.7302,
+    "macdHistogram": -94.3595,
+    "bollingerUpper": 23219.45,
+    "bollingerMiddle": 22079.76,
+    "bollingerLower": 20940.07,
+    "atr14": 440.4,
     "priceHistory": [
       {
         "date": "2026-02-18",
@@ -184,41 +184,41 @@
       },
       {
         "date": "2026-03-31",
-        "close": 21477.56,
-        "volume": 5387122000
+        "close": 21590.63,
+        "volume": 9047720000
       }
     ]
   },
   "sp500": {
     "symbol": "^GSPC",
     "name": "S&P 500",
-    "price": 6495.13,
-    "change": 151.41,
-    "changePercent": 2.39,
+    "price": 6528.52,
+    "change": 184.8,
+    "changePercent": 2.91,
     "tradingDate": "2026-03-31",
     "open": 6395.88,
-    "high": 6517.52,
+    "high": 6539.05,
     "low": 6395.88,
     "previousClose": 6343.72,
-    "volume": 1512807000,
-    "avgVolume": 5585007350,
+    "volume": 3868268000,
+    "avgVolume": 5702780400,
     "yearHigh": 7002.28,
     "yearHighDate": "2026-01-28",
     "yearLow": 4835.04,
     "yearLowDate": "2025-04-07",
     "pe": null,
     "marketCap": null,
-    "sma20": 6633.28,
-    "sma50": 6793.25,
+    "sma20": 6634.95,
+    "sma50": 6793.92,
     "sma200": null,
-    "rsi14": 35.6,
-    "macdLine": -108.8996,
-    "macdSignal": -89.5992,
-    "macdHistogram": -19.3004,
-    "bollingerUpper": 6920.39,
-    "bollingerMiddle": 6633.28,
-    "bollingerLower": 6346.17,
-    "atr14": 106.45,
+    "rsi14": 37.7,
+    "macdLine": -106.3204,
+    "macdSignal": -89.4171,
+    "macdHistogram": -16.9034,
+    "bollingerUpper": 6919.2,
+    "bollingerMiddle": 6634.95,
+    "bollingerLower": 6350.7,
+    "atr14": 107.99,
     "priceHistory": [
       {
         "date": "2026-02-18",
@@ -367,14 +367,14 @@
       },
       {
         "date": "2026-03-31",
-        "close": 6495.13,
-        "volume": 1512807000
+        "close": 6528.52,
+        "volume": 3868268000
       }
     ]
   },
   "indicators": {
-    "vix": 26.45,
-    "vixChange": -4.16,
+    "vix": 25.25,
+    "vixChange": -5.36,
     "vixHistory": [
       19.62,
       20.23,
@@ -405,12 +405,12 @@
       27.44,
       31.05,
       30.61,
-      26.45
+      25.25
     ],
     "vixHistoryStart": "2026-02-18",
     "vixHistoryEnd": "2026-03-31",
-    "dxy": 100.0,
-    "dxyChange": -0.51,
+    "dxy": 99.84,
+    "dxyChange": -0.67,
     "dxyHistory": [
       97.7,
       97.93,
@@ -441,12 +441,12 @@
       99.9,
       100.15,
       100.51,
-      100.0
+      99.84
     ],
     "dxyHistoryStart": "2026-02-18",
     "dxyHistoryEnd": "2026-03-31",
-    "us10y": 4.3,
-    "us10yChange": -0.04,
+    "us10y": 4.31,
+    "us10yChange": -0.03,
     "us10yHistory": [
       4.08,
       4.07,
@@ -477,7 +477,7 @@
       4.42,
       4.44,
       4.34,
-      4.3
+      4.31
     ],
     "us10yHistoryStart": "2026-02-18",
     "us10yHistoryEnd": "2026-03-31",
@@ -517,8 +517,8 @@
     ],
     "us2yHistoryStart": "2026-02-18",
     "us2yHistoryEnd": "2026-03-31",
-    "gold": 4670.1,
-    "goldChange": 144.1,
+    "gold": 4712.5,
+    "goldChange": 186.5,
     "goldHistory": [
       4986.5,
       4975.9,
@@ -549,12 +549,12 @@
       4375.5,
       4492.0,
       4526.0,
-      4670.1
+      4712.5
     ],
     "goldHistoryStart": "2026-02-18",
     "goldHistoryEnd": "2026-03-31",
-    "oil": 101.91,
-    "oilChange": -0.97,
+    "oil": 102.91,
+    "oilChange": 0.03,
     "oilHistory": [
       65.19,
       66.43,
@@ -585,12 +585,12 @@
       94.48,
       99.64,
       102.88,
-      101.91
+      102.91
     ],
     "oilHistoryStart": "2026-02-18",
     "oilHistoryEnd": "2026-03-31",
-    "btc": 67777.86,
-    "btcChange": 1086.41,
+    "btc": 68110.67,
+    "btcChange": 1419.23,
     "btcHistory": [
       68775.85,
       68293.65,
@@ -621,12 +621,12 @@
       66319.7,
       65954.92,
       66691.45,
-      67777.86
+      68110.67
     ],
     "btcHistoryStart": "2026-03-02",
-    "btcHistoryEnd": "2026-03-31",
-    "eth": 2095.03,
-    "ethChange": 71.51,
+    "btcHistoryEnd": "2026-04-01",
+    "eth": 2101.04,
+    "ethChange": 77.52,
     "ethHistory": [
       2027.27,
       1982.77,
@@ -657,219 +657,219 @@
       1992.69,
       1982.56,
       2023.51,
-      2095.03
+      2101.04
     ],
     "ethHistoryStart": "2026-03-02",
-    "ethHistoryEnd": "2026-03-31"
+    "ethHistoryEnd": "2026-04-01"
   },
   "sectors": [
     {
       "name": "科技",
       "symbol": "XLK",
-      "changePercent": 3.44
-    },
-    {
-      "name": "消费",
-      "symbol": "XLY",
-      "changePercent": 2.97
-    },
-    {
-      "name": "通信",
-      "symbol": "XLC",
-      "changePercent": 2.57
+      "changePercent": 4.24
     },
     {
       "name": "工业",
       "symbol": "XLI",
-      "changePercent": 2.46
+      "changePercent": 3.27
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": 3.14
+    },
+    {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": 2.69
     },
     {
       "name": "金融",
       "symbol": "XLF",
-      "changePercent": 1.81
-    },
-    {
-      "name": "房地产",
-      "symbol": "XLRE",
-      "changePercent": 1.59
+      "changePercent": 2.09
     },
     {
       "name": "医疗",
       "symbol": "XLV",
-      "changePercent": 1.43
+      "changePercent": 1.94
     },
     {
       "name": "材料",
       "symbol": "XLB",
-      "changePercent": 1.12
+      "changePercent": 1.79
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": 1.54
     },
     {
       "name": "日常消费品",
       "symbol": "XLP",
-      "changePercent": -0.43
+      "changePercent": 0.12
     },
     {
       "name": "公用事业",
       "symbol": "XLU",
-      "changePercent": -0.63
+      "changePercent": -0.07
     },
     {
       "name": "能源",
       "symbol": "XLE",
-      "changePercent": -1.48
+      "changePercent": -1.13
     }
   ],
   "news": [
     {
-      "title": "Irenic Capital Discloses Snapchat Stake, Seeks Strategy Changes to Boost Valuation",
-      "summary": "Irenic sent a letter to Snapchat CEO Evan Spiegel arguing that the social-media company’s market capitalization should be closer to $35 billion, as opposed to its current enterprise value of around $7.9 billion.",
+      "title": "Why Is Palantir Technologies (PLTR) Stock Rocketing Higher Today",
+      "summary": "Shares of data analytics company Palantir Technologies (NASDAQ:PLTR) jumped 6.2% in the afternoon session after the company announced the renewal and expansion of its partnership with automaker Stellantis.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/e35b1196-c50c-32b4-9cdb-5ec80440a9f6/irenic-capital-discloses.html?.tsrc=rss",
-      "publishedAt": "Tue, 31 Mar 2026 16:32:00 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-technologies-pltr-stock-034119654.html?.tsrc=rss",
+      "publishedAt": "Wed, 01 Apr 2026 03:41:19 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Stocks Jump on Hopes War Could End Soon, Gas Tops $4 a Gallon",
-      "summary": "Stocks jumped after President Trump told aides that he’s willing to end the war without fully reopening the Strait of Hormuz.",
+      "title": "Why Tesla (TSLA) Stock Is Up Today",
+      "summary": "Shares of electric vehicle pioneer Tesla (NASDAQ:TSLA) jumped 4.2% in the afternoon session after CEO Elon Musk announced a 'big' investment in Japan to expand the company's service infrastructure and Supercharger network.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/6b089110-67d8-3c3a-93cb-01b68bb1a7f2/stocks-jump-on-hopes-war.html?.tsrc=rss",
-      "publishedAt": "Tue, 31 Mar 2026 16:19:00 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-tesla-tsla-stock-today-033319670.html?.tsrc=rss",
+      "publishedAt": "Wed, 01 Apr 2026 03:33:19 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Goldman Sachs has a message on Nvidia stock for investors",
-      "summary": "The Goldman Sachs trading desk has circulated a note flagging what it describes as a significant disconnect in Nvidia stock. The core observation is that NVDA is now trading at a forward price-to-earnings ratio below the S&P 500 for the first time in more than a decade, even as the company ...",
+      "title": "Wells Fargo resets its S&P 500 target for rest of 2026",
+      "summary": "Wells Fargo has cut its year-end S&P 500 (SP500) price target to 7,300 from 7,800, pointing to risks it did not see coming when the year began. The revision came from equity analyst Ohsung Kwon, who cited the ongoing U.S.-Iran war and lower-than-expected tax returns as the main drivers. The new ...",
       "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/stocks/goldman-sachs-has-a-message-on-nvidia-stock-for-investors?.tsrc=rss",
-      "publishedAt": "Tue, 31 Mar 2026 16:18:36 +0000",
+      "url": "https://www.thestreet.com/investing/stocks/wells-fargo-resets-its-sp-500-target-for-rest-of-2026?.tsrc=rss",
+      "publishedAt": "Wed, 01 Apr 2026 03:33:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Goldman Sachs sends surprise message to stock market investors",
+      "summary": "Goldman Sachs struck a rather surprisingly constructive tone on the stock market just before April begins. As per reporting from Seeking Alpha, the bank’s analysts feel the market’s recent sell-off, exasperated by the Iran War, may have, in fact, improved the near-term setup for ...",
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/investing/goldman-sachs-sends-surprise-message-to-stock-market-investors-in-april?.tsrc=rss",
+      "publishedAt": "Wed, 01 Apr 2026 03:17:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Barrick Mining Corporation (B) Surged on Strong Gold Prices",
-      "summary": "Ariel Investments, an investment management company, released its “Ariel Focus Fund” fourth-quarter 2025 investor letter. A copy of the letter can be downloaded here. Ariel Focus Fund delivered mixed results in the fourth quarter of 2025, declining -0.50% and underperforming both the S&P 500 and Rus",
+      "title": "Dow Jones Futures Rise, UAE Willing To Help Force Hormuz Open; Trump To Speak To Nation On Iran",
+      "summary": "President Trump is eyeing an Iran war exit even if the Strait of Hormuz stays closed. Stocks soared, oil prices were mixed.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/barrick-mining-corporation-b-surged-161659991.html?.tsrc=rss",
-      "publishedAt": "Tue, 31 Mar 2026 16:16:59 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Affiliated Managers Group (AMG) Advanced on Strong Demand for Alternative Investment Solutions",
-      "summary": "Ariel Investments, an investment management company, released its “Ariel Focus Fund” fourth-quarter 2025 investor letter. A copy of the letter can be downloaded here. Ariel Focus Fund delivered mixed results in the fourth quarter of 2025, declining -0.50% and underperforming both the S&P 500 and Rus",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/affiliated-managers-group-amg-advanced-161454502.html?.tsrc=rss",
-      "publishedAt": "Tue, 31 Mar 2026 16:14:54 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Why $4 a gallon gas prices won’t trigger Fed interest rate hikes — and could lead to cuts",
-      "summary": "While there's still plenty of uncertainty about where rates are headed, Wall Street commentary shifted back to expectations for cuts.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/31/why-4-a-gallon-gas-prices-wont-trigger-fed-interest-rate-hikes-and-could-lead-to-cuts.html",
-      "publishedAt": "Tue, 31 Mar 2026 16:49:03 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Oracle cutting thousands in latest layoff round as company continues to ramp AI spending",
-      "summary": "Oracle has ratcheted up its capital expenditures as it builds data center infrastructure that can handle AI workloads.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
-      "publishedAt": "Tue, 31 Mar 2026 16:54:56 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump lashes out at UK and France, telling allies 'the U.S.A. won't be there to help you anymore'",
-      "summary": "Trump re-upped his disdain for European allies that have refused to take part in the U.S. and Israel's military operation against Iran.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/31/trump-attacks-uk-france-x-posts-tells-allies-the-usa-wont-help-anymore.html",
-      "publishedAt": "Tue, 31 Mar 2026 15:56:41 GMT",
+      "url": "https://finance.yahoo.com/m/a8adcb6d-15db-3091-a220-e37a4a87e62c/dow-jones-futures-rise%2C-uae.html?.tsrc=rss",
+      "publishedAt": "Wed, 01 Apr 2026 03:09:18 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Warren Buffett says Iran bomb would make nuclear disaster harder to avoid",
-      "summary": "The Berkshire Hathaway chairman said the growing number of nuclear-armed states has fundamentally altered the global risk landscape.",
+      "title": "Trump to address nation on Iran war Wednesday night, White House says",
+      "summary": "President Donald Trump said he expected that U.S. military forces will leave Iran in \"two or three weeks.\"",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/31/warren-buffett-says-iran-bomb-would-make-nuclear-disaster-harder-to-avoid.html",
-      "publishedAt": "Tue, 31 Mar 2026 16:38:42 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "McCormick buys Unilever's food business in deal that values it at nearly $45 billion",
-      "summary": "McCormick will pay a combination of cash and equity to expand further into condiments and spreads.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/31/mccormick-buys-unilever-food-business.html",
-      "publishedAt": "Tue, 31 Mar 2026 15:21:31 GMT",
+      "url": "https://www.cnbc.com/2026/03/31/trump-iran-war.html",
+      "publishedAt": "Wed, 01 Apr 2026 00:12:49 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Trump urges other nations to ‘take’ the Strait of Hormuz. Here’s who has the most at stake.",
-      "summary": "President Trump is urging other nations to launch their own missions to control the Strait of Hormuz, a move that would benefit one area of the world the most.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/trump-urges-other-nations-to-take-the-strait-of-hormuz-heres-who-has-the-most-at-stake-9677d0f3?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 31 Mar 2026 16:23:00 GMT",
+      "title": "Microsoft closes worst quarter on Wall Street since 2008 on AI concerns: 'Redmond is in a pickle'",
+      "summary": "With Microsoft losing almost a quarter of its value this year, investors have reset the company's earnings multiple to the lowest since late 2022.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html",
+      "publishedAt": "Tue, 31 Mar 2026 22:06:16 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "ServiceNow’s stock is having its worst quarter on record. What comes next?",
-      "summary": "Analysts think ServiceNow can improve performance later this year as early AI adopters stock up on more credits and as some pandemic-era contracts come up for renewal.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/servicenows-stock-is-having-its-worst-quarter-on-record-what-comes-next-d3ca4fed?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 31 Mar 2026 16:11:00 GMT",
+      "title": "NFL approves sale of 7% of Las Vegas Raiders at over $11 billion valuation",
+      "summary": "The National Football League has approved the sale of 7% of the Las Vegas Raiders at a valuation of more than $11 billion.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/nfl-approves-sale-of-7percent-of-las-vegas-raiders-at-over-11-billion-valuation.html",
+      "publishedAt": "Tue, 31 Mar 2026 22:41:23 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Oil extends gains after record monthly rally as Trump signals Iran war exit amid energy disruptions",
+      "summary": "Crude prices extended gains as traders weighed escalating attacks in the Persian Gulf and signs that President Donald Trump was contemplating an exit from the Iran conflict.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/01/oil-prices-today-brent-wti.html",
+      "publishedAt": "Wed, 01 Apr 2026 02:38:10 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Moon launches are having a moment. But can you make money off the lunar frenzy?",
-      "summary": "The moon rush is on: Artemis II is ready to fly, as Musk, Bezos and NASA race to make the lunar economy a reality.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/moon-launches-are-having-a-moment-but-can-you-make-money-off-the-lunar-frenzy-847babed?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 31 Mar 2026 15:38:00 GMT",
+      "title": "South Korea's Kospi leads rebound in Asia markets as Trump says Iran war could end in weeks",
+      "summary": "On Tuesday stateside, Trump said the U.S. could leave Iran in \"two or three weeks,\" adding \"We leave because there's no reason for us to do this.\"",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/01/asia-markets-live-today-nikkei-kospi-boj-tankan-iran-war.html",
+      "publishedAt": "Wed, 01 Apr 2026 02:52:01 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "20 stocks that bucked the stock market’s decline in March with double-digit gains",
-      "summary": "Energy stocks have fared well as crude-oil prices have shot up, but one other industry group has also done well since the U.S. and Israel attacked Iran on Feb. 28.",
+      "title": "Here are 12 top tech-themed stock picks from UBS analysts",
+      "summary": "The investment bank has “high conviction” in Amazon’s growth potential — with AWS estimates that are far above what investors may be expecting.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/20-stocks-that-bucked-the-stock-markets-decline-in-march-with-double-digit-gains-ad396fc6?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 31 Mar 2026 15:34:00 GMT",
-      "sentiment": "neutral"
+      "url": "https://www.marketwatch.com/story/here-are-12-top-tech-themed-stock-picks-from-ubs-analysts-61e80582?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 01 Apr 2026 02:49:00 GMT",
+      "sentiment": "positive"
     },
     {
-      "title": "Consumer confidence improves in March as brighter job-market view outweighs surging costs amid Iran war",
-      "summary": "Consumers expect higher inflation and interest rates in coming months.",
+      "title": "‘She has taken my inheritance’: My mom bullied my grandmother to change her will and physically abused her. What can we do?",
+      "summary": "“I believe my mom caused her physical injury and abused her on multiple occasions.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/consumer-confidence-improves-in-march-as-brighter-job-market-view-outweighs-surging-costs-amid-war-c6e9ac7c?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 31 Mar 2026 15:34:00 GMT",
+      "url": "https://www.marketwatch.com/story/she-has-taken-my-inheritance-my-mom-bullied-my-grandmother-to-change-her-will-and-physically-abused-her-what-can-we-do-2c4ee13f?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 01 Apr 2026 01:13:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "A wild first quarter comes to an end: 6 charts that defined a chaotic stretch for stocks",
+      "summary": "Last-day gains didn’t stop the S&P 500 from tallying its worst first quarter since 2022 as the Iran conflict, private-credit worries and the AI ‘scare trade’ weighed on stocks in March.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/investors-brace-for-more-stock-market-volatility-as-wild-first-quarter-ends-with-biggest-rally-in-a-year-7f97a12e?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 01 Apr 2026 00:23:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Nike expects more falling sales, as stock sinks amid worries turnaround is not working",
+      "summary": "Nike reported quarterly results that were a bit better than Wall Street’s expectations, but investors still didn’t appear convinced of the sneaker giant’s turnaround efforts.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/nikes-results-were-better-than-expected-but-investors-still-arent-sold-on-its-turnaround-ef2d3b70?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 01 Apr 2026 00:14:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "‘I was shoveling sidewalks at 8 years old’: I’m a 73-year-old boomer dad with two kids. Here’s what I teach them about finance",
+      "summary": "“My parents knew nothing about finance and investing, so my buddies and I had to figure it out on our own.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-was-shoveling-sidewalks-at-8-years-old-im-a-73-year-old-boomer-dad-with-two-kids-heres-what-i-teach-them-about-finance-339e1295?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 01 Apr 2026 00:11:00 GMT",
       "sentiment": "neutral"
     }
   ],
   "fearGreedIndex": null,
   "valuation": {
     "sp500": {
-      "pe": 25.68,
-      "forwardPE": 23.35,
-      "pePercentile1y": 46,
-      "pePercentile5y": 89,
+      "pe": 25.8,
+      "forwardPE": 23.45,
+      "pePercentile1y": 47,
+      "pePercentile5y": 90,
       "pePercentile10y": 95,
       "peRangeLow": 14,
       "peRangeHigh": 35,
-      "drawdown52w": -7.0,
+      "drawdown52w": -6.55,
       "high52w": 695.94,
-      "drawdownATH": -7.0,
+      "drawdownATH": -6.55,
       "allTimeHigh": 695.94,
-      "currentPrice": 647.24
+      "currentPrice": 650.34
     },
     "nasdaq": {
-      "pe": 30.93,
-      "forwardPE": 26.9,
-      "pePercentile1y": 42,
+      "pe": 31.07,
+      "forwardPE": 27.02,
+      "pePercentile1y": 44,
       "pePercentile5y": 89,
       "pePercentile10y": 94,
       "peRangeLow": 18,
       "peRangeHigh": 45,
-      "drawdown52w": -9.64,
+      "drawdown52w": -9.22,
       "high52w": 635.8,
-      "drawdownATH": -9.64,
+      "drawdownATH": -9.22,
       "allTimeHigh": 635.8,
-      "currentPrice": 574.53
+      "currentPrice": 577.18
     }
   },
   "advanceDeclineRatio": null,
