@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#34d399"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="36" fill="url(#bg)"/>
+  <polyline points="28,127 56,113 85,120 113,85 141,63 155,42" 
+    fill="none" stroke="url(#line)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="155" cy="42" r="7" fill="#fbbf24"/>
+  <circle cx="155" cy="42" r="11" fill="#fbbf24" opacity="0.3"/>
+  <rect x="28" y="137" width="17" height="18" rx="3" fill="white" opacity="0.25"/>
+  <rect x="56" y="131" width="17" height="24" rx="3" fill="white" opacity="0.3"/>
+  <rect x="85" y="134" width="17" height="21" rx="3" fill="white" opacity="0.25"/>
+  <rect x="113" y="124" width="17" height="31" rx="3" fill="white" opacity="0.35"/>
+  <rect x="141" y="117" width="17" height="38" rx="3" fill="white" opacity="0.4"/>
+</svg>
