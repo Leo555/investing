@@ -100,3 +100,41 @@ jobs:
               fi
             done
           fi
+
+      - name: Send WeCom notification
+        if: always()
+        env:
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+        run: |
+          if [ -z "$WECOM_WEBHOOK_URL" ]; then
+            echo "⚠️ WECOM_WEBHOOK_URL 未设置，跳过通知"
+            exit 0
+          fi
+          
+          LATEST_FILE=$(ls -t data/*.json 2>/dev/null | grep -v index.json | head -1)
+          if [ -n "$LATEST_FILE" ] && [ "${{ job.status }}" = "success" ]; then
+            NASDAQ=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(f\"{d['nasdaq']['price']:,.2f} ({d['nasdaq']['changePercent']:+.2f}%)\")" 2>/dev/null || echo "N/A")
+            SP500=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(f\"{d['sp500']['price']:,.2f} ({d['sp500']['changePercent']:+.2f}%)\")" 2>/dev/null || echo "N/A")
+            SENTIMENT=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); s=d['overallSentiment']; print('看涨' if s=='bullish' else '看跌' if s=='bearish' else '中性')" 2>/dev/null || echo "N/A")
+            SCORE=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(d['sentimentScore'])" 2>/dev/null || echo "N/A")
+            FORECAST=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(d.get('forecastDate', d['date']))" 2>/dev/null || echo "N/A")
+            DATA_DATE=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(d.get('dataDate', ''))" 2>/dev/null || echo "")
+            VIX=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(d['indicators'].get('vix', 'N/A'))" 2>/dev/null || echo "N/A")
+            
+            CONTENT="📊 **${FORECAST} 晴雨表已更新**\n"
+            CONTENT+=">基于 **${DATA_DATE}** 收盘数据\n"
+            CONTENT+=">情绪：<font color=\"info\">${SENTIMENT} (${SCORE})</font>\n"
+            CONTENT+=">纳指：${NASDAQ}\n"
+            CONTENT+=">标普：${SP500}\n"
+            CONTENT+=">VIX：${VIX}\n"
+            CONTENT+=">[👉 查看详情](https://investing.lz5z.com/barometer/${FORECAST}/)"
+          else
+            CONTENT="❌ **投资晴雨表更新失败**\n"
+            CONTENT+=">GitHub Actions 状态: ${{ job.status }}\n"
+            CONTENT+=">[查看日志](https://github.com/Leo555/investing/actions)"
+          fi
+          
+          curl -s -H "Content-Type: application/json" \
+            -d "{\"msgtype\":\"markdown\",\"markdown\":{\"content\":\"${CONTENT}\"}}" \
+            "${WECOM_WEBHOOK_URL}" > /dev/null 2>&1
+          echo "✅ 企业微信通知已发送"
