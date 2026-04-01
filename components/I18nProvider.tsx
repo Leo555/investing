@@ -48,7 +48,7 @@ export function LocaleToggle() {
   return (
     <button
       onClick={() => setLocale(locale === 'zh' ? 'en' : 'zh')}
-      className="px-2.5 py-1.5 text-xs font-medium rounded-lg border border-border bg-surface-card text-content-secondary hover:text-content-primary hover:bg-surface-inset transition-colors"
+      className="w-9 h-9 flex items-center justify-center text-xs font-medium rounded-lg border border-border bg-surface-card text-content-secondary hover:text-content-primary hover:bg-surface-card-hover transition-all duration-300"
       title={locale === 'zh' ? 'Switch to English' : '切换到中文'}
     >
       {locale === 'zh' ? 'EN' : '中文'}
