@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { useI18n } from './I18nProvider';
-import { LocaleToggle } from './I18nProvider';
+import { useI18n, LocaleToggle } from './I18nProvider';
+import { ThemeToggle } from './ThemeProvider';
 
 export function HomeHeader() {
   const { t } = useI18n();
@@ -18,7 +18,8 @@ export function HomeHeader() {
               <p className="text-xs text-content-muted">{t.siteSubtitle}</p>
             </div>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <ThemeToggle />
             <LocaleToggle />
             <a
               href="https://github.com/Leo555/investing"
@@ -53,30 +54,27 @@ export function BarometerHeader({
           <Link href="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity shrink-0">
             <span className="text-xl sm:text-2xl">📊</span>
             <div>
-              <h1 className="text-base sm:text-lg font-bold text-content-primary leading-tight">{t.siteName}</h1>
+              <h1 className="text-sm sm:text-lg font-bold text-content-primary leading-tight">{t.siteName}</h1>
               <p className="text-[10px] sm:text-xs text-content-muted hidden sm:block">{t.siteSubtitle}</p>
             </div>
           </Link>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            <ThemeToggle />
             <LocaleToggle />
             <nav className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm">
               {prevDate && (
-                <Link
-                  href={`/barometer/${prevDate}/`}
-                  className="text-content-muted hover:text-content-primary px-2 sm:px-3 py-1.5 rounded-lg hover:bg-surface-card transition-colors whitespace-nowrap"
-                >
-                  ← <span className="hidden sm:inline">{prevDate}</span><span className="sm:hidden">{prevDate.slice(5)}</span>
+                <Link href={`/barometer/${prevDate}/`} className="text-content-muted hover:text-content-primary px-1.5 sm:px-3 py-1.5 rounded-lg hover:bg-surface-card transition-colors whitespace-nowrap">
+                  <span className="hidden sm:inline">← {prevDate}</span>
+                  <span className="sm:hidden text-base">←</span>
                 </Link>
               )}
               <span className="text-content-primary font-medium px-2 sm:px-3 py-1.5 bg-surface-card rounded-lg border border-border whitespace-nowrap">
                 <span className="hidden sm:inline">{date}</span><span className="sm:hidden">{date.slice(5)}</span>
               </span>
               {nextDate && (
-                <Link
-                  href={`/barometer/${nextDate}/`}
-                  className="text-content-muted hover:text-content-primary px-2 sm:px-3 py-1.5 rounded-lg hover:bg-surface-card transition-colors whitespace-nowrap"
-                >
-                  <span className="hidden sm:inline">{nextDate}</span><span className="sm:hidden">{nextDate.slice(5)}</span> →
+                <Link href={`/barometer/${nextDate}/`} className="text-content-muted hover:text-content-primary px-1.5 sm:px-3 py-1.5 rounded-lg hover:bg-surface-card transition-colors whitespace-nowrap">
+                  <span className="hidden sm:inline">{nextDate} →</span>
+                  <span className="sm:hidden text-base">→</span>
                 </Link>
               )}
             </nav>

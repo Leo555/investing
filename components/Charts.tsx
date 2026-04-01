@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { useI18n } from './I18nProvider';
 
 // 情绪仪表盘
 export function SentimentGauge({ score, sentiment }: { score: number; sentiment: string }) {
@@ -186,12 +187,13 @@ export function MetricCard({
 
 // RSI 指示器
 export function RSIIndicator({ value }: { value: number | null }) {
+  const { t } = useI18n();
   if (!value) return null;
 
   const getZone = () => {
-    if (value >= 70) return { label: '超买', color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/20' };
-    if (value <= 30) return { label: '超卖', color: 'text-green-600 dark:text-green-400', bg: 'bg-green-500/20' };
-    return { label: '正常', color: 'text-yellow-600 dark:text-yellow-400', bg: 'bg-yellow-500/20' };
+    if (value >= 70) return { label: t.overbought, color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/20' };
+    if (value <= 30) return { label: t.oversold, color: 'text-green-600 dark:text-green-400', bg: 'bg-green-500/20' };
+    return { label: t.normal, color: 'text-yellow-600 dark:text-yellow-400', bg: 'bg-yellow-500/20' };
   };
 
   const zone = getZone();
@@ -213,9 +215,9 @@ export function RSIIndicator({ value }: { value: number | null }) {
         />
       </div>
       <div className="flex justify-between text-xs text-content-muted mt-1">
-        <span>超卖 30</span>
+        <span>{t.oversold} 30</span>
         <span>50</span>
-        <span>超买 70</span>
+        <span>{t.overbought} 70</span>
       </div>
     </div>
   );
@@ -223,14 +225,15 @@ export function RSIIndicator({ value }: { value: number | null }) {
 
 // 恐惧贪婪指数
 export function FearGreedGauge({ value }: { value: number | null }) {
+  const { t } = useI18n();
   if (!value) return null;
 
   const getZone = () => {
-    if (value <= 25) return { label: '极度恐惧', color: '#ef4444', emoji: '😰' };
-    if (value <= 45) return { label: '恐惧', color: '#f97316', emoji: '😟' };
-    if (value <= 55) return { label: '中性', color: '#eab308', emoji: '😐' };
-    if (value <= 75) return { label: '贪婪', color: '#84cc16', emoji: '😊' };
-    return { label: '极度贪婪', color: '#22c55e', emoji: '🤑' };
+    if (value <= 25) return { label: t.extremeFear, color: '#ef4444', emoji: '😰' };
+    if (value <= 45) return { label: t.fear, color: '#f97316', emoji: '😟' };
+    if (value <= 55) return { label: t.neutral, color: '#eab308', emoji: '😐' };
+    if (value <= 75) return { label: t.greed, color: '#84cc16', emoji: '😊' };
+    return { label: t.extremeGreed, color: '#22c55e', emoji: '🤑' };
   };
 
   const zone = getZone();
@@ -238,7 +241,7 @@ export function FearGreedGauge({ value }: { value: number | null }) {
 
   return (
     <div className="bg-surface-card border border-border rounded-xl p-4">
-      <div className="text-sm text-content-secondary mb-2">恐惧 & 贪婪指数</div>
+      <div className="text-sm text-content-secondary mb-2">{t.fearGreed}</div>
       <div className="flex flex-col items-center">
         <svg viewBox="0 0 200 120" className="w-40 h-24">
           <defs>
@@ -377,16 +380,9 @@ export function Sparkline({
 
 // 移动平均线状态
 export function MAStatus({
-  price,
-  sma20,
-  sma50,
-  sma200,
-}: {
-  price: number;
-  sma20: number | null;
-  sma50: number | null;
-  sma200: number | null;
-}) {
+  price, sma20, sma50, sma200,
+}: { price: number; sma20: number | null; sma50: number | null; sma200: number | null }) {
+  const { t } = useI18n();
   const items = [
     { label: 'SMA 20', value: sma20 },
     { label: 'SMA 50', value: sma50 },
@@ -395,7 +391,7 @@ export function MAStatus({
 
   return (
     <div className="bg-surface-card border border-border rounded-xl p-4">
-      <div className="text-sm text-content-secondary mb-3">均线系统</div>
+      <div className="text-sm text-content-secondary mb-3">{t.maSystem}</div>
       <div className="space-y-2">
         {items.map((item) => {
           if (!item.value) return null;
