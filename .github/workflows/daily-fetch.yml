@@ -2,9 +2,8 @@ name: Daily Data Fetch & Deploy
 
 on:
   schedule:
-    # 每天 UTC 02:00 执行 = 北京时间每天上午 10:00
-    # 包含周末
-    - cron: '0 2 * * *'
+    # UTC 02:00 = 北京时间 10:00，周一到周六执行
+    - cron: '0 2 * * 1-6'
   workflow_dispatch: # 允许手动触发
 
 permissions:
