@@ -57,8 +57,6 @@
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* 自定义滚动条 */
@@ -75,7 +73,7 @@ body {
 
 /* 卡片动画 */
 .card-hover {
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: var(--shadow-card);
 }
 .card-hover:hover {
@@ -135,13 +133,14 @@ body {
   @apply bg-yellow-500/20 text-yellow-600 dark:text-yellow-400 border border-yellow-500/30;
 }
 
-/* 主题切换过渡 */
-*, *::before, *::after {
-  transition-property: background-color, border-color, box-shadow;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
-}
-/* 排除：动画类/交互类自身的 transition 不被覆盖 */
-.card-hover, button, a, [class*="transition-"] {
-  transition-property: all;
+/* 主题切换过渡 — 仅对关键容器元素生效 */
+body,
+.bg-surface-card,
+.bg-surface-secondary,
+[class*="bg-surface-"],
+[class*="border-border"],
+header,
+footer,
+section {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
 }
