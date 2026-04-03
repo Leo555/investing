@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   SentimentGauge,
   ChangeDisplay,
@@ -187,7 +187,7 @@ export default function BarometerClient({ data }: { data: BarometerData }) {
 // 指数卡片
 function IndexCard({ index }: { index: BarometerData['nasdaq'] }) {
   const { t, locale } = useI18n();
-  const sparkData = index.priceHistory.map(p => p.close);
+  const sparkData = useMemo(() => index.priceHistory.map(p => p.close), [index.priceHistory]);
 
   return (
     <div className="bg-surface-card border border-border rounded-2xl p-6">
@@ -351,8 +351,8 @@ function ValuationCard({ name, etf, data, indexPrice }: { name: string; etf: str
           <div className="relative border border-border rounded-xl p-4">
             <div className="absolute -top-2.5 left-1/2 -translate-x-1/2 px-3 bg-surface-card text-[11px] font-semibold text-content-secondary whitespace-nowrap">{t.coreValuation}</div>
             <div className="grid grid-cols-2 divide-x divide-border mt-1">
-              {data.pe != null && (<div className="text-center pr-4"><div className="text-xs text-content-muted mb-1">{t.latestPE}</div><div className="text-3xl font-extrabold text-content-primary tracking-tight">{data.pe.toFixed(2)}</div></div>)}
-              {data.forwardPE != null && (<div className="text-center pl-4"><div className="text-xs text-content-muted mb-1">{t.forwardPE}</div><div className="text-3xl font-extrabold text-content-primary tracking-tight">{data.forwardPE.toFixed(2)}</div></div>)}
+              {data.pe != null && (<div className="text-center pr-4"><div className="text-xs text-content-muted mb-1">{t.latestPE}</div><div className="text-3xl font-bold text-content-primary tracking-tight">{data.pe.toFixed(2)}</div></div>)}
+              {data.forwardPE != null && (<div className="text-center pl-4"><div className="text-xs text-content-muted mb-1">{t.forwardPE}</div><div className="text-3xl font-bold text-content-primary tracking-tight">{data.forwardPE.toFixed(2)}</div></div>)}
             </div>
           </div>
         )}
@@ -399,7 +399,7 @@ function ValuationCard({ name, etf, data, indexPrice }: { name: string; etf: str
                   <div className="text-xs text-content-muted mb-2">{t.drawdownFromATH}</div>
                   <div className="flex items-center justify-center gap-1">
                     <span className="text-red-500 text-lg">↓</span>
-                    <span className={`text-2xl font-extrabold ${data.drawdownATH < -10 ? 'text-red-500 dark:text-red-400' : data.drawdownATH < -5 ? 'text-orange-500' : 'text-yellow-600'}`}>{Math.abs(data.drawdownATH).toFixed(2)}%</span>
+                    <span className={`text-2xl font-bold ${data.drawdownATH < -10 ? 'text-red-500 dark:text-red-400' : data.drawdownATH < -5 ? 'text-orange-500' : 'text-yellow-600'}`}>{Math.abs(data.drawdownATH).toFixed(2)}%</span>
                   </div>
                   {data.allTimeHigh && <div className="text-[10px] text-content-muted mt-1">{t.ath} {data.allTimeHigh.toLocaleString('en-US', { minimumFractionDigits: 2 })}</div>}
                 </div>
@@ -409,7 +409,7 @@ function ValuationCard({ name, etf, data, indexPrice }: { name: string; etf: str
                   <div className="text-xs text-content-muted mb-2">{t.drawdownFrom52w}</div>
                   <div className="flex items-center justify-center gap-1">
                     <span className="text-red-500 text-lg">↓</span>
-                    <span className={`text-2xl font-extrabold ${data.drawdown52w < -10 ? 'text-red-500 dark:text-red-400' : data.drawdown52w < -5 ? 'text-orange-500' : 'text-yellow-600'}`}>{Math.abs(data.drawdown52w).toFixed(2)}%</span>
+                    <span className={`text-2xl font-bold ${data.drawdown52w < -10 ? 'text-red-500 dark:text-red-400' : data.drawdown52w < -5 ? 'text-orange-500' : 'text-yellow-600'}`}>{Math.abs(data.drawdown52w).toFixed(2)}%</span>
                   </div>
                   {data.high52w && <div className="text-[10px] text-content-muted mt-1">{t.highPoint} {data.high52w.toLocaleString('en-US', { minimumFractionDigits: 2 })}</div>}
                 </div>

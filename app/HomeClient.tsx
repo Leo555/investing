@@ -1,17 +1,20 @@
 'use client';
 
+import { useState, useMemo, useCallback } from 'react';
 import Link from 'next/link';
 import { BarometerSummary } from '@/lib/types';
-import { ThemeToggle } from '@/components/ThemeProvider';
 import { useI18n } from '@/components/I18nProvider';
 import { getDateLocale } from '@/lib/i18n';
+
+const PAGE_SIZE = 20;
 
 export default function HomeClient({ summaries }: { summaries: BarometerSummary[] }) {
   const { t, locale } = useI18n();
   const dateLoc = getDateLocale(locale);
   const latestSummary = summaries[0];
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
-  const getSentimentConfig = (sentiment: string) => {
+  const getSentimentConfig = useCallback((sentiment: string) => {
     switch (sentiment) {
       case 'bullish':
         return { label: t.bullish, color: 'text-red-600 dark:text-red-400', bg: 'bg-red-500/20', border: 'border-red-500/30', emoji: '🔴' };
@@ -20,16 +23,21 @@ export default function HomeClient({ summaries }: { summaries: BarometerSummary[
       default:
         return { label: t.neutral, color: 'text-yellow-600 dark:text-yellow-400', bg: 'bg-yellow-500/20', border: 'border-yellow-500/30', emoji: '🟡' };
     }
-  };
+  }, [t]);
 
-  const weekdays = locale === 'en'
+  const weekdays = useMemo(() => locale === 'en'
     ? ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-    : ['日', '一', '二', '三', '四', '五', '六'];
+    : ['日', '一', '二', '三', '四', '五', '六'], [locale]);
+
+  const visibleSummaries = useMemo(() => summaries.slice(0, visibleCount), [summaries, visibleCount]);
+  const hasMore = visibleCount < summaries.length;
 
   return (
     <div>
 
-      {latestSummary && (
+      {latestSummary && (() => {
+        const latestConfig = getSentimentConfig(latestSummary.overallSentiment);
+        return (
         <div className="mb-10">
           <h3 className="text-sm font-medium text-content-muted uppercase tracking-wider mb-4">{t.latestBarometer}</h3>
           <Link href={`/barometer/${latestSummary.date}/`}>
@@ -43,8 +51,8 @@ export default function HomeClient({ summaries }: { summaries: BarometerSummary[
                       latestSummary.overallSentiment === 'bearish' ? 'sentiment-bearish' :
                       'sentiment-neutral'
                     }`}>
-                      {getSentimentConfig(latestSummary.overallSentiment).emoji}{' '}
-                      {getSentimentConfig(latestSummary.overallSentiment).label}
+                      {latestConfig.emoji}{' '}
+                      {latestConfig.label}
                       {' '}({latestSummary.sentimentScore > 0 ? '+' : ''}{latestSummary.sentimentScore})
                     </span>
                     {latestSummary.vix && (
@@ -63,11 +71,12 @@ export default function HomeClient({ summaries }: { summaries: BarometerSummary[
             </div>
           </Link>
         </div>
-      )}
+        );
+      })()}
 
       <h3 className="text-sm font-medium text-content-muted uppercase tracking-wider mb-4">{t.historyRecords}</h3>
       <div className="space-y-3">
-        {summaries.map((summary) => {
+        {visibleSummaries.map((summary) => {
           const config = getSentimentConfig(summary.overallSentiment);
           const d = new Date(summary.date + 'T00:00:00');
           return (
@@ -111,6 +120,16 @@ export default function HomeClient({ summaries }: { summaries: BarometerSummary[
           );
         })}
       </div>
+      {hasMore && (
+        <div className="flex justify-center mt-6">
+          <button
+            onClick={() => setVisibleCount(prev => prev + PAGE_SIZE)}
+            className="px-6 py-2.5 text-sm font-medium text-content-secondary bg-surface-card border border-border rounded-full hover:bg-surface-inset hover:text-content-primary transition-colors"
+          >
+            {locale === 'en' ? `Load more (${summaries.length - visibleCount} remaining)` : `加载更多 (还有 ${summaries.length - visibleCount} 条)`}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

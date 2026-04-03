@@ -6,7 +6,7 @@ export function HomeHero() {
   const { t } = useI18n();
   return (
     <div className="text-center mb-12">
-      <h2 className="text-4xl sm:text-5xl font-extrabold text-content-primary mb-4">
+      <h2 className="text-4xl sm:text-5xl font-bold text-content-primary mb-4">
         {t.heroTitle}<span className="text-blue-500 dark:text-blue-400">{t.heroHighlight}</span>
       </h2>
       <p className="text-lg text-content-secondary max-w-2xl mx-auto">
