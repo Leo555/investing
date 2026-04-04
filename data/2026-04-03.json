@@ -2,10 +2,10 @@
   "date": "2026-04-03",
   "dataDate": "2026-04-02",
   "forecastDate": "2026-04-03",
-  "timestamp": "2026-04-03T12:32:52.111073+08:00",
+  "timestamp": "2026-04-04T12:21:08.440052+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": -16,
+  "sentimentScore": -15,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -409,8 +409,8 @@
     ],
     "vixHistoryStart": "2026-02-20",
     "vixHistoryEnd": "2026-04-02",
-    "dxy": 100.03,
-    "dxyChange": -0.0,
+    "dxy": 100.19,
+    "dxyChange": 0.16,
     "dxyHistory": [
       97.7,
       97.88,
@@ -441,7 +441,7 @@
       99.96,
       99.65,
       100.03,
-      100.03
+      100.19
     ],
     "dxyHistoryStart": "2026-02-23",
     "dxyHistoryEnd": "2026-04-03",
@@ -589,10 +589,9 @@
     ],
     "oilHistoryStart": "2026-02-20",
     "oilHistoryEnd": "2026-04-02",
-    "btc": 66545.0,
-    "btcChange": -1533.55,
+    "btc": 66790.79,
+    "btcChange": -97.78,
     "btcHistory": [
-      72710.58,
       70841.12,
       68136.49,
       67272.59,
@@ -621,14 +620,14 @@
       66691.45,
       68233.31,
       68078.55,
-      66545.0
+      66888.57,
+      66790.79
     ],
-    "btcHistoryStart": "2026-03-04",
-    "btcHistoryEnd": "2026-04-03",
-    "eth": 2051.16,
-    "ethChange": -87.58,
+    "btcHistoryStart": "2026-03-05",
+    "btcHistoryEnd": "2026-04-04",
+    "eth": 2048.7,
+    "ethChange": -8.15,
     "ethHistory": [
-      2126.51,
       2071.61,
       1978.75,
       1969.46,
@@ -657,10 +656,11 @@
       2023.51,
       2104.71,
       2138.74,
-      2051.16
+      2056.85,
+      2048.7
     ],
-    "ethHistoryStart": "2026-03-04",
-    "ethHistoryEnd": "2026-04-03"
+    "ethHistoryStart": "2026-03-05",
+    "ethHistoryEnd": "2026-04-04"
   },
   "sectors": [
     {
@@ -721,123 +721,123 @@
   ],
   "news": [
     {
-      "title": "Dow Jones Futures Fall With Jobs Report Due; Stock Market Hasn't Done This Yet",
-      "summary": "The stock market rose strongly for the week, even with oil prices soaring. Investors should look for this signal. Tesla tumbled Thursday on weak deliveries.",
+      "title": "Dow Jones Futures: After Strong Week, Look For This Bullish Market Signal",
+      "summary": "Futures fell as the March jobs report was much stronger than expected. Look for this stock market signal. Tesla tumbled Thursday.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/f9bb3669-1120-3897-b122-ec93fc17a8e6/dow-jones-futures-fall-with.html?.tsrc=rss",
-      "publishedAt": "Fri, 03 Apr 2026 02:57:35 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Why Norwegian Cruise Line Stock Fell 24% in March",
-      "summary": "The cruise line issued another disappointing earnings report, and the war in Iran weighed on the stock.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/02/why-norwegian-cruise-line-stock-fell-24-in-march/?.tsrc=rss",
-      "publishedAt": "Fri, 03 Apr 2026 02:50:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Two Blue Chip Stocks I'd Buy Into This Week's Weakness Without Hesitation",
-      "summary": "With the market down, many blue chip stocks are trading at a nice discount, Apple and Coca-Cola are two of the best opportunities.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/02/two-blue-chip-stocks-id-buy-into-this-weeks-weakne/?.tsrc=rss",
-      "publishedAt": "Fri, 03 Apr 2026 01:25:00 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "VDC vs. IYK: Vanguard's Structural Advantage and IYK's Defensive Twist",
-      "summary": "Sector mix, yield, and fees shape how these consumer staples ETFs fit different investor priorities beyond just price or payout.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/coverage/etfs/2026/04/02/vdc-vs-iyk-vanguard-s-structural-advantage-and-iyk-s-defensive-twist/?.tsrc=rss",
-      "publishedAt": "Fri, 03 Apr 2026 01:10:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "GDX vs. SGDM: A $27 Billion Size Gap and a Concentration Difference Worth Noting",
-      "summary": "Explore how differences in fund size, holdings, and risk metrics shape the distinct profiles of these two gold miner ETFs.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/coverage/etfs/2026/04/02/gdx-vs-sgdm-a-usd27-billion-size-gap-and-a-concentration-difference-worth-noting/?.tsrc=rss",
-      "publishedAt": "Fri, 03 Apr 2026 01:02:00 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "The March jobs report will be released on Friday. Here's what to expect",
-      "summary": "The U.S. economy is projected to show job gains of 59,000 in March, with the unemployment rate holding at 4.4%.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/02/the-march-jobs-report-will-be-released-on-friday-heres-what-to-expect.html",
-      "publishedAt": "Thu, 02 Apr 2026 20:04:41 GMT",
+      "url": "https://finance.yahoo.com/m/f9bb3669-1120-3897-b122-ec93fc17a8e6/dow-jones-futures%3A-after.html?.tsrc=rss",
+      "publishedAt": "Sat, 04 Apr 2026 01:48:57 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Trump fires Attorney General Pam Bondi",
-      "summary": "President Trump was said to be unhappy with Pam Bondi's handling of DOJ files about Jeffrey Epstein and the DOJ's failure to prosecute his political enemies.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/02/trump-pam-bondi-attorney-general-lee-zeldin.html",
-      "publishedAt": "Thu, 02 Apr 2026 20:32:48 GMT",
+      "title": "3 Reasons Stocks Might Crash Under Trump in 2026",
+      "summary": "The economic outlook has gone from bad to worse.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/04/03/3-reasons-stocks-might-crash-under-trump-in-2026/?.tsrc=rss",
+      "publishedAt": "Sat, 04 Apr 2026 00:50:00 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "Asia-Pacific markets mostly rise in Easter trade on hopes for Hormuz reopening",
-      "summary": "South Korea's Kospi led gains in the region while Japan's Nikkei 225 also opened higher. The Australian and Hong Kong markets were closed for the Easter weekend.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/03/asia-markets-live-hormuz-iran-oil-prices-nikkei-225.html",
-      "publishedAt": "Fri, 03 Apr 2026 02:57:27 GMT",
+      "title": "1 S&P 500 Stock with Solid Fundamentals and 2 We Avoid",
+      "summary": "The S&P 500 (^GSPC) is home to the biggest and most well-known companies in the market, making it a go-to index for investors seeking stability. But not all large-cap stocks are created equal - some are struggling with slowing growth, declining margins, or increased competition.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-solid-003650412.html?.tsrc=rss",
+      "publishedAt": "Sat, 04 Apr 2026 00:36:50 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Microsoft executive touts Copilot sales traction as AI anxiety weighs on stock",
-      "summary": "Analysts have said adoption of the $30-per-month Microsoft 365 Copilot is in the early stage.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/02/microsoft-executive-touts-copilot-traction-after-analyst-pressure.html",
-      "publishedAt": "Fri, 03 Apr 2026 00:36:22 GMT",
+      "title": "2 Industrials Stocks with Exciting Potential and 1 Facing Headwinds",
+      "summary": "Whether you see them or not, industrials businesses play a crucial part in our daily activities. They are also bound to benefit from a friendlier regulatory environment with the Trump administration, and this excitement has led to a six-month gain of 3.9% for the sector. Investing here would have be",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-exciting-potential-002050000.html?.tsrc=rss",
+      "publishedAt": "Sat, 04 Apr 2026 00:20:50 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "1 Healthcare Stock on Our Watchlist and 2 We Find Risky",
+      "summary": "Personal health and wellness is one of the many secular tailwinds for healthcare companies. But speed bumps such as inventory destockings have persisted in the wake of COVID-19, and over the past six months, the industry has pulled back by 2.2%. This drawdown mirrored the S&P 500’s decline.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/1-healthcare-stock-watchlist-2-235650906.html?.tsrc=rss",
+      "publishedAt": "Fri, 03 Apr 2026 23:56:50 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "Iran and Oman drafting protocol to 'monitor' Hormuz Strait traffic: IRNA",
-      "summary": "The Strait of Hormuz, the vital artery for global oil transit, has been effectively closed since the Iran war started in late February.",
+      "title": "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
+      "summary": "Nonfarm payrolls were expected to increase by 59,000 in March, with the unemployment rate holding at 4.4%.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/02/iran-war-oman-hormuz-strait.html",
-      "publishedAt": "Thu, 02 Apr 2026 18:46:52 GMT",
+      "url": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html",
+      "publishedAt": "Fri, 03 Apr 2026 13:35:34 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Pam Bondi was just fired by Trump. Here’s how the stock market has fared since her infamous ‘Dow is over 50,000’ comment.",
-      "summary": "Spoiler: Not great",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/pam-bondi-was-just-fired-by-trump-heres-how-the-stock-market-has-fared-since-her-infamous-dow-is-over-50-000-comment-694a261c?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 03 Apr 2026 02:21:00 GMT",
+      "title": "U.S. fighter jet shot down in Iran, one crew member rescued, MS NOW reports",
+      "summary": "It is unclear if the plane was shot down or went down for another reason.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/03/us-fighter-jet-downed-in-iran.html",
+      "publishedAt": "Fri, 03 Apr 2026 21:05:30 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump threatens to destroy Iranian infrastructure, saying its government 'knows what has to be done'",
+      "summary": "The threat comes a day after he said in a nationwide address that the U.S. military will be hitting Tehran \"extremely hard\" for the next two or three weeks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/03/trump-iran-threats-un-resolution-blocked-strait-of-hormuz-f35-shot-down.html",
+      "publishedAt": "Fri, 03 Apr 2026 15:17:46 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Mortgage rates rise for the fifth week in a row. Here’s how much more homebuyers are paying since the Iran war started.",
-      "summary": "Just before the start of fighting in the Middle East, mortgage rates had dropped to their lowest level since 2022.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/mortgage-rates-rise-for-the-fifth-week-in-a-row-heres-how-much-more-homebuyers-are-paying-since-the-iran-wars-start-910bd100?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 03 Apr 2026 00:52:00 GMT",
+      "title": "OpenAI's Fidji Simo takes medical leave, announces leadership changes",
+      "summary": "OpenAI President Greg Brockman will oversee product in Simo's absence.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
+      "publishedAt": "Fri, 03 Apr 2026 22:40:38 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Starbucks made two big moves to help its turnaround today — but they didn’t help the coffee chain’s stock",
-      "summary": "Starbucks on Thursday rolled out a bonus and tipping program for its employees, and announced a deal that hands off a big slice of its store business in China to an investment firm.",
+      "title": "Trump tariff fallout: Some industries grapple with lingering effects one year later",
+      "summary": "A year after his \"liberation day,\" Trump's trade war has reshaped how companies in industries such as retail and autos are modeling economic and policy risk.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/03/trump-tariffs-trade-war-impact.html",
+      "publishedAt": "Fri, 03 Apr 2026 11:30:01 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "How TBPN went from nerdy online talk show to splashy OpenAI acquisition",
+      "summary": "The less “antagonistic” tone of TBPN resonated with a Silicon Valley audience. Now the show is going mainstream.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/starbucks-made-two-big-moves-to-help-its-turnaround-today-but-they-didnt-help-the-coffee-chains-stock-f8ccd9dc?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 03 Apr 2026 00:17:00 GMT",
+      "url": "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Apr 2026 22:02:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Here’s what’s worth streaming in April 2026 on Netflix, Hulu, HBO Max and more",
-      "summary": "Prices are rising at Netflix and Amazon, while Hulu revives ‘Malcolm in the Middle’ and HBO Max has new seasons of ‘Hacks’ and ‘Euphoria’",
+      "title": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?",
+      "summary": "“We have no experience with Treasurys .”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-april-2026-on-netflix-hulu-hbo-max-and-more-e6e085e7?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 02 Apr 2026 23:42:00 GMT",
+      "url": "https://www.marketwatch.com/story/my-wife-and-i-buy-promotional-cds-with-our-tax-refund-check-is-now-a-bad-time-to-switch-to-treasurys-e19841aa?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Apr 2026 21:20:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Gold’s bull run faces hurdles but finish line is not necessarily in view, according to UBS strategist",
-      "summary": "Bullion prices may fall if the Federal Reserve decides to hold interest rates for the rest of the year, which the market has priced in.",
+      "title": "‘This is an overlooked catastrophe’: Why do so many hospitals not accept Medicare Advantage for cancer patients?",
+      "summary": "“Insurers have pushed certain cancer-care centers out of network before the end of the calendar or policy year.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/golds-bull-run-could-be-nearing-its-finish-line-says-ubs-strategist-0f2d94f8?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 02 Apr 2026 23:32:00 GMT",
+      "url": "https://www.marketwatch.com/story/this-is-an-overlooked-catastrophe-why-do-so-many-hospitals-not-accept-medicare-advantage-for-cancer-patients-130c1a13?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Apr 2026 21:15:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘I plan to take out a mortgage’: My father died. Should I buy the family home from my mom at a 40% discount?",
+      "summary": "“I’ve been caring for my mother, and we each currently occupy a unit in the house.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-plan-to-take-out-a-mortgage-my-father-died-should-i-buy-the-family-home-from-my-mom-at-a-40-discount-b6a3ac7b?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Apr 2026 20:19:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘I’d like to be a superhost’: Is it unethical to use AI in my Airbnb photos to market my property?",
+      "summary": "“No matter what I do, the beds still look a bit creased and worn, even grubby, in pictures.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/id-like-to-be-a-superhost-is-it-unethical-to-use-ai-in-my-airbnb-photos-to-market-my-property-67c0db11?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Apr 2026 20:18:00 GMT",
       "sentiment": "neutral"
     }
   ],
