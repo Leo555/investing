@@ -2,10 +2,10 @@
   "date": "2026-04-03",
   "dataDate": "2026-04-02",
   "forecastDate": "2026-04-03",
-  "timestamp": "2026-04-04T12:21:08.440052+08:00",
+  "timestamp": "2026-04-06T12:47:05.877517+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": -15,
+  "sentimentScore": -8,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -409,8 +409,8 @@
     ],
     "vixHistoryStart": "2026-02-20",
     "vixHistoryEnd": "2026-04-02",
-    "dxy": 100.19,
-    "dxyChange": 0.16,
+    "dxy": 100.14,
+    "dxyChange": 0.11,
     "dxyHistory": [
       97.7,
       97.88,
@@ -441,10 +441,10 @@
       99.96,
       99.65,
       100.03,
-      100.19
+      100.14
     ],
     "dxyHistoryStart": "2026-02-23",
-    "dxyHistoryEnd": "2026-04-03",
+    "dxyHistoryEnd": "2026-04-06",
     "us10y": 4.31,
     "us10yChange": -0.01,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-02-20",
     "us2yHistoryEnd": "2026-04-02",
-    "gold": 4651.5,
-    "goldChange": -131.7,
+    "gold": 4675.6,
+    "goldChange": 24.1,
     "goldHistory": [
-      5059.3,
       5204.7,
       5155.8,
       5206.4,
@@ -549,14 +548,14 @@
       4526.0,
       4647.6,
       4783.2,
-      4651.5
+      4651.5,
+      4675.6
     ],
-    "goldHistoryStart": "2026-02-20",
-    "goldHistoryEnd": "2026-04-02",
-    "oil": 111.54,
-    "oilChange": 11.42,
+    "goldHistoryStart": "2026-02-23",
+    "goldHistoryEnd": "2026-04-06",
+    "oil": 111.17,
+    "oilChange": -0.37,
     "oilHistory": [
-      66.39,
       66.31,
       65.63,
       65.42,
@@ -585,15 +584,14 @@
       102.88,
       101.38,
       100.12,
-      111.54
+      111.54,
+      111.17
     ],
-    "oilHistoryStart": "2026-02-20",
-    "oilHistoryEnd": "2026-04-02",
-    "btc": 66790.79,
-    "btcChange": -97.78,
+    "oilHistoryStart": "2026-02-23",
+    "oilHistoryEnd": "2026-04-06",
+    "btc": 69157.96,
+    "btcChange": 1867.45,
     "btcHistory": [
-      70841.12,
-      68136.49,
       67272.59,
       65969.78,
       68402.38,
@@ -621,15 +619,15 @@
       68233.31,
       68078.55,
       66888.57,
-      66790.79
+      66931.1,
+      67290.52,
+      69157.96
     ],
-    "btcHistoryStart": "2026-03-05",
-    "btcHistoryEnd": "2026-04-04",
-    "eth": 2048.7,
-    "ethChange": -8.15,
+    "btcHistoryStart": "2026-03-07",
+    "btcHistoryEnd": "2026-04-06",
+    "eth": 2132.4,
+    "ethChange": 67.05,
     "ethHistory": [
-      2071.61,
-      1978.75,
       1969.46,
       1936.6,
       1992.94,
@@ -657,10 +655,12 @@
       2104.71,
       2138.74,
       2056.85,
-      2048.7
+      2053.39,
+      2065.35,
+      2132.4
     ],
-    "ethHistoryStart": "2026-03-05",
-    "ethHistoryEnd": "2026-04-04"
+    "ethHistoryStart": "2026-03-07",
+    "ethHistoryEnd": "2026-04-06"
   },
   "sectors": [
     {
@@ -721,107 +721,91 @@
   ],
   "news": [
     {
-      "title": "Dow Jones Futures: After Strong Week, Look For This Bullish Market Signal",
-      "summary": "Futures fell as the March jobs report was much stronger than expected. Look for this stock market signal. Tesla tumbled Thursday.",
+      "title": "Bitcoin’s 36% Annualized Return Since August 2020 Shows Why Zooming Out Still Wins",
+      "summary": "In CT, the easiest way to win an argument is to pick the timeframe that flatters your take. This is why Michael Say...",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/f9bb3669-1120-3897-b122-ec93fc17a8e6/dow-jones-futures%3A-after.html?.tsrc=rss",
-      "publishedAt": "Sat, 04 Apr 2026 01:48:57 +0000",
+      "url": "https://www.cryptoprowl.com/releases/bitcoins-36-annualized-return-since-august-2020-shows-why-zooming-out-still-wins-4060?.tsrc=rss",
+      "publishedAt": "Mon, 06 Apr 2026 04:20:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Stocks Rise, Oil Trims Gain on Iran Ceasefire Hope: Markets Wrap",
+      "summary": "(Bloomberg) -- Stocks rose as investors cautiously returned to equities on signs the six-week-old Middle East conflict may be contained after a report that Iran is pushing for a ceasefire. Crude oil pared gains.The MSCI Asia Pacific Index rose 0.3%, with advancers and decliners evenly matched in the",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/trading-open-shadowed-trump-escalation-200039071.html?.tsrc=rss",
+      "publishedAt": "Mon, 06 Apr 2026 04:09:13 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "3 Reasons Stocks Might Crash Under Trump in 2026",
-      "summary": "The economic outlook has gone from bad to worse.",
+      "title": "Jim Cramer Says “I Don’t Think There’s a Compelling AI Disruption Case Against Shopify”",
+      "summary": "Shopify Inc. (NASDAQ:SHOP) is among the stocks in focus as Jim Cramer reviewed the S&P 500’s top performers and the Nasdaq 100’s biggest laggards for the first quarter. Cramer highlighted why the stock declined despite “tremendous growth and impressive profitability.” He commented: Finally, there’s ",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/03/3-reasons-stocks-might-crash-under-trump-in-2026/?.tsrc=rss",
-      "publishedAt": "Sat, 04 Apr 2026 00:50:00 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "1 S&P 500 Stock with Solid Fundamentals and 2 We Avoid",
-      "summary": "The S&P 500 (^GSPC) is home to the biggest and most well-known companies in the market, making it a go-to index for investors seeking stability. But not all large-cap stocks are created equal - some are struggling with slowing growth, declining margins, or increased competition.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-solid-003650412.html?.tsrc=rss",
-      "publishedAt": "Sat, 04 Apr 2026 00:36:50 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-don-t-034521919.html?.tsrc=rss",
+      "publishedAt": "Mon, 06 Apr 2026 03:45:21 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "2 Industrials Stocks with Exciting Potential and 1 Facing Headwinds",
-      "summary": "Whether you see them or not, industrials businesses play a crucial part in our daily activities. They are also bound to benefit from a friendlier regulatory environment with the Trump administration, and this excitement has led to a six-month gain of 3.9% for the sector. Investing here would have be",
+      "title": "Jim Cramer Discusses the Possibility of “End of Adobe’s Design Dominance”",
+      "summary": "Adobe Inc. (NASDAQ:ADBE) is among the stocks in focus as Jim Cramer reviewed the S&P 500’s top performers and the Nasdaq 100’s biggest laggards for the first quarter. Cramer highlighted the threats to the company, as he stated: The ninth-worst decliner is Adobe, which was down over 30% in the first ",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-exciting-potential-002050000.html?.tsrc=rss",
-      "publishedAt": "Sat, 04 Apr 2026 00:20:50 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discusses-possibility-end-034511719.html?.tsrc=rss",
+      "publishedAt": "Mon, 06 Apr 2026 03:45:11 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Jim Cramer Discusses Why Thomson Reuters Became an AI Casualty",
+      "summary": "Thomson Reuters Corporation (NASDAQ:TRI) is among the stocks in focus as Jim Cramer reviewed the S&P 500’s top performers and the Nasdaq 100’s biggest laggards for the first quarter. Cramer highlighted the impact of AI on the stock, as he commented: The eighth-worst name in the Nasdaq 100 was Thomso",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discusses-why-thomson-034502012.html?.tsrc=rss",
+      "publishedAt": "Mon, 06 Apr 2026 03:45:02 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "1 Healthcare Stock on Our Watchlist and 2 We Find Risky",
-      "summary": "Personal health and wellness is one of the many secular tailwinds for healthcare companies. But speed bumps such as inventory destockings have persisted in the wake of COVID-19, and over the past six months, the industry has pulled back by 2.2%. This drawdown mirrored the S&P 500’s decline.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/sectors/healthcare/articles/1-healthcare-stock-watchlist-2-235650906.html?.tsrc=rss",
-      "publishedAt": "Fri, 03 Apr 2026 23:56:50 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
-      "summary": "Nonfarm payrolls were expected to increase by 59,000 in March, with the unemployment rate holding at 4.4%.",
+      "title": "Trump vows Iran will be 'living in Hell' by Tuesday if Strait of Hormuz deadline missed",
+      "summary": "\"Tuesday will be Power Plant Day, and Bridge Day, all wrapped up in one, in Iran. There will be nothing like it!!!\" Trump said in a Truth Social post.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html",
-      "publishedAt": "Fri, 03 Apr 2026 13:35:34 GMT",
+      "url": "https://www.cnbc.com/2026/04/05/us-trump-confirms-missing-us-pilot-rescued.html",
+      "publishedAt": "Sun, 05 Apr 2026 18:51:20 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "U.S. fighter jet shot down in Iran, one crew member rescued, MS NOW reports",
-      "summary": "It is unclear if the plane was shot down or went down for another reason.",
+      "title": "Japan, South Korea stocks open higher as investors assess Trump's Iran war comments, extended deadline",
+      "summary": "In an expletive-filled social media post, Trump also vowed to bring \"Hell\" to the country after the U.S. forces had rescued an American airman shot down in Iran last week.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/03/us-fighter-jet-downed-in-iran.html",
-      "publishedAt": "Fri, 03 Apr 2026 21:05:30 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Trump threatens to destroy Iranian infrastructure, saying its government 'knows what has to be done'",
-      "summary": "The threat comes a day after he said in a nationwide address that the U.S. military will be hitting Tehran \"extremely hard\" for the next two or three weeks.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/03/trump-iran-threats-un-resolution-blocked-strait-of-hormuz-f35-shot-down.html",
-      "publishedAt": "Fri, 03 Apr 2026 15:17:46 GMT",
+      "url": "https://www.cnbc.com/2026/04/06/asia-markets-nikkei-225-crude-oil-trump-iran-hormuz.html",
+      "publishedAt": "Mon, 06 Apr 2026 00:19:57 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "OpenAI's Fidji Simo takes medical leave, announces leadership changes",
-      "summary": "OpenAI President Greg Brockman will oversee product in Simo's absence.",
+      "title": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
+      "summary": "A Senate committee will consider Kevin Warsh's nomination even as one of its members still plans to block it.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
-      "publishedAt": "Fri, 03 Apr 2026 22:40:38 GMT",
+      "url": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
+      "publishedAt": "Sat, 04 Apr 2026 13:19:30 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Trump tariff fallout: Some industries grapple with lingering effects one year later",
-      "summary": "A year after his \"liberation day,\" Trump's trade war has reshaped how companies in industries such as retail and autos are modeling economic and policy risk.",
+      "title": "Zohran Mamdani and the business exodus? New York's office real estate market is up under new mayor",
+      "summary": "Reports Apollo Global Management is planning a second HQ in the US South renewed debate over a business exodus under NYC Mayor Mamdani. Data doesn't support it.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/03/trump-tariffs-trade-war-impact.html",
-      "publishedAt": "Fri, 03 Apr 2026 11:30:01 GMT",
-      "sentiment": "negative"
+      "url": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
+      "publishedAt": "Sun, 05 Apr 2026 15:53:59 GMT",
+      "sentiment": "neutral"
     },
     {
-      "title": "How TBPN went from nerdy online talk show to splashy OpenAI acquisition",
-      "summary": "The less “antagonistic” tone of TBPN resonated with a Silicon Valley audience. Now the show is going mainstream.",
+      "title": "'Anything but autos': Can defense save Europe’s ailing car industry?",
+      "summary": "The transition from wheels to weapons is achievable in part because many of the underlying skills are highly transferable, according to experts.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/05/autos-defense-europe-car-industry.html",
+      "publishedAt": "Sun, 05 Apr 2026 05:00:01 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "‘I was shoveling sidewalks at 8 years old’: I’m a 73-year-old boomer dad with two kids. Here’s what I teach them about finance",
+      "summary": "“My parents knew nothing about finance and investing, so my buddies and I had to figure it out on our own.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 03 Apr 2026 22:02:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?",
-      "summary": "“We have no experience with Treasurys .”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-wife-and-i-buy-promotional-cds-with-our-tax-refund-check-is-now-a-bad-time-to-switch-to-treasurys-e19841aa?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 03 Apr 2026 21:20:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "‘This is an overlooked catastrophe’: Why do so many hospitals not accept Medicare Advantage for cancer patients?",
-      "summary": "“Insurers have pushed certain cancer-care centers out of network before the end of the calendar or policy year.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-is-an-overlooked-catastrophe-why-do-so-many-hospitals-not-accept-medicare-advantage-for-cancer-patients-130c1a13?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 03 Apr 2026 21:15:00 GMT",
+      "url": "https://www.marketwatch.com/story/i-was-shoveling-sidewalks-at-8-years-old-im-a-73-year-old-boomer-dad-with-two-kids-heres-what-i-teach-them-about-finance-339e1295?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 05 Apr 2026 20:17:00 GMT",
       "sentiment": "neutral"
     },
     {
@@ -829,15 +813,31 @@
       "summary": "“I’ve been caring for my mother, and we each currently occupy a unit in the house.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/i-plan-to-take-out-a-mortgage-my-father-died-should-i-buy-the-family-home-from-my-mom-at-a-40-discount-b6a3ac7b?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 03 Apr 2026 20:19:00 GMT",
+      "publishedAt": "Sun, 05 Apr 2026 20:16:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "‘I’d like to be a superhost’: Is it unethical to use AI in my Airbnb photos to market my property?",
-      "summary": "“No matter what I do, the beds still look a bit creased and worn, even grubby, in pictures.”",
+      "title": "‘I feel overwhelmed’: I’m 56 and only have $60,000 in my IRA. Is it too late for me?",
+      "summary": "“My husband has a pension, but I worry that if he passes before me, I could be left with nothing.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/id-like-to-be-a-superhost-is-it-unethical-to-use-ai-in-my-airbnb-photos-to-market-my-property-67c0db11?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 03 Apr 2026 20:18:00 GMT",
+      "url": "https://www.marketwatch.com/story/i-feel-overwhelmed-im-56-and-have-a-60-000-sep-ira-is-it-too-late-for-me-3671eba9?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 05 Apr 2026 20:01:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "April is usually a strong month for stocks — but three factors now jeopardize the market rebound",
+      "summary": "Worries about Fed rate hikes and souring earnings expectations could easily trip up the market for a second straight month.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/april-is-usually-a-strong-month-for-stocks-but-three-factors-now-jeopardize-the-market-rebound-b5cbf142?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 05 Apr 2026 16:00:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Delta kicks off an earnings season focused on surging gas prices and the Iran war",
+      "summary": "When Delta Air Lines kicks off the first-quarter earnings season on Wednesday, the air carrier’s results and forecast will offer a deeper look at how well U.S. customers and companies can withstand surging oil and fuel prices due to the war in Iran.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/delta-kicks-off-an-earnings-season-focused-on-surging-gas-prices-and-the-iran-war-4a4226fc?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 05 Apr 2026 14:00:00 GMT",
       "sentiment": "neutral"
     }
   ],
