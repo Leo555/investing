@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-04-08",
+    "overallSentiment": "neutral",
+    "sentimentScore": 10,
+    "nasdaqPrice": NaN,
+    "nasdaqChange": NaN,
+    "nasdaqChangePercent": NaN,
+    "sp500Price": NaN,
+    "sp500Change": NaN,
+    "sp500ChangePercent": NaN,
+    "vix": 25.78,
+    "newsCount": 15
+  },
+  {
     "date": "2026-04-07",
     "overallSentiment": "neutral",
     "sentimentScore": 1,
