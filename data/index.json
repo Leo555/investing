@@ -65,6 +65,19 @@
     "newsCount": 15
   },
   {
+    "date": "2026-04-06",
+    "overallSentiment": "neutral",
+    "sentimentScore": 17,
+    "nasdaqPrice": 21996.34,
+    "nasdaqChange": 80.47,
+    "nasdaqChangePercent": 0.35,
+    "sp500Price": 6611.83,
+    "sp500Change": -7.77,
+    "sp500ChangePercent": -0.11,
+    "vix": 19.23,
+    "newsCount": 0
+  },
+  {
     "date": "2026-04-03",
     "overallSentiment": "neutral",
     "sentimentScore": -8,
@@ -141,6 +154,19 @@
     "sp500ChangePercent": -1.67,
     "vix": 31.05,
     "newsCount": 15
+  },
+  {
+    "date": "2026-03-27",
+    "overallSentiment": "neutral",
+    "sentimentScore": 7,
+    "nasdaqPrice": 20948.36,
+    "nasdaqChange": 80.47,
+    "nasdaqChangePercent": 0.35,
+    "sp500Price": 6368.85,
+    "sp500Change": -7.77,
+    "sp500ChangePercent": -0.11,
+    "vix": 19.23,
+    "newsCount": 0
   },
   {
     "date": "2026-03-26",
