@@ -2,7 +2,7 @@
   {
     "date": "2026-04-13",
     "overallSentiment": "bullish",
-    "sentimentScore": 26,
+    "sentimentScore": 16,
     "nasdaqPrice": 22902.89,
     "nasdaqChange": 80.47,
     "nasdaqChangePercent": 0.35,
@@ -14,8 +14,8 @@
   },
   {
     "date": "2026-04-10",
-    "overallSentiment": "bullish",
-    "sentimentScore": 33,
+    "overallSentiment": "neutral",
+    "sentimentScore": 13,
     "nasdaqPrice": 22822.42,
     "nasdaqChange": 187.43,
     "nasdaqChangePercent": 0.83,
@@ -28,7 +28,7 @@
   {
     "date": "2026-04-09",
     "overallSentiment": "bullish",
-    "sentimentScore": 27,
+    "sentimentScore": 17,
     "nasdaqPrice": 22822.42,
     "nasdaqChange": 80.47,
     "nasdaqChangePercent": 0.35,
@@ -41,7 +41,7 @@
   {
     "date": "2026-04-08",
     "overallSentiment": "bullish",
-    "sentimentScore": 27,
+    "sentimentScore": 17,
     "nasdaqPrice": 22634.99,
     "nasdaqChange": 80.47,
     "nasdaqChangePercent": 0.35,
@@ -53,8 +53,8 @@
   },
   {
     "date": "2026-04-07",
-    "overallSentiment": "neutral",
-    "sentimentScore": 1,
+    "overallSentiment": "bullish",
+    "sentimentScore": 17,
     "nasdaqPrice": 21996.34,
     "nasdaqChange": 117.16,
     "nasdaqChangePercent": 0.54,
@@ -66,7 +66,7 @@
   },
   {
     "date": "2026-04-06",
-    "overallSentiment": "neutral",
+    "overallSentiment": "bullish",
     "sentimentScore": 17,
     "nasdaqPrice": 21996.34,
     "nasdaqChange": 80.47,
@@ -79,8 +79,8 @@
   },
   {
     "date": "2026-04-03",
-    "overallSentiment": "neutral",
-    "sentimentScore": -8,
+    "overallSentiment": "bullish",
+    "sentimentScore": 19,
     "nasdaqPrice": 21879.18,
     "nasdaqChange": 38.23,
     "nasdaqChangePercent": 0.18,
@@ -93,7 +93,7 @@
   {
     "date": "2026-04-02",
     "overallSentiment": "neutral",
-    "sentimentScore": 0,
+    "sentimentScore": -7,
     "nasdaqPrice": 21840.95,
     "nasdaqChange": 250.32,
     "nasdaqChangePercent": 1.16,
@@ -106,7 +106,7 @@
   {
     "date": "2026-04-01",
     "overallSentiment": "neutral",
-    "sentimentScore": 8,
+    "sentimentScore": -14,
     "nasdaqPrice": 21590.63,
     "nasdaqChange": 795.99,
     "nasdaqChangePercent": 3.83,
@@ -118,8 +118,8 @@
   },
   {
     "date": "2026-03-31",
-    "overallSentiment": "bearish",
-    "sentimentScore": -44,
+    "overallSentiment": "neutral",
+    "sentimentScore": 6,
     "nasdaqPrice": 20794.64,
     "nasdaqChange": -153.72,
     "nasdaqChangePercent": -0.73,
@@ -131,8 +131,8 @@
   },
   {
     "date": "2026-03-30",
-    "overallSentiment": "bearish",
-    "sentimentScore": -55,
+    "overallSentiment": "neutral",
+    "sentimentScore": 4,
     "nasdaqPrice": 20794.64,
     "nasdaqChange": -153.72,
     "nasdaqChangePercent": -0.73,
@@ -144,8 +144,8 @@
   },
   {
     "date": "2026-03-29",
-    "overallSentiment": "bearish",
-    "sentimentScore": -74,
+    "overallSentiment": "neutral",
+    "sentimentScore": 4,
     "nasdaqPrice": 20948.36,
     "nasdaqChange": -459.72,
     "nasdaqChangePercent": -2.15,
@@ -157,8 +157,8 @@
   },
   {
     "date": "2026-03-27",
-    "overallSentiment": "neutral",
-    "sentimentScore": 7,
+    "overallSentiment": "bullish",
+    "sentimentScore": 25,
     "nasdaqPrice": 20948.36,
     "nasdaqChange": 80.47,
     "nasdaqChangePercent": 0.35,
@@ -170,8 +170,8 @@
   },
   {
     "date": "2026-03-26",
-    "overallSentiment": "bearish",
-    "sentimentScore": -58,
+    "overallSentiment": "neutral",
+    "sentimentScore": -2,
     "nasdaqPrice": 21408.08,
     "nasdaqChange": -521.74,
     "nasdaqChangePercent": -2.38,
@@ -184,7 +184,7 @@
   {
     "date": "2026-03-25",
     "overallSentiment": "neutral",
-    "sentimentScore": -13,
+    "sentimentScore": -12,
     "nasdaqPrice": 21929.83,
     "nasdaqChange": 167.94,
     "nasdaqChangePercent": 0.77,
@@ -196,8 +196,8 @@
   },
   {
     "date": "2026-03-24",
-    "overallSentiment": "bearish",
-    "sentimentScore": -45,
+    "overallSentiment": "neutral",
+    "sentimentScore": -14,
     "nasdaqPrice": 21761.89,
     "nasdaqChange": -184.87,
     "nasdaqChangePercent": -0.84,
@@ -209,8 +209,8 @@
   },
   {
     "date": "2026-03-23",
-    "overallSentiment": "neutral",
-    "sentimentScore": -11,
+    "overallSentiment": "bearish",
+    "sentimentScore": -20,
     "nasdaqPrice": 21946.76,
     "nasdaqChange": 299.15,
     "nasdaqChangePercent": 1.38,
@@ -222,8 +222,8 @@
   },
   {
     "date": "2026-03-20",
-    "overallSentiment": "bearish",
-    "sentimentScore": -69,
+    "overallSentiment": "neutral",
+    "sentimentScore": -10,
     "nasdaqPrice": 21647.61,
     "nasdaqChange": -443.08,
     "nasdaqChangePercent": -2.01,

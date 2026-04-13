@@ -2,8 +2,8 @@
   "date": "2026-03-23",
   "timestamp": "2026-03-23T22:19:29.184895",
   "marketStatus": "closed",
-  "overallSentiment": "neutral",
-  "sentimentScore": -11,
+  "overallSentiment": "bearish",
+  "sentimentScore": -20,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",

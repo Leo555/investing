@@ -5,7 +5,7 @@
   "timestamp": "2026-04-01T11:58:45.189986+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": 8,
+  "sentimentScore": -14,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",

@@ -4,8 +4,8 @@
   "forecastDate": "2026-04-07",
   "timestamp": "2026-04-07T12:35:57.396117+08:00",
   "marketStatus": "closed",
-  "overallSentiment": "neutral",
-  "sentimentScore": 1,
+  "overallSentiment": "bullish",
+  "sentimentScore": 17,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
