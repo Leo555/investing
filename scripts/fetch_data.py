@@ -50,6 +50,19 @@ SECTOR_MAP = {
 }
 
 
+import math
+
+def _clean_nan(obj):
+    """递归清理数据中的 NaN/Infinity 为 None，防止 JSON 序列化失败"""
+    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+        return None
+    if isinstance(obj, dict):
+        return {k: _clean_nan(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_clean_nan(v) for v in obj]
+    return obj
+
+
 # ============================
 # Yahoo Finance Chart API
 # ============================
@@ -764,6 +777,7 @@ def main():
     }
 
     # 9. 保存
+    data = _clean_nan(data)
     output_path = DATA_DIR / f"{forecast_date}.json"
     if output_path.exists():
         print(f"  ⚠️ 覆盖已有文件 {output_path.name}")

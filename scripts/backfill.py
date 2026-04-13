@@ -23,6 +23,7 @@ from fetch_data import (
     calculate_sentiment,
     update_index,
     _next_trading_date,
+    _clean_nan,
     DATA_DIR,
 )
 
@@ -109,6 +110,8 @@ def backfill_date(target_date: str):
         "advanceDeclineRatio": None,
         "putCallRatio": None,
     }
+
+    data = _clean_nan(data)
 
     with open(output_path, "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)

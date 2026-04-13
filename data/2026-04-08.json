@@ -1,57 +1,42 @@
 {
   "date": "2026-04-08",
-  "dataDate": "2026-04-07",
-  "forecastDate": "2026-04-08",
-  "timestamp": "2026-04-08T12:39:37.183579+08:00",
+  "dataDate": "2026-04-08",
+  "forecastDate": "2026-04-09",
+  "timestamp": "2026-04-13T11:20:35.656700",
   "marketStatus": "closed",
-  "overallSentiment": "neutral",
-  "sentimentScore": 10,
+  "overallSentiment": "bullish",
+  "sentimentScore": 27,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
-    "price": NaN,
-    "change": NaN,
-    "changePercent": NaN,
-    "tradingDate": "2026-04-07",
-    "open": NaN,
-    "high": NaN,
-    "low": NaN,
-    "previousClose": 21996.34,
-    "volume": 9842564000,
-    "avgVolume": 8834808200,
+    "price": 22634.99,
+    "change": 80.47,
+    "changePercent": 0.35,
+    "tradingDate": "2026-04-08",
+    "open": 22634.99,
+    "high": 22634.99,
+    "low": 22634.99,
+    "previousClose": 22822.42,
+    "volume": 10411670000,
+    "avgVolume": 8989220000,
     "yearHigh": 24019.99,
     "yearHighDate": "2025-10-29",
-    "yearLow": 15270.28,
-    "yearLowDate": "2025-04-08",
+    "yearLow": 15685.33,
+    "yearLowDate": "2025-04-21",
     "pe": null,
     "marketCap": null,
-    "sma20": NaN,
-    "sma50": NaN,
+    "sma20": 21966.23,
+    "sma50": 22501.36,
     "sma200": null,
-    "rsi14": 43.7,
-    "macdLine": NaN,
-    "macdSignal": NaN,
-    "macdHistogram": NaN,
-    "bollingerUpper": NaN,
-    "bollingerMiddle": NaN,
-    "bollingerLower": NaN,
-    "atr14": NaN,
+    "rsi14": 66.1,
+    "macdLine": -11.5865,
+    "macdSignal": -267.7329,
+    "macdHistogram": 256.1464,
+    "bollingerUpper": 23023.6,
+    "bollingerMiddle": 21966.23,
+    "bollingerLower": 20908.86,
+    "atr14": 447.65,
     "priceHistory": [
-      {
-        "date": "2026-02-24",
-        "close": 22863.68,
-        "volume": 7932270000
-      },
-      {
-        "date": "2026-02-25",
-        "close": 23152.08,
-        "volume": 8427450000
-      },
-      {
-        "date": "2026-02-26",
-        "close": 22878.38,
-        "volume": 9033470000
-      },
       {
         "date": "2026-02-27",
         "close": 22668.21,
@@ -184,57 +169,57 @@
       },
       {
         "date": "2026-04-07",
-        "close": NaN,
-        "volume": 9842564000
+        "close": 22017.85,
+        "volume": 10796020000
+      },
+      {
+        "date": "2026-04-08",
+        "close": 22634.99,
+        "volume": 10411670000
+      },
+      {
+        "date": "2026-04-09",
+        "close": 22822.42,
+        "volume": 8662470000
+      },
+      {
+        "date": "2026-04-10",
+        "close": 22902.89,
+        "volume": 8700640000
       }
     ]
   },
   "sp500": {
     "symbol": "^GSPC",
     "name": "S&P 500",
-    "price": NaN,
-    "change": NaN,
-    "changePercent": NaN,
-    "tradingDate": "2026-04-07",
-    "open": NaN,
-    "high": NaN,
-    "low": NaN,
-    "previousClose": 6611.83,
-    "volume": 2731118000,
-    "avgVolume": 5492749900,
+    "price": 6782.81,
+    "change": -7.77,
+    "changePercent": -0.11,
+    "tradingDate": "2026-04-08",
+    "open": 6782.81,
+    "high": 6782.81,
+    "low": 6782.81,
+    "previousClose": 6824.66,
+    "volume": 5904880000,
+    "avgVolume": 5457093000,
     "yearHigh": 7002.28,
     "yearHighDate": "2026-01-28",
-    "yearLow": 4948.43,
-    "yearLowDate": "2025-04-08",
+    "yearLow": 5101.63,
+    "yearLowDate": "2025-04-21",
     "pe": null,
     "marketCap": null,
-    "sma20": NaN,
-    "sma50": NaN,
+    "sma20": 6602.2,
+    "sma50": 6761.97,
     "sma200": null,
-    "rsi14": 43.9,
-    "macdLine": NaN,
-    "macdSignal": NaN,
-    "macdHistogram": NaN,
-    "bollingerUpper": NaN,
-    "bollingerMiddle": NaN,
-    "bollingerLower": NaN,
-    "atr14": NaN,
+    "rsi14": 67.8,
+    "macdLine": -6.2498,
+    "macdSignal": -68.5702,
+    "macdHistogram": 62.3204,
+    "bollingerUpper": 6850.23,
+    "bollingerMiddle": 6602.2,
+    "bollingerLower": 6354.16,
+    "atr14": 104.02,
     "priceHistory": [
-      {
-        "date": "2026-02-24",
-        "close": 6890.07,
-        "volume": 5266090000
-      },
-      {
-        "date": "2026-02-25",
-        "close": 6946.13,
-        "volume": 5328060000
-      },
-      {
-        "date": "2026-02-26",
-        "close": 6908.86,
-        "volume": 5889550000
-      },
       {
         "date": "2026-02-27",
         "close": 6878.88,
@@ -367,18 +352,30 @@
       },
       {
         "date": "2026-04-07",
-        "close": NaN,
-        "volume": 2731118000
+        "close": 6616.85,
+        "volume": 4555680000
+      },
+      {
+        "date": "2026-04-08",
+        "close": 6782.81,
+        "volume": 5904880000
+      },
+      {
+        "date": "2026-04-09",
+        "close": 6824.66,
+        "volume": 4912410000
+      },
+      {
+        "date": "2026-04-10",
+        "close": 6816.89,
+        "volume": 4393220000
       }
     ]
   },
   "indicators": {
-    "vix": 25.78,
-    "vixChange": 1.61,
+    "vix": 19.23,
+    "vixChange": -0.26,
     "vixHistory": [
-      19.55,
-      17.93,
-      18.63,
       19.86,
       21.44,
       23.57,
@@ -405,17 +402,16 @@
       24.54,
       23.87,
       24.17,
-      25.78
+      25.78,
+      21.04,
+      19.49,
+      19.23
     ],
-    "vixHistoryStart": "2026-02-24",
-    "vixHistoryEnd": "2026-04-07",
-    "dxy": 98.92,
-    "dxyChange": -1.06,
+    "vixHistoryStart": "2026-02-27",
+    "vixHistoryEnd": "2026-04-10",
+    "dxy": 99.03,
+    "dxyChange": 0.38,
     "dxyHistory": [
-      97.88,
-      97.7,
-      97.79,
-      97.61,
       98.38,
       99.05,
       98.77,
@@ -441,16 +437,17 @@
       99.65,
       100.03,
       99.98,
-      98.92
+      99.64,
+      99.13,
+      98.82,
+      98.65,
+      99.03
     ],
-    "dxyHistoryStart": "2026-02-24",
-    "dxyHistoryEnd": "2026-04-08",
-    "us10y": 4.34,
-    "us10yChange": 0.01,
+    "dxyHistoryStart": "2026-03-02",
+    "dxyHistoryEnd": "2026-04-13",
+    "us10y": 4.32,
+    "us10yChange": 0.03,
     "us10yHistory": [
-      4.03,
-      4.05,
-      4.02,
       3.96,
       4.05,
       4.06,
@@ -477,16 +474,16 @@
       4.32,
       4.31,
       4.34,
-      4.34
+      4.34,
+      4.29,
+      4.29,
+      4.32
     ],
-    "us10yHistoryStart": "2026-02-24",
-    "us10yHistoryEnd": "2026-04-07",
-    "us2y": 3.62,
-    "us2yChange": -0.01,
+    "us10yHistoryStart": "2026-02-27",
+    "us10yHistoryEnd": "2026-04-10",
+    "us2y": 3.59,
+    "us2yChange": 0.0,
     "us2yHistory": [
-      3.59,
-      3.59,
-      3.59,
       3.58,
       3.59,
       3.6,
@@ -513,16 +510,16 @@
       3.61,
       3.61,
       3.62,
-      3.62
+      3.62,
+      3.6,
+      3.59,
+      3.59
     ],
-    "us2yHistoryStart": "2026-02-24",
-    "us2yHistoryEnd": "2026-04-07",
-    "gold": 4830.6,
-    "goldChange": 173.5,
+    "us2yHistoryStart": "2026-02-27",
+    "us2yHistoryEnd": "2026-04-10",
+    "gold": 4735.9,
+    "goldChange": -26.0,
     "goldHistory": [
-      5206.4,
-      5176.5,
-      5230.5,
       5294.4,
       5107.4,
       5120.2,
@@ -549,16 +546,16 @@
       4651.5,
       4656.8,
       4657.1,
-      4830.6
+      4749.5,
+      4792.2,
+      4761.9,
+      4735.9
     ],
-    "goldHistoryStart": "2026-02-25",
-    "goldHistoryEnd": "2026-04-08",
-    "oil": 95.92,
-    "oilChange": -17.03,
+    "goldHistoryStart": "2026-03-02",
+    "goldHistoryEnd": "2026-04-13",
+    "oil": 104.96,
+    "oilChange": 8.39,
     "oilHistory": [
-      65.42,
-      65.21,
-      67.02,
       71.23,
       74.56,
       74.66,
@@ -585,291 +582,173 @@
       111.54,
       112.41,
       112.95,
-      95.92
+      94.41,
+      97.87,
+      96.57,
+      104.96
     ],
-    "oilHistoryStart": "2026-02-25",
-    "oilHistoryEnd": "2026-04-08",
-    "btc": 71524.54,
-    "btcChange": 2664.71,
+    "oilHistoryStart": "2026-03-02",
+    "oilHistoryEnd": "2026-04-13",
+    "btc": 71125.21,
+    "btcChange": 345.28,
     "btcHistory": [
-      68402.38,
-      69926.92,
-      70204.88,
-      70493.46,
-      70968.27,
-      71214.62,
-      72789.91,
-      74861.09,
-      73922.48,
-      71245.58,
-      69912.79,
-      70522.59,
-      68711.52,
-      67845.21,
-      70914.86,
-      70517.86,
-      71309.88,
-      68791.62,
-      66338.38,
-      66319.7,
-      65954.92,
-      66691.45,
-      68233.31,
-      68078.55,
-      66888.57,
-      66931.1,
-      67290.52,
-      68981.9,
-      68859.83,
-      71524.54
+      71609.51,
+      73446.18,
+      74372.32,
+      71297.86,
+      69550.63,
+      69739.71,
+      70590.53,
+      68698.62,
+      71453.47,
+      69903.37,
+      71291.01,
+      69462.82,
+      66166.55,
+      66707.15,
+      66517.29,
+      67732.66,
+      66558.39,
+      68576.84,
+      66909.19,
+      66955.22,
+      67161.1,
+      66905.41,
+      69667.14,
+      67946.57,
+      70839.24,
+      71127.96,
+      72910.29,
+      72789.75,
+      70779.93,
+      71125.21
     ],
-    "btcHistoryStart": "2026-03-09",
-    "btcHistoryEnd": "2026-04-08",
-    "eth": 2243.66,
-    "ethChange": 135.9,
+    "btcHistoryStart": "2026-03-14",
+    "btcHistoryEnd": "2026-04-13",
+    "eth": 2195.17,
+    "ethChange": 12.88,
     "ethHistory": [
-      1992.94,
-      2037.12,
-      2051.57,
-      2073.14,
-      2092.56,
-      2097.09,
-      2177.48,
-      2351.18,
-      2318.05,
-      2203.67,
-      2137.42,
-      2146.5,
-      2076.69,
-      2053.05,
-      2152.15,
-      2155.7,
-      2168.02,
-      2059.58,
-      1991.27,
-      1992.69,
-      1982.56,
-      2023.51,
-      2104.71,
-      2138.74,
-      2056.85,
-      2053.39,
-      2065.35,
-      2109.0,
-      2107.76,
-      2243.66
+      2096.62,
+      2282.64,
+      2344.02,
+      2191.07,
+      2125.62,
+      2128.85,
+      2150.72,
+      2077.88,
+      2180.63,
+      2134.88,
+      2175.51,
+      2076.06,
+      1987.45,
+      2018.96,
+      1991.87,
+      2069.96,
+      2044.92,
+      2125.95,
+      2065.18,
+      2055.27,
+      2052.32,
+      2037.69,
+      2158.13,
+      2071.41,
+      2192.18,
+      2177.17,
+      2243.31,
+      2249.4,
+      2182.29,
+      2195.17
     ],
-    "ethHistoryStart": "2026-03-09",
-    "ethHistoryEnd": "2026-04-08"
+    "ethHistoryStart": "2026-03-14",
+    "ethHistoryEnd": "2026-04-13"
   },
   "sectors": [
     {
-      "name": "科技",
-      "symbol": "XLK",
-      "changePercent": NaN
-    },
-    {
-      "name": "医疗",
-      "symbol": "XLV",
-      "changePercent": NaN
-    },
-    {
-      "name": "金融",
-      "symbol": "XLF",
-      "changePercent": NaN
-    },
-    {
-      "name": "消费",
-      "symbol": "XLY",
-      "changePercent": NaN
-    },
-    {
-      "name": "工业",
-      "symbol": "XLI",
-      "changePercent": NaN
-    },
-    {
-      "name": "能源",
-      "symbol": "XLE",
-      "changePercent": NaN
-    },
-    {
-      "name": "公用事业",
-      "symbol": "XLU",
-      "changePercent": NaN
-    },
-    {
       "name": "材料",
       "symbol": "XLB",
-      "changePercent": NaN
+      "changePercent": 0.56
+    },
+    {
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": 0.39
     },
     {
       "name": "房地产",
       "symbol": "XLRE",
-      "changePercent": NaN
+      "changePercent": 0.21
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": 0.13
     },
     {
       "name": "通信",
       "symbol": "XLC",
-      "changePercent": NaN
+      "changePercent": -0.28
+    },
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": -0.39
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": -0.4
+    },
+    {
+      "name": "能源",
+      "symbol": "XLE",
+      "changePercent": -0.68
+    },
+    {
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": -1.09
     },
     {
       "name": "日常消费品",
       "symbol": "XLP",
-      "changePercent": NaN
+      "changePercent": -1.29
+    },
+    {
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": -1.35
     }
   ],
-  "news": [
-    {
-      "title": "Dow Jones Futures Jump, Oil Prices Dive On Trump-Iran Cease-Fire; What To Do Now",
-      "summary": "Dow Jones futures jumped, oil prices dived. President Trump agreed to halt Iran attacks for two weeks. Iran reportedly agreed to open the Strait of Hormuz.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/c967ddec-7767-34cb-98b8-9a8508faf308/dow-jones-futures-jump%2C-oil.html?.tsrc=rss",
-      "publishedAt": "Wed, 08 Apr 2026 03:07:41 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Rich Investors Are Rotating Into These 3 ETFs. Should You Follow Their Lead?",
-      "summary": "ETF investors have been pouring billions of dollars into these ETFs in 2026. Should you be doing the same with your money?",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/07/rich-investors-rotating-into-these-3-etfs-follow/?.tsrc=rss",
-      "publishedAt": "Wed, 08 Apr 2026 02:50:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Oil prices drop and stocks rally after Trump’s ceasefire announcement",
-      "summary": "Oil prices plummeted Tuesday after President Donald Trump agreed to a two-week ceasefire with Iran, spurring hopes that more oil tankers would be able to transit the key Strait of Hormuz soon.",
-      "source": "Yahoo Finance",
-      "url": "https://www.cnn.com/2026/04/07/markets/us-stocks-oil-trump-iran-ceasefire?.tsrc=rss",
-      "publishedAt": "Wed, 08 Apr 2026 02:12:45 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Stock Trading Intensity Soars to Record on Rapid Shifts in War",
-      "summary": "(Bloomberg) -- Investors wary of being wrong-footed by twists and turns in the Iran war are trading stocks at a record intensity, one market measure shows. Wall Street traders have been on edge, hanging on every development in the Middle East and the often unpredictable missives of President Donald ",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/freak-indicator-soars-record-war-201626474.html?.tsrc=rss",
-      "publishedAt": "Wed, 08 Apr 2026 00:55:09 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "UBS Resets 2026 S&P 500 target",
-      "summary": "April 7th marks the 39th day of the Middle East chaos since the attacks began on February 28th. Escalation has intensified, with President Trump lately threatening to destroy Iranian infrastructure if a deal is not reached. The conflict has seen Kharg Island struck, oil prices surge, and widespread ",
-      "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/ubs-resets-2026-sp-500-target?.tsrc=rss",
-      "publishedAt": "Wed, 08 Apr 2026 00:03:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Trump-Iran agree to two-week ceasefire, plan to open Strait of Hormuz",
-      "summary": "Pakistan Prime Minister Shehbaz Sharif had asked Trump for a two-week delay of his Iran deadline, and for the Strait of Hormuz to open for the same period.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/07/trump-iran-ceasefire-hormuz-strait.html",
-      "publishedAt": "Wed, 08 Apr 2026 00:10:28 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Gulf countries scramble to intercept missiles hours into U.S.-Iran ceasefire agreement",
-      "summary": "Many Middle Eastern countries continued to report incoming ballistic missiles and drones from Iran on Wednesday, within hours after the U.S. and Iran announced a two-week ceasefire.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/08/iran-missile-attacks-after-us-ceasefire-gulf-air-defenses.html",
-      "publishedAt": "Wed, 08 Apr 2026 03:12:09 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "U.S.-Iran ceasefire relief rally lifts global assets as oil plunges below $100",
-      "summary": "A two-week ceasefire between the U.S. and Iran sparked a broad-based relief rally across risk assets, and even buoying traditional safe havens.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/08/us-iran-ceasefire-gold-oil-stocks-treasuries.html",
-      "publishedAt": "Wed, 08 Apr 2026 03:17:12 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Oil prices plunge below $100 after Iran agrees to safe passage through Strait of Hormuz during ceasefire",
-      "summary": "President Donald Trump agreed to the ceasefire with Iran after discussions with Pakistan Prime Minister Shehbaz Sharif.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/07/oil-prices-iran-war-trump-deadline-strait-hormuz.html",
-      "publishedAt": "Wed, 08 Apr 2026 00:16:36 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Google CEO Sundar Pichai says 'AI shift' opens opportunities to invest in startups",
-      "summary": "Alphabet is in investor in some of the highest-valued private companies, including SpaceX, Anthropic and Stripe.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/07/google-ceo-pichai-says-ai-shift-opens-opportunities-invest-startups.html",
-      "publishedAt": "Tue, 07 Apr 2026 23:37:42 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Stock futures surge, oil prices slide as Trump announces two-week cease-fire with Iran",
-      "summary": "U.S. stock futures jumped and oil prices fell on Tuesday evening, after President Donald Trump announced a two-week-long cease-fire deal with Iran that would delay a planned American bombing assault on the country and make more time for negotiations between the two sides.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/stock-futures-surge-oil-prices-slides-as-trump-announces-2-week-cease-fire-with-iran-5609c7e9?mod=mw_rss_topstories",
-      "publishedAt": "Wed, 08 Apr 2026 00:22:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Levi’s boosts its sales outlook, defying concerns about the impact of the Iran conflict",
-      "summary": "The jeans maker says shoppers are snapping up its new gear — and it became the latest clothing company to say the TV series “Love Story” was helping sales.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/levis-boosts-its-sales-outlook-defying-concerns-about-the-impact-of-the-iran-conflict-8f71cb20?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 07 Apr 2026 23:45:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "My second husband will leave me $540,000 if I bequeath him my $130,000 net worth. What will happen to my two sons?",
-      "summary": "“I doubt he would pass anything on to them.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-second-husband-will-leave-me-540-000-if-i-bequeath-him-my-130-000-net-worth-what-will-happen-to-my-two-sons-d5a80a08?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 07 Apr 2026 23:30:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "15 stocks to put on your list to buy when the market recovers",
-      "summary": "These stocks are good bets to outperform. because they’re sensitive to changes in market liquidity.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/15-stocks-to-put-on-your-list-to-buy-when-the-market-recovers-c765f968?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 07 Apr 2026 23:18:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "‘I paid the $10 entry fee’: A friend picked my March Madness bracket. Ethically, do I owe her half of my $150 winnings?",
-      "summary": "“There was no real expectation of splitting the winnings.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-paid-the-10-entry-fee-a-friend-picked-my-march-madness-bracket-ethically-do-i-owe-her-half-of-my-150-winnings-88663339?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 07 Apr 2026 23:00:00 GMT",
-      "sentiment": "neutral"
-    }
-  ],
-  "fearGreedIndex": null,
+  "news": [],
+  "fearGreedIndex": 12,
   "valuation": {
     "sp500": {
-      "pe": 26.14,
-      "forwardPE": 23.76,
-      "pePercentile1y": 54,
-      "pePercentile5y": 91,
-      "pePercentile10y": 96,
+      "pe": null,
+      "forwardPE": null,
+      "pePercentile1y": 71,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
       "peRangeLow": 14,
       "peRangeHigh": 35,
-      "drawdown52w": NaN,
-      "high52w": 695.94,
-      "drawdownATH": NaN,
-      "allTimeHigh": 695.94,
-      "currentPrice": NaN
+      "drawdown52w": -2.63,
+      "high52w": 697.84,
+      "drawdownATH": -2.63,
+      "allTimeHigh": 697.84,
+      "currentPrice": 679.46
     },
     "nasdaq": {
-      "pe": 31.68,
-      "forwardPE": 27.55,
-      "pePercentile1y": 50,
-      "pePercentile5y": 90,
-      "pePercentile10y": 95,
+      "pe": null,
+      "forwardPE": null,
+      "pePercentile1y": 75,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
       "peRangeLow": 18,
       "peRangeHigh": 45,
-      "drawdown52w": NaN,
-      "high52w": 635.8,
-      "drawdownATH": NaN,
-      "allTimeHigh": 635.8,
-      "currentPrice": NaN
+      "drawdown52w": -4.07,
+      "high52w": 637.01,
+      "drawdownATH": -4.07,
+      "allTimeHigh": 637.01,
+      "currentPrice": 611.07
     }
   },
   "advanceDeclineRatio": null,
