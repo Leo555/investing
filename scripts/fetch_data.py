@@ -537,52 +537,173 @@ def _analyze_sentiment(text: str) -> str:
 
 
 def calculate_sentiment(nasdaq: dict, sp500: dict, indicators: dict, news: list) -> tuple:
-    """综合计算市场情绪 (-100 到 100)"""
+    """综合计算市场情绪 (-100 到 100)
+    
+    核心策略：趋势跟随 + 均值回归 + 多因子融合
+    - 趋势因子：均线排列、MACD 判断中期趋势方向
+    - 均值回归：RSI 超买超卖、布林带位置、VIX 极端值反转
+    - 动量因子：短期价格动量、MACD 柱状图方向
+    - 情绪因子：VIX 水平、恐惧贪婪、新闻
+    """
     score = 0
 
-    # 价格变动 (30%)
-    avg_chg = ((nasdaq.get("changePercent", 0) or 0) + (sp500.get("changePercent", 0) or 0)) / 2
-    score += max(-30, min(30, avg_chg * 15))
+    # ============================
+    # 1. 趋势因子 (35%) — 判断中期方向
+    # ============================
+    trend_score = 0
+    for idx in [nasdaq, sp500]:
+        p = idx.get("price", 0)
+        sma20 = idx.get("sma20")
+        sma50 = idx.get("sma50")
+        sma200 = idx.get("sma200")
 
-    # RSI (15%)
-    rsi_n, rsi_s = nasdaq.get("rsi14"), sp500.get("rsi14")
+        if p and sma20 and sma50 and sma200:
+            # 均线多头排列: price > sma20 > sma50 > sma200 → 强看涨
+            if p > sma20 > sma50 > sma200:
+                trend_score += 8
+            # 均线空头排列: price < sma20 < sma50 < sma200 → 强看跌
+            elif p < sma20 < sma50 < sma200:
+                trend_score -= 8
+            else:
+                # 部分多头/空头
+                if p > sma200:
+                    trend_score += 3
+                else:
+                    trend_score -= 3
+                if p > sma50:
+                    trend_score += 2
+                else:
+                    trend_score -= 2
+
+        # MACD 方向
+        macd_hist = idx.get("macdHistogram")
+        if macd_hist is not None:
+            if macd_hist > 0:
+                trend_score += 3
+            else:
+                trend_score -= 3
+
+    score += max(-35, min(35, trend_score))
+
+    # ============================
+    # 2. 均值回归因子 (30%) — 捕捉超买超卖反转
+    # ============================
+    reversion_score = 0
+
+    # RSI 均值回归：超买 → 回调风险（看跌），超卖 → 反弹机会（看涨）
+    rsi_n = nasdaq.get("rsi14")
+    rsi_s = sp500.get("rsi14")
     if rsi_n and rsi_s:
         avg_rsi = (rsi_n + rsi_s) / 2
-        if avg_rsi > 70:
-            score += 10
-        elif avg_rsi < 30:
-            score -= 15
-        else:
-            score += (avg_rsi - 50) * 0.3
+        if avg_rsi > 75:
+            reversion_score -= 12  # 严重超买 → 看跌
+        elif avg_rsi > 65:
+            reversion_score -= 5   # 轻度超买
+        elif avg_rsi < 25:
+            reversion_score += 12  # 严重超卖 → 看涨（反弹）
+        elif avg_rsi < 35:
+            reversion_score += 5   # 轻度超卖
+        # 中性区间不加分
 
-    # VIX (20%)
+    # 布林带位置：接近上轨 → 回调风险，接近下轨 → 反弹机会
+    for idx in [nasdaq, sp500]:
+        p = idx.get("price", 0)
+        bb_upper = idx.get("bollingerUpper")
+        bb_lower = idx.get("bollingerLower")
+        if p and bb_upper and bb_lower and bb_upper > bb_lower:
+            bb_pos = (p - bb_lower) / (bb_upper - bb_lower)  # 0~1
+            if bb_pos > 0.95:
+                reversion_score -= 4  # 突破上轨 → 过热
+            elif bb_pos < 0.05:
+                reversion_score += 4  # 突破下轨 → 超卖反弹
+
+    # VIX 均值回归：极高 VIX 往往是底部（反向指标）
     vix = indicators.get("vix")
     if vix:
-        if vix < 15: score += 20
-        elif vix < 20: score += 10
-        elif vix < 25: score -= 5
-        elif vix < 30: score -= 15
-        else: score -= 20
+        if vix > 35:
+            reversion_score += 8   # 极度恐慌 → 往往是底部，看涨
+        elif vix > 28:
+            reversion_score += 4   # 高恐慌 → 偏看涨
+        elif vix < 13:
+            reversion_score -= 4   # 极度贪婪 → 风险积累
+        elif vix < 16:
+            reversion_score -= 1   # 略微自满
 
-    # 均线 (15%)
-    for d in [nasdaq, sp500]:
-        p = d.get("price", 0)
-        for ma in ["sma20", "sma50", "sma200"]:
-            v = d.get(ma)
-            if v:
-                score += 2.5 if p > v else -2.5
+    score += max(-30, min(30, reversion_score))
 
-    # 新闻 (20%)
+    # ============================
+    # 3. 动量因子 (20%) — 短期趋势延续
+    # ============================
+    momentum_score = 0
+
+    # 短期价格动量：用近几天趋势而非单日涨跌
+    for idx in [nasdaq, sp500]:
+        hist = idx.get("priceHistory", [])
+        if len(hist) >= 5:
+            closes = [h["close"] for h in hist[-5:]]
+            # 5日回报
+            ret_5d = (closes[-1] / closes[0] - 1) * 100 if closes[0] else 0
+            momentum_score += max(-5, min(5, ret_5d * 1.5))
+
+        # MACD 柱状图方向变化（动量加速/减速）
+        macd_hist = idx.get("macdHistogram")
+        macd_signal = idx.get("macdSignal")
+        macd_line = idx.get("macdLine")
+        if macd_line is not None and macd_signal is not None:
+            # 金叉/死叉
+            if macd_line > macd_signal and macd_hist and macd_hist > 0:
+                momentum_score += 2
+            elif macd_line < macd_signal and macd_hist and macd_hist < 0:
+                momentum_score -= 2
+
+    score += max(-20, min(20, momentum_score))
+
+    # ============================
+    # 4. 情绪/宏观因子 (15%) — 辅助信号
+    # ============================
+    sentiment_aux = 0
+
+    # VIX 水平（非极端值时的趋势信号）
+    if vix:
+        if 16 <= vix <= 22:
+            sentiment_aux += 2   # 正常波动，适合持仓
+        elif 22 < vix <= 28:
+            sentiment_aux -= 3   # 不安但未恐慌
+
+    # 新闻情绪（降低权重，避免噪音）
     if news:
         pos = sum(1 for n in news if n["sentiment"] == "positive")
         neg = sum(1 for n in news if n["sentiment"] == "negative")
-        score += ((pos - neg) / len(news)) * 20
+        news_ratio = (pos - neg) / len(news) if len(news) > 0 else 0
+        sentiment_aux += max(-5, min(5, news_ratio * 8))
 
-    score = max(-100, min(100, score))
-    if score > 20: s = "bullish"
-    elif score < -20: s = "bearish"
-    else: s = "neutral"
-    return round(score), s
+    # 美债利差（10年-2年）: 倒挂 → 衰退风险
+    us10y = indicators.get("us10y")
+    us2y = indicators.get("us2y")
+    if us10y and us2y:
+        spread = us10y - us2y
+        if spread < -0.5:
+            sentiment_aux -= 3  # 深度倒挂
+        elif spread < 0:
+            sentiment_aux -= 1  # 轻度倒挂
+        elif spread > 1:
+            sentiment_aux += 2  # 正常利差
+
+    score += max(-15, min(15, sentiment_aux))
+
+    # ============================
+    # 最终判定
+    # ============================
+    score = max(-100, min(100, round(score)))
+
+    if score > 15:
+        s = "bullish"
+    elif score < -15:
+        s = "bearish"
+    else:
+        s = "neutral"
+
+    return score, s
 
 
 def fetch_fear_greed() -> int | None:
