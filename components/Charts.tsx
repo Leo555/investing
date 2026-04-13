@@ -318,17 +318,17 @@ export function NewsCard({ news }: { news: { title: string; summary: string; sou
       href={news.url}
       target="_blank"
       rel="noopener noreferrer"
-      className={`block ${config.bg} border ${config.border} rounded-xl p-4 card-hover`}
+      className={`block h-full ${config.bg} border ${config.border} rounded-xl p-4 card-hover`}
     >
-      <div className="flex items-start justify-between gap-2">
-        <div className="flex-1">
-          <h4 className="text-sm font-medium text-content-primary leading-snug mb-1">
+      <div className="flex items-start justify-between gap-2 h-full">
+        <div className="flex-1 flex flex-col min-w-0">
+          <h4 className="text-sm font-medium text-content-primary leading-snug mb-1 line-clamp-2">
             {news.title}
           </h4>
           {news.summary && (
             <p className="text-xs text-content-muted line-clamp-2 mb-2">{news.summary}</p>
           )}
-          <div className="flex items-center gap-2 text-xs text-content-muted">
+          <div className="flex items-center gap-2 text-xs text-content-muted mt-auto">
             <span>{news.source}</span>
           </div>
         </div>
