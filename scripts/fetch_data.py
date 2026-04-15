@@ -551,29 +551,51 @@ def calculate_sentiment(nasdaq: dict, sp500: dict, indicators: dict, news: list)
     # 1. 趋势因子 (35%) — 判断中期方向
     # ============================
     trend_score = 0
+    trend_is_strong = False  # 标记是否处于强趋势
+
     for idx in [nasdaq, sp500]:
         p = idx.get("price", 0)
         sma20 = idx.get("sma20")
         sma50 = idx.get("sma50")
         sma200 = idx.get("sma200")
 
+        available_mas = [ma for ma in [sma20, sma50, sma200] if ma is not None]
+
         if p and sma20 and sma50 and sma200:
-            # 均线多头排列: price > sma20 > sma50 > sma200 → 强看涨
+            # 三条均线都有：完整判断
             if p > sma20 > sma50 > sma200:
                 trend_score += 8
-            # 均线空头排列: price < sma20 < sma50 < sma200 → 强看跌
+                trend_is_strong = True
             elif p < sma20 < sma50 < sma200:
                 trend_score -= 8
+                trend_is_strong = True
             else:
-                # 部分多头/空头
-                if p > sma200:
-                    trend_score += 3
-                else:
-                    trend_score -= 3
-                if p > sma50:
-                    trend_score += 2
-                else:
-                    trend_score -= 2
+                if p > sma200: trend_score += 3
+                else: trend_score -= 3
+                if p > sma50: trend_score += 2
+                else: trend_score -= 2
+        elif p and sma20 and sma50:
+            # SMA200 缺失：用 sma20/sma50 判断
+            if p > sma20 > sma50:
+                trend_score += 6  # 短中期多头
+                trend_is_strong = True
+            elif p < sma20 < sma50:
+                trend_score -= 6  # 短中期空头
+                trend_is_strong = True
+            else:
+                if p > sma50: trend_score += 2
+                else: trend_score -= 2
+                if p > sma20: trend_score += 2
+                else: trend_score -= 2
+        elif p and sma20:
+            # 只有 sma20
+            if p > sma20: trend_score += 3
+            else: trend_score -= 3
+
+        # 价格偏离 sma20 的幅度（趋势强度）
+        if p and sma20:
+            deviation = (p - sma20) / sma20 * 100
+            trend_score += max(-3, min(3, deviation * 0.5))
 
         # MACD 方向
         macd_hist = idx.get("macdHistogram")
@@ -586,108 +608,129 @@ def calculate_sentiment(nasdaq: dict, sp500: dict, indicators: dict, news: list)
     score += max(-35, min(35, trend_score))
 
     # ============================
-    # 2. 均值回归因子 (30%) — 捕捉超买超卖反转
+    # 2. 均值回归因子 (25%) — 捕捉超买超卖反转
+    #    强趋势中降低均值回归权重，避免逆势
     # ============================
     reversion_score = 0
 
-    # RSI 均值回归：超买 → 回调风险（看跌），超卖 → 反弹机会（看涨）
+    # RSI 均值回归
     rsi_n = nasdaq.get("rsi14")
     rsi_s = sp500.get("rsi14")
     if rsi_n and rsi_s:
         avg_rsi = (rsi_n + rsi_s) / 2
-        if avg_rsi > 75:
-            reversion_score -= 12  # 严重超买 → 看跌
-        elif avg_rsi > 65:
-            reversion_score -= 5   # 轻度超买
-        elif avg_rsi < 25:
-            reversion_score += 12  # 严重超卖 → 看涨（反弹）
-        elif avg_rsi < 35:
-            reversion_score += 5   # 轻度超卖
-        # 中性区间不加分
+        if trend_is_strong and trend_score > 0:
+            # 强多头趋势：RSI 超买惩罚减半，超卖依然加分
+            if avg_rsi > 80:
+                reversion_score -= 6   # 极端超买才减分
+            elif avg_rsi > 70:
+                reversion_score -= 2   # 轻微减分
+            elif avg_rsi < 25:
+                reversion_score += 12
+            elif avg_rsi < 35:
+                reversion_score += 5
+        elif trend_is_strong and trend_score < 0:
+            # 强空头趋势：RSI 超卖加分减半
+            if avg_rsi > 75:
+                reversion_score -= 12
+            elif avg_rsi > 65:
+                reversion_score -= 5
+            elif avg_rsi < 20:
+                reversion_score += 6
+            elif avg_rsi < 30:
+                reversion_score += 2
+        else:
+            # 无明确趋势：正常均值回归
+            if avg_rsi > 75:
+                reversion_score -= 10
+            elif avg_rsi > 65:
+                reversion_score -= 4
+            elif avg_rsi < 25:
+                reversion_score += 10
+            elif avg_rsi < 35:
+                reversion_score += 4
 
-    # 布林带位置：接近上轨 → 回调风险，接近下轨 → 反弹机会
+    # 布林带位置
     for idx in [nasdaq, sp500]:
         p = idx.get("price", 0)
         bb_upper = idx.get("bollingerUpper")
         bb_lower = idx.get("bollingerLower")
         if p and bb_upper and bb_lower and bb_upper > bb_lower:
-            bb_pos = (p - bb_lower) / (bb_upper - bb_lower)  # 0~1
+            bb_pos = (p - bb_lower) / (bb_upper - bb_lower)
             if bb_pos > 0.95:
-                reversion_score -= 4  # 突破上轨 → 过热
+                reversion_score -= 3
             elif bb_pos < 0.05:
-                reversion_score += 4  # 突破下轨 → 超卖反弹
+                reversion_score += 3
 
-    # VIX 均值回归：极高 VIX 往往是底部（反向指标）
+    # VIX 均值回归
     vix = indicators.get("vix")
     if vix:
         if vix > 35:
-            reversion_score += 8   # 极度恐慌 → 往往是底部，看涨
+            reversion_score += 8
         elif vix > 28:
-            reversion_score += 4   # 高恐慌 → 偏看涨
+            reversion_score += 4
         elif vix < 13:
-            reversion_score -= 4   # 极度贪婪 → 风险积累
+            reversion_score -= 4
         elif vix < 16:
-            reversion_score -= 1   # 略微自满
+            reversion_score -= 1
 
-    score += max(-30, min(30, reversion_score))
+    score += max(-25, min(25, reversion_score))
 
     # ============================
-    # 3. 动量因子 (20%) — 短期趋势延续
+    # 3. 动量因子 (25%) — 短期趋势延续
     # ============================
     momentum_score = 0
 
-    # 短期价格动量：用近几天趋势而非单日涨跌
     for idx in [nasdaq, sp500]:
         hist = idx.get("priceHistory", [])
         if len(hist) >= 5:
             closes = [h["close"] for h in hist[-5:]]
-            # 5日回报
             ret_5d = (closes[-1] / closes[0] - 1) * 100 if closes[0] else 0
-            momentum_score += max(-5, min(5, ret_5d * 1.5))
+            momentum_score += max(-6, min(6, ret_5d * 1.5))
 
-        # MACD 柱状图方向变化（动量加速/减速）
+        if len(hist) >= 3:
+            closes_3d = [h["close"] for h in hist[-3:]]
+            ret_3d = (closes_3d[-1] / closes_3d[0] - 1) * 100 if closes_3d[0] else 0
+            momentum_score += max(-3, min(3, ret_3d * 2))
+
+        # MACD 金叉/死叉
         macd_hist = idx.get("macdHistogram")
         macd_signal = idx.get("macdSignal")
         macd_line = idx.get("macdLine")
         if macd_line is not None and macd_signal is not None:
-            # 金叉/死叉
             if macd_line > macd_signal and macd_hist and macd_hist > 0:
                 momentum_score += 2
             elif macd_line < macd_signal and macd_hist and macd_hist < 0:
                 momentum_score -= 2
 
-    score += max(-20, min(20, momentum_score))
+    score += max(-25, min(25, momentum_score))
 
     # ============================
     # 4. 情绪/宏观因子 (15%) — 辅助信号
     # ============================
     sentiment_aux = 0
 
-    # VIX 水平（非极端值时的趋势信号）
     if vix:
         if 16 <= vix <= 22:
-            sentiment_aux += 2   # 正常波动，适合持仓
+            sentiment_aux += 2
         elif 22 < vix <= 28:
-            sentiment_aux -= 3   # 不安但未恐慌
+            sentiment_aux -= 3
 
-    # 新闻情绪（降低权重，避免噪音）
     if news:
         pos = sum(1 for n in news if n["sentiment"] == "positive")
         neg = sum(1 for n in news if n["sentiment"] == "negative")
         news_ratio = (pos - neg) / len(news) if len(news) > 0 else 0
         sentiment_aux += max(-5, min(5, news_ratio * 8))
 
-    # 美债利差（10年-2年）: 倒挂 → 衰退风险
     us10y = indicators.get("us10y")
     us2y = indicators.get("us2y")
     if us10y and us2y:
         spread = us10y - us2y
         if spread < -0.5:
-            sentiment_aux -= 3  # 深度倒挂
+            sentiment_aux -= 3
         elif spread < 0:
-            sentiment_aux -= 1  # 轻度倒挂
+            sentiment_aux -= 1
         elif spread > 1:
-            sentiment_aux += 2  # 正常利差
+            sentiment_aux += 2
 
     score += max(-15, min(15, sentiment_aux))
 
