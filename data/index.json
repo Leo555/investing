@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-04-20",
+    "overallSentiment": "bullish",
+    "sentimentScore": 28,
+    "nasdaqPrice": 24468.48,
+    "nasdaqChange": 365.78,
+    "nasdaqChangePercent": 1.52,
+    "sp500Price": 7126.06,
+    "sp500Change": 84.78,
+    "sp500ChangePercent": 1.2,
+    "vix": 17.48,
+    "newsCount": 15
+  },
+  {
     "date": "2026-04-17",
     "overallSentiment": "bullish",
     "sentimentScore": 26,
