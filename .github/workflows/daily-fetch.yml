@@ -115,7 +115,7 @@ jobs:
           if [ -n "$LATEST_FILE" ] && [ "${{ job.status }}" = "success" ]; then
             NASDAQ=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(f\"{d['nasdaq']['price']:,.2f} ({d['nasdaq']['changePercent']:+.2f}%)\")" 2>/dev/null || echo "N/A")
             SP500=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(f\"{d['sp500']['price']:,.2f} ({d['sp500']['changePercent']:+.2f}%)\")" 2>/dev/null || echo "N/A")
-            SENTIMENT=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); s=d['overallSentiment']; print('看涨' if s=='bullish' else '看跌' if s=='bearish' else '中性')" 2>/dev/null || echo "N/A")
+            SENTIMENT=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); s=d['overallSentiment']; print('🔴 看涨' if s=='bullish' else '🟢 看跌' if s=='bearish' else '🟡 中性')" 2>/dev/null || echo "N/A")
             SCORE=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(d['sentimentScore'])" 2>/dev/null || echo "N/A")
             FORECAST=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(d.get('forecastDate', d['date']))" 2>/dev/null || echo "N/A")
             DATA_DATE=$(python3 -c "import json; d=json.load(open('$LATEST_FILE')); print(d.get('dataDate', ''))" 2>/dev/null || echo "")
@@ -123,7 +123,7 @@ jobs:
             
             CONTENT="📊 **${FORECAST} 晴雨表已更新**\n"
             CONTENT+=">基于 **${DATA_DATE}** 收盘数据\n"
-            CONTENT+=">情绪：<font color=\"info\">${SENTIMENT} (${SCORE})</font>\n"
+            CONTENT+=">情绪：**${SENTIMENT}** (${SCORE})\n"
             CONTENT+=">纳指：${NASDAQ}\n"
             CONTENT+=">标普：${SP500}\n"
             CONTENT+=">VIX：${VIX}\n"
