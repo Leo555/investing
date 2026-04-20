@@ -2,10 +2,10 @@
   "date": "2026-04-20",
   "dataDate": "2026-04-17",
   "forecastDate": "2026-04-20",
-  "timestamp": "2026-04-18T12:34:38.928261+08:00",
+  "timestamp": "2026-04-20T13:15:39.152214+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
-  "sentimentScore": 28,
+  "sentimentScore": 29,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -409,10 +409,9 @@
     ],
     "vixHistoryStart": "2026-03-06",
     "vixHistoryEnd": "2026-04-17",
-    "dxy": 98.1,
-    "dxyChange": -0.12,
+    "dxy": 98.3,
+    "dxyChange": 0.2,
     "dxyHistory": [
-      98.99,
       99.18,
       98.83,
       99.23,
@@ -441,10 +440,11 @@
       98.12,
       98.06,
       98.22,
-      98.1
+      98.1,
+      98.3
     ],
-    "dxyHistoryStart": "2026-03-06",
-    "dxyHistoryEnd": "2026-04-17",
+    "dxyHistoryStart": "2026-03-09",
+    "dxyHistoryEnd": "2026-04-20",
     "us10y": 4.25,
     "us10yChange": -0.06,
     "us10yHistory": [
@@ -589,11 +589,9 @@
     ],
     "oilHistoryStart": "2026-03-06",
     "oilHistoryEnd": "2026-04-17",
-    "btc": 76936.71,
-    "btcChange": -371.73,
+    "btc": 74335.17,
+    "btcChange": 197.95,
     "btcHistory": [
-      70781.08,
-      70292.26,
       68296.86,
       70754.11,
       70327.57,
@@ -621,15 +619,15 @@
       74994.07,
       74883.21,
       77308.44,
-      76936.71
+      75830.19,
+      74137.22,
+      74335.17
     ],
-    "btcHistoryStart": "2026-03-19",
-    "btcHistoryEnd": "2026-04-18",
-    "eth": 2402.2,
-    "ethChange": -32.28,
+    "btcHistoryStart": "2026-03-21",
+    "btcHistoryEnd": "2026-04-20",
+    "eth": 2272.64,
+    "ethChange": -1.03,
     "ethHistory": [
-      2155.88,
-      2149.83,
       2061.28,
       2153.06,
       2146.19,
@@ -657,10 +655,12 @@
       2365.03,
       2342.8,
       2434.48,
-      2402.2
+      2357.52,
+      2273.67,
+      2272.64
     ],
-    "ethHistoryStart": "2026-03-19",
-    "ethHistoryEnd": "2026-04-18"
+    "ethHistoryStart": "2026-03-21",
+    "ethHistoryEnd": "2026-04-20"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Record Highs in the S&P 500 Show Selling on War Headlines Is Usually a Mistake",
-      "summary": "The stock market has gone up despite the Iran war -- this shows the value of buy-and-hold investing.",
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn Stock Exchange during the period of 13 April – 17 April 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)13.04.202618646,148414.04.202618446,132615.04.202619746,500016.04.202619446,500017.04.202619246,5",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/17/record-highs-in-sp-500-show-hitting-sell-mistake/?.tsrc=rss",
-      "publishedAt": "Sat, 18 Apr 2026 03:31:26 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050500343.html?.tsrc=rss",
+      "publishedAt": "Mon, 20 Apr 2026 05:05:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Dow Jones Futures Fall, Oil Prices Jump; Trump Announces New Iran Talks With Hormuz Shut",
+      "summary": "Futures fell and oil prices jumped with Iran keeping the Strait of Hormuz under \"strict control.\" President Trump announced new talks Monday. Tesla earnings loom.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/2e86a733-79d1-31a8-aaf2-9bbf4acaa122/dow-jones-futures-fall%2C-oil.html?.tsrc=rss",
+      "publishedAt": "Mon, 20 Apr 2026 04:15:26 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Stocks Are Back at Records, but Bond Investors Haven’t Joined the Party",
+      "summary": "A disconnect is emerging on Wall Street: Stock investors are already celebrating as though the Iran war never happened, but other markets are telling a more cautious story.  While the S&P 500 and Nasdaq composite indexes are both at all-time highs, worries about lasting damage to Middle East energy ",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/0cf069ca-5989-39e6-87b5-8dc608710855/stocks-are-back-at-records%2C.html?.tsrc=rss",
+      "publishedAt": "Mon, 20 Apr 2026 01:00:00 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Dow Jones Futures: Market At Highs, But Is Hormuz Open? Tesla Earnings Due",
-      "summary": "Friday's market rally extended the best Nasdaq run in decades. But is the Strait of Hormuz open? Tesla earnings loom.",
+      "title": "3 Key Differences Between These 3 S&P 500 ETFs — and Which One To Invest In, According to a Money Expert",
+      "summary": "A finance expert compares three ETFs -- VOO, SPY and IVV -- on fees, price and trading volume to help investors choose the right S&P 500 ETF for them.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/2e86a733-79d1-31a8-aaf2-9bbf4acaa122/dow-jones-futures%3A-market-at.html?.tsrc=rss",
-      "publishedAt": "Sat, 18 Apr 2026 03:06:08 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-key-differences-between-3-001104180.html?.tsrc=rss",
+      "publishedAt": "Mon, 20 Apr 2026 00:11:04 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Markets shudder as Strait of Hormuz starts resembling a combat zone. ‘We’re prepared to subject you to disabling fire’",
+      "summary": "Tensions in the Gulf escalated Sunday, when the Navy seized a ship for the first time as part of its blockade, with a destroyer firing at a vessel attempting to evade the dragnet.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/markets-shudder-strait-hormuz-starts-231324915.html?.tsrc=rss",
+      "publishedAt": "Sun, 19 Apr 2026 23:13:24 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "U.S. struck, seized Iranian-flagged ship Touska in Gulf of Oman, Trump says",
+      "summary": "The Iran-flagged Touska was on the U.S. Treasury's sanctions list because of a history of illegal activity, Trump said.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/19/trump-navy-iran-ship-gulf-of-oman.html",
+      "publishedAt": "Sun, 19 Apr 2026 21:28:47 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Japan's Mitsubishi Heavy Industries sees shares jump nearly 4% on first ever warship export deal",
+      "summary": "This will be Japan's first ever warship export project, and the first ship is scheduled to be delivered to the Royal Australian Navy in 2029.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/australia-japan-warships-mitsubishi-heavy-industries.html",
+      "publishedAt": "Mon, 20 Apr 2026 05:10:18 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "The Stock Market Sounds an Alarm for the First Time in 25 Years. Here's Where History Says the S&P 500 Is Headed Next.",
-      "summary": "The S&P 500 has shown signs of major resilience so far in 2026, but a little-known indicator suggests a harsh sell-off could be on the horizon.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/17/the-stock-market-sounds-an-alarm-for-the-first-tim/?.tsrc=rss",
-      "publishedAt": "Sat, 18 Apr 2026 01:50:00 +0000",
+      "title": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
+      "summary": "Crude oil prices surged Sunday, as the U.S. and Iran teetered on the brink of a renewed war after attacks on commercial ships in the Strait of Hormuz.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/19/oil-price-iran-war-strait-hormuz-tanker.html",
+      "publishedAt": "Mon, 20 Apr 2026 04:38:20 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "China keeps benchmark lending rates unchanged as economic growth revs up, Mideast risks loom",
+      "summary": "The upbeat economic growth has reduced the urgency for fresh stimulus measures, prompting economists to postpone forecasts on the timing of interest rate cuts.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/china-keeps-benchmark-lending-rates-unchanged-as-economic-growth-revs-up-amid-mounting-middle-east-risk-mount-.html",
+      "publishedAt": "Mon, 20 Apr 2026 01:40:23 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FBI Director Kash Patel vows to sue The Atlantic over alcohol abuse claims",
+      "summary": "Kash Patel recently made headlines for chugging a beer after Team USA won the gold medal in ice hockey in the 2026 Olympic Games.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/19/kash-patel-atlantic-lawsuit-alcohol.html",
+      "publishedAt": "Sun, 19 Apr 2026 19:56:11 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "U.S. stock futures tumble, oil surges as this weekend’s Iran developments rekindle uncertainty",
+      "summary": "After a three-week-long rally that’s brought the S&P 500 to new record highs, investors are again bracing for uncertainty following a whirlwind of weekend developments concerning the war with Iran.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/investors-brace-for-renewed-volatility-after-this-weekends-iran-developments-4b707c11?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 20 Apr 2026 03:04:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "I’m planning to retire at 60. Should I sell my house and invest the $500,000?",
+      "summary": "“Renting improves cash flow by about $1,300 a month.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 19 Apr 2026 23:42:00 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "1 ETF That Could Soar If the Strait of Hormuz Stays Open",
-      "summary": "Asian markets are highly dependent on oil coming through the Strait.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/17/1-etf-that-could-soar-if-the-strait-of-hormuz-stay/?.tsrc=rss",
-      "publishedAt": "Sat, 18 Apr 2026 01:06:41 +0000",
+      "title": "‘I have full guardianship’: My son has special needs. If I buy him a condo, will that hurt his benefits?",
+      "summary": "“Another option would be for me to purchase the condo myself and have him pay me rent.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-have-full-guardianship-my-son-has-special-needs-if-i-buy-him-a-condo-will-that-hurt-his-benefits-6f26e904?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 19 Apr 2026 23:41:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "The S&P 500 has blown past 7,000 in an epic comeback rally. Here’s why it can keep going.",
+      "summary": "The Iran war may or may not be nearing a conclusion. But as far as the stock market is concerned, it’s no longer been worth worrying about.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-blowed-past-7-000-in-an-epic-comeback-rally-heres-why-it-can-keep-going-higher-632d6a38?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 19 Apr 2026 20:41:00 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "3 Industrials Stocks with Warning Signs",
-      "summary": "Whether you see them or not, industrials businesses play a crucial part in our daily activities. They are also bound to benefit from a friendlier regulatory environment with the Trump administration, and this excitement has led to a six-month gain of 12% for the sector - higher than the S&P 500’s 5.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-warning-signs-004826523.html?.tsrc=rss",
-      "publishedAt": "Sat, 18 Apr 2026 00:48:26 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Video shows ships turning away from the Strait of Hormuz as confusion persists over whether sea lane is really open",
-      "summary": "The Strait of Hormuz remained effectively closed despite Iran's declaration Friday that it is open, maritime freight and oil analysts told CNBC.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/17/iran-trump-strait-hormuz-oil-tanker-traffic.html",
-      "publishedAt": "Fri, 17 Apr 2026 23:33:49 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Fed Governor Waller says Iran war and labor market risks are keeping central bank on hold",
-      "summary": "Federal Reserve Governor Christopher Waller on Friday said current economic conditions are complicating the approach to interest rates.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/17/fed-governor-waller-says-iran-war-and-labor-market-risks-are-keeping-central-bank-on-hold.html",
-      "publishedAt": "Fri, 17 Apr 2026 19:00:13 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
-      "summary": "Cerebras said that it can expand its business with OpenAI over the coming years and that it gave OpenAI a warrant to purchase stock.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/17/cerebras-new-ipo-ai-chips.html",
-      "publishedAt": "Fri, 17 Apr 2026 23:23:42 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump says he had 'no idea' Anthropic's Amodei met with White House about Mythos",
-      "summary": "The meeting comes less than two months after President Donald Trump blacklisted Anthropic's Claude.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/17/anthropic-dario-amodei-trump-mythos.html",
-      "publishedAt": "Fri, 17 Apr 2026 23:22:57 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Netflix was long 'a builder not a buyer.' Is that era over?",
-      "summary": "Netflix co-CEO Ted Sarandos said during an investor call that the company built its \"M&A muscle\" during its pursuit of WBD's assets.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/17/netflix-mergers-m-a-strategy.html",
-      "publishedAt": "Fri, 17 Apr 2026 15:39:55 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Think the rally is safe? This elite market-timing indicator says a correction is overdue.",
-      "summary": "The gold-platinum ratio suggests the stock market is living on borrowed time.",
+      "title": "These Alzheimer’s drugs were supposed to revolutionize the way we fight the disease. The reality is more complicated.",
+      "summary": "A scientific report has raised questions about how much Leqimbi and Kisunla — the “breakthrough” Alzheimer’s drugs that have hit the market in the last few years — really help slow the disease.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/think-the-rally-is-safe-this-elite-market-timing-indicator-says-a-correction-is-overdue-8049c27f?mod=mw_rss_topstories",
-      "publishedAt": "Sat, 18 Apr 2026 00:48:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "‘I am the trustee’: My mother set up a trust for my sibling who stole $100,000 from a bank. Can the trust be seized?",
-      "summary": "“Felony charges are pending.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/felony-charges-are-pending-my-mother-set-up-a-trust-for-my-sibling-who-stole-100-000-from-a-bank-can-the-trust-be-seized-ae69dbaf?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 17 Apr 2026 23:16:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Cal-Maine’s stock falls as DOJ reportedly weighs bigger crackdown on major egg producers",
-      "summary": "Egg prices crossed the $6 barrier in March of last year, but they have since fallen as farmers have replenished their flocks.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/cal-maines-stock-falls-as-doj-reportedly-weighs-bigger-crackdown-on-major-egg-producers-96e8315b?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 17 Apr 2026 22:56:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "I’m selling my law practice and retiring. Do I pay off the $2 million mortgage on my office building — or rent it out?",
-      "summary": "“My wife is not a fan of tying up $2 million of equity in one building.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-selling-my-law-practice-and-retiring-do-i-pay-off-the-2-million-loan-on-my-office-building-or-keep-the-mortgage-e8a4015b?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 17 Apr 2026 22:41:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "‘I hope to retire at 59’: I have $950,000 in my 401(k)s. When do I do a Roth conversion?",
-      "summary": "Roth conversions are permanent. Once done, they cannot be undone.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-hope-to-retire-at-59-i-have-950-000-in-my-401-k-s-when-do-i-do-a-roth-conversion-07bf2c58?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 17 Apr 2026 22:30:00 GMT",
+      "url": "https://www.marketwatch.com/story/these-alzheimers-drugs-were-supposed-to-revolutionize-the-way-we-fight-the-disease-the-reality-is-more-complicated-80223b95?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 19 Apr 2026 20:13:00 GMT",
       "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 26,
+  "fearGreedIndex": 29,
   "valuation": {
     "sp500": {
       "pe": null,
