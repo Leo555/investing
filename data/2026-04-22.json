@@ -2,7 +2,7 @@
   "date": "2026-04-22",
   "dataDate": "2026-04-21",
   "forecastDate": "2026-04-22",
-  "timestamp": "2026-04-22T17:01:38.994979+08:00",
+  "timestamp": "2026-04-22T17:04:42.246495+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
   "sentimentScore": 22,
@@ -373,8 +373,8 @@
     ]
   },
   "indicators": {
-    "vix": 19.25,
-    "vixChange": -0.25,
+    "vix": 19.26,
+    "vixChange": -0.24,
     "vixHistory": [
       24.23,
       27.29,
@@ -405,7 +405,7 @@
       17.48,
       18.87,
       19.5,
-      19.25
+      19.26
     ],
     "vixHistoryStart": "2026-03-11",
     "vixHistoryEnd": "2026-04-22",
@@ -517,8 +517,8 @@
     ],
     "us2yHistoryStart": "2026-03-10",
     "us2yHistoryEnd": "2026-04-21",
-    "gold": 4775.2,
-    "goldChange": 76.8,
+    "gold": 4776.2,
+    "goldChange": 77.8,
     "goldHistory": [
       5167.4,
       5115.8,
@@ -549,12 +549,12 @@
       4857.6,
       4806.6,
       4698.4,
-      4775.2
+      4776.2
     ],
     "goldHistoryStart": "2026-03-11",
     "goldHistoryEnd": "2026-04-22",
-    "oil": 90.9,
-    "oilChange": -1.23,
+    "oil": 90.88,
+    "oilChange": -1.25,
     "oilHistory": [
       87.25,
       95.73,
@@ -585,12 +585,12 @@
       83.85,
       89.61,
       92.13,
-      90.9
+      90.88
     ],
     "oilHistoryStart": "2026-03-11",
     "oilHistoryEnd": "2026-04-22",
-    "btc": 78011.93,
-    "btcChange": 2249.22,
+    "btc": 77996.56,
+    "btcChange": 2233.85,
     "btcHistory": [
       69903.37,
       71291.01,
@@ -621,12 +621,12 @@
       76024.76,
       75004.42,
       75762.71,
-      78011.93
+      77996.56
     ],
     "btcHistoryStart": "2026-03-23",
     "btcHistoryEnd": "2026-04-22",
-    "eth": 2388.33,
-    "ethChange": 85.14,
+    "eth": 2388.73,
+    "ethChange": 85.54,
     "ethHistory": [
       2134.88,
       2175.51,
@@ -657,7 +657,7 @@
       2339.33,
       2289.02,
       2303.19,
-      2388.33
+      2388.73
     ],
     "ethHistoryStart": "2026-03-23",
     "ethHistoryEnd": "2026-04-22"
@@ -777,6 +777,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "Trump administration discussing currency swap line with United Arab Emirates",
+      "summary": "Such a move would provide liquidity in dollars to the oil-rich UAE, but could be politically tenuous for the administration amid higher prices at home.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/trump-iran-war-white-house-uae-currency-swap-line.html",
+      "publishedAt": "Tue, 21 Apr 2026 22:09:55 GMT",
+      "sentiment": "positive"
+    },
+    {
       "title": "SpaceX says it can buy Cursor later this year for $60 billion or pay $10 billion for 'our work together'",
       "summary": "SpaceX said it's obtained the rights to buy coding startup Cursor for $60 billion later this year or pay $10 billion for the work they're doing together.",
       "source": "CNBC",
@@ -793,12 +801,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "UK inflation jumps to 3.3% in March as fuel prices surge amid Iran war",
-      "summary": "Fuel prices saw their largest increase for over three years, the ONS' chief economist said.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/22/uk-inflation-jumps-to-3point3percent-in-march-as-fuel-prices-surge.html",
-      "publishedAt": "Wed, 22 Apr 2026 06:28:29 GMT",
-      "sentiment": "positive"
+      "title": "Citadel founder Ken Griffin just added a $38 million Park Avenue apartment to his $1.5 billion real estate portfolio",
+      "summary": "The billionaire appears to have purchased the 7,500-square-foot duplex, inside a storied New York building, in an off-market deal.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/citadel-founder-ken-griffin-just-added-a-38-million-park-avenue-apartment-to-his-1-5-billion-real-estate-portfolio-93ae762a?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 22 Apr 2026 09:02:00 GMT",
+      "sentiment": "neutral"
     },
     {
       "title": "Why these strategists say 45% of portfolios should be invested in gold, metals and bitcoin",
@@ -830,14 +838,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/this-is-unbelievable-my-adviser-made-300-000-trading-options-now-im-being-killed-by-taxes-do-i-complain-e30873b7?mod=mw_rss_topstories",
       "publishedAt": "Tue, 21 Apr 2026 23:16:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump Media CEO Devin Nunes is leaving. This digital-media veteran will take his place.",
-      "summary": "Kevin McGurn, Trump Media’s interim CEO, has been an adviser to the company since December 2024.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/trump-media-ceo-devin-nunes-is-leaving-this-digital-media-veteran-will-take-his-place-ce2aed2e?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 21 Apr 2026 23:14:00 GMT",
       "sentiment": "neutral"
     }
   ],
