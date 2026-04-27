@@ -2,10 +2,10 @@
   "date": "2026-04-27",
   "dataDate": "2026-04-24",
   "forecastDate": "2026-04-27",
-  "timestamp": "2026-04-25T12:38:10.674292+08:00",
+  "timestamp": "2026-04-27T13:26:54.664119+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
-  "sentimentScore": 32,
+  "sentimentScore": 33,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -409,10 +409,9 @@
     ],
     "vixHistoryStart": "2026-03-13",
     "vixHistoryEnd": "2026-04-24",
-    "dxy": 98.51,
-    "dxyChange": -0.29,
+    "dxy": 98.47,
+    "dxyChange": -0.04,
     "dxyHistory": [
-      100.36,
       99.71,
       99.58,
       100.09,
@@ -441,10 +440,11 @@
       98.41,
       98.59,
       98.8,
-      98.51
+      98.51,
+      98.47
     ],
-    "dxyHistoryStart": "2026-03-13",
-    "dxyHistoryEnd": "2026-04-24",
+    "dxyHistoryStart": "2026-03-16",
+    "dxyHistoryEnd": "2026-04-27",
     "us10y": 4.31,
     "us10yChange": -0.01,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-03-13",
     "us2yHistoryEnd": "2026-04-24",
-    "gold": 4722.3,
-    "goldChange": 17.2,
+    "gold": 4733.4,
+    "goldChange": 11.1,
     "goldHistory": [
-      5052.5,
       4994.0,
       5001.0,
       4889.9,
@@ -549,14 +548,14 @@
       4698.4,
       4732.5,
       4705.1,
-      4722.3
+      4722.3,
+      4733.4
     ],
-    "goldHistoryStart": "2026-03-13",
-    "goldHistoryEnd": "2026-04-24",
-    "oil": 94.4,
-    "oilChange": -1.45,
+    "goldHistoryStart": "2026-03-16",
+    "goldHistoryEnd": "2026-04-27",
+    "oil": 95.93,
+    "oilChange": 1.53,
     "oilHistory": [
-      98.71,
       93.5,
       96.21,
       96.32,
@@ -585,15 +584,14 @@
       92.13,
       92.96,
       95.85,
-      94.4
+      94.4,
+      95.93
     ],
-    "oilHistoryStart": "2026-03-13",
-    "oilHistoryEnd": "2026-04-24",
-    "btc": 77626.01,
-    "btcChange": 265.29,
+    "oilHistoryStart": "2026-03-16",
+    "oilHistoryEnd": "2026-04-27",
+    "btc": 77923.8,
+    "btcChange": -454.25,
     "btcHistory": [
-      65981.97,
-      66694.14,
       65813.32,
       66734.2,
       68146.95,
@@ -621,15 +619,15 @@
       78602.9,
       78241.97,
       77360.72,
-      77626.01
+      77571.92,
+      78378.05,
+      77923.8
     ],
-    "btcHistoryStart": "2026-03-26",
-    "btcHistoryEnd": "2026-04-25",
-    "eth": 2317.34,
-    "ethChange": 4.6,
+    "btcHistoryStart": "2026-03-28",
+    "btcHistoryEnd": "2026-04-27",
+    "eth": 2333.86,
+    "ethChange": -29.53,
     "ethHistory": [
-      1984.19,
-      2010.14,
       1972.58,
       2030.07,
       2094.5,
@@ -657,10 +655,12 @@
       2398.37,
       2332.66,
       2312.74,
-      2317.34
+      2318.71,
+      2363.39,
+      2333.86
     ],
-    "ethHistoryStart": "2026-03-26",
-    "ethHistoryEnd": "2026-04-25"
+    "ethHistoryStart": "2026-03-28",
+    "ethHistoryEnd": "2026-04-27"
   },
   "sectors": [
     {
@@ -721,83 +721,115 @@
   ],
   "news": [
     {
-      "title": "3 Bank Stocks We’re Skeptical Of",
-      "summary": "Banks use their capital and expertise to help businesses grow while offering consumers essential financial products like mortgages and credit cards. Market leaders have certainly capitalized on rising interest rates and strong loan demand to boost profitability, helping fuel a 11.3% gain for the ban",
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn Stock Exchange during the period of 20 April – 24 April 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)20.04.202619746,400021.04.202619646,400022.04.202619446,797923.04.202619546,908724.04.202618846,7",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-bank-stocks-skeptical-042123142.html?.tsrc=rss",
-      "publishedAt": "Sat, 25 Apr 2026 04:21:23 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000735.html?.tsrc=rss",
+      "publishedAt": "Mon, 27 Apr 2026 05:00:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "The \"Great Rotation\" Is Reversing and the Nasdaq Is Surging. Here Are the Best Artificial Intelligence (AI) Growth Stocks for the Next Leg Up.",
+      "summary": "These three stocks look poised to lead the AI stock rally.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/04/27/the-great-rotation-is-reversing-and-the-nasdaq-is/?.tsrc=rss",
+      "publishedAt": "Mon, 27 Apr 2026 04:20:00 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "1 Industrials Stock to Own for Decades and 2 We Ignore",
-      "summary": "Whether you see them or not, industrials businesses play a crucial part in our daily activities. But their prominence also brings high exposure to the ups and downs of economic cycles. Luckily, the tide is turning in their favor as the industry’s 12.4% return over the past six months has topped the ",
+      "title": "Dow Jones Futures: Tech Stocks, Oil Prices Rise Amid Iran News; Apple, Amazon, Google Lead Earnings",
+      "summary": "The stock market is at highs but results and spending for Apple, Amazon, Google and more will be key. Iran talks were called off.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-own-decades-034923939.html?.tsrc=rss",
-      "publishedAt": "Sat, 25 Apr 2026 03:49:23 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Dow Jones Futures: Apple, Amazon, Google Lead Earnings Wave For AI-Led Stock Market",
-      "summary": "The stock market is at highs but results and spending plans for Apple, Amazon, Google and more will be key for the AI-led rally",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/5adae484-b99f-331c-ba49-f7185d0faf7b/dow-jones-futures%3A-apple%2C.html?.tsrc=rss",
-      "publishedAt": "Sat, 25 Apr 2026 02:54:49 +0000",
+      "url": "https://finance.yahoo.com/m/5adae484-b99f-331c-ba49-f7185d0faf7b/dow-jones-futures%3A-tech.html?.tsrc=rss",
+      "publishedAt": "Mon, 27 Apr 2026 04:14:47 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "1 Consumer Stock Worth Your Attention and 2 We Turn Down",
-      "summary": "Retailers are adapting their business models as technology changes how people shop. Still, secular trends are working against their favor as e-commerce continues to take share from brick and mortars. This puts retail stocks in a tough spot, and over the past six months, the industry has pulled back ",
+      "title": "Is Nvidia Stock Still a Buy After Returning to All-Time Highs?",
+      "summary": "Nvidia's stock still has a lot more room to run.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-consumer-stock-worth-attention-025323540.html?.tsrc=rss",
-      "publishedAt": "Sat, 25 Apr 2026 02:53:23 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "3 Industrials Stocks with Warning Signs",
-      "summary": "Even if they go mostly unnoticed, industrial businesses are the backbone of our country. They are also bound to benefit from a friendlier regulatory environment with the Trump administration, and this excitement has led to a six-month gain of 12.4% for the sector - higher than the S&P 500’s 5% retur",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-warning-signs-013323675.html?.tsrc=rss",
-      "publishedAt": "Sat, 25 Apr 2026 01:33:23 +0000",
+      "url": "https://www.fool.com/investing/2026/04/26/is-nvidia-stock-still-a-buy-after-returning-to-all/?.tsrc=rss",
+      "publishedAt": "Mon, 27 Apr 2026 03:07:00 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Nvidia stock closes at record, pushing market cap past $5 trillion",
-      "summary": "Nvidia's stock closed at its first record since October, as a rally in Intel pushed chipmakers higher.",
+      "title": "The Smartest Dividend Stocks to Buy With $1,000 Right Now",
+      "summary": "These picks provide an above-average yield in any market.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/04/26/the-smartest-dividend-stocks-to-buy-with-1000/?.tsrc=rss",
+      "publishedAt": "Mon, 27 Apr 2026 01:25:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "U.S.-Iran peace talks stall. Here's where things stand — and what's next for global markets",
+      "summary": "U.S.-Iran peace talks stall. Here's where things stand — and what's next for markets",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/24/nvidia-stock-closes-at-record-pushing-market-cap-past-5-trillion.html",
-      "publishedAt": "Fri, 24 Apr 2026 22:40:51 GMT",
+      "url": "https://www.cnbc.com/2026/04/27/us-iran-peace-talks-stall-global-markets-stocks-oil-treasurys.html",
+      "publishedAt": "Mon, 27 Apr 2026 05:19:03 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Trump: Shooter at White House press dinner had multiple weapons, one officer shot",
+      "summary": "Trump, seated next to first lady Melania Trump, was quickly surrounded by Secret Service agents, while many attendees ducked under their tables.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/25/trump-gunshots-white-house-correspondents-dinner.html",
+      "publishedAt": "Sun, 26 Apr 2026 14:02:54 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "China industrial profits jump 15.8% in March, fueled by AI and chip boom despite oil shock risks",
+      "summary": "Rising global oil prices have begun seeping into the domestic economy, squeezing margins for manufacturers dependent on imported raw materials.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/27/china-industrial-profits-march-iran-war-oil-shock.html",
+      "publishedAt": "Mon, 27 Apr 2026 04:52:27 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
-      "summary": "Anthropic said its latest agreement with Google expands on a longstanding partnership between the two companies.",
+      "title": "Sun Pharma shares jump 5% as India's largest drugmaker to buy U.S. firm Organon in $11.75 billion deal",
+      "summary": "To fuel its global ambitions, Sun Pharmaceutical Industries will acquire New Jersey-based Organon & Co in an all-cash deal that values the U.S. company at $11.75 billion.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
-      "publishedAt": "Fri, 24 Apr 2026 18:32:44 GMT",
+      "url": "https://www.cnbc.com/2026/04/27/indian-drugmaker-sun-pharma-to-buy-us-firm-organon-in-11point75-billion-deal.html",
+      "publishedAt": "Mon, 27 Apr 2026 04:10:23 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Everything we know about Cole Allen, the D.C. correspondents dinner shooter",
+      "summary": "Allen was a guest at the Washington Hilton, where the dinner was held, and officials said he checked in on Friday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/26/cole-allen-dc-correspondents-dinner-shooter.html",
+      "publishedAt": "Sun, 26 Apr 2026 22:37:31 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Pirro could reopen Fed probe at any time, Democratic senators warn",
-      "summary": "Sens. Elizabeth Warren and Dick Durbin, in a letter obtained first by CNBC, question Jeanine Pirro's mention of reopening a probe of Fed Chair Jerome Powell.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/24/fed-powell-pirro-elizabeth-warren-durbin.html",
-      "publishedAt": "Fri, 24 Apr 2026 22:02:04 GMT",
+      "title": "U.S. stock futures mixed, oil rises ahead of a busy week for Wall Street",
+      "summary": "U.S. stock-index futures were mixed on Sunday as oil prices rose, ahead of a key week for Wall Street following record highs for the S&P 500 and the tech-heavy Nasdaq.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-rises-ahead-of-a-busy-week-for-wall-street-c3e49958?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 27 Apr 2026 03:05:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Wall Street’s Super Bowl Wednesday: Alphabet, Amazon, Microsoft and Meta report along with Powell’s last Fed meeting",
+      "summary": "It’s a historic Wednesday for Wall Street as Alphabet, Amazon, Microsoft and Meta report alongside Jerome Powell’s final press conference",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/wall-streets-super-bowl-wednesday-alphabet-amazon-microsoft-and-meta-report-along-with-powells-last-fed-meeting-88eb1710?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 26 Apr 2026 21:00:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Special Forces Sgt. in Polymarket Maduro raid bet case released; Kalshi says it blocked him",
-      "summary": "Sgt. Gannon Ken Van Dyke was involved in planning the raid to capture Nicolás Maduro even as he allegedly made Polymarket bets that paid off from that raid.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/24/special-forces-van-dyke-polymarket-bets-maduro-raid-kalshi.html",
-      "publishedAt": "Fri, 24 Apr 2026 22:20:21 GMT",
-      "sentiment": "neutral"
+      "title": "I will inherit my parents’ $1.5 million estate. Do I fire the adviser who charges a 3% fee?",
+      "summary": "“Some stocks have risen, but others have flopped.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/some-stocks-have-risen-but-others-have-flopped-i-will-soon-inherit-my-parents-1-5-million-estate-do-i-fire-the-adviser-who-charges-a-3-fee-6b5b2caa?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 26 Apr 2026 20:42:00 GMT",
+      "sentiment": "positive"
     },
     {
-      "title": "AI data center backlash threatens Pennsylvania GOP incumbents in 2026 election",
-      "summary": "Pennsylvania has four competitive House races in 2026, all of which are in areas where Gov. Josh Shapiro has AI data center expansion plans.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/24/ai-data-centers-pennsylvania-republicans-2026-election.html",
-      "publishedAt": "Fri, 24 Apr 2026 12:00:01 GMT",
+      "title": "‘The Lord has taken care of me’: I’m 74. I went from earning $14 an hour to retiring with $3.4 million. Here’s how I did it.",
+      "summary": "“I have always thought that I did not have any real talents or skills.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-lord-has-taken-care-of-me-im-74-i-went-from-working-14-an-hour-to-3-4-million-heres-how-i-did-it-e0af1045?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 26 Apr 2026 20:30:00 GMT",
       "sentiment": "neutral"
     },
     {
@@ -805,43 +837,11 @@
       "summary": "“Renting improves cash flow by about $1,300 a month.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 24 Apr 2026 22:08:00 GMT",
+      "publishedAt": "Sun, 26 Apr 2026 20:22:00 GMT",
       "sentiment": "negative"
-    },
-    {
-      "title": "‘This is unbelievable’: My adviser made $300,000 trading options. Now I’m being killed by taxes. Do I fire him?",
-      "summary": "“I am getting hit with IRMAA in two years.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-is-unbelievable-my-adviser-made-300-000-trading-options-now-im-being-killed-by-taxes-do-i-complain-e30873b7?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 24 Apr 2026 21:54:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "‘AI genuinely freaks me out’: Do I leave my $150,000 nonprofit job for a $215,000 data analytics position — with a 50-minute commute?",
-      "summary": "“Between layoffs and AI taking over lower-level data work, I’m not sure jumping ship for a big raise makes sense.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/ai-genuinely-freaks-me-out-do-i-leave-my-150-000-job-for-a-215-000-role-in-data-analytics-with-a-50-minute-commute-440b4c36?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 24 Apr 2026 21:38:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "‘My child requires lifelong support’: I’m in my 40s with $330,000 for retirement. How can I make this last both our lifetimes?",
-      "summary": "“The portfolio has grown, but I can’t help feeling that it hasn’t grown as much as it could have.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-child-will-need-lifelong-support-im-in-my-40s-with-a-330-000-inherited-retirement-account-how-can-i-grow-it-4fc7f64a?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 24 Apr 2026 21:19:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Nvidia’s stock sees its first record close in 6 months — thanks to Intel",
-      "summary": "Nvidia is finally on track to finish back in $5 trillion territory, capping off an “incredible week” for chip makers.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-first-record-close-in-6-months-thanks-to-intel-21af7d28?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 24 Apr 2026 21:00:00 GMT",
-      "sentiment": "positive"
     }
   ],
-  "fearGreedIndex": 31,
+  "fearGreedIndex": 47,
   "valuation": {
     "sp500": {
       "pe": null,
