@@ -2,17 +2,10 @@
   "date": "2026-04-21",
   "dataDate": "2026-04-20",
   "forecastDate": "2026-04-21",
-<<<<<<< HEAD
-  "timestamp": "2026-04-21T17:00:47.568957+08:00",
-  "marketStatus": "closed",
-  "overallSentiment": "bullish",
-  "sentimentScore": 31,
-=======
   "timestamp": "2026-04-21T12:50:29.244238+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
   "sentimentScore": 30,
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -380,16 +373,10 @@
     ]
   },
   "indicators": {
-<<<<<<< HEAD
-    "vix": 19.03,
-    "vixChange": 0.16,
-    "vixHistory": [
-=======
     "vix": 18.87,
     "vixChange": 1.39,
     "vixHistory": [
       25.5,
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
       24.93,
       24.23,
       27.29,
@@ -418,22 +405,12 @@
       18.17,
       17.94,
       17.48,
-<<<<<<< HEAD
-      18.87,
-      19.03
-    ],
-    "vixHistoryStart": "2026-03-10",
-    "vixHistoryEnd": "2026-04-21",
-    "dxy": 98.24,
-    "dxyChange": 0.19,
-=======
       18.87
     ],
     "vixHistoryStart": "2026-03-09",
     "vixHistoryEnd": "2026-04-20",
     "dxy": 98.15,
     "dxyChange": 0.1,
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
     "dxyHistory": [
       98.83,
       99.23,
@@ -464,11 +441,7 @@
       98.22,
       98.1,
       98.05,
-<<<<<<< HEAD
-      98.24
-=======
       98.15
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
     ],
     "dxyHistoryStart": "2026-03-10",
     "dxyHistoryEnd": "2026-04-21",
@@ -544,13 +517,8 @@
     ],
     "us2yHistoryStart": "2026-03-09",
     "us2yHistoryEnd": "2026-04-20",
-<<<<<<< HEAD
-    "gold": 4807.7,
-    "goldChange": 1.1,
-=======
     "gold": 4811.3,
     "goldChange": 4.7,
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
     "goldHistory": [
       5229.7,
       5167.4,
@@ -581,21 +549,12 @@
       4785.4,
       4857.6,
       4806.6,
-<<<<<<< HEAD
-      4807.7
-    ],
-    "goldHistoryStart": "2026-03-10",
-    "goldHistoryEnd": "2026-04-21",
-    "oil": 86.39,
-    "oilChange": -3.22,
-=======
       4811.3
     ],
     "goldHistoryStart": "2026-03-10",
     "goldHistoryEnd": "2026-04-21",
     "oil": 86.5,
     "oilChange": -3.11,
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
     "oilHistory": [
       83.45,
       87.25,
@@ -626,81 +585,6 @@
       94.69,
       83.85,
       89.61,
-<<<<<<< HEAD
-      86.39
-    ],
-    "oilHistoryStart": "2026-03-10",
-    "oilHistoryEnd": "2026-04-21",
-    "btc": 76536.85,
-    "btcChange": 1532.43,
-    "btcHistory": [
-      71453.47,
-      69903.37,
-      71291.01,
-      69462.82,
-      66166.55,
-      66707.15,
-      66517.29,
-      67732.66,
-      66558.39,
-      68576.84,
-      66909.19,
-      66955.22,
-      67161.1,
-      66905.41,
-      69667.14,
-      67946.57,
-      70839.24,
-      71127.96,
-      72910.29,
-      72789.75,
-      70779.93,
-      72339.62,
-      75181.39,
-      74154.9,
-      73938.04,
-      77956.91,
-      76251.59,
-      76024.76,
-      75004.42,
-      76536.85
-    ],
-    "btcHistoryStart": "2026-03-22",
-    "btcHistoryEnd": "2026-04-21",
-    "eth": 2324.06,
-    "ethChange": 35.04,
-    "ethHistory": [
-      2180.63,
-      2134.88,
-      2175.51,
-      2076.06,
-      1987.45,
-      2018.96,
-      1991.87,
-      2069.96,
-      2044.92,
-      2125.95,
-      2065.18,
-      2055.27,
-      2052.32,
-      2037.69,
-      2158.13,
-      2071.41,
-      2192.18,
-      2177.17,
-      2243.31,
-      2249.4,
-      2182.29,
-      2231.45,
-      2361.31,
-      2337.9,
-      2308.82,
-      2448.95,
-      2365.18,
-      2339.33,
-      2289.02,
-      2324.06
-=======
       86.5
     ],
     "oilHistoryStart": "2026-03-10",
@@ -774,7 +658,6 @@
       2273.67,
       2320.16,
       2311.45
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
     ],
     "ethHistoryStart": "2026-03-22",
     "ethHistoryEnd": "2026-04-21"
@@ -838,33 +721,6 @@
   ],
   "news": [
     {
-<<<<<<< HEAD
-      "title": "The Stock Market Flashes a Warning as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next.",
-      "summary": "The S&P 500 currently trades near its record high, but the bull market may be in jeopardy.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/21/stock-market-warning-bad-news-about-trumps-economy/?.tsrc=rss",
-      "publishedAt": "Tue, 21 Apr 2026 08:15:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "1 Red-Hot Growth Stock to Buy as the S&P 500 Turns Positive in 2026",
-      "summary": "With the major indexes back near their all-time highs, investors should focus on quality companies rather than ones priced on hype alone.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/21/red-hot-growth-stock-buy-asml-2026/?.tsrc=rss",
-      "publishedAt": "Tue, 21 Apr 2026 07:51:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Micron sits at the center of a red-hot chip rally",
-      "summary": "Semiconductor stocks are ripping higher again, and the backdrop is getting hard to ignore. The Nasdaq PHLX Semiconductor Index (SOX) has climbed about 34% over its current 14-day winning streak, putting it on pace for its best 14-day run since 2002. It is also chasing a ninth straight record close, ",
-      "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/stocks/micron-sits-at-the-center-of-a-red-hot-chip-rally?.tsrc=rss",
-      "publishedAt": "Tue, 21 Apr 2026 05:07:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-=======
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
       "title": "Prediction: This Artificial Intelligence (AI) Growth Stock Will Be the Nasdaq's Biggest Winner Over the Next 12 Months",
       "summary": "Artificial intelligence (AI) stocks look poised for a comeback as the Nasdaq reverses from correction territory.",
       "source": "Yahoo Finance",
@@ -881,16 +737,6 @@
       "sentiment": "negative"
     },
     {
-<<<<<<< HEAD
-      "title": "Apple incoming CEO John Ternus faces a defining challenge: Fixing the company's AI strategy",
-      "summary": "Tim Cook had a highly successful tenure as Apple's CEO, but he leaves his successor with a big gap to fill when it comes to the company's position in AI.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/20/apple-new-ceo-john-ternus-faces-defining-challenge-fixing-ai-strategy.html",
-      "publishedAt": "Tue, 21 Apr 2026 06:40:39 GMT",
-      "sentiment": "positive"
-    },
-    {
-=======
       "title": "After Weeks of Extreme Fear, the Market Sentiment Index Just Jumped 20 Points. Here's What Comes Next.",
       "summary": "Investor sentiment has swung wildly in recent weeks.",
       "source": "Yahoo Finance",
@@ -931,65 +777,10 @@
       "sentiment": "neutral"
     },
     {
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
       "title": "‘New cards on the battlefield’: U.S., Iran ratchet up rhetoric with peace talks in limbo",
       "summary": "American negotiators may be outmatched at the negotiating table by Iran's experienced diplomatic delegation, says analyst, ahead of potential high-stakes meeting.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/04/21/new-cards-on-the-battlefield-us-iran-ratchet-up-rhetoric-with-peace-talks-in-limbo.html",
-<<<<<<< HEAD
-      "publishedAt": "Tue, 21 Apr 2026 08:15:10 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "JPMorgan expands $1.5 trillion economic security splurge into Europe",
-      "summary": "The banking giant is looking to invest in areas deemed critical to economic security, including defense and AI.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/21/jpmorgan-chase-security-defense-spending-ai-europe-uk-dimon.html",
-      "publishedAt": "Tue, 21 Apr 2026 07:49:06 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump threatens Iran again as ceasefire deadline looms, U.S. gears up for peace talks",
-      "summary": "Trump reportedly said Sunday that if Iran doesn't sign a deal, \"the whole country is going to get blown up,\" with its bridges and power plants being targeted.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/20/trump-defense-iran-war-pakistan-vance-witkoff-kushner.html",
-      "publishedAt": "Mon, 20 Apr 2026 18:55:17 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Tim Cook reactions: Sam Altman, Palmer Luckey react to Apple CEO move",
-      "summary": "Apple CEO Tim Cook's move to executive chair spurred commentary from tech leaders Sam Altman and Palmer Luckey.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/20/tim-cook-apple-reactions-ceo.html",
-      "publishedAt": "Mon, 20 Apr 2026 23:00:20 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Lizzo finally sells her Beverly Hills mansion at a big loss",
-      "summary": "Pop sensation Lizzo has finally sold her beleaguered Beverly Hills, Calif., mansion—but has taken a $3.9 million loss on the property after spending more than a year trying to secure a buyer.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/lizzo-finally-sells-her-beverly-hills-mansion-at-a-big-loss-cad733b1?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 21 Apr 2026 08:58:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Alaska Air says it will spend more on fuel this quarter than it earned the last two years",
-      "summary": "Alaska Air detailed the cost of the Iran war, and they’re big: some $600 million extra in fuel costs, which is more than their entire profits the last two years.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/alaska-air-says-it-will-spend-more-on-fuel-this-quarter-than-it-earned-the-last-two-years-587d85c8?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 21 Apr 2026 08:47:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The end of freedom of the seas: Why global shipping may never be the same",
-      "summary": "Freedom of maritime navigation has long been considered a staple feature of the post-war liberal order but all this is changing in the era of competing superpowers",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-end-of-freedom-of-the-seas-why-global-shipping-may-never-be-the-same-54e0b3a3?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 21 Apr 2026 07:43:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-=======
       "publishedAt": "Tue, 21 Apr 2026 04:23:04 GMT",
       "sentiment": "positive"
     },
@@ -1010,7 +801,6 @@
       "sentiment": "positive"
     },
     {
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
       "title": "Do I earn too much to contribute to an IRA?",
       "summary": "You may not be eligible — here are your options.",
       "source": "MarketWatch",
@@ -1025,8 +815,6 @@
       "url": "https://www.marketwatch.com/story/bonds-could-lag-stocks-for-the-rest-of-2026-according-to-this-contrarian-signal-6b6c55de?mod=mw_rss_topstories",
       "publishedAt": "Tue, 21 Apr 2026 01:46:00 GMT",
       "sentiment": "neutral"
-<<<<<<< HEAD
-=======
     },
     {
       "title": "Okta’s stock is surging. Here’s why identity security has become the next hot thing.",
@@ -1051,7 +839,6 @@
       "url": "https://www.marketwatch.com/story/anthropic-has-unprecedented-demand-and-its-leaning-on-amazon-for-support-fba025bb?mod=mw_rss_topstories",
       "publishedAt": "Tue, 21 Apr 2026 00:43:00 GMT",
       "sentiment": "neutral"
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
     }
   ],
   "fearGreedIndex": 33,
@@ -1059,28 +846,16 @@
     "sp500": {
       "pe": null,
       "forwardPE": null,
-<<<<<<< HEAD
-      "pePercentile1y": null,
-=======
       "pePercentile1y": 99,
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 14,
       "peRangeHigh": 35,
-<<<<<<< HEAD
-      "drawdown52w": null,
-      "high52w": null,
-      "drawdownATH": null,
-      "allTimeHigh": null,
-      "currentPrice": null
-=======
       "drawdown52w": -0.52,
       "high52w": 712.39,
       "drawdownATH": -0.52,
       "allTimeHigh": 712.39,
       "currentPrice": 708.72
->>>>>>> 4795e3102763ce19b9541df1d9fdb576e3d6860e
     },
     "nasdaq": {
       "pe": null,
