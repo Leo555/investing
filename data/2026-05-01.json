@@ -1,0 +1,549 @@
+{
+  "date": "2026-05-01",
+  "dataDate": "2026-04-30",
+  "forecastDate": "2026-05-01",
+  "timestamp": "2026-05-01T18:59:14.420370+08:00",
+  "marketStatus": "closed",
+  "overallSentiment": "bullish",
+  "sentimentScore": 18,
+  "nasdaq": {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "price": 24892.31,
+    "change": 219.07,
+    "changePercent": 0.89,
+    "tradingDate": "2026-04-30",
+    "open": 24859.94,
+    "high": 24935.6,
+    "low": 24491.83,
+    "previousClose": 24673.24,
+    "volume": 8139190000,
+    "avgVolume": 8887931500,
+    "yearHigh": 24935.6,
+    "yearHighDate": "2026-04-30",
+    "yearLow": 17503.01,
+    "yearLowDate": "2025-05-07",
+    "pe": null,
+    "marketCap": null,
+    "sma20": 23768.86,
+    "sma50": 22876.75,
+    "sma200": null,
+    "rsi14": 80.2,
+    "macdLine": 658.4345,
+    "macdSignal": 621.4103,
+    "macdHistogram": 37.0242,
+    "bollingerUpper": 25812.68,
+    "bollingerMiddle": 23768.86,
+    "bollingerLower": 21725.03,
+    "atr14": 355.14,
+    "priceHistory": [
+      {
+        "date": "2026-03-19",
+        "close": 22090.69,
+        "volume": 8547870000
+      },
+      {
+        "date": "2026-03-20",
+        "close": 21647.61,
+        "volume": 11743490000
+      },
+      {
+        "date": "2026-03-23",
+        "close": 21946.76,
+        "volume": 8895880000
+      },
+      {
+        "date": "2026-03-24",
+        "close": 21761.89,
+        "volume": 8488380000
+      },
+      {
+        "date": "2026-03-25",
+        "close": 21929.82,
+        "volume": 8056920000
+      },
+      {
+        "date": "2026-03-26",
+        "close": 21408.08,
+        "volume": 7726590000
+      },
+      {
+        "date": "2026-03-27",
+        "close": 20948.36,
+        "volume": 8713310000
+      },
+      {
+        "date": "2026-03-30",
+        "close": 20794.64,
+        "volume": 9234380000
+      },
+      {
+        "date": "2026-03-31",
+        "close": 21590.63,
+        "volume": 10645070000
+      },
+      {
+        "date": "2026-04-01",
+        "close": 21840.95,
+        "volume": 8801740000
+      },
+      {
+        "date": "2026-04-02",
+        "close": 21879.18,
+        "volume": 8134780000
+      },
+      {
+        "date": "2026-04-06",
+        "close": 21996.34,
+        "volume": 7907270000
+      },
+      {
+        "date": "2026-04-07",
+        "close": 22017.85,
+        "volume": 10796020000
+      },
+      {
+        "date": "2026-04-08",
+        "close": 22634.99,
+        "volume": 10411670000
+      },
+      {
+        "date": "2026-04-09",
+        "close": 22822.42,
+        "volume": 8662470000
+      },
+      {
+        "date": "2026-04-10",
+        "close": 22902.89,
+        "volume": 8700640000
+      },
+      {
+        "date": "2026-04-13",
+        "close": 23183.74,
+        "volume": 7925320000
+      },
+      {
+        "date": "2026-04-14",
+        "close": 23639.08,
+        "volume": 9105660000
+      },
+      {
+        "date": "2026-04-15",
+        "close": 24016.02,
+        "volume": 10206480000
+      },
+      {
+        "date": "2026-04-16",
+        "close": 24102.7,
+        "volume": 9963610000
+      },
+      {
+        "date": "2026-04-17",
+        "close": 24468.48,
+        "volume": 10159120000
+      },
+      {
+        "date": "2026-04-20",
+        "close": 24404.39,
+        "volume": 8379940000
+      },
+      {
+        "date": "2026-04-21",
+        "close": 24259.96,
+        "volume": 9309940000
+      },
+      {
+        "date": "2026-04-22",
+        "close": 24657.57,
+        "volume": 8080930000
+      },
+      {
+        "date": "2026-04-23",
+        "close": 24438.5,
+        "volume": 7956600000
+      },
+      {
+        "date": "2026-04-24",
+        "close": 24836.6,
+        "volume": 10203070000
+      },
+      {
+        "date": "2026-04-27",
+        "close": 24887.1,
+        "volume": 8126500000
+      },
+      {
+        "date": "2026-04-28",
+        "close": 24663.8,
+        "volume": 7441950000
+      },
+      {
+        "date": "2026-04-29",
+        "close": 24673.24,
+        "volume": 8147470000
+      },
+      {
+        "date": "2026-04-30",
+        "close": 24892.31,
+        "volume": 8139190000
+      }
+    ]
+  },
+  "sp500": {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "price": 0,
+    "change": 0,
+    "changePercent": 0,
+    "tradingDate": null,
+    "open": 0,
+    "high": 0,
+    "low": 0,
+    "previousClose": 0,
+    "volume": 0,
+    "avgVolume": 0,
+    "yearHigh": 0,
+    "yearHighDate": null,
+    "yearLow": 0,
+    "yearLowDate": null,
+    "pe": null,
+    "marketCap": null,
+    "sma20": null,
+    "sma50": null,
+    "sma200": null,
+    "rsi14": null,
+    "macdLine": null,
+    "macdSignal": null,
+    "macdHistogram": null,
+    "bollingerUpper": null,
+    "bollingerMiddle": null,
+    "bollingerLower": null,
+    "atr14": null,
+    "priceHistory": []
+  },
+  "indicators": {
+    "vix": null,
+    "vixChange": null,
+    "vixHistory": [],
+    "dxy": 98.01,
+    "dxyChange": -0.07,
+    "dxyHistory": [
+      99.65,
+      98.95,
+      99.43,
+      99.6,
+      99.9,
+      100.15,
+      100.51,
+      99.96,
+      99.65,
+      100.03,
+      99.98,
+      99.64,
+      99.13,
+      98.82,
+      98.65,
+      98.37,
+      98.12,
+      98.06,
+      98.22,
+      98.1,
+      98.05,
+      98.41,
+      98.59,
+      98.8,
+      98.51,
+      98.48,
+      98.62,
+      98.92,
+      98.08,
+      98.01
+    ],
+    "dxyHistoryStart": "2026-03-20",
+    "dxyHistoryEnd": "2026-05-01",
+    "us10y": 4.39,
+    "us10yChange": -0.03,
+    "us10yHistory": [
+      4.28,
+      4.39,
+      4.33,
+      4.39,
+      4.33,
+      4.42,
+      4.44,
+      4.34,
+      4.31,
+      4.32,
+      4.31,
+      4.34,
+      4.34,
+      4.29,
+      4.29,
+      4.32,
+      4.3,
+      4.26,
+      4.28,
+      4.31,
+      4.25,
+      4.25,
+      4.29,
+      4.29,
+      4.32,
+      4.31,
+      4.34,
+      4.35,
+      4.42,
+      4.39
+    ],
+    "us10yHistoryStart": "2026-03-19",
+    "us10yHistoryEnd": "2026-04-30",
+    "us2y": null,
+    "us2yChange": null,
+    "us2yHistory": [],
+    "gold": null,
+    "goldChange": null,
+    "goldHistory": [],
+    "oil": null,
+    "oilChange": null,
+    "oilHistory": [],
+    "btc": 77270.5,
+    "btcChange": 1000.07,
+    "btcHistory": [
+      66909.19,
+      66955.22,
+      67161.1,
+      66905.41,
+      69667.14,
+      67946.57,
+      70839.24,
+      71127.96,
+      72910.29,
+      72789.75,
+      70779.93,
+      72339.62,
+      75181.39,
+      74154.9,
+      73938.04,
+      77956.91,
+      76251.59,
+      76024.76,
+      75004.42,
+      75762.71,
+      79080.63,
+      78194.45,
+      78040.02,
+      77666.86,
+      78104.22,
+      77816.06,
+      75849.31,
+      76558.49,
+      76270.43,
+      77270.5
+    ],
+    "btcHistoryStart": "2026-04-01",
+    "btcHistoryEnd": "2026-05-01",
+    "eth": 2281.67,
+    "ethChange": 20.47,
+    "ethHistory": [
+      2065.18,
+      2055.27,
+      2052.32,
+      2037.69,
+      2158.13,
+      2071.41,
+      2192.18,
+      2177.17,
+      2243.31,
+      2249.4,
+      2182.29,
+      2231.45,
+      2361.31,
+      2337.9,
+      2308.82,
+      2448.95,
+      2365.18,
+      2339.33,
+      2289.02,
+      2303.19,
+      2404.53,
+      2334.24,
+      2313.64,
+      2316.71,
+      2347.46,
+      2314.8,
+      2270.07,
+      2299.83,
+      2261.2,
+      2281.67
+    ],
+    "ethHistoryStart": "2026-04-01",
+    "ethHistoryEnd": "2026-05-01"
+  },
+  "sectors": [
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": 1.68
+    },
+    {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": 1.06
+    }
+  ],
+  "news": [
+    {
+      "title": "Pawn shops are booming as 55% of Americans say their finances are getting worse",
+      "summary": "While the stock market surges, more Americans are pawning personal items to stay afloat.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/articles/pawn-shops-booming-55-americans-104500289.html?.tsrc=rss",
+      "publishedAt": "Fri, 01 May 2026 10:45:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "CRH Q1 Earnings Call Highlights",
+      "summary": "CRH (NYSE:CRH) reported a “strong first quarter performance” and reaffirmed its full-year 2026 guidance, citing early-season project activity, disciplined commercial execution, and contributions from acquisitions. Chief Executive Officer Jim Mintern said the company delivered year-over-year growth i",
+      "source": "Yahoo Finance",
+      "url": "https://www.marketbeat.com/instant-alerts/crh-q1-earnings-call-highlights-2026-05-01/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "publishedAt": "Fri, 01 May 2026 10:20:50 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Slower Growth Hotter Inflation",
+      "summary": "The Morning Bull - US Market Morning Update Friday, May, 1 2026 US stock futures are slightly higher this morning, as investors balance slower growth with hotter inflation. First quarter US GDP grew at a 2.0% annual pace versus forecasts of 2.3%, meaning the economy is still expanding but not quite ",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-101742104.html?.tsrc=rss",
+      "publishedAt": "Fri, 01 May 2026 10:17:42 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The stock market just had its best month since the pandemic rebound: Chart of the Day",
+      "summary": "Stocks knocked it out of the park in April.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/article/the-stock-market-just-had-its-best-month-since-the-pandemic-rebound-chart-of-the-day-100000062.html?.tsrc=rss",
+      "publishedAt": "Fri, 01 May 2026 10:00:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Stock Futures Rise as Strong Earnings Season Rolls On",
+      "summary": "Stocks looked set to extend their record-breaking rally on Friday after iPhone maker Apple became the latest company to beat Wall Street’s first-quarter earnings and revenue targets.  S&P 500 futures gained 0.1%, while contracts tied to the tech-heavy Nasdaq 100 slipped 0.1%.  The market is set for ",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/9a26981a-3129-3eb7-95d2-5212f9721944/stock-futures-rise-as-strong.html?.tsrc=rss",
+      "publishedAt": "Fri, 01 May 2026 09:33:45 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Oil rises as White House says Iran ceasefire halts 60-day war deadline",
+      "summary": "Under the 1973 War Powers Resolution, a U.S. president needs to withdraw troops 60 days after reporting their deployment to Congress",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/oil-prices-today-brent-wti-us-iran-war-trump-war-powers-deadline.html",
+      "publishedAt": "Fri, 01 May 2026 10:38:01 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Exxon Mobil and Chevron earnings fall as Iran war disrupts oil shipments",
+      "summary": "Oil prices were depressed during the first two months of the year, but suddenly spiked after the U.S. and Israel attacked Iran on Feb. 28.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/exxon-xom-chevron-cvx-q1-2026-earnings.html",
+      "publishedAt": "Fri, 01 May 2026 10:52:40 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Berkshire shares struggle into annual meeting. Can Abel rekindle enthusiasm without Buffett center stage?",
+      "summary": "For the first time, the 95-year-old Buffett won't be the central figure on stage, marking a new era for one of investing's most closely watched rituals.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/berkshire-hathaway-annual-meeting-new-era-warren-buffett-off-center-stage.html",
+      "publishedAt": "Fri, 01 May 2026 10:58:02 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Trump scraps Scotch whisky tariffs ‘in honor’ of King Charles",
+      "summary": "The move is expected to recoup millions of dollars a month for Scotland’s economy.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/donald-trump-king-charles-queen-camilla-state-visit-scotch-whisky-tariffs.html",
+      "publishedAt": "Fri, 01 May 2026 10:44:37 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Apple CEO Tim Cook warns of extended memory crunch. 'We'll look at a range of options'",
+      "summary": "In Apple's quarterly earnings report, CEO Tim Cook warned of further memory constraints in the coming quarters.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/apple-ceo-warns-of-memory-crunch-well-look-at-a-range-of-options.html",
+      "publishedAt": "Fri, 01 May 2026 07:00:01 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Berkshire’s stock has suffered in a post-Buffett world. Why that’s actually a good thing.",
+      "summary": "New CEO Greg Abel has the biggest investment shoes to fill — but he also had the best coach, which gives him “the best chance of success.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/berkshires-stock-has-suffered-in-a-post-buffett-world-why-thats-actually-a-good-thing-f13f6d5f?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 01 May 2026 11:00:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘We are old school’: I’ve been married for 40 years. Should I have kept my money separate?",
+      "summary": "“We have all of our financial accounts joint except for our IRAs.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/we-are-old-school-ive-been-married-for-40-years-should-i-have-kept-my-money-separate-d4bef3c2?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 01 May 2026 10:50:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘There is an imbalance of power’: My husband has cancer. Why must we wait two hours for a 10-minute CT scan?",
+      "summary": "“This letter is in memory of all the patients who died waiting for their medical appointments to begin.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/there-is-an-imbalance-of-power-my-husband-has-cancer-why-must-we-wait-two-hours-for-a-10-minute-ct-scan-143816e9?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 01 May 2026 10:50:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 01 May 2026 09:48:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "A year after selling $2.7 million Austin mansion, actress Haylie Duff and Matt Rosenberg call off 12-year engagement",
+      "summary": "Haylie Duff has split from her fiancé, Matt Rosenberg, 12 years after the former couple announced they were engaged—and six years after they relocated their family from California to Texas.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/a-year-after-selling-2-7-million-austin-mansion-actress-haylie-duff-and-matt-rosenberg-call-off-12-year-engagement-ef1524d1?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 01 May 2026 09:01:00 GMT",
+      "sentiment": "negative"
+    }
+  ],
+  "fearGreedIndex": 26,
+  "valuation": {
+    "sp500": {
+      "pe": null,
+      "forwardPE": null,
+      "pePercentile1y": null,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 14,
+      "peRangeHigh": 35,
+      "drawdown52w": null,
+      "high52w": null,
+      "drawdownATH": null,
+      "allTimeHigh": null,
+      "currentPrice": null
+    },
+    "nasdaq": {
+      "pe": null,
+      "forwardPE": null,
+      "pePercentile1y": null,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 18,
+      "peRangeHigh": 45,
+      "drawdown52w": null,
+      "high52w": null,
+      "drawdownATH": null,
+      "allTimeHigh": null,
+      "currentPrice": null
+    }
+  },
+  "advanceDeclineRatio": null,
+  "putCallRatio": null
+}
