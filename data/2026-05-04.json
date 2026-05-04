@@ -2,7 +2,7 @@
   "date": "2026-05-04",
   "dataDate": "2026-05-01",
   "forecastDate": "2026-05-04",
-  "timestamp": "2026-05-02T13:13:24.628936+08:00",
+  "timestamp": "2026-05-04T13:37:38.939658+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
   "sentimentScore": 36,
@@ -409,10 +409,9 @@
     ],
     "vixHistoryStart": "2026-03-20",
     "vixHistoryEnd": "2026-05-01",
-    "dxy": 98.21,
-    "dxyChange": 0.13,
+    "dxy": 98.14,
+    "dxyChange": -0.07,
     "dxyHistory": [
-      99.65,
       98.95,
       99.43,
       99.6,
@@ -441,10 +440,11 @@
       98.62,
       98.92,
       98.08,
-      98.21
+      98.21,
+      98.14
     ],
-    "dxyHistoryStart": "2026-03-20",
-    "dxyHistoryEnd": "2026-05-01",
+    "dxyHistoryStart": "2026-03-23",
+    "dxyHistoryEnd": "2026-05-04",
     "us10y": 4.38,
     "us10yChange": -0.01,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-03-20",
     "us2yHistoryEnd": "2026-05-01",
-    "gold": 4629.9,
-    "goldChange": 15.2,
+    "gold": 4608.0,
+    "goldChange": -21.9,
     "goldHistory": [
-      4570.4,
       4404.1,
       4399.3,
       4549.8,
@@ -549,14 +548,14 @@
       4591.5,
       4545.2,
       4614.7,
-      4629.9
+      4629.9,
+      4608.0
     ],
-    "goldHistoryStart": "2026-03-20",
-    "goldHistoryEnd": "2026-05-01",
-    "oil": 101.94,
-    "oilChange": -3.13,
+    "goldHistoryStart": "2026-03-23",
+    "goldHistoryEnd": "2026-05-04",
+    "oil": 101.11,
+    "oilChange": -0.83,
     "oilHistory": [
-      98.32,
       88.13,
       92.35,
       90.32,
@@ -585,15 +584,14 @@
       99.93,
       106.88,
       105.07,
-      101.94
+      101.94,
+      101.11
     ],
-    "oilHistoryStart": "2026-03-20",
-    "oilHistoryEnd": "2026-05-01",
-    "btc": 78093.33,
-    "btcChange": -44.94,
+    "oilHistoryStart": "2026-03-23",
+    "oilHistoryEnd": "2026-05-04",
+    "btc": 80006.14,
+    "btcChange": 841.23,
     "btcHistory": [
-      66894.47,
-      67387.66,
       68319.44,
       68899.6,
       71406.79,
@@ -621,15 +619,15 @@
       75907.3,
       76189.37,
       78138.27,
-      78093.33
+      78805.0,
+      79164.91,
+      80006.14
     ],
-    "btcHistoryStart": "2026-04-02",
-    "btcHistoryEnd": "2026-05-02",
-    "eth": 2298.67,
-    "ethChange": 5.65,
+    "btcHistoryStart": "2026-04-04",
+    "btcHistoryEnd": "2026-05-04",
+    "eth": 2380.13,
+    "ethChange": 36.65,
     "ethHistory": [
-      2051.96,
-      2069.02,
       2084.14,
       2111.37,
       2208.36,
@@ -657,10 +655,12 @@
       2256.89,
       2252.42,
       2293.02,
-      2298.67
+      2325.53,
+      2343.48,
+      2380.13
     ],
-    "ethHistoryStart": "2026-04-02",
-    "ethHistoryEnd": "2026-05-02"
+    "ethHistoryStart": "2026-04-04",
+    "ethHistoryEnd": "2026-05-04"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Forefront Tech Holdings Acquisition Corp Announces Closing of $100,000,000 Initial Public Offering",
-      "summary": "GRAND CAYMAN, Cayman Islands, May 02, 2026 (GLOBE NEWSWIRE) -- Forefront Tech Holdings Acquisition Corp (NASDAQ: FTHAU) (the “Company”) today announced that it closed its initial public offering (“IPO”) of 10,000,000 units at $10.00 per unit. The gross proceeds from the offering were $100 million be",
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn Stock Exchange during the period of 27 April – 30 April 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)27.04.202619446,400028.04.202620346,700029.04.202621946,927430.04.202621946,90091.05.2026-- Aktsi",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/forefront-tech-holdings-acquisition-corp-041700018.html?.tsrc=rss",
-      "publishedAt": "Sat, 02 May 2026 04:17:00 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000451.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 05:00:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones",
+      "title": "Dow Jones Futures: Trump Says U.S. To 'Guide' Ships Through Hormuz",
       "summary": "The stock market rebounded late last week after a short pause. The S&P 500 and Nasdaq are at highs while Apple and Broadcom are in buy zones.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/cfdf164e-e24a-366b-9d8b-b0274f05ba94/dow-jones-futures%3A-stock.html?.tsrc=rss",
-      "publishedAt": "Sat, 02 May 2026 02:57:54 +0000",
+      "url": "https://finance.yahoo.com/m/cfdf164e-e24a-366b-9d8b-b0274f05ba94/dow-jones-futures%3A-trump-says.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 04:27:18 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Nvidia Jumped Back Above $5 Trillion. When Will It Hit $6 Trillion?",
-      "summary": "Nvidia could be a $6 trillion company before 2026 is over.",
+      "title": "Seoul, Taipei hit records as Asian stocks track Wall St tech rally",
+      "summary": "Tech firms led a rally across most Asian markets Monday following another healthy day on Wall Street fuelled by more strong earnings, while investors were also cheered by news that Iran had submitted fresh proposals to end its war with the United States.Iran's foreign ministry said Tehran had submit",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/05/01/nvidia-jumped-back-above-5-trillion-when-hit-6/?.tsrc=rss",
-      "publishedAt": "Sat, 02 May 2026 00:50:00 +0000",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/seoul-taipei-hit-records-asian-032149912.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 03:21:49 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Why Iradimed Stock Topped the Market Today",
-      "summary": "Yet again, it posted growth and robust profitability in its latest quarter.",
+      "title": "Markets on alert as Trump vows ‘Project Freedom’ for Hormuz, setting up potential showdown after renewed attacks on ships",
+      "summary": "\"This is a Humanitarian gesture on behalf of the United States, Middle Eastern Countries but, in particular, the Country of Iran.\"",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/05/01/why-iradimed-stock-topped-the-market-today/?.tsrc=rss",
-      "publishedAt": "Sat, 02 May 2026 00:08:25 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "VOOG vs. VUG: Which Vanguard Growth ETF Reigns Supreme?",
-      "summary": "Side-by-side, these two Vanguard growth funds differ in cost, portfolio makeup, and sector exposure -- details that can shape long-term investment outcomes.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/coverage/etfs/2026/05/01/voog-vs-vug-which-vanguard-growth-etf-reigns-supreme/?.tsrc=rss",
-      "publishedAt": "Fri, 01 May 2026 23:39:24 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Exxon Mobil CEO expects higher oil prices due to Iran war: ‘The market hasn’t seen the full impact’",
-      "summary": "Oil prices have soared on the risk of escalation and then plunged on hopes for peace before repeating the cycle.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/01/exxon-ceo-iran-war-oil-strait-hormuz.html",
-      "publishedAt": "Fri, 01 May 2026 18:58:24 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Spirit Airlines prepares to shut down after failing to reach deal for bailout lifeline",
-      "summary": "Talks with bondholders for a government bailout this week failed to yield a deal.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/01/spirit-airlines-trump-bailout.html",
-      "publishedAt": "Fri, 01 May 2026 23:42:19 GMT",
+      "url": "https://finance.yahoo.com/economy/policy/articles/markets-alert-trump-vows-project-231032971.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 02:33:45 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "Cautious optimism: Berkshire investors weigh future under new CEO Greg Abel",
-      "summary": "The mood in the air was cautiously optimistic as new and returning investors weighed the company's direction under a new chief executive.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/01/berkshire-investors-weigh-future-under-new-ceo-greg-abel.html",
-      "publishedAt": "Fri, 01 May 2026 21:39:03 GMT",
+      "title": "3 Industrials Stocks with Warning Signs",
+      "summary": "Industrials businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. They are also bound to benefit from a friendlier regulatory environment with the Trump administration, and this excitement has led to a six-month gain of 14.6% for the sector - hi",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-warning-signs-014055445.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 01:40:55 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Trump tells Congress hostilities in Iran 'have terminated' as war powers deadline hits",
-      "summary": "Trump said there \"is tremendous discord\" among Iran's leaders, which has complicated efforts to end the war that the United States began in late February.",
+      "title": "Meme stock GameStop makes $56 billion offer for eBay in bid to rival Amazon",
+      "summary": "GameStop made a takeover bid for eBay, offering $125 per share in a cash-and-stock deal that values the e-commerce platform at roughly $55.5 billion.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/01/trump-rejects-iran-peace-deal.html",
-      "publishedAt": "Fri, 01 May 2026 21:08:03 GMT",
+      "url": "https://www.cnbc.com/2026/05/04/gamestop-ebay-takeover-bid-ryan-cohen-gaming-retail-ecommerce.html",
+      "publishedAt": "Mon, 04 May 2026 05:29:55 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Bard College President Leon Botstein retiring after Jeffrey Epstein ties detailed",
-      "summary": "Bard College's long-time leader Leon Botstein has faced pressure since the DOJ released documents about his communications with Jeffrey Epstein.",
+      "title": "Rudy Giuliani, former New York mayor and Trump lawyer, hospitalized in critical condition",
+      "summary": "President Donald Trump called Rudy Giuliani a \"True Warrior, and the Best Mayor in the History of New York City, BY FAR,\" in a Truth Social post.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/01/epstein-bard-college-president-leon-botstein-retire.html",
-      "publishedAt": "Sat, 02 May 2026 03:12:04 GMT",
+      "url": "https://www.cnbc.com/2026/05/04/rudy-giuliani-hospital-critical-condition-trump.html",
+      "publishedAt": "Mon, 04 May 2026 01:53:02 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Apple just gave a clue that a big AI acquisition may be in the cards",
-      "summary": "With Apple officially retiring its net-cash-neutral target, some suspect the company will look to conduct more transformative M&A, beyond the smaller deals it made in the past.",
+      "title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "summary": "Oil exports are booming from the U.S. Gulf Coast thanks to the Middle East supply disruption caused by the Iran war.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/03/us-crude-oil-exports-surge-to-record-as-tankers-flock-to-gulf-coast.html",
+      "publishedAt": "Sun, 03 May 2026 11:08:46 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+      "summary": "Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supply chains.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+      "publishedAt": "Mon, 04 May 2026 02:01:05 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Oil prices mixed in choppy trade as Trump plans to 'free' ships stranded due to Mideast conflict",
+      "summary": "The United Kingdom Maritime Trade Operations agency said Monday that a tanker was hit by projectiles north of the city of of Fujairah in the United Arab Emirates.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html",
+      "publishedAt": "Mon, 04 May 2026 03:22:14 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Investors appear skeptical as Trump touts new plan to partially reopen Strait of Hormuz",
+      "summary": "Investors appeared skeptical Sunday after President Donald Trump said the U.S. will work to “free” neutral shipping that’s been stranded in the Persian Gulf since the start of the war with Iran.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/apple-just-gave-a-subtle-clue-that-a-splashy-ai-acquisition-may-be-in-the-cards-110f5ce2?mod=mw_rss_topstories",
-      "publishedAt": "Sat, 02 May 2026 02:31:00 GMT",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-rise-oil-falls-as-trump-touts-new-plan-to-partially-reopen-strait-of-hormuz-9908f10f?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 04 May 2026 03:02:00 GMT",
       "sentiment": "neutral"
     },
     {
       "title": "GameStop is hungry for relevance. Is buying eBay the answer?",
-      "summary": "GameStop is reportedly interesting in buying eBay, which has done a better job of adapting to changing consumer preferences.",
+      "summary": "GameStop has offered to buy eBay, which has done a better job of adapting to changing consumer preferences.",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/gamestop-is-hungry-for-relevance-is-buying-ebay-the-answer-de7004a0?mod=mw_rss_topstories",
-      "publishedAt": "Sat, 02 May 2026 01:57:00 GMT",
+      "publishedAt": "Mon, 04 May 2026 02:06:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "‘I’m very late to the game’: I’m 48, earn $65,000, have $48,000 in debt and no retirement. Am I doomed?",
-      "summary": "“I do not have any inheritance from anyone coming my way as I lost most of my immediate family when young.”",
+      "title": "Here’s what’s worth streaming in May 2026 on Netflix, Hulu, HBO Max and more",
+      "summary": "Netflix’s ‘Lord of the Flies,’ Apple’s ‘Star City’ and the return of Hulu’s ‘Deli Boys’ are among the highlights of the coming month",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-very-late-to-the-game-im-48-earn-65-000-have-48-000-in-debt-and-no-retirement-am-i-doomed-36206d6c?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 01 May 2026 23:40:00 GMT",
-      "sentiment": "neutral"
+      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-may-2026-on-netflix-hulu-hbo-max-and-more-a891be59?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 03 May 2026 22:41:00 GMT",
+      "sentiment": "positive"
     },
     {
       "title": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
       "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 01 May 2026 23:31:00 GMT",
+      "publishedAt": "Sun, 03 May 2026 21:45:00 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Thinking of raiding your 401(k) for a hardship withdrawal? Ask these questions first.",
-      "summary": "Money coaches tell you how to move past the stigma and decide if tapping your retirement fund is rational or reactive.",
+      "title": "‘We are old school’: I’ve been married for 40 years. Should I have kept my money separate?",
+      "summary": "“We have all of our financial accounts joint except for our IRAs.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/3-questions-to-ask-before-raiding-your-401-k-for-a-hardship-withdrawal-d514e9b2?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 01 May 2026 22:06:00 GMT",
+      "url": "https://www.marketwatch.com/story/we-are-old-school-ive-been-married-for-40-years-should-i-have-kept-my-money-separate-d4bef3c2?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 03 May 2026 21:16:00 GMT",
       "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 39,
+  "fearGreedIndex": 40,
   "valuation": {
     "sp500": {
       "pe": null,
