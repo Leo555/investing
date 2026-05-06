@@ -2,7 +2,11 @@
   "date": "2026-05-04",
   "dataDate": "2026-05-01",
   "forecastDate": "2026-05-04",
+<<<<<<< HEAD
   "timestamp": "2026-05-04T17:01:39.794136+08:00",
+=======
+  "timestamp": "2026-05-04T13:37:38.939658+08:00",
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
   "marketStatus": "closed",
   "overallSentiment": "bullish",
   "sentimentScore": 36,
@@ -373,9 +377,16 @@
     ]
   },
   "indicators": {
+<<<<<<< HEAD
     "vix": 17.48,
     "vixChange": 0.49,
     "vixHistory": [
+=======
+    "vix": 16.99,
+    "vixChange": 0.1,
+    "vixHistory": [
+      26.78,
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       26.15,
       26.95,
       25.33,
@@ -404,6 +415,7 @@
       17.83,
       18.81,
       16.89,
+<<<<<<< HEAD
       16.99,
       17.48
     ],
@@ -411,6 +423,14 @@
     "vixHistoryEnd": "2026-05-04",
     "dxy": 98.22,
     "dxyChange": 0.01,
+=======
+      16.99
+    ],
+    "vixHistoryStart": "2026-03-20",
+    "vixHistoryEnd": "2026-05-01",
+    "dxy": 98.14,
+    "dxyChange": -0.07,
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     "dxyHistory": [
       98.95,
       99.43,
@@ -441,7 +461,11 @@
       98.92,
       98.08,
       98.21,
+<<<<<<< HEAD
       98.22
+=======
+      98.14
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     ],
     "dxyHistoryStart": "2026-03-23",
     "dxyHistoryEnd": "2026-05-04",
@@ -517,8 +541,13 @@
     ],
     "us2yHistoryStart": "2026-03-20",
     "us2yHistoryEnd": "2026-05-01",
+<<<<<<< HEAD
     "gold": 4589.4,
     "goldChange": -40.5,
+=======
+    "gold": 4608.0,
+    "goldChange": -21.9,
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     "goldHistory": [
       4404.1,
       4399.3,
@@ -549,12 +578,21 @@
       4545.2,
       4614.7,
       4629.9,
+<<<<<<< HEAD
       4589.4
     ],
     "goldHistoryStart": "2026-03-23",
     "goldHistoryEnd": "2026-05-04",
     "oil": 103.22,
     "oilChange": 1.28,
+=======
+      4608.0
+    ],
+    "goldHistoryStart": "2026-03-23",
+    "goldHistoryEnd": "2026-05-04",
+    "oil": 101.11,
+    "oilChange": -0.83,
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     "oilHistory": [
       88.13,
       92.35,
@@ -585,6 +623,7 @@
       106.88,
       105.07,
       101.94,
+<<<<<<< HEAD
       103.22
     ],
     "oilHistoryStart": "2026-03-23",
@@ -658,6 +697,81 @@
       2306.3,
       2327.33,
       2358.96
+=======
+      101.11
+    ],
+    "oilHistoryStart": "2026-03-23",
+    "oilHistoryEnd": "2026-05-04",
+    "btc": 80006.14,
+    "btcChange": 841.23,
+    "btcHistory": [
+      68319.44,
+      68899.6,
+      71406.79,
+      71084.74,
+      72038.73,
+      72926.08,
+      73053.89,
+      70904.51,
+      74666.14,
+      74103.77,
+      74994.07,
+      74883.21,
+      77308.44,
+      75830.19,
+      74137.22,
+      75992.7,
+      75629.09,
+      78602.9,
+      78241.97,
+      77360.72,
+      77571.92,
+      78378.05,
+      77068.29,
+      76229.4,
+      75907.3,
+      76189.37,
+      78138.27,
+      78805.0,
+      79164.91,
+      80006.14
+    ],
+    "btcHistoryStart": "2026-04-04",
+    "btcHistoryEnd": "2026-05-04",
+    "eth": 2380.13,
+    "ethChange": 36.65,
+    "ethHistory": [
+      2084.14,
+      2111.37,
+      2208.36,
+      2190.95,
+      2201.24,
+      2243.17,
+      2285.47,
+      2199.15,
+      2354.34,
+      2316.43,
+      2365.03,
+      2342.8,
+      2434.48,
+      2357.52,
+      2273.67,
+      2320.16,
+      2311.69,
+      2398.37,
+      2332.66,
+      2312.74,
+      2318.71,
+      2363.39,
+      2294.56,
+      2285.75,
+      2256.89,
+      2252.42,
+      2293.02,
+      2325.53,
+      2343.48,
+      2380.13
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     ],
     "ethHistoryStart": "2026-04-04",
     "ethHistoryEnd": "2026-05-04"
@@ -689,6 +803,14 @@
       "changePercent": -0.18
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": -0.23
+    },
+    {
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "name": "金融",
       "symbol": "XLF",
       "changePercent": -0.4
@@ -716,6 +838,7 @@
   ],
   "news": [
     {
+<<<<<<< HEAD
       "title": "Want to Buy SpaceX Before Its IPO? This Venture Fund Crushed the S&P 500 and Nasdaq-100 in the Past Year.",
       "summary": "The Ark Venture Fund offers heavy exposure to SpaceX and OpenAI, but investors should understand the risks.",
       "source": "Yahoo Finance",
@@ -756,6 +879,48 @@
       "sentiment": "positive"
     },
     {
+=======
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn Stock Exchange during the period of 27 April – 30 April 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)27.04.202619446,400028.04.202620346,700029.04.202621946,927430.04.202621946,90091.05.2026-- Aktsi",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000451.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 05:00:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Dow Jones Futures: Trump Says U.S. To 'Guide' Ships Through Hormuz",
+      "summary": "The stock market rebounded late last week after a short pause. The S&P 500 and Nasdaq are at highs while Apple and Broadcom are in buy zones.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/cfdf164e-e24a-366b-9d8b-b0274f05ba94/dow-jones-futures%3A-trump-says.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 04:27:18 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Seoul, Taipei hit records as Asian stocks track Wall St tech rally",
+      "summary": "Tech firms led a rally across most Asian markets Monday following another healthy day on Wall Street fuelled by more strong earnings, while investors were also cheered by news that Iran had submitted fresh proposals to end its war with the United States.Iran's foreign ministry said Tehran had submit",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/seoul-taipei-hit-records-asian-032149912.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 03:21:49 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Markets on alert as Trump vows ‘Project Freedom’ for Hormuz, setting up potential showdown after renewed attacks on ships",
+      "summary": "\"This is a Humanitarian gesture on behalf of the United States, Middle Eastern Countries but, in particular, the Country of Iran.\"",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/markets-alert-trump-vows-project-231032971.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 02:33:45 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "3 Industrials Stocks with Warning Signs",
+      "summary": "Industrials businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. They are also bound to benefit from a friendlier regulatory environment with the Trump administration, and this excitement has led to a six-month gain of 14.6% for the sector - hi",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-warning-signs-014055445.html?.tsrc=rss",
+      "publishedAt": "Mon, 04 May 2026 01:40:55 +0000",
+      "sentiment": "neutral"
+    },
+    {
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "title": "Meme stock GameStop makes $56 billion offer for eBay in bid to rival Amazon",
       "summary": "GameStop made a takeover bid for eBay, offering $125 per share in a cash-and-stock deal that values the e-commerce platform at roughly $55.5 billion.",
       "source": "CNBC",
@@ -772,6 +937,7 @@
       "sentiment": "neutral"
     },
     {
+<<<<<<< HEAD
       "title": "Greg Abel earns solid scorecard from Berkshire shareholders after first annual meeting",
       "summary": "The reviews from longtime shareholders and professional investors were broadly positive, even as many acknowledged the notable absence of Warren Buffett.",
       "source": "CNBC",
@@ -825,6 +991,29 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/kylie-jenner-knocks-2-26-million-off-the-price-of-her-socal-mansion-2da0eac4?mod=mw_rss_topstories",
       "publishedAt": "Mon, 04 May 2026 09:04:00 GMT",
+=======
+      "title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "summary": "Oil exports are booming from the U.S. Gulf Coast thanks to the Middle East supply disruption caused by the Iran war.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/03/us-crude-oil-exports-surge-to-record-as-tankers-flock-to-gulf-coast.html",
+      "publishedAt": "Sun, 03 May 2026 11:08:46 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+      "summary": "Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supply chains.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+      "publishedAt": "Mon, 04 May 2026 02:01:05 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Oil prices mixed in choppy trade as Trump plans to 'free' ships stranded due to Mideast conflict",
+      "summary": "The United Kingdom Maritime Trade Operations agency said Monday that a tanker was hit by projectiles north of the city of of Fujairah in the United Arab Emirates.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html",
+      "publishedAt": "Mon, 04 May 2026 03:22:14 GMT",
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "sentiment": "neutral"
     },
     {
@@ -834,6 +1023,41 @@
       "url": "https://www.marketwatch.com/story/u-s-stock-futures-rise-oil-falls-as-trump-touts-new-plan-to-partially-reopen-strait-of-hormuz-9908f10f?mod=mw_rss_topstories",
       "publishedAt": "Mon, 04 May 2026 03:02:00 GMT",
       "sentiment": "neutral"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "title": "GameStop is hungry for relevance. Is buying eBay the answer?",
+      "summary": "GameStop has offered to buy eBay, which has done a better job of adapting to changing consumer preferences.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/gamestop-is-hungry-for-relevance-is-buying-ebay-the-answer-de7004a0?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 04 May 2026 02:06:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Here’s what’s worth streaming in May 2026 on Netflix, Hulu, HBO Max and more",
+      "summary": "Netflix’s ‘Lord of the Flies,’ Apple’s ‘Star City’ and the return of Hulu’s ‘Deli Boys’ are among the highlights of the coming month",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-may-2026-on-netflix-hulu-hbo-max-and-more-a891be59?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 03 May 2026 22:41:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "summary": "“I do better than many citizens because I’ve contributed at the highest level.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 03 May 2026 21:45:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "‘We are old school’: I’ve been married for 40 years. Should I have kept my money separate?",
+      "summary": "“We have all of our financial accounts joint except for our IRAs.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/we-are-old-school-ive-been-married-for-40-years-should-i-have-kept-my-money-separate-d4bef3c2?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 03 May 2026 21:16:00 GMT",
+      "sentiment": "neutral"
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     }
   ],
   "fearGreedIndex": 40,

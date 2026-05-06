@@ -2,10 +2,17 @@
   "date": "2026-04-30",
   "dataDate": "2026-04-29",
   "forecastDate": "2026-04-30",
+<<<<<<< HEAD
   "timestamp": "2026-04-30T17:08:03.944579+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
   "sentimentScore": 25,
+=======
+  "timestamp": "2026-04-30T13:32:59.779390+08:00",
+  "marketStatus": "closed",
+  "overallSentiment": "bullish",
+  "sentimentScore": 27,
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -373,6 +380,7 @@
     ]
   },
   "indicators": {
+<<<<<<< HEAD
     "vix": null,
     "vixChange": null,
     "vixHistory": [],
@@ -390,6 +398,190 @@
     "goldHistory": [],
     "oil": 107.91,
     "oilChange": 1.03,
+=======
+    "vix": 18.81,
+    "vixChange": 0.98,
+    "vixHistory": [
+      25.09,
+      24.06,
+      26.78,
+      26.15,
+      26.95,
+      25.33,
+      27.44,
+      31.05,
+      30.61,
+      25.25,
+      24.54,
+      23.87,
+      24.17,
+      25.78,
+      21.04,
+      19.49,
+      19.23,
+      19.12,
+      18.36,
+      18.17,
+      17.94,
+      17.48,
+      18.87,
+      19.5,
+      18.92,
+      19.31,
+      18.71,
+      18.02,
+      17.83,
+      18.81
+    ],
+    "vixHistoryStart": "2026-03-18",
+    "vixHistoryEnd": "2026-04-29",
+    "dxy": 99.03,
+    "dxyChange": 0.11,
+    "dxyHistory": [
+      99.23,
+      99.65,
+      98.95,
+      99.43,
+      99.6,
+      99.9,
+      100.15,
+      100.51,
+      99.96,
+      99.65,
+      100.03,
+      99.98,
+      99.64,
+      99.13,
+      98.82,
+      98.65,
+      98.37,
+      98.12,
+      98.06,
+      98.22,
+      98.1,
+      98.05,
+      98.41,
+      98.59,
+      98.8,
+      98.51,
+      98.48,
+      98.62,
+      98.92,
+      99.03
+    ],
+    "dxyHistoryStart": "2026-03-19",
+    "dxyHistoryEnd": "2026-04-30",
+    "us10y": 4.42,
+    "us10yChange": 0.07,
+    "us10yHistory": [
+      4.26,
+      4.28,
+      4.39,
+      4.33,
+      4.39,
+      4.33,
+      4.42,
+      4.44,
+      4.34,
+      4.31,
+      4.32,
+      4.31,
+      4.34,
+      4.34,
+      4.29,
+      4.29,
+      4.32,
+      4.3,
+      4.26,
+      4.28,
+      4.31,
+      4.25,
+      4.25,
+      4.29,
+      4.29,
+      4.32,
+      4.31,
+      4.34,
+      4.35,
+      4.42
+    ],
+    "us10yHistoryStart": "2026-03-18",
+    "us10yHistoryEnd": "2026-04-29",
+    "us2y": 3.59,
+    "us2yChange": 0.0,
+    "us2yHistory": [
+      3.61,
+      3.61,
+      3.62,
+      3.61,
+      3.62,
+      3.62,
+      3.62,
+      3.61,
+      3.6,
+      3.6,
+      3.61,
+      3.61,
+      3.62,
+      3.62,
+      3.6,
+      3.59,
+      3.59,
+      3.6,
+      3.61,
+      3.61,
+      3.61,
+      3.6,
+      3.6,
+      3.6,
+      3.6,
+      3.6,
+      3.59,
+      3.59,
+      3.59,
+      3.59
+    ],
+    "us2yHistoryStart": "2026-03-18",
+    "us2yHistoryEnd": "2026-04-29",
+    "gold": 4566.7,
+    "goldChange": 21.5,
+    "goldHistory": [
+      4600.7,
+      4570.4,
+      4404.1,
+      4399.3,
+      4549.8,
+      4375.5,
+      4492.0,
+      4526.0,
+      4647.6,
+      4783.2,
+      4651.5,
+      4656.8,
+      4657.1,
+      4749.5,
+      4792.2,
+      4761.9,
+      4742.4,
+      4825.0,
+      4800.0,
+      4785.4,
+      4857.6,
+      4806.6,
+      4698.4,
+      4732.5,
+      4705.1,
+      4722.3,
+      4675.4,
+      4591.5,
+      4545.2,
+      4566.7
+    ],
+    "goldHistoryStart": "2026-03-19",
+    "goldHistoryEnd": "2026-04-30",
+    "oil": 109.31,
+    "oilChange": 2.43,
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     "oilHistory": [
       96.14,
       98.32,
@@ -420,6 +612,7 @@
       96.37,
       99.93,
       106.88,
+<<<<<<< HEAD
       107.91
     ],
     "oilHistoryStart": "2026-03-19",
@@ -460,6 +653,81 @@
       2270.07,
       2299.83,
       2256.25
+=======
+      109.31
+    ],
+    "oilHistoryStart": "2026-03-19",
+    "oilHistoryEnd": "2026-04-30",
+    "btc": 75461.17,
+    "btcChange": -446.13,
+    "btcHistory": [
+      68114.03,
+      67019.99,
+      66894.47,
+      67387.66,
+      68319.44,
+      68899.6,
+      71406.79,
+      71084.74,
+      72038.73,
+      72926.08,
+      73053.89,
+      70904.51,
+      74666.14,
+      74103.77,
+      74994.07,
+      74883.21,
+      77308.44,
+      75830.19,
+      74137.22,
+      75992.7,
+      75629.09,
+      78602.9,
+      78241.97,
+      77360.72,
+      77571.92,
+      78378.05,
+      77068.29,
+      76229.4,
+      75907.3,
+      75461.17
+    ],
+    "btcHistoryStart": "2026-03-31",
+    "btcHistoryEnd": "2026-04-30",
+    "eth": 2239.49,
+    "ethChange": -17.4,
+    "ethHistory": [
+      2140.02,
+      2061.08,
+      2051.96,
+      2069.02,
+      2084.14,
+      2111.37,
+      2208.36,
+      2190.95,
+      2201.24,
+      2243.17,
+      2285.47,
+      2199.15,
+      2354.34,
+      2316.43,
+      2365.03,
+      2342.8,
+      2434.48,
+      2357.52,
+      2273.67,
+      2320.16,
+      2311.69,
+      2398.37,
+      2332.66,
+      2312.74,
+      2318.71,
+      2363.39,
+      2294.56,
+      2285.75,
+      2256.89,
+      2239.49
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     ],
     "ethHistoryStart": "2026-03-31",
     "ethHistoryEnd": "2026-04-30"
@@ -476,6 +744,24 @@
       "changePercent": 0.8
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": 0.14
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": -0.15
+    },
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": -0.19
+    },
+    {
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "name": "通信",
       "symbol": "XLC",
       "changePercent": -0.4
@@ -491,6 +777,14 @@
       "changePercent": -0.61
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": -0.7
+    },
+    {
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "name": "材料",
       "symbol": "XLB",
       "changePercent": -0.86
@@ -503,6 +797,7 @@
   ],
   "news": [
     {
+<<<<<<< HEAD
       "title": "Tired of Being Burned by Crypto? Consider Ethereum, Crypto's Settlement Layer.",
       "summary": "A settlement layer is the base that underpins a host of blockchain activity.",
       "source": "Yahoo Finance",
@@ -573,6 +868,54 @@
       "url": "https://www.cnbc.com/2026/04/30/nvidia-backs-ai-legal-tech-legora.html",
       "publishedAt": "Thu, 30 Apr 2026 08:59:35 GMT",
       "sentiment": "neutral"
+=======
+      "title": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers; Oil Prices Keep Rising",
+      "summary": "Futures fell as Amazon, Microsoft and Meta slumped on earnings. Google rose. Oil prices are surging while Fed's Powell is staying.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/fb01687d-2e7a-3280-8daf-89487aed782f/dow-jones-futures%3A-google%2C.html?.tsrc=rss",
+      "publishedAt": "Thu, 30 Apr 2026 03:08:22 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "IJJ vs. IWN: Which iShares Value ETF Is the Better Buy for Investors?",
+      "summary": "Compare how portfolio size, sector weightings, and risk profiles set these two value-focused ETFs apart for long-term investors.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/coverage/etfs/2026/04/29/ijj-vs-iwn-which-ishares-value-etf-is-the-better-buy-for-investors/?.tsrc=rss",
+      "publishedAt": "Thu, 30 Apr 2026 01:07:36 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SOXX vs. XLK: The Right Pick Depends on What You Already Own",
+      "summary": "Compare the trade-offs between concentrated chip exposure and diversified tech holdings, including fees, volatility, and long-term growth outcomes.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/coverage/etfs/2026/04/29/soxx-vs-xlk-the-right-pick-depends-on-what-you-already-own/?.tsrc=rss",
+      "publishedAt": "Thu, 30 Apr 2026 00:13:01 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Review & Preview: Powell’s Long, Strange Trip",
+      "summary": "The Fed chair’s last meeting brought a surprise four dissents from the FOMC. Big Tech earnings stole the spotlight.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/953cef0b-a63b-3088-92b4-e9137a7b5dfd/review-%26-preview%3A-powell%E2%80%99s.html?.tsrc=rss",
+      "publishedAt": "Thu, 30 Apr 2026 00:04:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Stock market today: S&P 500, Nasdaq, Dow futures mixed with earnings season in full swing, Fed in focus",
+      "summary": "The major gauges were pulled up by tech stocks, down by other industries as Mag 7 earnings dominate headlines.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-thursday-april-30-dow-nasdaq-sp-mixed-earnings-fed-233115208.html?.tsrc=rss",
+      "publishedAt": "Wed, 29 Apr 2026 23:31:15 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Meta stock drops on quarterly results as 'internet disruptions' in Iran drag down user numbers",
+      "summary": "Meta beat on revenue, but showed disappointing user numbers and its capital expenditures were below estimates.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
+      "publishedAt": "Thu, 30 Apr 2026 01:37:17 GMT",
+      "sentiment": "negative"
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     },
     {
       "title": "Microsoft calls for $190 billion in 2026 capital spending on soaring memory prices",
@@ -583,6 +926,7 @@
       "sentiment": "positive"
     },
     {
+<<<<<<< HEAD
       "title": "Oil prices climb to four-year high above $120 after report that Trump is considering further military action in Iran",
       "summary": "Oil jumps on report President Donald Trump will be briefed later on Thursday on plans to strike Iran",
       "source": "MarketWatch",
@@ -620,6 +964,69 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/im-59-my-wife-and-i-bought-a-second-home-for-484-000-at-6-2-interest-will-this-be-a-drain-on-our-retirement-02627377?mod=mw_rss_topstories",
       "publishedAt": "Thu, 30 Apr 2026 08:41:00 GMT",
+=======
+      "title": "Brent crude hits 4-year high, soaring past $126, as U.S. military to reportedly brief Trump on action against Iran",
+      "summary": "Brent crude has surged to its highest levels since mid-2022, LSEG data shows, as the Middle East conflict chokes supplies.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html",
+      "publishedAt": "Thu, 30 Apr 2026 04:41:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "China factory activity tops expectations in April — but growth slows as new orders soften",
+      "summary": "The official purchasing managers' index reading of 50.3 was higher than the the 50.1 expected by Reuters-polled economists.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/china-pmi-april-xi-trump-iran-war.html",
+      "publishedAt": "Thu, 30 Apr 2026 02:43:18 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Alphabet ups 2026 capex to as much as $190 billion, expects to 'significantly increase' in 2027",
+      "summary": "Alphabet reported first-quarter earnings, posting booming cloud revenue and upping its full-year capex spend to as much as $190 billion.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html",
+      "publishedAt": "Thu, 30 Apr 2026 02:31:54 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "These workers are allowed to save $35,000 a year in their 401(k)s. Here’s how many actually do it.",
+      "summary": "Super catch-up contribution rates are low: “Most people don’t have that kind of discretionary income.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/these-workers-are-allowed-to-save-35-000-a-year-in-their-401-k-s-heres-how-many-actually-do-it-6c25bb26?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 30 Apr 2026 02:26:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "More diners are eating at Chipotle despite higher prices, bucking Wall Street’s concerns about restaurants",
+      "summary": "Shares of Chipotle jumped 6.2% after hours on Wednesday, after the company managed to eke out a surprise same-store sales gain for the first quarter.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/more-diners-are-eating-at-chipotle-despite-higher-prices-bucking-wall-streets-concerns-about-restaurants-7d221685?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 30 Apr 2026 02:24:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Why Alphabet’s stock is the standout gainer on Big Tech’s monster earnings day",
+      "summary": "Alphabet’s earnings beat and strong cloud growth are helping to justify raised spending projections.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-alphabets-stock-is-the-standout-gainer-on-big-techs-monster-earnings-day-bb49b193?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 30 Apr 2026 00:46:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Ford’s profit jumps as carmaker powers through an EV slowdown",
+      "summary": "Ford gets hefty tariff refund and raises outlook for the year.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/fords-profit-jumps-as-automaker-powers-through-an-ev-slowdown-9f799848?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 30 Apr 2026 00:43:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Why Qualcomm’s stock is soaring even in the face of a weak outlook",
+      "summary": "Investors are looking beyond the current quarter at hints of meaningful AI opportunity ahead.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-qualcomms-stock-is-soaring-even-in-the-face-of-a-weak-outlook-560f4546?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 30 Apr 2026 00:42:00 GMT",
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "sentiment": "neutral"
     }
   ],
@@ -628,30 +1035,54 @@
     "sp500": {
       "pe": null,
       "forwardPE": null,
+<<<<<<< HEAD
       "pePercentile1y": null,
+=======
+      "pePercentile1y": 98,
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 14,
       "peRangeHigh": 35,
+<<<<<<< HEAD
       "drawdown52w": null,
       "high52w": null,
       "drawdownATH": null,
       "allTimeHigh": null,
       "currentPrice": null
+=======
+      "drawdown52w": -0.57,
+      "high52w": 715.63,
+      "drawdownATH": -0.57,
+      "allTimeHigh": 715.63,
+      "currentPrice": 711.58
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     },
     "nasdaq": {
       "pe": null,
       "forwardPE": null,
+<<<<<<< HEAD
       "pePercentile1y": null,
+=======
+      "pePercentile1y": 99,
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 18,
       "peRangeHigh": 45,
+<<<<<<< HEAD
       "drawdown52w": null,
       "high52w": null,
       "drawdownATH": null,
       "allTimeHigh": null,
       "currentPrice": null
+=======
+      "drawdown52w": -0.44,
+      "high52w": 664.51,
+      "drawdownATH": -0.44,
+      "allTimeHigh": 664.51,
+      "currentPrice": 661.57
+>>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     }
   },
   "advanceDeclineRatio": null,

@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-05-06",
+    "overallSentiment": "bullish",
+    "sentimentScore": 35,
+    "nasdaqPrice": 25326.13,
+    "nasdaqChange": 258.33,
+    "nasdaqChangePercent": 1.03,
+    "sp500Price": 7259.22,
+    "sp500Change": 58.47,
+    "sp500ChangePercent": 0.81,
+    "vix": 16.96,
+    "newsCount": 15
+  },
+  {
     "date": "2026-05-04",
     "overallSentiment": "bullish",
     "sentimentScore": 36,
@@ -9,33 +22,33 @@
     "sp500Price": 7230.12,
     "sp500Change": 21.11,
     "sp500ChangePercent": 0.29,
-    "vix": 17.48,
+    "vix": 16.99,
     "newsCount": 15
   },
   {
     "date": "2026-05-01",
     "overallSentiment": "bullish",
-    "sentimentScore": 18,
+    "sentimentScore": 32,
     "nasdaqPrice": 24892.31,
     "nasdaqChange": 219.07,
     "nasdaqChangePercent": 0.89,
-    "sp500Price": 0,
-    "sp500Change": 0,
-    "sp500ChangePercent": 0,
-    "vix": null,
+    "sp500Price": 7209.01,
+    "sp500Change": 73.06,
+    "sp500ChangePercent": 1.02,
+    "vix": 16.89,
     "newsCount": 15
   },
   {
     "date": "2026-04-30",
     "overallSentiment": "bullish",
-    "sentimentScore": 25,
+    "sentimentScore": 27,
     "nasdaqPrice": 24673.24,
     "nasdaqChange": 9.44,
     "nasdaqChangePercent": 0.04,
     "sp500Price": 7135.95,
     "sp500Change": -2.85,
     "sp500ChangePercent": -0.04,
-    "vix": null,
+    "vix": 18.81,
     "newsCount": 15
   },
   {
