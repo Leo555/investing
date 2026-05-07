@@ -1,0 +1,877 @@
+{
+  "date": "2026-05-07",
+  "dataDate": "2026-05-06",
+  "forecastDate": "2026-05-07",
+  "timestamp": "2026-05-07T13:34:17.163312+08:00",
+  "marketStatus": "closed",
+  "overallSentiment": "bullish",
+  "sentimentScore": 36,
+  "nasdaq": {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "price": 25838.94,
+    "change": 512.81,
+    "changePercent": 2.02,
+    "tradingDate": "2026-05-06",
+    "open": 25495.17,
+    "high": 25850.19,
+    "low": 25464.44,
+    "previousClose": 25326.13,
+    "volume": 8864150000,
+    "avgVolume": 8642327000,
+    "yearHigh": 25850.19,
+    "yearHighDate": "2026-05-06",
+    "yearLow": 17503.01,
+    "yearLowDate": "2025-05-07",
+    "pe": null,
+    "marketCap": null,
+    "sma20": 24409.81,
+    "sma50": 23082.5,
+    "sma200": null,
+    "rsi14": 77.7,
+    "macdLine": 718.3327,
+    "macdSignal": 670.3024,
+    "macdHistogram": 48.0303,
+    "bollingerUpper": 25946.92,
+    "bollingerMiddle": 24409.81,
+    "bollingerLower": 22872.69,
+    "atr14": 351.52,
+    "priceHistory": [
+      {
+        "date": "2026-03-25",
+        "close": 21929.82,
+        "volume": 8056920000
+      },
+      {
+        "date": "2026-03-26",
+        "close": 21408.08,
+        "volume": 7726590000
+      },
+      {
+        "date": "2026-03-27",
+        "close": 20948.36,
+        "volume": 8713310000
+      },
+      {
+        "date": "2026-03-30",
+        "close": 20794.64,
+        "volume": 9234380000
+      },
+      {
+        "date": "2026-03-31",
+        "close": 21590.63,
+        "volume": 10645070000
+      },
+      {
+        "date": "2026-04-01",
+        "close": 21840.95,
+        "volume": 8801740000
+      },
+      {
+        "date": "2026-04-02",
+        "close": 21879.18,
+        "volume": 8134780000
+      },
+      {
+        "date": "2026-04-06",
+        "close": 21996.34,
+        "volume": 7907270000
+      },
+      {
+        "date": "2026-04-07",
+        "close": 22017.85,
+        "volume": 10796020000
+      },
+      {
+        "date": "2026-04-08",
+        "close": 22634.99,
+        "volume": 10411670000
+      },
+      {
+        "date": "2026-04-09",
+        "close": 22822.42,
+        "volume": 8662470000
+      },
+      {
+        "date": "2026-04-10",
+        "close": 22902.89,
+        "volume": 8700640000
+      },
+      {
+        "date": "2026-04-13",
+        "close": 23183.74,
+        "volume": 7925320000
+      },
+      {
+        "date": "2026-04-14",
+        "close": 23639.08,
+        "volume": 9105660000
+      },
+      {
+        "date": "2026-04-15",
+        "close": 24016.02,
+        "volume": 10206480000
+      },
+      {
+        "date": "2026-04-16",
+        "close": 24102.7,
+        "volume": 9963610000
+      },
+      {
+        "date": "2026-04-17",
+        "close": 24468.48,
+        "volume": 10159120000
+      },
+      {
+        "date": "2026-04-20",
+        "close": 24404.39,
+        "volume": 8379940000
+      },
+      {
+        "date": "2026-04-21",
+        "close": 24259.96,
+        "volume": 9309940000
+      },
+      {
+        "date": "2026-04-22",
+        "close": 24657.57,
+        "volume": 8080930000
+      },
+      {
+        "date": "2026-04-23",
+        "close": 24438.5,
+        "volume": 7956600000
+      },
+      {
+        "date": "2026-04-24",
+        "close": 24836.6,
+        "volume": 10203070000
+      },
+      {
+        "date": "2026-04-27",
+        "close": 24887.1,
+        "volume": 8126500000
+      },
+      {
+        "date": "2026-04-28",
+        "close": 24663.8,
+        "volume": 7441950000
+      },
+      {
+        "date": "2026-04-29",
+        "close": 24673.24,
+        "volume": 8147470000
+      },
+      {
+        "date": "2026-04-30",
+        "close": 24892.31,
+        "volume": 8139190000
+      },
+      {
+        "date": "2026-05-01",
+        "close": 25114.44,
+        "volume": 7534290000
+      },
+      {
+        "date": "2026-05-04",
+        "close": 25067.8,
+        "volume": 7849180000
+      },
+      {
+        "date": "2026-05-05",
+        "close": 25326.13,
+        "volume": 8090030000
+      },
+      {
+        "date": "2026-05-06",
+        "close": 25838.94,
+        "volume": 8864150000
+      }
+    ]
+  },
+  "sp500": {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "price": 7365.12,
+    "change": 105.9,
+    "changePercent": 1.46,
+    "tradingDate": "2026-05-06",
+    "open": 7294.14,
+    "high": 7369.22,
+    "low": 7294.14,
+    "previousClose": 7259.22,
+    "volume": 6579640000,
+    "avgVolume": 5141596000,
+    "yearHigh": 7369.22,
+    "yearHighDate": "2026-05-06",
+    "yearLow": 5578.64,
+    "yearLowDate": "2025-05-07",
+    "pe": null,
+    "marketCap": null,
+    "sma20": 7099.14,
+    "sma50": 6845.67,
+    "sma200": null,
+    "rsi14": 75.2,
+    "macdLine": 133.6096,
+    "macdSignal": 124.6674,
+    "macdHistogram": 8.9422,
+    "bollingerUpper": 7374.56,
+    "bollingerMiddle": 7099.14,
+    "bollingerLower": 6823.72,
+    "atr14": 72.12,
+    "priceHistory": [
+      {
+        "date": "2026-03-25",
+        "close": 6591.9,
+        "volume": 4936720000
+      },
+      {
+        "date": "2026-03-26",
+        "close": 6477.16,
+        "volume": 4845560000
+      },
+      {
+        "date": "2026-03-27",
+        "close": 6368.85,
+        "volume": 5303490000
+      },
+      {
+        "date": "2026-03-30",
+        "close": 6343.72,
+        "volume": 5458640000
+      },
+      {
+        "date": "2026-03-31",
+        "close": 6528.52,
+        "volume": 6396100000
+      },
+      {
+        "date": "2026-04-01",
+        "close": 6575.32,
+        "volume": 5637260000
+      },
+      {
+        "date": "2026-04-02",
+        "close": 6582.69,
+        "volume": 4740740000
+      },
+      {
+        "date": "2026-04-06",
+        "close": 6611.83,
+        "volume": 3906440000
+      },
+      {
+        "date": "2026-04-07",
+        "close": 6616.85,
+        "volume": 4555680000
+      },
+      {
+        "date": "2026-04-08",
+        "close": 6782.81,
+        "volume": 5904880000
+      },
+      {
+        "date": "2026-04-09",
+        "close": 6824.66,
+        "volume": 4912410000
+      },
+      {
+        "date": "2026-04-10",
+        "close": 6816.89,
+        "volume": 4393220000
+      },
+      {
+        "date": "2026-04-13",
+        "close": 6886.24,
+        "volume": 4785840000
+      },
+      {
+        "date": "2026-04-14",
+        "close": 6967.38,
+        "volume": 5032380000
+      },
+      {
+        "date": "2026-04-15",
+        "close": 7022.95,
+        "volume": 5278610000
+      },
+      {
+        "date": "2026-04-16",
+        "close": 7041.28,
+        "volume": 5173650000
+      },
+      {
+        "date": "2026-04-17",
+        "close": 7126.06,
+        "volume": 6145300000
+      },
+      {
+        "date": "2026-04-20",
+        "close": 7109.14,
+        "volume": 4661130000
+      },
+      {
+        "date": "2026-04-21",
+        "close": 7064.01,
+        "volume": 5160270000
+      },
+      {
+        "date": "2026-04-22",
+        "close": 7137.9,
+        "volume": 4919460000
+      },
+      {
+        "date": "2026-04-23",
+        "close": 7108.4,
+        "volume": 5307260000
+      },
+      {
+        "date": "2026-04-24",
+        "close": 7165.08,
+        "volume": 4608830000
+      },
+      {
+        "date": "2026-04-27",
+        "close": 7173.91,
+        "volume": 4783750000
+      },
+      {
+        "date": "2026-04-28",
+        "close": 7138.8,
+        "volume": 4900650000
+      },
+      {
+        "date": "2026-04-29",
+        "close": 7135.95,
+        "volume": 5123100000
+      },
+      {
+        "date": "2026-04-30",
+        "close": 7209.01,
+        "volume": 5723790000
+      },
+      {
+        "date": "2026-05-01",
+        "close": 7230.12,
+        "volume": 4847390000
+      },
+      {
+        "date": "2026-05-04",
+        "close": 7200.75,
+        "volume": 5215480000
+      },
+      {
+        "date": "2026-05-05",
+        "close": 7259.22,
+        "volume": 5279760000
+      },
+      {
+        "date": "2026-05-06",
+        "close": 7365.12,
+        "volume": 6579640000
+      }
+    ]
+  },
+  "indicators": {
+    "vix": 17.39,
+    "vixChange": 0.01,
+    "vixHistory": [
+      25.33,
+      27.44,
+      31.05,
+      30.61,
+      25.25,
+      24.54,
+      23.87,
+      24.17,
+      25.78,
+      21.04,
+      19.49,
+      19.23,
+      19.12,
+      18.36,
+      18.17,
+      17.94,
+      17.48,
+      18.87,
+      19.5,
+      18.92,
+      19.31,
+      18.71,
+      18.02,
+      17.83,
+      18.81,
+      16.89,
+      16.99,
+      18.29,
+      17.38,
+      17.39
+    ],
+    "vixHistoryStart": "2026-03-25",
+    "vixHistoryEnd": "2026-05-06",
+    "dxy": 98.01,
+    "dxyChange": -0.01,
+    "dxyHistory": [
+      99.9,
+      100.15,
+      100.51,
+      99.96,
+      99.65,
+      100.03,
+      99.98,
+      99.64,
+      99.13,
+      98.82,
+      98.65,
+      98.37,
+      98.12,
+      98.06,
+      98.22,
+      98.1,
+      98.05,
+      98.41,
+      98.59,
+      98.8,
+      98.51,
+      98.48,
+      98.62,
+      98.92,
+      98.08,
+      98.21,
+      98.47,
+      98.48,
+      98.02,
+      98.01
+    ],
+    "dxyHistoryStart": "2026-03-26",
+    "dxyHistoryEnd": "2026-05-07",
+    "us10y": 4.36,
+    "us10yChange": -0.06,
+    "us10yHistory": [
+      4.33,
+      4.42,
+      4.44,
+      4.34,
+      4.31,
+      4.32,
+      4.31,
+      4.34,
+      4.34,
+      4.29,
+      4.29,
+      4.32,
+      4.3,
+      4.26,
+      4.28,
+      4.31,
+      4.25,
+      4.25,
+      4.29,
+      4.29,
+      4.32,
+      4.31,
+      4.34,
+      4.35,
+      4.42,
+      4.39,
+      4.38,
+      4.45,
+      4.42,
+      4.36
+    ],
+    "us10yHistoryStart": "2026-03-25",
+    "us10yHistoryEnd": "2026-05-06",
+    "us2y": 3.6,
+    "us2yChange": 0.0,
+    "us2yHistory": [
+      3.62,
+      3.62,
+      3.61,
+      3.6,
+      3.6,
+      3.61,
+      3.61,
+      3.62,
+      3.62,
+      3.6,
+      3.59,
+      3.59,
+      3.6,
+      3.61,
+      3.61,
+      3.61,
+      3.6,
+      3.6,
+      3.6,
+      3.6,
+      3.6,
+      3.59,
+      3.59,
+      3.59,
+      3.59,
+      3.59,
+      3.58,
+      3.59,
+      3.6,
+      3.6
+    ],
+    "us2yHistoryStart": "2026-03-25",
+    "us2yHistoryEnd": "2026-05-06",
+    "gold": 4706.0,
+    "goldChange": 24.1,
+    "goldHistory": [
+      4375.5,
+      4492.0,
+      4526.0,
+      4647.6,
+      4783.2,
+      4651.5,
+      4656.8,
+      4657.1,
+      4749.5,
+      4792.2,
+      4761.9,
+      4742.4,
+      4825.0,
+      4800.0,
+      4785.4,
+      4857.6,
+      4806.6,
+      4698.4,
+      4732.5,
+      4705.1,
+      4722.3,
+      4675.4,
+      4591.5,
+      4545.2,
+      4614.7,
+      4629.9,
+      4519.5,
+      4555.8,
+      4681.9,
+      4706.0
+    ],
+    "goldHistoryStart": "2026-03-26",
+    "goldHistoryEnd": "2026-05-07",
+    "oil": 95.69,
+    "oilChange": 0.61,
+    "oilHistory": [
+      94.48,
+      99.64,
+      102.88,
+      101.38,
+      100.12,
+      111.54,
+      112.41,
+      112.95,
+      94.41,
+      97.87,
+      96.57,
+      99.08,
+      91.28,
+      91.29,
+      94.69,
+      83.85,
+      89.61,
+      92.13,
+      92.96,
+      95.85,
+      94.4,
+      96.37,
+      99.93,
+      106.88,
+      105.07,
+      101.94,
+      106.42,
+      102.27,
+      95.08,
+      95.69
+    ],
+    "oilHistoryStart": "2026-03-26",
+    "oilHistoryEnd": "2026-05-07",
+    "btc": 81090.94,
+    "btcChange": -250.79,
+    "btcHistory": [
+      71084.74,
+      72038.73,
+      72926.08,
+      73053.89,
+      70904.51,
+      74666.14,
+      74103.77,
+      74994.07,
+      74883.21,
+      77308.44,
+      75830.19,
+      74137.22,
+      75992.7,
+      75629.09,
+      78602.9,
+      78241.97,
+      77360.72,
+      77571.92,
+      78378.05,
+      77068.29,
+      76229.4,
+      75907.3,
+      76189.37,
+      78138.27,
+      78805.0,
+      79164.91,
+      80060.11,
+      81102.49,
+      81341.73,
+      81090.94
+    ],
+    "btcHistoryStart": "2026-04-07",
+    "btcHistoryEnd": "2026-05-07",
+    "eth": 2332.03,
+    "ethChange": -15.41,
+    "ethHistory": [
+      2190.95,
+      2201.24,
+      2243.17,
+      2285.47,
+      2199.15,
+      2354.34,
+      2316.43,
+      2365.03,
+      2342.8,
+      2434.48,
+      2357.52,
+      2273.67,
+      2320.16,
+      2311.69,
+      2398.37,
+      2332.66,
+      2312.74,
+      2318.71,
+      2363.39,
+      2294.56,
+      2285.75,
+      2256.89,
+      2252.42,
+      2293.02,
+      2325.53,
+      2343.48,
+      2354.12,
+      2367.37,
+      2347.44,
+      2332.03
+    ],
+    "ethHistoryStart": "2026-04-07",
+    "ethHistoryEnd": "2026-05-07"
+  },
+  "sectors": [
+    {
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": 2.66
+    },
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": 2.59
+    },
+    {
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": 1.71
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": 1.52
+    },
+    {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": 1.49
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": 1.29
+    },
+    {
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": 0.48
+    },
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": 0.21
+    },
+    {
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": 0.07
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": -1.42
+    },
+    {
+      "name": "能源",
+      "symbol": "XLE",
+      "changePercent": -4.12
+    }
+  ],
+  "news": [
+    {
+      "title": "Suja Life Announces Pricing of Initial Public Offering",
+      "summary": "OCEANSIDE, Calif., May 07, 2026 (GLOBE NEWSWIRE) -- Suja Life, Inc. today announced the pricing of its initial public offering of 8,888,889 shares of its Class A common stock (“Class A Common Stock”) which are being offered by Suja Life as described in the registration statement on Form S-1 filed wi",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/suja-life-announces-pricing-initial-041600040.html?.tsrc=rss",
+      "publishedAt": "Thu, 07 May 2026 04:16:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Nikkei 225 Tops 62,000 as Major Japanese Stocks Post Double-Digit Gains",
+      "summary": "Japan's Nikkei 225 tops 62,000 first time as major tech, materials stocks post double-digit gains in broad rally.",
+      "source": "Yahoo Finance",
+      "url": "https://beincrypto.com/nikkei-225-record-japan-stocks-rally/?.tsrc=rss",
+      "publishedAt": "Thu, 07 May 2026 03:46:03 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Dow Jones Futures: Stock Market Hits Highs On Iran-Deal Hopes, Nvidia Leads New Buys; ARM Is Earnings Mover",
+      "summary": "The S&P 500 and Nasdaq hit new highs on Iran deal hopes. Nvidia leads new buys with Arm a big earnings mover late.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/60f16d9e-5783-3992-a38b-9179812c0cca/dow-jones-futures%3A-stock.html?.tsrc=rss",
+      "publishedAt": "Thu, 07 May 2026 03:06:06 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SCYNEXIS Announces Inducement Awards Under Nasdaq Listing Rule 5635(c)(4)",
+      "summary": "JERSEY CITY, N.J., May 06, 2026 (GLOBE NEWSWIRE) -- SCYNEXIS, Inc. (Nasdaq: SCYX) (“SCYNEXIS” or the “Company”), a biotechnology company focused on developing innovative new therapies to address severe rare diseases including SCY-770 for Autosomal Dominant Polycystic Kidney Disease (ADPKD), today an",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/scynexis-announces-inducement-awards-under-011500593.html?.tsrc=rss",
+      "publishedAt": "Thu, 07 May 2026 01:15:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Morgan Stanley adjusts Applied Materials stock price target pre-earnings",
+      "summary": "There is a quiet confidence in Morgan Stanley's latest note on Applied Materials. Not the loud kind that makes bold promises. The measured kind that says, \"We have seen this before, and we think we know how it ends.\" The bank raised its price target on Applied Materials (AMAT) to $454 from $432, ...",
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/investing/stocks/morgan-stanley-adjusts-applied-materials-stock-price-target-pre-earnings?.tsrc=rss",
+      "publishedAt": "Thu, 07 May 2026 01:03:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Iran war threatens jet fuel shortage that could disrupt summer travel in Asia and Europe",
+      "summary": "Oil executives have warned that the supply disruption in the Middle East will soon cause actual fuel shortages in some parts of the world.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/06/iran-war-jet-fuel-europe-asia-summer-flights.html",
+      "publishedAt": "Wed, 06 May 2026 20:34:42 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Snap issues cautious guidance as Perplexity deal ends, Middle East 'geopolitical situation' causes uncertainty",
+      "summary": "Snap reported first-quarter earnings and provided cautious sales guidance while revealing it no longer has a deal with the generative AI startup Perplexity.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/06/snap-q1-earnings-report-2026.html",
+      "publishedAt": "Wed, 06 May 2026 22:19:30 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SoftBank shares surge over 16% as Japan tech-fueled rally lifts Nikkei 225 to record highs",
+      "summary": "The benchmark Nikkei 225 surged over 5% to a record high as Japan reopened after extended Golden Week holidays.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/07/japan-softbank-tech-shares-nikkei-to-record-high.html",
+      "publishedAt": "Thu, 07 May 2026 03:25:42 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "It’s not just Big Oil. Wind giants welcome profit beats as Iran war spurs energy pivot",
+      "summary": "Norway's Equinor told CNBC that the company expects the Iran war to deliver a boost to its transition industries.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/07/iran-war-renewables-wind-oil-gas-equinor-orsted.html",
+      "publishedAt": "Thu, 07 May 2026 05:00:01 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Apollo CEO Rowan warns of market correction, slams 'egregious' practices at rival insurers",
+      "summary": "Apollo CEO Marc Rowan warned that markets face an elevated risk of unexpected shocks, saying he is positioning the firm defensively for an expected correction.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/06/apollo-ceo-rowan-market-correction-rival-insurers.html",
+      "publishedAt": "Wed, 06 May 2026 20:33:58 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Hantavirus outbreaks rarely happen. This Andes strain is ‘a complicated public-health situation.’",
+      "summary": "At least two people departed the MV Hondius cruise ship in late April and one has tested positive for the Andes strain, a type of hantavirus.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/hantavirus-outbreaks-rarely-happen-this-andes-strain-is-a-complicated-public-health-situation-b0c7dbb4?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 07 May 2026 02:15:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Arm puts a big number on its newest venture, but its stock falls",
+      "summary": "The chip designer said it has more than $2 billion in customer demand for its first-ever data-center CPU",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/arms-stock-soars-as-the-company-puts-a-big-number-on-its-newest-venture-21bce404?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 07 May 2026 00:31:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "My husband has a $225,000 pension. We don’t trust his ‘too big to fail’ employer. Where do we invest it?",
+      "summary": "“Ideally, we are looking for a guaranteed return with minimal risk.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-husband-has-a-225-000-pension-we-dont-trust-his-too-big-to-fail-employer-where-do-we-invest-it-5aa53611?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 07 May 2026 00:30:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Fortinet’s stock rockets higher as earnings help dispel fears of AI disruption",
+      "summary": "An “increasingly complex threat environment” is boosting demand for Fortinet’s cybersecurity offerings",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/fortinets-stock-rockets-as-earnings-help-dispel-fears-of-ai-disruption-8a8f0107?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 07 May 2026 00:30:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "I am 56, single, and renewing my $400,000 10-year term life policy. Am I making a huge mistake?",
+      "summary": "“The agent said he could not add my brother because he does not depend on my income, so has no insurable interest.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-am-56-single-and-renewing-my-400-000-term-life-policy-the-agent-says-i-cant-name-my-brother-as-beneficiary-why-not-1770bf58?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 06 May 2026 23:56:00 GMT",
+      "sentiment": "neutral"
+    }
+  ],
+  "fearGreedIndex": 47,
+  "valuation": {
+    "sp500": {
+      "pe": null,
+      "forwardPE": null,
+      "pePercentile1y": 100,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 14,
+      "peRangeHigh": 35,
+      "drawdown52w": -0.1,
+      "high52w": 734.59,
+      "drawdownATH": -0.1,
+      "allTimeHigh": 734.59,
+      "currentPrice": 733.83
+    },
+    "nasdaq": {
+      "pe": null,
+      "forwardPE": null,
+      "pePercentile1y": 100,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 18,
+      "peRangeHigh": 45,
+      "drawdown52w": -0.02,
+      "high52w": 695.93,
+      "drawdownATH": -0.02,
+      "allTimeHigh": 695.93,
+      "currentPrice": 695.77
+    }
+  },
+  "advanceDeclineRatio": null,
+  "putCallRatio": null
+}
