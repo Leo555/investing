@@ -2,17 +2,10 @@
   "date": "2026-04-30",
   "dataDate": "2026-04-29",
   "forecastDate": "2026-04-30",
-<<<<<<< HEAD
-  "timestamp": "2026-04-30T17:08:03.944579+08:00",
-  "marketStatus": "closed",
-  "overallSentiment": "bullish",
-  "sentimentScore": 25,
-=======
   "timestamp": "2026-04-30T13:32:59.779390+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
   "sentimentScore": 27,
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -380,25 +373,6 @@
     ]
   },
   "indicators": {
-<<<<<<< HEAD
-    "vix": null,
-    "vixChange": null,
-    "vixHistory": [],
-    "dxy": null,
-    "dxyChange": null,
-    "dxyHistory": [],
-    "us10y": null,
-    "us10yChange": null,
-    "us10yHistory": [],
-    "us2y": null,
-    "us2yChange": null,
-    "us2yHistory": [],
-    "gold": null,
-    "goldChange": null,
-    "goldHistory": [],
-    "oil": 107.91,
-    "oilChange": 1.03,
-=======
     "vix": 18.81,
     "vixChange": 0.98,
     "vixHistory": [
@@ -581,7 +555,6 @@
     "goldHistoryEnd": "2026-04-30",
     "oil": 109.31,
     "oilChange": 2.43,
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     "oilHistory": [
       96.14,
       98.32,
@@ -612,48 +585,6 @@
       96.37,
       99.93,
       106.88,
-<<<<<<< HEAD
-      107.91
-    ],
-    "oilHistoryStart": "2026-03-19",
-    "oilHistoryEnd": "2026-04-30",
-    "btc": null,
-    "btcChange": null,
-    "btcHistory": [],
-    "eth": 2256.25,
-    "ethChange": -43.58,
-    "ethHistory": [
-      2125.95,
-      2065.18,
-      2055.27,
-      2052.32,
-      2037.69,
-      2158.13,
-      2071.41,
-      2192.18,
-      2177.17,
-      2243.31,
-      2249.4,
-      2182.29,
-      2231.45,
-      2361.31,
-      2337.9,
-      2308.82,
-      2448.95,
-      2365.18,
-      2339.33,
-      2289.02,
-      2303.19,
-      2404.53,
-      2334.24,
-      2313.64,
-      2316.71,
-      2347.46,
-      2314.8,
-      2270.07,
-      2299.83,
-      2256.25
-=======
       109.31
     ],
     "oilHistoryStart": "2026-03-19",
@@ -727,7 +658,6 @@
       2285.75,
       2256.89,
       2239.49
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     ],
     "ethHistoryStart": "2026-03-31",
     "ethHistoryEnd": "2026-04-30"
@@ -744,8 +674,6 @@
       "changePercent": 0.8
     },
     {
-<<<<<<< HEAD
-=======
       "name": "金融",
       "symbol": "XLF",
       "changePercent": 0.14
@@ -761,7 +689,6 @@
       "changePercent": -0.19
     },
     {
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "name": "通信",
       "symbol": "XLC",
       "changePercent": -0.4
@@ -777,14 +704,11 @@
       "changePercent": -0.61
     },
     {
-<<<<<<< HEAD
-=======
       "name": "医疗",
       "symbol": "XLV",
       "changePercent": -0.7
     },
     {
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "name": "材料",
       "symbol": "XLB",
       "changePercent": -0.86
@@ -797,78 +721,6 @@
   ],
   "news": [
     {
-<<<<<<< HEAD
-      "title": "Tired of Being Burned by Crypto? Consider Ethereum, Crypto's Settlement Layer.",
-      "summary": "A settlement layer is the base that underpins a host of blockchain activity.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/30/tired-of-being-burned-by-crypto-consider-ethereum/?.tsrc=rss",
-      "publishedAt": "Thu, 30 Apr 2026 09:20:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Be Warned: A Historical Triple Whammy Awaits the SpaceX IPO",
-      "summary": "History tends to rhyme on Wall Street -- and that's terrible news for prospective SpaceX investors.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/30/be-warned-a-historical-triple-whammy-spacex-ipo/?.tsrc=rss",
-      "publishedAt": "Thu, 30 Apr 2026 08:26:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Nvidia Stock: Next Stop $246.85 Per Share?",
-      "summary": "The GPU giant hit an all-time high this week and still has plenty of room to run.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/04/30/nvidia-stock-next-stop-24685-per-share/?.tsrc=rss",
-      "publishedAt": "Thu, 30 Apr 2026 07:40:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Retirees, Here’s What a Warsh Fed Could Mean for You",
-      "summary": "Stay the course in bonds and consider alternative ETFs that may hold up well if stocks and bonds falter.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/595e3c98-a833-3c10-a62f-9457121c9808/retirees%2C-here%E2%80%99s-what-a-warsh.html?.tsrc=rss",
-      "publishedAt": "Thu, 30 Apr 2026 06:30:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "New ‘Autocallable’ ETFs Offer Yields Up to 14%. Yes, There’s a Catch.",
-      "summary": "A new crop of new high-yielding ETFs invest in niche income vehicles called autocallable yield notes. They have appeal, but are far from risk-free.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/2fca9fcb-d424-35b2-a42b-f915612fac84/new-%E2%80%98autocallable%E2%80%99-etfs-offer.html?.tsrc=rss",
-      "publishedAt": "Thu, 30 Apr 2026 05:30:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Brent pares gains after hitting 4-year highs as report stokes worries of U.S. military action against Iran",
-      "summary": "Brent crude surged to its highest levels since early 2022, before paring gains, as the Middle East conflict chokes supplies.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html",
-      "publishedAt": "Thu, 30 Apr 2026 09:25:32 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "U.S. weighs 'reduction' of troops in Germany as Trump's feud with Berlin deepens",
-      "summary": "The U.S. is considering the possibility of reducing the number of troops it has stationed in Germany, President Donald Trump said.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/30/us-reviews-cutting-troop-numbers-in-germany-amid-trumps-berlin-feud-.html",
-      "publishedAt": "Thu, 30 Apr 2026 07:34:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Democrats urge CFTC to rein in prediction markets sports betting, insider trading",
-      "summary": "Sen. Jeff Merkley, D-Ore., led a letter — first reported by CNBC — to the CFTC asking for stricter rules for companies like Kalshi and Polymarket.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/30/congress-kalshi-polymarket-prediction-markets-cftc.html",
-      "publishedAt": "Thu, 30 Apr 2026 09:00:01 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Nvidia just invested in the AI legal startup that's splashing Jude Law ads everywhere",
-      "summary": "Swedish startup Legora has raised more than $800 million in the past 12 months, and the latest deal values it at $5.6 billion.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/30/nvidia-backs-ai-legal-tech-legora.html",
-      "publishedAt": "Thu, 30 Apr 2026 08:59:35 GMT",
-      "sentiment": "neutral"
-=======
       "title": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers; Oil Prices Keep Rising",
       "summary": "Futures fell as Amazon, Microsoft and Meta slumped on earnings. Google rose. Oil prices are surging while Fed's Powell is staying.",
       "source": "Yahoo Finance",
@@ -915,7 +767,6 @@
       "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
       "publishedAt": "Thu, 30 Apr 2026 01:37:17 GMT",
       "sentiment": "negative"
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     },
     {
       "title": "Microsoft calls for $190 billion in 2026 capital spending on soaring memory prices",
@@ -926,45 +777,6 @@
       "sentiment": "positive"
     },
     {
-<<<<<<< HEAD
-      "title": "Oil prices climb to four-year high above $120 after report that Trump is considering further military action in Iran",
-      "summary": "Oil jumps on report President Donald Trump will be briefed later on Thursday on plans to strike Iran",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/oil-prices-climb-to-four-year-high-above-120-after-report-that-trump-is-considering-further-military-action-in-iran-9785eb43?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 30 Apr 2026 09:21:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "‘We are old school’: I’ve been married for 40 years. Should I have kept my money separate?",
-      "summary": "“We have all of our financial accounts joint except for our IRAs.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/we-are-old-school-ive-been-married-for-40-years-should-i-have-kept-my-money-separate-d4bef3c2?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 30 Apr 2026 09:15:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Why Morgan Stanley shifted its call on Federal Reserve rate cuts after the FOMC meeting",
-      "summary": "Core inflation is too sticky for the Fed to ease and it’s likely to remain that way until events in the Middle East stabilize, says Morgan Stanley.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-morgan-stanley-shifted-its-call-on-federal-reserve-rate-cuts-after-the-fomc-meeting-da657bf0?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 30 Apr 2026 09:10:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Blake Lively’s lawsuit against Justin Baldoni claims she lost $40 million over ‘mean girl’ image",
-      "summary": "Actress Blake Lively has reportedly told a New York court that she lost more than $40 million as a result of “reputational damage” she suffered during her ongoing feud with her former costar, Justin Baldoni.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/blake-livelys-lawsuit-against-justin-baldoni-claims-she-lost-40-million-over-mean-girl-image-0f892cee?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 30 Apr 2026 09:01:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "I’m 59. My wife and I bought a second home for $484,000 at 6.2% interest rate. Will this be a drain on our retirement?",
-      "summary": "“I earn an annual salary of $116,000. My wife’s annual income is about $55,000.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-59-my-wife-and-i-bought-a-second-home-for-484-000-at-6-2-interest-will-this-be-a-drain-on-our-retirement-02627377?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 30 Apr 2026 08:41:00 GMT",
-=======
       "title": "Brent crude hits 4-year high, soaring past $126, as U.S. military to reportedly brief Trump on action against Iran",
       "summary": "Brent crude has surged to its highest levels since mid-2022, LSEG data shows, as the Middle East conflict chokes supplies.",
       "source": "CNBC",
@@ -1026,7 +838,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/why-qualcomms-stock-is-soaring-even-in-the-face-of-a-weak-outlook-560f4546?mod=mw_rss_topstories",
       "publishedAt": "Thu, 30 Apr 2026 00:42:00 GMT",
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "sentiment": "neutral"
     }
   ],
@@ -1035,54 +846,30 @@
     "sp500": {
       "pe": null,
       "forwardPE": null,
-<<<<<<< HEAD
-      "pePercentile1y": null,
-=======
       "pePercentile1y": 98,
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 14,
       "peRangeHigh": 35,
-<<<<<<< HEAD
-      "drawdown52w": null,
-      "high52w": null,
-      "drawdownATH": null,
-      "allTimeHigh": null,
-      "currentPrice": null
-=======
       "drawdown52w": -0.57,
       "high52w": 715.63,
       "drawdownATH": -0.57,
       "allTimeHigh": 715.63,
       "currentPrice": 711.58
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     },
     "nasdaq": {
       "pe": null,
       "forwardPE": null,
-<<<<<<< HEAD
-      "pePercentile1y": null,
-=======
       "pePercentile1y": 99,
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 18,
       "peRangeHigh": 45,
-<<<<<<< HEAD
-      "drawdown52w": null,
-      "high52w": null,
-      "drawdownATH": null,
-      "allTimeHigh": null,
-      "currentPrice": null
-=======
       "drawdown52w": -0.44,
       "high52w": 664.51,
       "drawdownATH": -0.44,
       "allTimeHigh": 664.51,
       "currentPrice": 661.57
->>>>>>> 08358e5d5c2b674c33d8cc5a158041948d59dc48
     }
   },
   "advanceDeclineRatio": null,
