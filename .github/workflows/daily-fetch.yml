@@ -60,39 +60,97 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
+          # 先拉取远程最新代码（在 commit 之前）
+          git pull origin main --no-edit || true
+          
+          # 重新生成 index.json（基于 data/ 目录中所有文件，彻底避免冲突）
+          python3 -c "
+          import json, glob, os
+          data_dir = 'data'
+          files = sorted(glob.glob(f'{data_dir}/2026-*.json'), reverse=True)
+          summaries = []
+          for f in files:
+              try:
+                  d = json.load(open(f))
+                  if not d.get('nasdaq', {}).get('price'):
+                      continue
+                  summaries.append({
+                      'date': d['date'],
+                      'overallSentiment': d.get('overallSentiment', 'neutral'),
+                      'sentimentScore': d.get('sentimentScore', 0),
+                      'nasdaqPrice': d['nasdaq']['price'],
+                      'nasdaqChange': d['nasdaq'].get('change', 0),
+                      'nasdaqChangePercent': d['nasdaq'].get('changePercent', 0),
+                      'sp500Price': d['sp500']['price'],
+                      'sp500Change': d['sp500'].get('change', 0),
+                      'sp500ChangePercent': d['sp500'].get('changePercent', 0),
+                      'vix': d.get('indicators', {}).get('vix'),
+                      'newsCount': len(d.get('news', [])),
+                  })
+              except Exception:
+                  continue
+          with open(f'{data_dir}/index.json', 'w') as f:
+              json.dump(summaries, f, indent=2, ensure_ascii=False)
+          print(f'✅ index.json 已重新生成 ({len(summaries)} 条记录)')
+          "
+          
+          # 添加所有数据文件
           git add data/
+          
           if git diff --staged --quiet; then
             echo "📌 没有新的数据变化，跳过提交"
           else
             git commit -m "📊 Update market data for $(date -u +%Y-%m-%d)"
             
-            # 拉取远程变更，处理可能的冲突
+            # 推送，如果失败则重试
             MAX_RETRIES=3
             for i in $(seq 1 $MAX_RETRIES); do
               echo "🔄 尝试推送 (第 $i 次)..."
               
-              # 先尝试 pull --rebase
-              if git pull --rebase origin main; then
-                echo "✅ Rebase 成功"
-              else
-                echo "⚠️ Rebase 遇到冲突，自动解决..."
-                # 对 data/ 目录的冲突文件使用本地版本（Actions 生成的最新数据）
-                git diff --name-only --diff-filter=U | while read file; do
-                  echo "  解决冲突: $file (使用本地版本)"
-                  git checkout --theirs "$file"
-                  git add "$file"
-                done
-                GIT_EDITOR=true git rebase --continue || git rebase --skip || true
-              fi
-              
-              # 尝试推送
               if git push origin main; then
                 echo "✅ 数据已提交并推送"
                 break
-              else
-                echo "⚠️ 推送失败，重试..."
-                sleep 2
               fi
+              
+              # 推送失败：拉取远程变更后重新生成 index 并提交
+              echo "⚠️ 推送失败，拉取远程变更..."
+              git pull origin main --no-edit -X theirs
+              
+              # 重新生成 index（确保无冲突）
+              python3 -c "
+          import json, glob
+          data_dir = 'data'
+          files = sorted(glob.glob(f'{data_dir}/2026-*.json'), reverse=True)
+          summaries = []
+          for f in files:
+              try:
+                  d = json.load(open(f))
+                  if not d.get('nasdaq', {}).get('price'):
+                      continue
+                  summaries.append({
+                      'date': d['date'],
+                      'overallSentiment': d.get('overallSentiment', 'neutral'),
+                      'sentimentScore': d.get('sentimentScore', 0),
+                      'nasdaqPrice': d['nasdaq']['price'],
+                      'nasdaqChange': d['nasdaq'].get('change', 0),
+                      'nasdaqChangePercent': d['nasdaq'].get('changePercent', 0),
+                      'sp500Price': d['sp500']['price'],
+                      'sp500Change': d['sp500'].get('change', 0),
+                      'sp500ChangePercent': d['sp500'].get('changePercent', 0),
+                      'vix': d.get('indicators', {}).get('vix'),
+                      'newsCount': len(d.get('news', [])),
+                  })
+              except Exception:
+                  continue
+          with open(f'{data_dir}/index.json', 'w') as f:
+              json.dump(summaries, f, indent=2, ensure_ascii=False)
+          "
+              
+              git add data/
+              git diff --staged --quiet || git commit -m "📊 Update market data for $(date -u +%Y-%m-%d)"
+              
+              sleep 2
               
               if [ $i -eq $MAX_RETRIES ]; then
                 echo "❌ 推送失败，已达最大重试次数"
