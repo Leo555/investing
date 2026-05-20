@@ -1,47 +1,42 @@
 {
-  "date": "2026-05-13",
-  "dataDate": "2026-05-12",
-  "forecastDate": "2026-05-13",
-  "timestamp": "2026-05-13T13:51:24.418269+08:00",
+  "date": "2026-05-14",
+  "dataDate": "2026-05-13",
+  "forecastDate": "2026-05-14",
+  "timestamp": "2026-05-14T13:50:26.336591+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
-  "sentimentScore": 28,
+  "sentimentScore": 34,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
-    "price": 26088.2,
-    "change": -185.93,
-    "changePercent": -0.71,
-    "tradingDate": "2026-05-12",
-    "open": 26087.01,
-    "high": 26190.48,
-    "low": 25739.22,
-    "previousClose": 26274.13,
-    "volume": 9631840000,
-    "avgVolume": 8938511500,
-    "yearHigh": 26359.31,
-    "yearHighDate": "2026-05-11",
+    "price": 26402.34,
+    "change": 314.14,
+    "changePercent": 1.2,
+    "tradingDate": "2026-05-13",
+    "open": 26147.65,
+    "high": 26474.18,
+    "low": 25990.16,
+    "previousClose": 26088.2,
+    "volume": 9734720000,
+    "avgVolume": 8914923500,
+    "yearHigh": 26474.18,
+    "yearHighDate": "2026-05-13",
     "yearLow": 18599.69,
     "yearLowDate": "2025-05-23",
     "pe": null,
     "marketCap": null,
-    "sma20": 25003.18,
-    "sma50": 23341.86,
+    "sma20": 25122.5,
+    "sma50": 23419.57,
     "sma200": null,
-    "rsi14": 75.1,
-    "macdLine": 806.6676,
-    "macdSignal": 722.0872,
-    "macdHistogram": 84.5805,
-    "bollingerUpper": 26381.74,
-    "bollingerMiddle": 25003.18,
-    "bollingerLower": 23624.62,
-    "atr14": 360.59,
+    "rsi14": 83.4,
+    "macdLine": 818.9246,
+    "macdSignal": 738.2142,
+    "macdHistogram": 80.7104,
+    "bollingerUpper": 26550.82,
+    "bollingerMiddle": 25122.5,
+    "bollingerLower": 23694.17,
+    "atr14": 362.65,
     "priceHistory": [
-      {
-        "date": "2026-03-31",
-        "close": 21590.63,
-        "volume": 10645070000
-      },
       {
         "date": "2026-04-01",
         "close": 21840.95,
@@ -186,45 +181,45 @@
         "date": "2026-05-12",
         "close": 26088.2,
         "volume": 9631840000
+      },
+      {
+        "date": "2026-05-13",
+        "close": 26402.34,
+        "volume": 9734720000
       }
     ]
   },
   "sp500": {
     "symbol": "^GSPC",
     "name": "S&P 500",
-    "price": 7400.96,
-    "change": -11.88,
-    "changePercent": -0.16,
-    "tradingDate": "2026-05-12",
-    "open": 7390.63,
-    "high": 7409.57,
-    "low": 7338.54,
-    "previousClose": 7412.84,
-    "volume": 5624790000,
-    "avgVolume": 5334727500,
-    "yearHigh": 7428.97,
-    "yearHighDate": "2026-05-11",
+    "price": 7444.25,
+    "change": 43.29,
+    "changePercent": 0.58,
+    "tradingDate": "2026-05-13",
+    "open": 7409.12,
+    "high": 7460.04,
+    "low": 7375.13,
+    "previousClose": 7400.96,
+    "volume": 5716600000,
+    "avgVolume": 5356627000,
+    "yearHigh": 7460.04,
+    "yearHighDate": "2026-05-13",
     "yearLow": 5767.41,
     "yearLowDate": "2025-05-23",
     "pe": null,
     "marketCap": null,
-    "sma20": 7201.88,
-    "sma50": 6884.36,
+    "sma20": 7222.94,
+    "sma50": 6896.91,
     "sma200": null,
-    "rsi14": 74.5,
-    "macdLine": 145.0645,
-    "macdSignal": 132.0761,
-    "macdHistogram": 12.9885,
-    "bollingerUpper": 7441.25,
-    "bollingerMiddle": 7201.88,
-    "bollingerLower": 6962.5,
-    "atr14": 67.66,
+    "rsi14": 80.5,
+    "macdLine": 146.8378,
+    "macdSignal": 134.3762,
+    "macdHistogram": 12.4616,
+    "bollingerUpper": 7469.66,
+    "bollingerMiddle": 7222.94,
+    "bollingerLower": 6976.22,
+    "atr14": 66.5,
     "priceHistory": [
-      {
-        "date": "2026-03-31",
-        "close": 6528.52,
-        "volume": 6396100000
-      },
       {
         "date": "2026-04-01",
         "close": 6575.32,
@@ -369,14 +364,18 @@
         "date": "2026-05-12",
         "close": 7400.96,
         "volume": 5624790000
+      },
+      {
+        "date": "2026-05-13",
+        "close": 7444.25,
+        "volume": 5716600000
       }
     ]
   },
   "indicators": {
-    "vix": 17.99,
-    "vixChange": -0.39,
+    "vix": 17.87,
+    "vixChange": -0.12,
     "vixHistory": [
-      25.25,
       24.54,
       23.87,
       24.17,
@@ -405,14 +404,14 @@
       17.08,
       17.19,
       18.38,
-      17.99
+      17.99,
+      17.87
     ],
-    "vixHistoryStart": "2026-03-31",
-    "vixHistoryEnd": "2026-05-12",
-    "dxy": 98.32,
-    "dxyChange": 0.03,
+    "vixHistoryStart": "2026-04-01",
+    "vixHistoryEnd": "2026-05-13",
+    "dxy": 98.5,
+    "dxyChange": 0.02,
     "dxyHistory": [
-      99.65,
       100.03,
       99.98,
       99.64,
@@ -441,14 +440,14 @@
       97.84,
       97.94,
       98.29,
-      98.32
+      98.48,
+      98.5
     ],
-    "dxyHistoryStart": "2026-04-01",
-    "dxyHistoryEnd": "2026-05-13",
-    "us10y": 4.46,
-    "us10yChange": 0.05,
+    "dxyHistoryStart": "2026-04-02",
+    "dxyHistoryEnd": "2026-05-14",
+    "us10y": 4.48,
+    "us10yChange": 0.02,
     "us10yHistory": [
-      4.31,
       4.32,
       4.31,
       4.34,
@@ -477,14 +476,14 @@
       4.39,
       4.36,
       4.41,
-      4.46
+      4.46,
+      4.48
     ],
-    "us10yHistoryStart": "2026-03-31",
-    "us10yHistoryEnd": "2026-05-12",
+    "us10yHistoryStart": "2026-04-01",
+    "us10yHistoryEnd": "2026-05-13",
     "us2y": 3.6,
     "us2yChange": 0.0,
     "us2yHistory": [
-      3.6,
       3.61,
       3.61,
       3.62,
@@ -513,14 +512,14 @@
       3.6,
       3.6,
       3.6,
+      3.6,
       3.6
     ],
-    "us2yHistoryStart": "2026-03-31",
-    "us2yHistoryEnd": "2026-05-12",
-    "gold": 4709.3,
-    "goldChange": 31.7,
+    "us2yHistoryStart": "2026-04-01",
+    "us2yHistoryEnd": "2026-05-13",
+    "gold": 4706.8,
+    "goldChange": 9.1,
     "goldHistory": [
-      4783.2,
       4651.5,
       4656.8,
       4657.1,
@@ -549,14 +548,14 @@
       4720.4,
       4718.7,
       4677.6,
-      4709.3
+      4697.7,
+      4706.8
     ],
-    "goldHistoryStart": "2026-04-01",
-    "goldHistoryEnd": "2026-05-13",
-    "oil": 100.72,
-    "oilChange": -1.46,
+    "goldHistoryStart": "2026-04-02",
+    "goldHistoryEnd": "2026-05-14",
+    "oil": 101.67,
+    "oilChange": 0.65,
     "oilHistory": [
-      100.12,
       111.54,
       112.41,
       112.95,
@@ -585,14 +584,14 @@
       95.42,
       98.07,
       102.18,
-      100.72
+      101.02,
+      101.67
     ],
-    "oilHistoryStart": "2026-04-01",
-    "oilHistoryEnd": "2026-05-13",
-    "btc": 81041.93,
-    "btcChange": 389.65,
+    "oilHistoryStart": "2026-04-02",
+    "oilHistoryEnd": "2026-05-14",
+    "btc": 79783.77,
+    "btcChange": 381.86,
     "btcHistory": [
-      74103.77,
       74994.07,
       74883.21,
       77308.44,
@@ -621,14 +620,14 @@
       82025.59,
       81823.29,
       80652.28,
-      81041.93
+      79401.91,
+      79783.77
     ],
-    "btcHistoryStart": "2026-04-13",
-    "btcHistoryEnd": "2026-05-13",
-    "eth": 2298.23,
-    "ethChange": 15.97,
+    "btcHistoryStart": "2026-04-14",
+    "btcHistoryEnd": "2026-05-14",
+    "eth": 2266.11,
+    "ethChange": 7.55,
     "ethHistory": [
-      2316.43,
       2365.03,
       2342.8,
       2434.48,
@@ -657,219 +656,220 @@
       2373.93,
       2341.14,
       2282.26,
-      2298.23
+      2258.56,
+      2266.11
     ],
-    "ethHistoryStart": "2026-04-13",
-    "ethHistoryEnd": "2026-05-13"
+    "ethHistoryStart": "2026-04-14",
+    "ethHistoryEnd": "2026-05-14"
   },
   "sectors": [
     {
-      "name": "医疗",
-      "symbol": "XLV",
-      "changePercent": 1.96
-    },
-    {
-      "name": "日常消费品",
-      "symbol": "XLP",
-      "changePercent": 1.28
-    },
-    {
-      "name": "金融",
-      "symbol": "XLF",
-      "changePercent": 0.78
-    },
-    {
-      "name": "能源",
-      "symbol": "XLE",
-      "changePercent": 0.7
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": 0.94
     },
     {
       "name": "通信",
       "symbol": "XLC",
-      "changePercent": 0.24
+      "changePercent": 0.78
     },
     {
-      "name": "公用事业",
-      "symbol": "XLU",
-      "changePercent": 0.11
-    },
-    {
-      "name": "房地产",
-      "symbol": "XLRE",
-      "changePercent": 0.02
-    },
-    {
-      "name": "材料",
-      "symbol": "XLB",
-      "changePercent": -0.23
-    },
-    {
-      "name": "工业",
-      "symbol": "XLI",
-      "changePercent": -0.39
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": 0.59
     },
     {
       "name": "消费",
       "symbol": "XLY",
-      "changePercent": -0.9
+      "changePercent": 0.36
     },
     {
-      "name": "科技",
-      "symbol": "XLK",
-      "changePercent": -1.51
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": 0.33
+    },
+    {
+      "name": "能源",
+      "symbol": "XLE",
+      "changePercent": 0.1
+    },
+    {
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": -0.15
+    },
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": -0.42
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": -0.83
+    },
+    {
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": -1.14
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": -1.15
     }
   ],
   "news": [
     {
-      "title": "1 Dividend ETF Quietly Outperforming the Market Right Now",
-      "summary": "A lucrative dividend will always attract investors when times are rocky.",
+      "title": "Franklin Templeton strategist has a 3-word take on stocks",
+      "summary": "The S&P 500 just pulled off something with only one precedent in more than four decades, and a strategist at one of the world's largest asset managers boiled the entire episode down to three words that every equity investor needs to hear. Chris Galipeau, senior market strategist at the Franklin ...",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/05/13/1-dividend-etf-quietly-outperforming-the-market-ri/?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 05:20:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Webster Financial (WBS): Buy, Sell, or Hold Post Q1 Earnings?",
-      "summary": "Webster Financial’s 26.8% return over the past six months has outpaced the S&P 500 by 19.2%, and its stock price has climbed to $72.68 per share. This performance may have investors wondering how to approach the situation.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/webster-financial-wbs-buy-sell-045255636.html?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 04:52:55 +0000",
+      "url": "https://www.thestreet.com/investing/stocks/franklin-templeton-strategist-has-a-3-word-take-on-stocks?.tsrc=rss",
+      "publishedAt": "Thu, 14 May 2026 05:07:00 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "3 Reasons to Sell FNB and 1 Stock to Buy Instead",
-      "summary": "F.N.B. Corporation trades at $17.90 and has moved in lockstep with the market. Its shares have returned 10.6% over the last six months while the S&P 500 has gained 7.7%.",
+      "title": "3 Healthcare Stocks We’re Skeptical Of",
+      "summary": "Healthcare companies are pushing the status quo by innovating in areas like drug development and digital health. Despite the rosy long-term prospects, short-term headwinds such as COVID inventory destocking have caused the industry to lag recently - over the past six months, the collective 3.7% gain",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/3-reasons-sell-fnb-1-044455833.html?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 04:44:55 +0000",
-      "sentiment": "neutral"
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/3-healthcare-stocks-skeptical-045255574.html?.tsrc=rss",
+      "publishedAt": "Thu, 14 May 2026 04:52:55 +0000",
+      "sentiment": "positive"
     },
     {
-      "title": "3 Reasons to Sell FBNC and 1 Stock to Buy Instead",
-      "summary": "First Bancorp has had an impressive run over the past six months as its shares have beaten the S&P 500 by 8.4%. The stock now trades at $59.19, marking a 16.1% gain. This was partly due to its solid quarterly results, and the run-up might have investors contemplating their next move.",
+      "title": "Trump-Xi Summit Puts Nvidia, Boeing And 500-Jet Deal In Focus",
+      "summary": "Investors are watching chips, aerospace, agriculture and rare earths as Trump and Xi head into high-stakes talks.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/3-reasons-sell-fbnc-1-043655182.html?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 04:36:55 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-xi-summit-puts-nvidia-040122496.html?.tsrc=rss",
+      "publishedAt": "Thu, 14 May 2026 04:01:22 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Bank of America revamps Intel stock price target",
-      "summary": "Intel (INTC) stock closed the May 11 trading session at $129.44. That means it has gained 93.8% since April 23, according to Yahoo Finance. Meanwhile, the SPDR S&P 500 index (SPY) is up about 4.3% in the same period. Why is Intel outpacing the S&P 500 so much, and why that specific period? ...",
+      "title": "Dow Jones Futures Rise As Cisco Soars On AI Orders; Trump-Xi Summit Begins",
+      "summary": "Futures rose as Cisco soared on earnings. AI chip IPO Cerebras priced high. The Trump-Xi summit has begun.",
       "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/stocks/bank-of-america-revamps-intel-stock-price-target?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 04:03:00 +0000",
+      "url": "https://finance.yahoo.com/m/2bbeed6b-f614-3af5-aeb5-c5470d5bd3b6/dow-jones-futures-rise-as.html?.tsrc=rss",
+      "publishedAt": "Thu, 14 May 2026 03:12:03 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas",
-      "summary": "Here's some of the places where prices are rising fast for consumers.",
+      "title": "Asia markets mixed as Trump-Xi summit, AI trade dominate",
+      "summary": "Asian markets were mixed Thursday as investors weighed a high-stakes US-China summit and persistent inflation concerns, which tempered optimism fuelled by record highs on Wall Street.The cautious mood came after another tech-led rally on Wall Street, where the Nasdaq and S&P 500 hit fresh record hig",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-markets-mixed-trump-xi-030500436.html?.tsrc=rss",
+      "publishedAt": "Thu, 14 May 2026 03:05:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Xi asks Trump if U.S. and China can avoid 'Thucydides Trap' at high-stakes summit",
+      "summary": "U.S. President Donald Trump met Chinese President Xi Jinping in Beijing on Thursday morning for the start of a high-stakes summit that runs through Friday.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html",
-      "publishedAt": "Tue, 12 May 2026 21:04:59 GMT",
+      "url": "https://www.cnbc.com/2026/05/14/trump-xi-beijing-summit-trade-taiwan-ai-iran-rare-earths-tariffs.html",
+      "publishedAt": "Thu, 14 May 2026 05:14:25 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "In photos: Trump kicks off high-stakes summit with Xi",
+      "summary": "The high-stakes summit is expected to cover a wide range of contentious topics, including trade, technology, export controls, Taiwan, and the Iran war.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/14/in-photos-trump-lands-in-beijing-ahead-of-high-stakes-summit-with-xi.html",
+      "publishedAt": "Thu, 14 May 2026 04:44:16 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs",
+      "summary": "Cisco's AI story has finally started resonating with Wall Street, with the stock hitting a record late last year and continuing to rally in 2026.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html",
+      "publishedAt": "Wed, 13 May 2026 23:03:12 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Kevin Warsh wins Senate confirmation as the next Federal Reserve chair",
+      "summary": "In the most divisive vote ever for a Fed chair, Warsh, 56, won confirmation to take over for Jerome Powell.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/13/kevin-warsh-wins-senate-confirmation-as-the-next-federal-reserve-chair.html",
+      "publishedAt": "Wed, 13 May 2026 23:21:35 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Oil rises as IEA flags greater volatility ahead, OPEC cuts demand forecast",
+      "summary": "OPEC cut its demand growth estimates for 2026 to about 1.2 million barrels per day.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/14/oil-prices-today-wti-brent-hormuz-trump-xi-meeting.html",
+      "publishedAt": "Thu, 14 May 2026 04:25:46 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "20 stocks in the S&P 500 of companies with soaring sales and improving profit margins",
+      "summary": "This earnings season’s big winners include makers of AI-oriented hardware, but the list also includes some surprises.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/20-stocks-in-the-s-p-500-of-companies-with-soaring-sales-and-improving-profit-margins-eb74005a?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 14 May 2026 00:43:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cisco to cut jobs so it can invest more in AI, and the stock rockets toward a record",
+      "summary": "Cisco’s stock soars into record territory, after the networking giant announced plans to invest more in AI and upbeat earnings report.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/cisco-to-cut-jobs-so-it-can-invest-more-in-ai-and-the-stock-rockets-toward-a-record-cf9d09a9?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 14 May 2026 00:12:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cerebras’s massive IPO will be a fresh test of investor excitement for AI infrastructure",
+      "summary": "Late Wednesday, the company priced its IPO at $185 a share, far above the top of its previously announced range of $150-$160.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/cerebrass-ipo-will-be-fresh-a-test-of-investor-excitement-for-ai-infrastructure-3499a2a5?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 13 May 2026 23:52:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
+      "summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 13 May 2026 23:34:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
+      "summary": "The Trump administration and Congress can act now to bring down energy costs and make Americans’ lives more affordable.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 13 May 2026 23:21:00 GMT",
       "sentiment": "negative"
-    },
-    {
-      "title": "For Chinese exporters, Iran worries eclipse tariff woes as Trump, Xi prepare to meet",
-      "summary": "Heading into the summit, Beijing and Washington will likely reaffirm their shared intention to reopen the Strait of Hormuz and restore stability in the region.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/13/trump-xi-summit-china-iran-war-tariffs.html",
-      "publishedAt": "Wed, 13 May 2026 01:14:04 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Jensen Huang joins Trump's China trip after the U.S. president called the Nvidia CEO",
-      "summary": "The U.S. chipmaker executive was not included in earlier lists of business leaders participating in President Donald Trump's trip to China this week.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/13/nvidia-says-ceo-jensen-huang-is-joining-trumps-china-trip.html",
-      "publishedAt": "Wed, 13 May 2026 04:14:25 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
-      "summary": "It's time to take a closer look with stocks rallying into the third month of the U.S.-Iran conflict.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html",
-      "publishedAt": "Tue, 12 May 2026 21:56:17 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Marty Makary resigns as FDA commissioner following industry and White House backlash",
-      "summary": "Makary's tenure was marked by internal dysfunction at the FDA, leadership turmoil and mounting backlash from drugmakers and physicians on regulatory decisions.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/12/trump-fda-commissioner-marty-makary-out.html",
-      "publishedAt": "Tue, 12 May 2026 20:04:29 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "What former poker champion turned investing coach Annie Duke says most of us get wrong about risk",
-      "summary": "The author of ‘Quit’ talks about market bubbles, costly investing mistakes and why investors freeze at the worst time.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/hold-stocks-or-fold-em-former-world-series-of-poker-champion-annie-duke-tells-you-how-to-decide-6ded9e52?mod=mw_rss_topstories",
-      "publishedAt": "Wed, 13 May 2026 00:53:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "My retirement fund is like an AI version of me. It keeps working when I’m not able to.",
-      "summary": "“Not taking care of your money becomes, in a visceral sense, not taking care of yourself.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-retirement-fund-is-like-an-ai-version-of-me-it-keeps-working-when-im-not-able-to-6d053f9d?mod=mw_rss_topstories",
-      "publishedAt": "Wed, 13 May 2026 00:00:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "‘I’m not an extravagant spender’: I’m in my 70s with a $90,000 income. Can I afford my dream home with a pool?",
-      "summary": "“My current house is all paid off, and it’s worth $650,000.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-not-an-extravagant-spender-im-in-my-70s-with-a-90-000-income-can-i-afford-my-dream-home-with-a-pool-871ccda2?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 12 May 2026 23:36:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "‘She is very angry with me’: My daughter, 30, has issues with drugs. Should I take half the profit from the sale of her house?",
-      "summary": "“My thought is to invest it on her behalf for someday, when she gets her life together.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/she-is-very-angry-with-me-my-daughter-has-drug-issues-should-i-take-half-the-profit-from-the-sale-of-her-house-e99a23d4?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 12 May 2026 23:35:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The real cost of the Iran war isn’t just higher prices — it’s market paralysis",
-      "summary": "Markets can handle rising prices. What crushes confidence is uncertainty that squelches investment.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-iran-wars-costliest-tax-is-not-inflation-its-uncertainty-d2c8acaa?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 12 May 2026 22:37:00 GMT",
-      "sentiment": "positive"
     }
   ],
-  "fearGreedIndex": 42,
+  "fearGreedIndex": 34,
   "valuation": {
     "sp500": {
       "pe": null,
       "forwardPE": null,
-      "pePercentile1y": 99,
+      "pePercentile1y": 100,
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 14,
       "peRangeHigh": 35,
-      "drawdown52w": -0.35,
-      "high52w": 740.79,
-      "drawdownATH": -0.35,
-      "allTimeHigh": 740.79,
-      "currentPrice": 738.18
+      "drawdown52w": -0.22,
+      "high52w": 743.91,
+      "drawdownATH": -0.22,
+      "allTimeHigh": 743.91,
+      "currentPrice": 742.31
     },
     "nasdaq": {
       "pe": null,
       "forwardPE": null,
-      "pePercentile1y": 99,
+      "pePercentile1y": 100,
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 18,
       "peRangeHigh": 45,
-      "drawdown52w": -1.03,
-      "high52w": 714.59,
-      "drawdownATH": -1.03,
-      "allTimeHigh": 714.59,
-      "currentPrice": 707.24
+      "drawdown52w": -0.27,
+      "high52w": 716.65,
+      "drawdownATH": -0.27,
+      "allTimeHigh": 716.65,
+      "currentPrice": 714.71
     }
   },
   "advanceDeclineRatio": null,

@@ -1,52 +1,42 @@
 {
-  "date": "2026-05-13",
-  "dataDate": "2026-05-12",
-  "forecastDate": "2026-05-13",
-  "timestamp": "2026-05-13T13:51:24.418269+08:00",
+  "date": "2026-05-15",
+  "dataDate": "2026-05-14",
+  "forecastDate": "2026-05-15",
+  "timestamp": "2026-05-15T13:57:14.010502+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
-  "sentimentScore": 28,
+  "sentimentScore": 26,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
-    "price": 26088.2,
-    "change": -185.93,
-    "changePercent": -0.71,
-    "tradingDate": "2026-05-12",
-    "open": 26087.01,
-    "high": 26190.48,
-    "low": 25739.22,
-    "previousClose": 26274.13,
-    "volume": 9631840000,
-    "avgVolume": 8938511500,
-    "yearHigh": 26359.31,
-    "yearHighDate": "2026-05-11",
+    "price": 26635.22,
+    "change": 232.88,
+    "changePercent": 0.88,
+    "tradingDate": "2026-05-14",
+    "open": 26425.47,
+    "high": 26707.14,
+    "low": 26423.21,
+    "previousClose": 26402.34,
+    "volume": 9860060000,
+    "avgVolume": 8909746000,
+    "yearHigh": 26707.14,
+    "yearHighDate": "2026-05-14",
     "yearLow": 18599.69,
     "yearLowDate": "2025-05-23",
     "pe": null,
     "marketCap": null,
-    "sma20": 25003.18,
-    "sma50": 23341.86,
+    "sma20": 25249.12,
+    "sma50": 23496.13,
     "sma200": null,
-    "rsi14": 75.1,
-    "macdLine": 806.6676,
-    "macdSignal": 722.0872,
-    "macdHistogram": 84.5805,
-    "bollingerUpper": 26381.74,
-    "bollingerMiddle": 25003.18,
-    "bollingerLower": 23624.62,
-    "atr14": 360.59,
+    "rsi14": 82.4,
+    "macdLine": 839.3447,
+    "macdSignal": 758.0953,
+    "macdHistogram": 81.2494,
+    "bollingerUpper": 26740.98,
+    "bollingerMiddle": 25249.12,
+    "bollingerLower": 23757.26,
+    "atr14": 354.74,
     "priceHistory": [
-      {
-        "date": "2026-03-31",
-        "close": 21590.63,
-        "volume": 10645070000
-      },
-      {
-        "date": "2026-04-01",
-        "close": 21840.95,
-        "volume": 8801740000
-      },
       {
         "date": "2026-04-02",
         "close": 21879.18,
@@ -186,50 +176,50 @@
         "date": "2026-05-12",
         "close": 26088.2,
         "volume": 9631840000
+      },
+      {
+        "date": "2026-05-13",
+        "close": 26402.34,
+        "volume": 9734720000
+      },
+      {
+        "date": "2026-05-14",
+        "close": 26635.22,
+        "volume": 9860060000
       }
     ]
   },
   "sp500": {
     "symbol": "^GSPC",
     "name": "S&P 500",
-    "price": 7400.96,
-    "change": -11.88,
-    "changePercent": -0.16,
-    "tradingDate": "2026-05-12",
-    "open": 7390.63,
-    "high": 7409.57,
-    "low": 7338.54,
-    "previousClose": 7412.84,
-    "volume": 5624790000,
-    "avgVolume": 5334727500,
-    "yearHigh": 7428.97,
-    "yearHighDate": "2026-05-11",
+    "price": 7501.24,
+    "change": 56.99,
+    "changePercent": 0.77,
+    "tradingDate": "2026-05-14",
+    "open": 7454.4,
+    "high": 7517.12,
+    "low": 7454.4,
+    "previousClose": 7444.25,
+    "volume": 5267050000,
+    "avgVolume": 5361297000,
+    "yearHigh": 7517.12,
+    "yearHighDate": "2026-05-14",
     "yearLow": 5767.41,
     "yearLowDate": "2025-05-23",
     "pe": null,
     "marketCap": null,
-    "sma20": 7201.88,
-    "sma50": 6884.36,
+    "sma20": 7245.94,
+    "sma50": 6909.54,
     "sma200": null,
-    "rsi14": 74.5,
-    "macdLine": 145.0645,
-    "macdSignal": 132.0761,
-    "macdHistogram": 12.9885,
-    "bollingerUpper": 7441.25,
-    "bollingerMiddle": 7201.88,
-    "bollingerLower": 6962.5,
-    "atr14": 67.66,
+    "rsi14": 80.5,
+    "macdLine": 151.4385,
+    "macdSignal": 137.5191,
+    "macdHistogram": 13.9195,
+    "bollingerUpper": 7506.03,
+    "bollingerMiddle": 7245.94,
+    "bollingerLower": 6985.85,
+    "atr14": 67.4,
     "priceHistory": [
-      {
-        "date": "2026-03-31",
-        "close": 6528.52,
-        "volume": 6396100000
-      },
-      {
-        "date": "2026-04-01",
-        "close": 6575.32,
-        "volume": 5637260000
-      },
       {
         "date": "2026-04-02",
         "close": 6582.69,
@@ -369,15 +359,23 @@
         "date": "2026-05-12",
         "close": 7400.96,
         "volume": 5624790000
+      },
+      {
+        "date": "2026-05-13",
+        "close": 7444.25,
+        "volume": 5716600000
+      },
+      {
+        "date": "2026-05-14",
+        "close": 7501.24,
+        "volume": 5267050000
       }
     ]
   },
   "indicators": {
-    "vix": 17.99,
-    "vixChange": -0.39,
+    "vix": 17.26,
+    "vixChange": -0.61,
     "vixHistory": [
-      25.25,
-      24.54,
       23.87,
       24.17,
       25.78,
@@ -405,15 +403,15 @@
       17.08,
       17.19,
       18.38,
-      17.99
+      17.99,
+      17.87,
+      17.26
     ],
-    "vixHistoryStart": "2026-03-31",
-    "vixHistoryEnd": "2026-05-12",
-    "dxy": 98.32,
-    "dxyChange": 0.03,
+    "vixHistoryStart": "2026-04-02",
+    "vixHistoryEnd": "2026-05-14",
+    "dxy": 99.18,
+    "dxyChange": 0.3,
     "dxyHistory": [
-      99.65,
-      100.03,
       99.98,
       99.64,
       99.13,
@@ -441,15 +439,15 @@
       97.84,
       97.94,
       98.29,
-      98.32
+      98.48,
+      98.88,
+      99.18
     ],
-    "dxyHistoryStart": "2026-04-01",
-    "dxyHistoryEnd": "2026-05-13",
+    "dxyHistoryStart": "2026-04-06",
+    "dxyHistoryEnd": "2026-05-15",
     "us10y": 4.46,
-    "us10yChange": 0.05,
+    "us10yChange": -0.02,
     "us10yHistory": [
-      4.31,
-      4.32,
       4.31,
       4.34,
       4.34,
@@ -477,15 +475,15 @@
       4.39,
       4.36,
       4.41,
+      4.46,
+      4.48,
       4.46
     ],
-    "us10yHistoryStart": "2026-03-31",
-    "us10yHistoryEnd": "2026-05-12",
-    "us2y": 3.6,
-    "us2yChange": 0.0,
+    "us10yHistoryStart": "2026-04-02",
+    "us10yHistoryEnd": "2026-05-14",
+    "us2y": 3.59,
+    "us2yChange": -0.01,
     "us2yHistory": [
-      3.6,
-      3.61,
       3.61,
       3.62,
       3.62,
@@ -513,15 +511,15 @@
       3.6,
       3.6,
       3.6,
-      3.6
+      3.6,
+      3.6,
+      3.59
     ],
-    "us2yHistoryStart": "2026-03-31",
-    "us2yHistoryEnd": "2026-05-12",
-    "gold": 4709.3,
-    "goldChange": 31.7,
+    "us2yHistoryStart": "2026-04-02",
+    "us2yHistoryEnd": "2026-05-14",
+    "gold": 4568.6,
+    "goldChange": -109.5,
     "goldHistory": [
-      4783.2,
-      4651.5,
       4656.8,
       4657.1,
       4749.5,
@@ -549,15 +547,15 @@
       4720.4,
       4718.7,
       4677.6,
-      4709.3
+      4697.7,
+      4678.1,
+      4568.6
     ],
-    "goldHistoryStart": "2026-04-01",
-    "goldHistoryEnd": "2026-05-13",
-    "oil": 100.72,
-    "oilChange": -1.46,
+    "goldHistoryStart": "2026-04-06",
+    "goldHistoryEnd": "2026-05-15",
+    "oil": 103.28,
+    "oilChange": 2.11,
     "oilHistory": [
-      100.12,
-      111.54,
       112.41,
       112.95,
       94.41,
@@ -585,15 +583,15 @@
       95.42,
       98.07,
       102.18,
-      100.72
+      101.02,
+      101.17,
+      103.28
     ],
-    "oilHistoryStart": "2026-04-01",
-    "oilHistoryEnd": "2026-05-13",
-    "btc": 81041.93,
-    "btcChange": 389.65,
+    "oilHistoryStart": "2026-04-06",
+    "oilHistoryEnd": "2026-05-15",
+    "btc": 80428.39,
+    "btcChange": -989.83,
     "btcHistory": [
-      74103.77,
-      74994.07,
       74883.21,
       77308.44,
       75830.19,
@@ -621,15 +619,15 @@
       82025.59,
       81823.29,
       80652.28,
-      81041.93
+      79401.91,
+      81418.22,
+      80428.39
     ],
-    "btcHistoryStart": "2026-04-13",
-    "btcHistoryEnd": "2026-05-13",
-    "eth": 2298.23,
-    "ethChange": 15.97,
+    "btcHistoryStart": "2026-04-15",
+    "btcHistoryEnd": "2026-05-15",
+    "eth": 2247.34,
+    "ethChange": -50.01,
     "ethHistory": [
-      2316.43,
-      2365.03,
       2342.8,
       2434.48,
       2357.52,
@@ -657,219 +655,221 @@
       2373.93,
       2341.14,
       2282.26,
-      2298.23
+      2258.56,
+      2297.35,
+      2247.34
     ],
-    "ethHistoryStart": "2026-04-13",
-    "ethHistoryEnd": "2026-05-13"
+    "ethHistoryStart": "2026-04-15",
+    "ethHistoryEnd": "2026-05-15"
   },
   "sectors": [
     {
-      "name": "医疗",
-      "symbol": "XLV",
-      "changePercent": 1.96
-    },
-    {
-      "name": "日常消费品",
-      "symbol": "XLP",
-      "changePercent": 1.28
-    },
-    {
-      "name": "金融",
-      "symbol": "XLF",
-      "changePercent": 0.78
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": 1.5
     },
     {
       "name": "能源",
       "symbol": "XLE",
-      "changePercent": 0.7
+      "changePercent": 0.76
     },
     {
-      "name": "通信",
-      "symbol": "XLC",
-      "changePercent": 0.24
-    },
-    {
-      "name": "公用事业",
-      "symbol": "XLU",
-      "changePercent": 0.11
-    },
-    {
-      "name": "房地产",
-      "symbol": "XLRE",
-      "changePercent": 0.02
-    },
-    {
-      "name": "材料",
-      "symbol": "XLB",
-      "changePercent": -0.23
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": 0.59
     },
     {
       "name": "工业",
       "symbol": "XLI",
-      "changePercent": -0.39
+      "changePercent": 0.51
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": 0.51
+    },
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": 0.31
+    },
+    {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": 0.3
     },
     {
       "name": "消费",
       "symbol": "XLY",
-      "changePercent": -0.9
+      "changePercent": -0.04
     },
     {
-      "name": "科技",
-      "symbol": "XLK",
-      "changePercent": -1.51
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": -0.05
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": -0.68
+    },
+    {
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": -0.75
     }
   ],
   "news": [
     {
-      "title": "1 Dividend ETF Quietly Outperforming the Market Right Now",
-      "summary": "A lucrative dividend will always attract investors when times are rocky.",
+      "title": "The \"Magnificent Seven\" Has Gained $4.8 Trillion Since the Start of April. Here's Why That's a Risk to the S&P 500 and Nasdaq-100.",
+      "summary": "Market concentration can amplify gains but also compound declines during a stock market sell-off.",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/05/13/1-dividend-etf-quietly-outperforming-the-market-ri/?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 05:20:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Webster Financial (WBS): Buy, Sell, or Hold Post Q1 Earnings?",
-      "summary": "Webster Financial’s 26.8% return over the past six months has outpaced the S&P 500 by 19.2%, and its stock price has climbed to $72.68 per share. This performance may have investors wondering how to approach the situation.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/webster-financial-wbs-buy-sell-045255636.html?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 04:52:55 +0000",
+      "url": "https://www.fool.com/investing/2026/05/15/magnificent-seven-growth-stocks-all-time-high/?.tsrc=rss",
+      "publishedAt": "Fri, 15 May 2026 05:15:00 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "3 Reasons to Sell FNB and 1 Stock to Buy Instead",
-      "summary": "F.N.B. Corporation trades at $17.90 and has moved in lockstep with the market. Its shares have returned 10.6% over the last six months while the S&P 500 has gained 7.7%.",
+      "title": "Champlain Sells Out of Freshpet Position, Dumps $125 Million in Stock",
+      "summary": "This pet food company delivers fresh, natural meals for dogs and cats through retail and online channels across North America and Europe.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/3-reasons-sell-fnb-1-044455833.html?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 04:44:55 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "3 Reasons to Sell FBNC and 1 Stock to Buy Instead",
-      "summary": "First Bancorp has had an impressive run over the past six months as its shares have beaten the S&P 500 by 8.4%. The stock now trades at $59.19, marking a 16.1% gain. This was partly due to its solid quarterly results, and the run-up might have investors contemplating their next move.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/3-reasons-sell-fbnc-1-043655182.html?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 04:36:55 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Bank of America revamps Intel stock price target",
-      "summary": "Intel (INTC) stock closed the May 11 trading session at $129.44. That means it has gained 93.8% since April 23, according to Yahoo Finance. Meanwhile, the SPDR S&P 500 index (SPY) is up about 4.3% in the same period. Why is Intel outpacing the S&P 500 so much, and why that specific period? ...",
-      "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/stocks/bank-of-america-revamps-intel-stock-price-target?.tsrc=rss",
-      "publishedAt": "Wed, 13 May 2026 04:03:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas",
-      "summary": "Here's some of the places where prices are rising fast for consumers.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html",
-      "publishedAt": "Tue, 12 May 2026 21:04:59 GMT",
+      "url": "https://www.fool.com/coverage/filings/2026/05/15/champlain-sells-out-of-freshpet-position-dumps-usd125-million-in-stock/?.tsrc=rss",
+      "publishedAt": "Fri, 15 May 2026 05:00:25 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "For Chinese exporters, Iran worries eclipse tariff woes as Trump, Xi prepare to meet",
-      "summary": "Heading into the summit, Beijing and Washington will likely reaffirm their shared intention to reopen the Strait of Hormuz and restore stability in the region.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/13/trump-xi-summit-china-iran-war-tariffs.html",
-      "publishedAt": "Wed, 13 May 2026 01:14:04 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Jensen Huang joins Trump's China trip after the U.S. president called the Nvidia CEO",
-      "summary": "The U.S. chipmaker executive was not included in earlier lists of business leaders participating in President Donald Trump's trip to China this week.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/13/nvidia-says-ceo-jensen-huang-is-joining-trumps-china-trip.html",
-      "publishedAt": "Wed, 13 May 2026 04:14:25 GMT",
+      "title": "\"The Big Short's\" Michael Burry vs. Renowned Economist Ed Yardeni: One Thinks the Stock Market Is Going to 8,250, and the Other Sees an Imminent \"Bloody Car Crash.\"",
+      "summary": "Some investors believe the market's extraordinary run can continue, while others recommend investors move into cash.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/05/14/the-big-shorts-michael-burry-vs-renowned-economist/?.tsrc=rss",
+      "publishedAt": "Fri, 15 May 2026 03:20:00 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
-      "summary": "It's time to take a closer look with stocks rallying into the third month of the U.S.-Iran conflict.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html",
-      "publishedAt": "Tue, 12 May 2026 21:56:17 GMT",
+      "title": "Dow Jones Futures Fall, Yields Top 4.5% After Nvidia Runs, Cerebras IPO Soars; Trump-Xi Summit Continues",
+      "summary": "The stock market hit highs as Nvidia led and AI chip IPO Cerebras soared in its debut, while Broadcom and Taiwan Semiconductor flashed buy signals. The Trump-Xi summit continues.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/63a0367a-b214-3c30-957e-0363f7c21b2e/dow-jones-futures-fall%2C.html?.tsrc=rss",
+      "publishedAt": "Fri, 15 May 2026 03:04:38 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Marty Makary resigns as FDA commissioner following industry and White House backlash",
-      "summary": "Makary's tenure was marked by internal dysfunction at the FDA, leadership turmoil and mounting backlash from drugmakers and physicians on regulatory decisions.",
+      "title": "As Nvidia Stock Hits New Highs, Is It Too Late to Buy?",
+      "summary": "The stock is rising at it gets closer to earnings.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/05/14/as-nvidia-stock-hits-new-highs-is-it-too-late-to-b/?.tsrc=rss",
+      "publishedAt": "Fri, 15 May 2026 02:20:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump wraps up two-day China trip; invites Xi for a September visit",
+      "summary": "",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/12/trump-fda-commissioner-marty-makary-out.html",
-      "publishedAt": "Tue, 12 May 2026 20:04:29 GMT",
+      "url": "https://www.cnbc.com/2026/05/15/trump-wraps-up-two-day-china-trip-invites-xi-for-a-september-visit.html",
+      "publishedAt": "Fri, 15 May 2026 05:20:19 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "What former poker champion turned investing coach Annie Duke says most of us get wrong about risk",
-      "summary": "The author of ‘Quit’ talks about market bubbles, costly investing mistakes and why investors freeze at the worst time.",
+      "title": "China to buy U.S. oil to feed its 'insatiable appetite,' Trump tells Fox News",
+      "summary": "Trump and Chinese President Xi Jinping are scheduled to meet Friday to close out a two-day summit that has featured pageantry and dealmaking.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/15/trump-xi-summit-energy-purchase-china-iran-war-oil-shock-.html",
+      "publishedAt": "Fri, 15 May 2026 05:36:34 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion",
+      "summary": "Cerebras is taking advantage of a bull market for silicon, as the chipmaker becomes one of the most notable pureplay AI IPOs to date.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html",
+      "publishedAt": "Thu, 14 May 2026 20:07:17 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Oil prices jump after Trump says China agreed to buy U.S. crude following Xi talks",
+      "summary": "Oil prices rose Friday on news that China has agreed to purchase oil from America",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/15/oil-prices-china-us-iran-strait-of-hormuz-middle-east.html",
+      "publishedAt": "Fri, 15 May 2026 02:52:28 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Billionaire Gautam Adani and nephew agree to pay $18 million in SEC settlement over fraud allegations",
+      "summary": "Indian billionaire Gautam Adani and his nephew Sagar Adani have agreed to settle a U.S. Securities and Exchange Commission lawsuit over allegations they misled investors.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/15/us-sec-settlement-gautam-adani-sagar-adani-fraud-case.html",
+      "publishedAt": "Fri, 15 May 2026 05:30:22 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Nvidia earnings alone won’t rescue the S&P 500 from its new sell signal",
+      "summary": "Overbought warnings come ahead of a massive tech and retail earnings lineup.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/hold-stocks-or-fold-em-former-world-series-of-poker-champion-annie-duke-tells-you-how-to-decide-6ded9e52?mod=mw_rss_topstories",
-      "publishedAt": "Wed, 13 May 2026 00:53:00 GMT",
+      "url": "https://www.marketwatch.com/story/nvidia-earnings-alone-wont-rescue-the-s-p-500-from-its-new-sell-signal-5a41acc3?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 15 May 2026 03:11:00 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "My retirement fund is like an AI version of me. It keeps working when I’m not able to.",
-      "summary": "“Not taking care of your money becomes, in a visceral sense, not taking care of yourself.”",
+      "title": "Trump’s best China trade deal is the one he doesn’t make",
+      "summary": "Three decades of failed engagement with Beijing show why U.S. should walk away from the bargaining table.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-retirement-fund-is-like-an-ai-version-of-me-it-keeps-working-when-im-not-able-to-6d053f9d?mod=mw_rss_topstories",
-      "publishedAt": "Wed, 13 May 2026 00:00:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "‘I’m not an extravagant spender’: I’m in my 70s with a $90,000 income. Can I afford my dream home with a pool?",
-      "summary": "“My current house is all paid off, and it’s worth $650,000.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-not-an-extravagant-spender-im-in-my-70s-with-a-90-000-income-can-i-afford-my-dream-home-with-a-pool-871ccda2?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 12 May 2026 23:36:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "‘She is very angry with me’: My daughter, 30, has issues with drugs. Should I take half the profit from the sale of her house?",
-      "summary": "“My thought is to invest it on her behalf for someday, when she gets her life together.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/she-is-very-angry-with-me-my-daughter-has-drug-issues-should-i-take-half-the-profit-from-the-sale-of-her-house-e99a23d4?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 12 May 2026 23:35:00 GMT",
+      "url": "https://www.marketwatch.com/story/trumps-best-china-trade-deal-is-the-one-he-doesnt-make-b54fe07f?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 15 May 2026 03:09:00 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "The real cost of the Iran war isn’t just higher prices — it’s market paralysis",
-      "summary": "Markets can handle rising prices. What crushes confidence is uncertainty that squelches investment.",
+      "title": "Dead people claiming Social Security? Here’s one — but we’re still looking for the other 19,999,999.",
+      "summary": "After a year of hunting down Social Security cheats, here’s where we stand.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-iran-wars-costliest-tax-is-not-inflation-its-uncertainty-d2c8acaa?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 12 May 2026 22:37:00 GMT",
-      "sentiment": "positive"
+      "url": "https://www.marketwatch.com/story/dead-people-claiming-social-security-heres-one-but-were-still-looking-for-the-other-19-999-999-7166612d?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 15 May 2026 02:16:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump’s big trip was supposed to sell 500 Boeing planes. China is only buying 200 of them.",
+      "summary": "Boeing’s stock on Thursday headed for its steepest fall in six months after President Donald Trump said China is buying 200 of the company’s jets, disappointing investors who had expected more than double that number.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/boeings-stock-drops-as-trumps-order-deal-with-china-disappoints-baff30fa?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 15 May 2026 02:08:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "This summer’s World Cup will be no match for Taylor Swift when it comes to live events",
+      "summary": "The World Cup runs from June 11 to July 19, with games being played in cities across the U.S., Canada and Mexico. Tickets went on sale in October and have sold for as much as $10,000, with the cheapest options to see the U.S. team running around $1,640.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-summers-world-cup-will-be-no-match-for-taylor-swift-when-it-comes-to-live-events-35f4b204?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 15 May 2026 00:28:00 GMT",
+      "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 42,
+  "fearGreedIndex": 43,
   "valuation": {
     "sp500": {
       "pe": null,
       "forwardPE": null,
-      "pePercentile1y": 99,
+      "pePercentile1y": 100,
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 14,
       "peRangeHigh": 35,
-      "drawdown52w": -0.35,
-      "high52w": 740.79,
-      "drawdownATH": -0.35,
-      "allTimeHigh": 740.79,
-      "currentPrice": 738.18
+      "drawdown52w": -0.18,
+      "high52w": 749.53,
+      "drawdownATH": -0.18,
+      "allTimeHigh": 749.53,
+      "currentPrice": 748.17
     },
     "nasdaq": {
       "pe": null,
       "forwardPE": null,
-      "pePercentile1y": 99,
+      "pePercentile1y": 100,
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 18,
       "peRangeHigh": 45,
-      "drawdown52w": -1.03,
-      "high52w": 714.59,
-      "drawdownATH": -1.03,
-      "allTimeHigh": 714.59,
-      "currentPrice": 707.24
+      "drawdown52w": -0.31,
+      "high52w": 722.03,
+      "drawdownATH": -0.31,
+      "allTimeHigh": 722.03,
+      "currentPrice": 719.79
     }
   },
   "advanceDeclineRatio": null,
