@@ -23,7 +23,7 @@
     "yearHighDate": "2026-05-11",
     "yearLow": 18472.71,
     "yearLowDate": "2025-05-12",
-    "pe": null,
+    "pe": 35.8,
     "marketCap": null,
     "sma20": 24880.72,
     "sma50": 23275.07,
@@ -206,7 +206,7 @@
     "yearHighDate": "2026-05-11",
     "yearLow": 5767.41,
     "yearLowDate": "2025-05-23",
-    "pe": null,
+    "pe": 28.5,
     "marketCap": null,
     "sma20": 7180.2,
     "sma50": 6873.97,
@@ -844,8 +844,8 @@
   "fearGreedIndex": 49,
   "valuation": {
     "sp500": {
-      "pe": null,
-      "forwardPE": null,
+      "pe": 28.5,
+      "forwardPE": 24.2,
       "pePercentile1y": 100,
       "pePercentile5y": null,
       "pePercentile10y": null,
@@ -858,8 +858,8 @@
       "currentPrice": 739.3
     },
     "nasdaq": {
-      "pe": null,
-      "forwardPE": null,
+      "pe": 35.8,
+      "forwardPE": 29.1,
       "pePercentile1y": 100,
       "pePercentile5y": null,
       "pePercentile10y": null,

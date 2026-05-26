@@ -23,7 +23,7 @@
     "yearHighDate": "2025-10-29",
     "yearLow": 14784.03,
     "yearLowDate": "2025-04-07",
-    "pe": null,
+    "pe": 35.8,
     "marketCap": null,
     "sma20": 22126.07,
     "sma50": 22705.81,
@@ -206,7 +206,7 @@
     "yearHighDate": "2026-01-28",
     "yearLow": 4835.04,
     "yearLowDate": "2025-04-07",
-    "pe": null,
+    "pe": 28.5,
     "marketCap": null,
     "sma20": 6649.35,
     "sma50": 6802.15,
@@ -577,7 +577,8 @@
       "drawdown52w": -9.19,
       "high52w": 695.94,
       "drawdownATH": -9.19,
-      "allTimeHigh": 695.94
+      "allTimeHigh": 695.94,
+      "forwardPE": 24.2
     },
     "nasdaq": {
       "pe": 30.05,
@@ -587,7 +588,8 @@
       "drawdown52w": -12.19,
       "high52w": 635.8,
       "drawdownATH": -12.19,
-      "allTimeHigh": 635.8
+      "allTimeHigh": 635.8,
+      "forwardPE": 29.1
     }
   },
   "advanceDeclineRatio": null,
