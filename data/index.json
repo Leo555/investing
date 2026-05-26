@@ -2,14 +2,14 @@
   {
     "date": "2026-05-25",
     "overallSentiment": "neutral",
-    "sentimentScore": 9,
+    "sentimentScore": 12,
     "nasdaqPrice": 26343.97,
     "nasdaqChange": 50.87,
     "nasdaqChangePercent": 0.19,
     "sp500Price": 7473.47,
     "sp500Change": 27.75,
     "sp500ChangePercent": 0.37,
-    "vix": 16.7,
+    "vix": 16.59,
     "newsCount": 15
   },
   {
