@@ -416,16 +416,47 @@ def fetch_valuation_data() -> dict:
             all_time_high = max(k["high"] for k in klines_max) if klines_max else high_52w
             drawdown_ath = round((current_price - all_time_high) / all_time_high * 100, 2) if all_time_high > 0 else None
 
-            # PE: 尝试从 YF chart meta 获取
+            # PE: 多种方式尝试获取
             pe = None
             forward_pe = None
-            chart = _yf_chart(cfg["symbol"], range_="1d")
-            if chart:
-                meta = chart.get("meta", {})
-                # YF chart meta 不直接提供 PE，但可以尝试
-                pe = None  # Chart API 不提供 PE
 
-            if pe:
+            # 方法1: yfinance Ticker.info (最可靠)
+            try:
+                import yfinance as yf
+                ticker = yf.Ticker(cfg["symbol"])
+                info = ticker.info or {}
+                pe = info.get("trailingPE")
+                forward_pe = info.get("forwardPE")
+                if pe:
+                    pe = round(float(pe), 2)
+                if forward_pe:
+                    forward_pe = round(float(forward_pe), 2)
+            except Exception:
+                pass
+
+            # 方法2: Yahoo Finance quote API (备选)
+            if not pe:
+                try:
+                    quote_url = f"https://query1.finance.yahoo.com/v6/finance/quote?symbols={cfg['symbol']}"
+                    result_q = subprocess.run(
+                        ["curl", "-s", "--max-time", "15", "-H", "User-Agent: Mozilla/5.0", quote_url],
+                        capture_output=True, text=True, timeout=20,
+                    )
+                    if result_q.returncode == 0 and result_q.stdout:
+                        qdata = json.loads(result_q.stdout)
+                        quote_result = qdata.get("quoteResponse", {}).get("result", [])
+                        if quote_result:
+                            q = quote_result[0]
+                            pe = q.get("trailingPE")
+                            forward_pe = forward_pe or q.get("forwardPE")
+                            if pe:
+                                pe = round(float(pe), 2)
+                            if forward_pe:
+                                forward_pe = round(float(forward_pe), 2)
+                except Exception:
+                    pass
+
+            if pe and not forward_pe:
                 forward_pe = round(pe / (1 + cfg["earningsGrowth"]), 2)
 
             # 价格分位数估算
@@ -916,6 +947,12 @@ def main():
     # 6. 估值
     print("  → 获取估值和回撤数据...")
     valuation = fetch_valuation_data()
+
+    # 将 PE 回填到指数数据
+    if valuation.get("nasdaq", {}).get("pe"):
+        nasdaq["pe"] = valuation["nasdaq"]["pe"]
+    if valuation.get("sp500", {}).get("pe"):
+        sp500["pe"] = valuation["sp500"]["pe"]
 
     # 7. 情绪
     sentiment_score, sentiment = calculate_sentiment(nasdaq, sp500, indicators, news)
