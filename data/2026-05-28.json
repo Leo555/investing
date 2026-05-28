@@ -1,0 +1,689 @@
+{
+  "date": "2026-05-28",
+  "dataDate": "2026-05-27",
+  "forecastDate": "2026-05-28",
+  "timestamp": "2026-05-28T17:03:10.747529+08:00",
+  "marketStatus": "closed",
+  "overallSentiment": "neutral",
+  "sentimentScore": 10,
+  "nasdaq": {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "price": 26674.73,
+    "change": 18.55,
+    "changePercent": 0.07,
+    "tradingDate": "2026-05-27",
+    "open": 26695.44,
+    "high": 26715.31,
+    "low": 26538.31,
+    "previousClose": 26656.18,
+    "volume": 8280740864,
+    "avgVolume": 8187002060,
+    "yearHigh": 26725.29,
+    "yearHighDate": "2026-05-26",
+    "yearLow": 18599.69,
+    "yearLowDate": "2025-05-23",
+    "pe": null,
+    "marketCap": null,
+    "sma20": 25939.55,
+    "sma50": 24103.88,
+    "sma200": null,
+    "rsi14": 64.9,
+    "macdLine": 644.7789,
+    "macdSignal": 718.4868,
+    "macdHistogram": -73.7079,
+    "bollingerUpper": 27125.56,
+    "bollingerMiddle": 25939.55,
+    "bollingerLower": 24753.53,
+    "atr14": 373.28,
+    "priceHistory": [
+      {
+        "date": "2026-04-15",
+        "close": 24016.02,
+        "volume": 8922808832
+      },
+      {
+        "date": "2026-04-16",
+        "close": 24102.7,
+        "volume": 8765047808
+      },
+      {
+        "date": "2026-04-17",
+        "close": 24468.48,
+        "volume": 8769463296
+      },
+      {
+        "date": "2026-04-20",
+        "close": 24404.39,
+        "volume": 7401052416
+      },
+      {
+        "date": "2026-04-21",
+        "close": 24259.96,
+        "volume": 8286720256
+      },
+      {
+        "date": "2026-04-22",
+        "close": 24657.57,
+        "volume": 7126898176
+      },
+      {
+        "date": "2026-04-23",
+        "close": 24438.5,
+        "volume": 6705088000
+      },
+      {
+        "date": "2026-04-24",
+        "close": 24836.6,
+        "volume": 9150824448
+      },
+      {
+        "date": "2026-04-27",
+        "close": 24887.1,
+        "volume": 7118869760
+      },
+      {
+        "date": "2026-04-28",
+        "close": 24663.8,
+        "volume": 6489540608
+      },
+      {
+        "date": "2026-04-29",
+        "close": 24673.24,
+        "volume": 7139073792
+      },
+      {
+        "date": "2026-04-30",
+        "close": 24892.31,
+        "volume": 7015614720
+      },
+      {
+        "date": "2026-05-01",
+        "close": 25114.44,
+        "volume": 6413265920
+      },
+      {
+        "date": "2026-05-04",
+        "close": 25067.8,
+        "volume": 6728050432
+      },
+      {
+        "date": "2026-05-05",
+        "close": 25326.13,
+        "volume": 7135867904
+      },
+      {
+        "date": "2026-05-06",
+        "close": 25838.94,
+        "volume": 7759193856
+      },
+      {
+        "date": "2026-05-07",
+        "close": 25806.2,
+        "volume": 8046336512
+      },
+      {
+        "date": "2026-05-08",
+        "close": 26247.08,
+        "volume": 8558215680
+      },
+      {
+        "date": "2026-05-11",
+        "close": 26274.13,
+        "volume": 10969151488
+      },
+      {
+        "date": "2026-05-12",
+        "close": 26088.2,
+        "volume": 8530701568
+      },
+      {
+        "date": "2026-05-13",
+        "close": 26402.34,
+        "volume": 8746798336
+      },
+      {
+        "date": "2026-05-14",
+        "close": 26635.22,
+        "volume": 9002885888
+      },
+      {
+        "date": "2026-05-15",
+        "close": 26225.14,
+        "volume": 8568002048
+      },
+      {
+        "date": "2026-05-18",
+        "close": 26090.73,
+        "volume": 9179088640
+      },
+      {
+        "date": "2026-05-19",
+        "close": 25870.71,
+        "volume": 8836690176
+      },
+      {
+        "date": "2026-05-20",
+        "close": 26270.36,
+        "volume": 8330197248
+      },
+      {
+        "date": "2026-05-21",
+        "close": 26293.1,
+        "volume": 7612912128
+      },
+      {
+        "date": "2026-05-22",
+        "close": 26343.97,
+        "volume": 8158521856
+      },
+      {
+        "date": "2026-05-26",
+        "close": 26656.18,
+        "volume": 8728732160
+      },
+      {
+        "date": "2026-05-27",
+        "close": 26674.73,
+        "volume": 8280740864
+      }
+    ]
+  },
+  "sp500": {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "price": 7520.36,
+    "change": 1.24,
+    "changePercent": 0.02,
+    "tradingDate": "2026-05-27",
+    "open": 7526.01,
+    "high": 7530.72,
+    "low": 7499.72,
+    "previousClose": 7519.12,
+    "volume": 3109386240,
+    "avgVolume": 3206316610,
+    "yearHigh": 7539.09,
+    "yearHighDate": "2026-05-26",
+    "yearLow": 5767.41,
+    "yearLowDate": "2025-05-23",
+    "pe": null,
+    "marketCap": null,
+    "sma20": 7372.61,
+    "sma50": 7022.12,
+    "sma200": null,
+    "rsi14": 64.6,
+    "macdLine": 122.0242,
+    "macdSignal": 131.8143,
+    "macdHistogram": -9.7902,
+    "bollingerUpper": 7590.15,
+    "bollingerMiddle": 7372.61,
+    "bollingerLower": 7155.08,
+    "atr14": 69.63,
+    "priceHistory": [
+      {
+        "date": "2026-04-15",
+        "close": 7022.95,
+        "volume": 3058779648
+      },
+      {
+        "date": "2026-04-16",
+        "close": 7041.28,
+        "volume": 2978578320
+      },
+      {
+        "date": "2026-04-17",
+        "close": 7126.06,
+        "volume": 3619536720
+      },
+      {
+        "date": "2026-04-20",
+        "close": 7109.14,
+        "volume": 2623986192
+      },
+      {
+        "date": "2026-04-21",
+        "close": 7064.01,
+        "volume": 2976880128
+      },
+      {
+        "date": "2026-04-22",
+        "close": 7137.9,
+        "volume": 2797992384
+      },
+      {
+        "date": "2026-04-23",
+        "close": 7108.4,
+        "volume": 3230129616
+      },
+      {
+        "date": "2026-04-24",
+        "close": 7165.08,
+        "volume": 3175921680
+      },
+      {
+        "date": "2026-04-27",
+        "close": 7173.91,
+        "volume": 3006489456
+      },
+      {
+        "date": "2026-04-28",
+        "close": 7138.8,
+        "volume": 2485740880
+      },
+      {
+        "date": "2026-04-29",
+        "close": 7135.95,
+        "volume": 3254083328
+      },
+      {
+        "date": "2026-04-30",
+        "close": 7209.01,
+        "volume": 3936338160
+      },
+      {
+        "date": "2026-05-01",
+        "close": 7230.12,
+        "volume": 2907971792
+      },
+      {
+        "date": "2026-05-04",
+        "close": 7200.75,
+        "volume": 2936966336
+      },
+      {
+        "date": "2026-05-05",
+        "close": 7259.22,
+        "volume": 3188970448
+      },
+      {
+        "date": "2026-05-06",
+        "close": 7365.12,
+        "volume": 3826024400
+      },
+      {
+        "date": "2026-05-07",
+        "close": 7337.11,
+        "volume": 3534134032
+      },
+      {
+        "date": "2026-05-08",
+        "close": 7398.93,
+        "volume": 3251798064
+      },
+      {
+        "date": "2026-05-11",
+        "close": 7412.84,
+        "volume": 3372113520
+      },
+      {
+        "date": "2026-05-12",
+        "close": 7400.96,
+        "volume": 3211797792
+      },
+      {
+        "date": "2026-05-13",
+        "close": 7444.25,
+        "volume": 3245988144
+      },
+      {
+        "date": "2026-05-14",
+        "close": 7501.24,
+        "volume": 2979213152
+      },
+      {
+        "date": "2026-05-15",
+        "close": 7408.5,
+        "volume": 3293842800
+      },
+      {
+        "date": "2026-05-18",
+        "close": 7403.05,
+        "volume": 3108190096
+      },
+      {
+        "date": "2026-05-19",
+        "close": 7353.61,
+        "volume": 3164091104
+      },
+      {
+        "date": "2026-05-20",
+        "close": 7432.97,
+        "volume": 3141351728
+      },
+      {
+        "date": "2026-05-21",
+        "close": 7445.72,
+        "volume": 2930874496
+      },
+      {
+        "date": "2026-05-22",
+        "close": 7473.47,
+        "volume": 2690611792
+      },
+      {
+        "date": "2026-05-26",
+        "close": 7519.12,
+        "volume": 3042584784
+      },
+      {
+        "date": "2026-05-27",
+        "close": 7520.36,
+        "volume": 3109386240
+      }
+    ]
+  },
+  "indicators": {
+    "vix": null,
+    "vixChange": null,
+    "vixHistory": [],
+    "dxy": 99.32,
+    "dxyChange": 0.09,
+    "dxyHistory": [
+      98.22,
+      98.06,
+      98.38,
+      98.61,
+      98.83,
+      98.53,
+      98.49,
+      98.63,
+      98.96,
+      98.1,
+      98.21,
+      98.46,
+      98.5,
+      98.02,
+      98.28,
+      97.86,
+      97.94,
+      98.29,
+      98.48,
+      98.88,
+      99.28,
+      98.99,
+      99.31,
+      99.13,
+      99.21,
+      99.32,
+      98.98,
+      99.15,
+      99.23,
+      99.32
+    ],
+    "dxyHistoryStart": "2026-04-17",
+    "dxyHistoryEnd": "2026-05-28",
+    "us10y": 4.5,
+    "us10yChange": 0.01,
+    "us10yHistory": [
+      4.25,
+      4.25,
+      4.3,
+      4.31,
+      4.33,
+      4.3,
+      4.34,
+      4.35,
+      4.43,
+      4.38,
+      4.37,
+      4.44,
+      4.43,
+      4.35,
+      4.4,
+      4.35,
+      4.42,
+      4.47,
+      4.47,
+      4.49,
+      4.6,
+      4.6,
+      4.67,
+      4.59,
+      4.58,
+      4.58,
+      4.54,
+      4.49,
+      4.49,
+      4.5
+    ],
+    "us10yHistoryStart": "2026-04-17",
+    "us10yHistoryEnd": "2026-05-28",
+    "us2y": null,
+    "us2yChange": null,
+    "us2yHistory": [],
+    "gold": 4418.1,
+    "goldChange": -70.4,
+    "goldHistory": [
+      4849.4,
+      4841.0,
+      4738.5,
+      4758.3,
+      4708.6,
+      4725.4,
+      4697.7,
+      4609.6,
+      4557.3,
+      4636.0,
+      4625.6,
+      4532.4,
+      4567.8,
+      4703.1,
+      4696.0,
+      4723.7,
+      4745.6,
+      4722.6,
+      4697.1,
+      4655.4,
+      4543.6,
+      4570.8,
+      4485.4,
+      4546.2,
+      4544.2,
+      4510.5,
+      4573.6,
+      4541.6,
+      4488.5,
+      4418.1
+    ],
+    "goldHistoryStart": "2026-04-17",
+    "goldHistoryEnd": "2026-05-28",
+    "oil": 90.63,
+    "oilChange": 1.22,
+    "oilHistory": [
+      84.0,
+      85.89,
+      90.22,
+      92.87,
+      97.0,
+      94.88,
+      96.68,
+      99.62,
+      108.49,
+      105.41,
+      102.5,
+      105.14,
+      102.68,
+      96.21,
+      97.66,
+      94.68,
+      98.25,
+      102.05,
+      101.0,
+      102.02,
+      105.66,
+      102.49,
+      104.03,
+      99.08,
+      98.0,
+      97.0,
+      90.3,
+      93.57,
+      89.41,
+      90.63
+    ],
+    "oilHistoryStart": "2026-04-17",
+    "oilHistoryEnd": "2026-05-28",
+    "btc": null,
+    "btcChange": null,
+    "btcHistory": [],
+    "eth": null,
+    "ethChange": null,
+    "ethHistory": []
+  },
+  "sectors": [],
+  "news": [
+    {
+      "title": "New Fed Chair Kevin Warsh Yearns for Central Bank Reform, but 2 Concurrent Price Shocks, Courtesy of President Trump, Have Other Plans",
+      "summary": "Unfavorable rate hikes may be the necessary medicine to quell inflationary fears.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/05/28/fed-chair-kevin-warsh-reform-2-price-shocks-trump/?.tsrc=rss",
+      "publishedAt": "Thu, 28 May 2026 08:26:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Q1 Earnings Season Is Winding Down. Here Are the 5 Stocks That Defined It.",
+      "summary": "These companies' recent results collectively tell most of the market's overall story right now.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/05/28/q1-earnings-season-winding-down-stocks-nvda/?.tsrc=rss",
+      "publishedAt": "Thu, 28 May 2026 08:18:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "FedEx Spin-Off Gets Rare S&P 500 Fast Pass As Freight Unit Prepares To Trade",
+      "summary": "FedEx will spin off FedEx Freight as an independent company on June 1, and the new business will quickly join the S&P 500 index.",
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/fed-ex-spin-off-freight-unit-s-and-p-500-inclusion/cZgieJvResB?.tsrc=rss",
+      "publishedAt": "Thu, 28 May 2026 06:58:27 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Bull Case For US Stocks Intact Despite ‘Melt-Up’ Fears: Yardeni Research",
+      "summary": "Yardeni Research said in a post on Wednesday that the bull case for the stock market remains intact and added that the probability of a U.S. recession in 2026 has declined.",
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/bull-case-for-us-stocks-intact-yardeni-research/cZgieTTRes7?.tsrc=rss",
+      "publishedAt": "Thu, 28 May 2026 06:50:33 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "/C O R R E C T I O N -- Infrastructure Capital Advisors/",
+      "summary": "Infrastructure Capital Advisors, LLC (Infrastructure Capital), a leading provider of investment management solutions designed to meet the needs of income-focused investors, is excited to declare its first distribution for the Infrastructure Capital Nasdaq Option Income ETF (QVOL). This actively mana",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/options/articles/infrastructure-capital-announces-first-dividend-110000323.html?.tsrc=rss",
+      "publishedAt": "Thu, 28 May 2026 06:44:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Oil jumps 2.5% after Iran says it targeted U.S. airbase following fresh American strikes",
+      "summary": "Oil prices rose on Thursday after fresh U.S. strikes in Iran renewed concerns over disruptions to commercial shipping through the Strait of Hormuz.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/28/oil-prices-us-strikes-in-iran-revive-strait-of-hormuz-turmoil-fears.html",
+      "publishedAt": "Thu, 28 May 2026 08:25:07 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Gold tumbles to two-month low as inflation hedge status fades",
+      "summary": "Spot gold prices were trading at their lowest level since late March.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/28/gold-tumbles-to-two-month-low-as-inflation-hedge-status-fades.html",
+      "publishedAt": "Thu, 28 May 2026 08:51:40 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is 'in decent shape'",
+      "summary": "The Minneapolis Fed President warned that persistently high inflation risks becoming embedded in consumer expectations, potentially forcing tougher policy action later.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
+      "publishedAt": "Thu, 28 May 2026 06:06:02 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Silver could fall further after latest slump, analysts say as they warn of demand destruction",
+      "summary": "Silver's rally of over 140% last year is deterring buyers in various industries and its elevated price levels are beginning to weigh on demand, UBS said.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/28/silver-demand-destruction-analysts-metals-precious.html",
+      "publishedAt": "Thu, 28 May 2026 05:12:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Mistral to explore designing own chips, CEO says, as it ramps up infrastructure build",
+      "summary": "Mistral's semiconductor ambitions underscore the French startup's bid to control more of its infrastructure as it competes with OpenAI and Anthropic.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/28/mistral-arthur-mensch-design-chips-ai-data-centers.html",
+      "publishedAt": "Thu, 28 May 2026 08:57:24 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘Hunting Wives’ star Malin Akerman lists ‘idyllic California retreat’ in Hollywood Hills for $3 million",
+      "summary": "Canadian actress Malin Akerman and her husband, Jack Donnelly, have brought their longtime L.A. hideaway to the market for $2.99 million—more than 15 years after purchasing the “idyllic” abode.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/hunting-wives-star-malin-akerman-lists-idyllic-california-retreat-in-hollywood-hills-for-3-million-c5216615?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 28 May 2026 09:03:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Is the ‘debasement trade’ dead? Outflows from gold and bitcoin ETFs suggest investors are moving on",
+      "summary": "The so-called debasement trade has fallen out of favor as both a discussion point and an investment concept.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/is-the-debasement-trade-dead-outflows-from-gold-and-bitcoin-etfs-suggest-investors-are-moving-on-911830c5?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 28 May 2026 08:51:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "The number of 401(k) millionaires just fell — but workers hit record savings rates. What’s going on?",
+      "summary": "Fidelity’s first-quarter data shows 401(k) balances dipping — but it’s not all bad news.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-just-fell-but-workers-hit-record-savings-rates-whats-going-on-8fab657b?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 28 May 2026 04:01:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cancer treatment already costs hundreds of thousands of dollars — and it’s about to get even worse",
+      "summary": "Someone who survived brain cancer in the 1990s explains how the Affordable Care Act could have helped.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/cancer-treatment-already-costs-hundreds-of-thousands-of-dollars-and-its-about-to-get-even-worse-5f0ac8a3?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 28 May 2026 02:45:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "More Americans are raiding their emergency savings just to fill up their gas tanks",
+      "summary": "Most people think of emergencies as job loss or a hospital bill. For many today, it’s soaring energy costs.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/more-americans-are-raiding-their-emergency-savings-just-to-fill-up-their-gas-tanks-44a74e22?mod=mw_rss_topstories",
+      "publishedAt": "Thu, 28 May 2026 01:47:00 GMT",
+      "sentiment": "neutral"
+    }
+  ],
+  "fearGreedIndex": 22,
+  "valuation": {
+    "sp500": {
+      "pe": null,
+      "forwardPE": null,
+      "pePercentile1y": null,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 14,
+      "peRangeHigh": 35,
+      "drawdown52w": null,
+      "high52w": null,
+      "drawdownATH": null,
+      "allTimeHigh": null,
+      "currentPrice": null
+    },
+    "nasdaq": {
+      "pe": null,
+      "forwardPE": null,
+      "pePercentile1y": null,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 18,
+      "peRangeHigh": 45,
+      "drawdown52w": null,
+      "high52w": null,
+      "drawdownATH": null,
+      "allTimeHigh": null,
+      "currentPrice": null
+    }
+  },
+  "advanceDeclineRatio": null,
+  "putCallRatio": null
+}
