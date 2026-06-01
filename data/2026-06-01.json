@@ -2,10 +2,10 @@
   "date": "2026-06-01",
   "dataDate": "2026-05-29",
   "forecastDate": "2026-06-01",
-  "timestamp": "2026-05-30T13:50:31.489013+08:00",
+  "timestamp": "2026-06-01T15:00:44.265874+08:00",
   "marketStatus": "closed",
-  "overallSentiment": "neutral",
-  "sentimentScore": 15,
+  "overallSentiment": "bullish",
+  "sentimentScore": 16,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -409,10 +409,9 @@
     ],
     "vixHistoryStart": "2026-04-20",
     "vixHistoryEnd": "2026-05-29",
-    "dxy": 98.91,
-    "dxyChange": -0.11,
+    "dxy": 98.98,
+    "dxyChange": 0.07,
     "dxyHistory": [
-      98.1,
       98.05,
       98.41,
       98.59,
@@ -441,10 +440,11 @@
       99.17,
       99.21,
       99.02,
-      98.91
+      98.91,
+      98.98
     ],
-    "dxyHistoryStart": "2026-04-17",
-    "dxyHistoryEnd": "2026-05-29",
+    "dxyHistoryStart": "2026-04-20",
+    "dxyHistoryEnd": "2026-06-01",
     "us10y": 4.45,
     "us10yChange": 0.0,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-04-17",
     "us2yHistoryEnd": "2026-05-29",
-    "gold": 4560.5,
-    "goldChange": 61.2,
+    "gold": 4533.5,
+    "goldChange": -27.0,
     "goldHistory": [
-      4857.6,
       4806.6,
       4698.4,
       4732.5,
@@ -549,14 +548,14 @@
       4500.4,
       4447.5,
       4499.3,
-      4560.5
+      4560.5,
+      4533.5
     ],
-    "goldHistoryStart": "2026-04-17",
-    "goldHistoryEnd": "2026-05-29",
-    "oil": 87.36,
-    "oilChange": -1.54,
+    "goldHistoryStart": "2026-04-20",
+    "goldHistoryEnd": "2026-06-01",
+    "oil": 90.24,
+    "oilChange": 2.88,
     "oilHistory": [
-      83.85,
       89.61,
       92.13,
       92.96,
@@ -585,15 +584,14 @@
       93.89,
       88.68,
       88.9,
-      87.36
+      87.36,
+      90.24
     ],
-    "oilHistoryStart": "2026-04-17",
-    "oilHistoryEnd": "2026-05-29",
-    "btc": 73536.16,
-    "btcChange": 145.94,
+    "oilHistoryStart": "2026-04-20",
+    "oilHistoryEnd": "2026-06-01",
+    "btc": 73026.81,
+    "btcChange": -849.8,
     "btcHistory": [
-      78138.27,
-      78805.0,
       79164.91,
       80060.11,
       81102.49,
@@ -621,15 +619,15 @@
       74346.88,
       73370.36,
       73390.22,
-      73536.16
+      73769.52,
+      73876.61,
+      73026.81
     ],
-    "btcHistoryStart": "2026-04-30",
-    "btcHistoryEnd": "2026-05-30",
-    "eth": 2014.43,
-    "ethChange": 3.35,
+    "btcHistoryStart": "2026-05-02",
+    "btcHistoryEnd": "2026-06-01",
+    "eth": 1985.09,
+    "ethChange": -25.64,
     "ethHistory": [
-      2293.02,
-      2325.53,
       2343.48,
       2354.12,
       2367.37,
@@ -657,10 +655,12 @@
       2023.44,
       2003.8,
       2011.08,
-      2014.43
+      2020.34,
+      2010.73,
+      1985.09
     ],
-    "ethHistoryStart": "2026-04-30",
-    "ethHistoryEnd": "2026-05-30"
+    "ethHistoryStart": "2026-05-02",
+    "ethHistoryEnd": "2026-06-01"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Which Is the Better Aerospace and Defense ETF, Invesco's PPA or State Street's XAR?",
-      "summary": "One ETF captured higher recent returns, while the other showed greater resilience in downturns. See how their portfolios and costs stack up for investors.",
+      "title": "High Oil Prices, Sticky Inflation, and a Frozen Housing Market -- How Did Companies Still Beat Estimates?",
+      "summary": "Corporate resilience is defying economic headwinds.",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/coverage/etfs/2026/05/29/which-is-the-better-aerospace-and-defense-etf-invesco-s-ppa-or-state-street-s-xar/?.tsrc=rss",
-      "publishedAt": "Sat, 30 May 2026 03:36:46 +0000",
+      "url": "https://www.fool.com/investing/2026/06/01/high-oil-prices-sticky-inflation-and-a-frozen-hous/?.tsrc=rss",
+      "publishedAt": "Mon, 01 Jun 2026 05:20:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Short Report: Tempus AI short interest at record high",
+      "summary": "Welcome to this week’s installment of “The Short Interest Report” – The Fly’s weekly recap of short interest trends among some of the most widely followed high-short-float stocks. Using the data from our partner Ortex.com, which utilizes the latest information from stock lenders to estimate short in",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/short-report-tempus-ai-short-050557014.html?.tsrc=rss",
+      "publishedAt": "Mon, 01 Jun 2026 05:05:57 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn Stock Exchange during the period of 25 May – 29 May 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)25.05.202628148,000026.05.202629147,900027.05.202629147,800028.05.202628247,863529.05.202626747,9970 ",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000352.html?.tsrc=rss",
+      "publishedAt": "Mon, 01 Jun 2026 05:00:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Are Summer Headwinds Already Pricing Into Stocks?",
-      "summary": "The market climbs a wall of worry, so goes one old Wall Street saying, but it's hard to ignore the risks it faces.",
+      "title": "New Fed Chair Kevin Warsh Has Big Plans. They Could End the Trump Bull Market.",
+      "summary": "New Federal Reserve Chair Kevin Warsh's plans for the Fed's balance sheet could quietly push borrowing costs higher.",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/05/29/are-summer-headwinds-already-pricing-into-stocks/?.tsrc=rss",
-      "publishedAt": "Sat, 30 May 2026 02:35:00 +0000",
+      "url": "https://www.fool.com/investing/2026/06/01/new-fed-chair-kevin-warsh-has-big-plans-they-could/?.tsrc=rss",
+      "publishedAt": "Mon, 01 Jun 2026 04:20:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Dow Jones Futures, Oil Prices Rise As Trump Makes This Iran Move; Nvidia, Tesla Lead 5 Titans Near Buy Points",
+      "summary": "Crude oil prices rose Sunday as President Trump reportedly stiffened Iran deal terms. Nvidia, Tesla lead five titans near buy points.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/fd63b97c-c320-3202-b483-76d551ec4785/dow-jones-futures%2C-oil-prices.html?.tsrc=rss",
+      "publishedAt": "Mon, 01 Jun 2026 03:05:26 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Nvidia jumps into PCs with new Arm-based chip debuting in laptops from Microsoft, Dell, HP",
+      "summary": "Nvidia CEO Jensen Huang unveiled a long-awaited Arm-based PC chip, breaking into PCs for the first time on new laptops by Dell, Microsoft, HP, ASUS and others.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html",
+      "publishedAt": "Mon, 01 Jun 2026 06:01:37 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump hits out at ‘chirping’ critics as Iran peace talks enter new month at impasse",
+      "summary": "Trump's Truth Social post comes as air strikes between the U.S. and Iran resumed over the weekend.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/01/iran-war-trump-hits-out-at-critics-says-tehran-really-wants-a-deal.html",
+      "publishedAt": "Mon, 01 Jun 2026 06:28:20 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Nvidia picks Unitree for humanoid robot platform as Chinese startup eyes IPO",
+      "summary": "The U.S. chipmaker's first publicly available humanoid robotics system will use humanoids from Chinese startup Unitree.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html",
+      "publishedAt": "Mon, 01 Jun 2026 05:45:45 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Oil jumps 2% as Israel expands Lebanon offensive, rattling ceasefire hopes",
+      "summary": "Oil prices surged on Monday after Israel instructed troops to push deeper into Lebanon amid renewed clashes with the Iran-backed Hezbollah group.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/01/oil-prices-wti-brent-crude-israel-lebanon-hezbollah-iran-trump-us.html",
+      "publishedAt": "Mon, 01 Jun 2026 04:13:43 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Top Wall Street analysts see robust growth potential in these 3 stocks",
+      "summary": "Investors keen on capitalizing on the AI boom can track recommendations from top Wall Street analysts",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/31/top-wall-street-analysts-see-robust-growth-potential-in-these-3-stocks.html",
+      "publishedAt": "Sun, 31 May 2026 11:50:08 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Oil rises, U.S. stock futures inch higher as Wall Street looks to extend its winning streak",
+      "summary": "U.S. stock-index futures rose slightly on Sunday, as Wall Street looks to stretch the market’s record-setting rally into June.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-rises-u-s-stock-futures-dip-as-wall-street-looks-to-extend-its-winning-streak-2490f216?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 01 Jun 2026 02:49:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Jerome Powell warns that politicizing Fed will erode its credibility",
+      "summary": "Former Fed Chair Jerome Powell on Sunday called the Federal Reserve’s independence “a priceless asset” that must be protected, in one of his first major speeches since stepping down from his post earlier this month.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/jerome-powell-warns-that-politicizing-fed-will-erode-its-credibility-34fa4f14?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 01 Jun 2026 02:41:00 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "Morgan Stanley Trims CMS Energy (CMS) Target While Keeping Equal Weight Rating",
-      "summary": "CMS Energy Corporation (NYSE:CMS) is included among the Billionaire George Soros Stock Portfolio: 10 Best Stocks to Buy. On May 21, Morgan Stanley lowered its price recommendation on CMS Energy Corporation (NYSE:CMS) to $77 from $81. It reiterated an Equal Weight rating on the shares. The analyst sa",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-lowers-radnet-rdnt-price-010940219.html?.tsrc=rss",
-      "publishedAt": "Sat, 30 May 2026 01:07:07 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Morgan Stanley resets MongoDB stock price target after earnings",
-      "summary": "There is a specific kind of earnings report that is genuinely hard to read. The one that beats on revenue, raises full-year guidance, shows improving margins, but still leaves investors asking whether the most important growth driver has actually arrived yet. MongoDB (MDB) just delivered exactly ...",
-      "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/stocks/morgan-stanley-raises-mongodb-stock-price-target-after-earnings?.tsrc=rss",
-      "publishedAt": "Sat, 30 May 2026 00:03:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "CLPS Incorporation Receives Nasdaq Notification Regarding Minimum Bid Price Requirements",
-      "summary": "CLPS Incorporation (the \"Company\" or \"CLPS\") (Nasdaq: CLPS) today announced that it received a notification letter (the \"Notification Letter\") from Listing Qualifications Department of The Nasdaq Stock Market LLC (\"Nasdaq\") dated May 27, 2026, indicating that the Company's closing bid price for its ",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/clps-incorporation-receives-nasdaq-notification-000000981.html?.tsrc=rss",
-      "publishedAt": "Sat, 30 May 2026 00:00:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Dell stock skyrockets 32% for its best day ever as AI server revenue soars",
-      "summary": "Dell reported its fastest pace of revenue growth since returning to the public market in 2018, with AI server revenue soaring 757% over last year.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
-      "publishedAt": "Fri, 29 May 2026 20:10:26 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Trump ends Iran meeting without announcing ‘final determination’ on deal",
-      "summary": "Trump's Truth Social statement left unclear which of his conditions are already part of a deal that negotiators are working on to pause the U.S.-Iran war.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/29/trump-iran-deal-hormuz-nuclear-war.html",
-      "publishedAt": "Fri, 29 May 2026 21:04:45 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Hegseth praises Asian allies for 'burden-sharing,' calls out China's role in the region",
-      "summary": "Hegseth said that China cannot impose its hegemony on U.S. partners and allies in the region.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/30/hegseth-praises-asian-allies-for-burden-sharing-calls-out-china.html",
-      "publishedAt": "Sat, 30 May 2026 05:08:44 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Software stocks wrap up best month since 2001 as talk of 'SaaSpocalypse' subsides",
-      "summary": "Snowflake and Okta both saw record stock pops this week as investors found favor in their AI software strategies.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/29/software-stocks-wrap-best-month-since-2001-as-talk-of-saaspocalypse-.html",
-      "publishedAt": "Fri, 29 May 2026 21:14:04 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SpaceX skeptics have added reason for concern after Musk comments diverge from IPO filing",
-      "summary": "In a post on X, Elon Musk offered details about SpaceX's deal with Anthropic that weren't included in the company's IPO prospectus.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/29/spacex-skeptics-concerned-as-musk-comments-diverge-from-ipo-filing.html",
-      "publishedAt": "Fri, 29 May 2026 15:49:09 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "A mystery man tried to buy Playboy’s high-end lingerie business. It turned out to all be a scam.",
-      "summary": "Prosecutors say Kevin Juin used money he raised to buy the company Honey Birdette to purchase luxury watches, jewelry, private-club memberships and OnlyFans subscriptions.",
+      "title": "My golf buddy dropped me when I didn’t ask him to be my financial adviser. Was I naive?",
+      "summary": "“Friendliness alone is not a sufficient reason to trust someone with your finances.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/a-mystery-man-tried-to-buy-playboys-high-end-lingerie-business-it-turned-out-to-all-be-a-scam-4d8c0ae9?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 29 May 2026 22:09:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Gap and American Eagle shares both get crushed — and neither retailer is blaming the economy",
-      "summary": "Despite earnings that underwhelmed investors, executives at both Gap and American Eagle Outfitters said nothing is wrong with the economy.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/gap-and-american-eagle-stock-are-both-getting-crushed-and-neither-retailer-is-blaming-the-economy-6290fa6a?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 29 May 2026 21:49:00 GMT",
+      "url": "https://www.marketwatch.com/story/my-golf-buddy-dropped-me-when-i-didnt-make-him-my-financial-adviser-be-careful-who-you-trust-b5c00854?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 31 May 2026 23:35:00 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "Oil slides, stocks climb as Trump puts off determination on Iran proposal",
-      "summary": "A White House meeting Friday ended without a decision by the U.S. president.",
+      "title": "‘There is zero transparency’: My friend’s sister controls their mother’s estate. How can we stop her from stealing?",
+      "summary": "“The sister claims she does not have to explain herself to anyone.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/oil-prices-slide-as-trump-says-the-u-s-is-close-to-an-iran-deal-8af9ece2?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 29 May 2026 21:35:00 GMT",
+      "url": "https://www.marketwatch.com/story/there-is-zero-transparency-my-friends-sister-controls-their-mothers-estate-how-can-we-stop-her-from-stealing-a1a34ac8?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 31 May 2026 23:14:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "ServiceNow’s stock soars to a historic month as AI fears fade across software",
-      "summary": "ServiceNow shares gained over 40% this month, leading an industrywide relief rally among enterprise software companies.",
+      "title": "‘It is such a fine line’: I am a CFP and see nothing wrong with networking on the golf course. Am I wrong?",
+      "summary": "“I would love to develop working relationships with almost everyone I play golf with.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/servicenows-stock-soars-toward-historic-month-as-ai-fears-fade-across-software-31854b69?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 29 May 2026 21:24:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Dell’s stunning 33% stock rally gave a big boost to shares of other server makers",
-      "summary": "Dell’s blowout earnings report is highlighting how the AI buildout is also driving demand for old-school computing.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 29 May 2026 21:00:00 GMT",
-      "sentiment": "positive"
+      "url": "https://www.marketwatch.com/story/it-is-such-a-fine-line-i-am-a-cfp-and-see-nothing-wrong-with-networking-on-the-golf-course-am-i-wrong-50a698e8?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 31 May 2026 23:10:00 GMT",
+      "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 23,
+  "fearGreedIndex": 29,
   "valuation": {
     "sp500": {
       "pe": 28.42,

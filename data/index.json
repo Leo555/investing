@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-06-01",
-    "overallSentiment": "neutral",
-    "sentimentScore": 15,
+    "overallSentiment": "bullish",
+    "sentimentScore": 16,
     "nasdaqPrice": 26972.62,
     "nasdaqChange": 55.15,
     "nasdaqChangePercent": 0.2,
