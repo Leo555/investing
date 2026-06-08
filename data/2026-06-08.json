@@ -2,10 +2,10 @@
   "date": "2026-06-08",
   "dataDate": "2026-06-05",
   "forecastDate": "2026-06-08",
-  "timestamp": "2026-06-06T13:56:11.447858+08:00",
+  "timestamp": "2026-06-08T14:46:48.434960+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bearish",
-  "sentimentScore": -24,
+  "sentimentScore": -22,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -409,10 +409,9 @@
     ],
     "vixHistoryStart": "2026-04-27",
     "vixHistoryEnd": "2026-06-05",
-    "dxy": 100.07,
-    "dxyChange": 0.66,
+    "dxy": 100.12,
+    "dxyChange": 0.05,
     "dxyHistory": [
-      98.51,
       98.48,
       98.62,
       98.92,
@@ -441,10 +440,11 @@
       99.22,
       99.53,
       99.41,
-      100.07
+      100.07,
+      100.12
     ],
-    "dxyHistoryStart": "2026-04-24",
-    "dxyHistoryEnd": "2026-06-05",
+    "dxyHistoryStart": "2026-04-27",
+    "dxyHistoryEnd": "2026-06-08",
     "us10y": 4.54,
     "us10yChange": 0.06,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-04-24",
     "us2yHistoryEnd": "2026-06-05",
-    "gold": 4337.1,
-    "goldChange": -138.7,
+    "gold": 4323.4,
+    "goldChange": -13.7,
     "goldHistory": [
-      4722.3,
       4675.4,
       4591.5,
       4545.2,
@@ -549,14 +548,14 @@
       4489.1,
       4436.7,
       4475.8,
-      4337.1
+      4337.1,
+      4323.4
     ],
-    "goldHistoryStart": "2026-04-24",
-    "goldHistoryEnd": "2026-06-05",
-    "oil": 90.54,
-    "oilChange": -2.5,
+    "goldHistoryStart": "2026-04-27",
+    "goldHistoryEnd": "2026-06-08",
+    "oil": 94.68,
+    "oilChange": 4.14,
     "oilHistory": [
-      94.4,
       96.37,
       99.93,
       106.88,
@@ -585,15 +584,14 @@
       93.76,
       96.02,
       93.04,
-      90.54
+      90.54,
+      94.68
     ],
-    "oilHistoryStart": "2026-04-24",
-    "oilHistoryEnd": "2026-06-05",
-    "btc": 60872.01,
-    "btcChange": -786.38,
+    "oilHistoryStart": "2026-04-27",
+    "oilHistoryEnd": "2026-06-08",
+    "btc": 62981.19,
+    "btcChange": 82.35,
     "btcHistory": [
-      80272.11,
-      80742.82,
       82025.59,
       81823.29,
       80652.28,
@@ -621,15 +619,15 @@
       64813.38,
       63661.25,
       61658.39,
-      60872.01
+      60583.53,
+      62898.84,
+      62981.19
     ],
-    "btcHistoryStart": "2026-05-07",
-    "btcHistoryEnd": "2026-06-06",
-    "eth": 1562.7,
-    "ethChange": -35.56,
+    "btcHistoryStart": "2026-05-09",
+    "btcHistoryEnd": "2026-06-08",
+    "eth": 1665.44,
+    "ethChange": -9.11,
     "ethHistory": [
-      2310.75,
-      2329.55,
       2373.93,
       2341.14,
       2282.26,
@@ -657,10 +655,12 @@
       1825.21,
       1766.85,
       1598.26,
-      1562.7
+      1558.92,
+      1674.55,
+      1665.44
     ],
-    "ethHistoryStart": "2026-05-07",
-    "ethHistoryEnd": "2026-06-06"
+    "ethHistoryStart": "2026-05-09",
+    "ethHistoryEnd": "2026-06-08"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "ETF Zoo: What Happens When Tech Eats the Entire Market?",
-      "summary": "The imminent SpaceX IPO will have both immediate and longer-ranging impacts on markets. Find out why one ETF Zoo crew member cautions investors to “hold onto your butts”, the risks of such a tech-dominant stock market, and more on this episode. ",
+      "title": "FTSE 100 Live: Stocks in Asia plunge as oil spikes on Iran and Israel's strike exchange",
+      "summary": "7.31am: US rates also exerting pressure on markets Aftyer the sharp selloff in stocks at the end of last week saw the Nasdaq endure largest daily drop in a year, and an Iran-Israel ceasefire potentially in ruins, many investors will be asking if the stock market sell-off will continue this...",
       "source": "Yahoo Finance",
-      "url": "http://www.etf.com/sections/podcasts/etf-zoo-what-happens-when-tech-eats-entire-market?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-      "publishedAt": "Sat, 06 Jun 2026 04:24:34 +0000",
+      "url": "https://www.proactiveinvestors.com/companies/news/1093550/ftse-100-live-stocks-in-asia-plunge-as-oil-spikes-on-iran-and-israel-s-strike-exchange-1093550.html?.tsrc=rss",
+      "publishedAt": "Mon, 08 Jun 2026 06:18:00 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "The Market Has Only Done This 4 Times Since World War II. Here's What Comes Next.",
-      "summary": "Three of those times were after a recession. The other was before a huge market crash.",
+      "title": "Is AbbVie the Most Underrated Dividend Growth Stock in the S&P 500?",
+      "summary": "For a solid yield and strong upside potential, this pharmaceutical stock is worth considering.",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/06/06/the-market-has-only-done-this-4-times-since-world/?.tsrc=rss",
-      "publishedAt": "Sat, 06 Jun 2026 04:20:00 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Earnings season takeaways: resilient, but for how long?",
-      "summary": "Investing.com -- Goldman Sachs said strong corporate earnings and resilient consumer spending indicate the U.S. economy remains on a solid footing, although slowing household demand and rising cost pressures could weigh on growth later this year.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-season-takeaways-resilient-long-031952466.html?.tsrc=rss",
-      "publishedAt": "Sat, 06 Jun 2026 03:19:52 +0000",
+      "url": "https://www.fool.com/investing/2026/06/08/is-abbvie-the-most-underrated-dividend-growth-stoc/?.tsrc=rss",
+      "publishedAt": "Mon, 08 Jun 2026 06:05:00 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Marvell Joins S&P 500 As AI Data Center Story Gains Traction",
-      "summary": "Marvell Technology (NasdaqGS:MRVL) is being added to the S&P 500 Index after meeting the index's cumulative profitability requirements. The inclusion follows several quarters of AI focused business activity, including partnerships and new product launches tied to AI infrastructure. This step marks a",
+      "title": "Stocks tumble, oil jumps amid tech rout, Iran tensions",
+      "summary": "STORY: Asian stocks plunged on Monday morning as investors hit the brakes on the red-hot AI rally.South Korea’s tech-heavy KOSPI index took the heaviest beating.It was down around 6% by late-morning after volatile trade had earlier triggered a 20-minute halt.Chip giant Samsung matched the overall de",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-joins-p-500-ai-031211444.html?.tsrc=rss",
-      "publishedAt": "Sat, 06 Jun 2026 03:12:11 +0000",
+      "url": "https://finance.yahoo.com/video/stocks-tumble-oil-jumps-amid-055340939.html?.tsrc=rss",
+      "publishedAt": "Mon, 08 Jun 2026 05:53:40 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Marvell Technology, Flex To Join S&P 500 Index In Quarterly Rebalance",
-      "summary": "Marvell Technology and Flex will join the S&P 500 before the open on June 22. Roku is among new entrants to the Midcap 400. All three stocks rose.",
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn StTemplate Manager ock Exchange during the period of 1 June – 5 June 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)01.06.202627648,113802.06.202628148,533103.06.202625448,400004.06.202625148,487305.0",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/c48b3bd5-0402-3819-ab52-5f58f4c17eeb/marvell-technology%2C-flex-to.html?.tsrc=rss",
-      "publishedAt": "Sat, 06 Jun 2026 02:37:21 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000162.html?.tsrc=rss",
+      "publishedAt": "Mon, 08 Jun 2026 05:00:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
-      "summary": "Meta shares dropped after the Financial Times reported the company could potentially raise tens of billions of dollars in a stock offering to help its AI push.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html",
-      "publishedAt": "Fri, 05 Jun 2026 20:22:44 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Google to pay SpaceX $920 million a month for compute capacity at xAI data centers",
-      "summary": "Ahead of a planned IPO, SpaceX inked a deal to rent compute capacity to Google for $920 million per month for 32 months.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
-      "publishedAt": "Fri, 05 Jun 2026 21:01:53 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Social media bans on teens risk strengthening Big Tech's grip on the sector, Bluesky exec warns",
-      "summary": "\"We're living in a world where it's almost impossible for smaller entrants to come in and build healthier spaces,\" Bluesky's COO, Rose Wang, told CNBC.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/06/bluesky-teen-social-media-ban-monopolies.html",
-      "publishedAt": "Sat, 06 Jun 2026 05:00:01 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Bitcoin cracks $60,000, sinking to lowest level since October 2024",
-      "summary": "The weeklong sell-off was exacerbated after a stronger-than-expected May jobs report Friday sent yields higher and pressured risk assets.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/05/bitcoin-dismal-week-price-below-all-time-high-crypto-investors.html",
-      "publishedAt": "Fri, 05 Jun 2026 20:59:16 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Marvell Technology and Flex to join S&P 500 index, replacing Pool and Campbell's",
-      "summary": "The move highlights the growing importance of the technology sector to the stock market.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/05/marvell-technology-flex-sp-500-campbells-pool.html",
-      "publishedAt": "Fri, 05 Jun 2026 21:36:23 GMT",
+      "title": "VOO vs. SPY: Which ETF Is the Best Way to Buy the S&P 500?",
+      "summary": "These ETFs will never beat the S&P 500 -- instead, they let you buy it.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/06/08/voo-vs-spy-which-etf-is-the-best-way-to-buy-the-sp/?.tsrc=rss",
+      "publishedAt": "Mon, 08 Jun 2026 04:20:00 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Here’s what’s worth streaming in June 2026 on Netflix, Hulu, HBO Max and more",
-      "summary": "HBO’s ‘House of the Dragon,’ Hulu’s ‘The Bear’ and Apple’s ‘Cape Fear’ will try to compete with the World Cup",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-june-2026-on-netflix-hulu-hbo-max-and-more-7c73c539?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 05 Jun 2026 23:00:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "S&P 500 sees $1.8 trillion wipeout, Nasdaq tallies biggest point drop on record: What investors need to know about Friday’s selloff",
-      "summary": "A remarkable two-month sprint higher for major stock-market indexes encountered its first major hiccup on Friday as the Nasdaq Composite plummeted more than 1,121 points — the biggest one day point drop on record, according to Dow Jones Market Data.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/s-p-500-sees-1-8-trillion-wipeout-nasdaq-tallies-biggest-point-drop-on-record-heres-what-investors-need-to-know-about-fridays-selloff-4eb7b490?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 05 Jun 2026 22:27:00 GMT",
+      "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
+      "summary": "The president said he would like to see the weaponization fund proceed despite setbacks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/07/trump-election-fraud-doj-fund-weaponization-storms-out.html",
+      "publishedAt": "Sun, 07 Jun 2026 17:58:36 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "‘This would be a one-time event’: How can I take extra money from my 401(k) without triggering higher Medicare premiums?",
-      "summary": "“I generally withdraw money from my traditional 401(k) for projects, larger expenses and sometimes just to stay ahead on upcoming bills.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-would-be-a-one-time-event-how-can-i-take-extra-money-from-my-401-k-without-triggering-higher-medicare-premiums-fef1586d?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 05 Jun 2026 22:07:00 GMT",
+      "title": "Foreign investors have dumped billions of dollars of Korean stocks this year despite record rally. Here's why",
+      "summary": "The selling intensified Monday as the benchmark Kospi plunged more than 8% at the open, even as it emerged as one of the world's standout performers thus far.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/08/kospi-sk-hynix-samsung-electronics-why-foreign-investors-are-selling.html",
+      "publishedAt": "Mon, 08 Jun 2026 06:43:24 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Oil prices spike over 3% as Iran and Israel trade strikes, escalating regional tensions",
+      "summary": "Oil rises on Monday amid heightened tensions in the Middle East, raising concerns that the conflict may drag on.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/08/oil-prices-today-us-iran-missile-middle-east-israel-opec.html",
+      "publishedAt": "Mon, 08 Jun 2026 02:09:02 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "We thought we found the perfect luxury retirement community, but it’s millions of dollars in debt. Are we trapped?",
-      "summary": "“If we were to leave, we would lose a portion of our buy-in — about $80,000.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/we-thought-we-found-the-perfect-luxury-retirement-community-but-its-millions-of-dollars-in-debt-are-we-trapped-cde2e8f5?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 05 Jun 2026 22:07:00 GMT",
+      "title": "Asia tech stocks extend sell-off with SoftBank down over 7% as investors sour on AI-linked names",
+      "summary": "Asian tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/08/softbank-samsung-tech-ai-stocks-asia-fall.html",
+      "publishedAt": "Mon, 08 Jun 2026 06:34:07 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'Bring 'em on': Delta wants United's crown over the Pacific, too",
+      "summary": "Delta's president, Peter Carter, told CNBC that the carrier wants to take United on over the Pacific.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/07/delta-takes-on-united-over-the-pacific.html",
+      "publishedAt": "Sun, 07 Jun 2026 18:19:15 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Bitcoin is suffering from an ‘attention’ deficit, as momentum traders have moved on",
-      "summary": "“The AI trade is sucking the blood out of crypto,” one analyst notes.",
+      "title": "U.S. stock futures mixed, oil prices surge as new attacks threaten the cease-fire with Iran",
+      "summary": "U.S. stock-index futures swung back for forth Sunday, after a massive tech selloff on Friday interrupted Wall Street’s two-month rally, and after new developments threatened the fragile cease-fire in the Iran war.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/bitcoin-is-suffering-from-an-attention-deficit-as-momentum-traders-have-moved-on-17d2c140?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 05 Jun 2026 21:58:00 GMT",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-slide-oil-prices-surge-as-new-attacks-threaten-the-cease-fire-with-iran-6e433c90?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 08 Jun 2026 03:03:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Nvidia strikes a new memory-chip deal — but SK Hynix and Samsung shares are under heavy pressure",
+      "summary": "South Korea’s once-hot Kospi index is headed for another day of sharp declines as the AI trade loses steam.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/nvidia-strikes-a-new-memory-chip-deal-but-sk-hynix-and-samsung-shares-are-under-heavy-pressure-1033c853?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 08 Jun 2026 02:03:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "The Wegovy pill is still dominating the GLP-1 pill market",
+      "summary": "It has remained a top choice among Americans trying to lose weight even after the launch of Foundayo, Eli Lilly’s GLP-1 pill.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-wegovy-pill-is-still-dominating-the-glp-1-pill-market-f7add507?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 07 Jun 2026 23:35:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "S&P 500 companies can’t stop talking about higher oil prices. But few say they’ll actually hurt profits.",
+      "summary": "Only seven companies cited oil prices as a reason for cutting or not updating their profit outlooks for the year.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/s-p-500-companies-cant-stop-talking-about-higher-oil-prices-but-few-say-theyll-actually-hit-profits-c3a4e4ea?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 07 Jun 2026 19:14:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "These are the market’s new hot stocks as investors flee from tech",
+      "summary": "Investors are suddenly dumping technology stocks and rotating into other areas — including health insurers, banks and retailers.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/these-are-the-markets-new-hot-stocks-as-investors-flee-from-tech-826096c2?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 07 Jun 2026 16:00:00 GMT",
       "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 12,
+  "fearGreedIndex": 8,
   "valuation": {
     "sp500": {
       "pe": 26.66,
