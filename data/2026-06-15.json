@@ -2,10 +2,10 @@
   "date": "2026-06-15",
   "dataDate": "2026-06-12",
   "forecastDate": "2026-06-15",
-  "timestamp": "2026-06-15T15:23:57.184245+08:00",
+  "timestamp": "2026-06-16T15:29:51.467648+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": -1,
+  "sentimentScore": -2,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -23,15 +23,15 @@
     "yearHighDate": "2026-06-01",
     "yearLow": 19334.98,
     "yearLowDate": "2025-06-23",
-    "pe": 32.19,
+    "pe": 33.2,
     "marketCap": null,
     "sma20": 26318.33,
     "sma50": 25210.88,
     "sma200": null,
     "rsi14": 44.1,
-    "macdLine": 141.9383,
-    "macdSignal": 420.3304,
-    "macdHistogram": -278.392,
+    "macdLine": 144.998,
+    "macdSignal": 424.5741,
+    "macdHistogram": -279.5761,
     "bollingerUpper": 27388.68,
     "bollingerMiddle": 26318.33,
     "bollingerLower": 25247.98,
@@ -206,15 +206,15 @@
     "yearHighDate": "2026-06-02",
     "yearLow": 5943.23,
     "yearLowDate": "2025-06-23",
-    "pe": 26.57,
+    "pe": 27.03,
     "marketCap": null,
     "sma20": 7465.85,
     "sma50": 7247.79,
     "sma200": null,
     "rsi14": 47.2,
-    "macdLine": 41.7047,
-    "macdSignal": 89.3297,
-    "macdHistogram": -47.6251,
+    "macdLine": 42.3048,
+    "macdSignal": 90.1619,
+    "macdHistogram": -47.857,
     "bollingerUpper": 7651.71,
     "bollingerMiddle": 7465.85,
     "bollingerLower": 7280.0,
@@ -409,8 +409,8 @@
     ],
     "vixHistoryStart": "2026-05-04",
     "vixHistoryEnd": "2026-06-12",
-    "dxy": 99.51,
-    "dxyChange": -0.24,
+    "dxy": 99.69,
+    "dxyChange": -0.06,
     "dxyHistory": [
       98.47,
       98.48,
@@ -441,10 +441,10 @@
       99.95,
       99.86,
       99.75,
-      99.51
+      99.69
     ],
     "dxyHistoryStart": "2026-05-04",
-    "dxyHistoryEnd": "2026-06-15",
+    "dxyHistoryEnd": "2026-06-16",
     "us10y": 4.49,
     "us10yChange": 0.03,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-05-01",
     "us2yHistoryEnd": "2026-06-12",
-    "gold": 4334.1,
-    "goldChange": 119.1,
+    "gold": 4348.5,
+    "goldChange": 20.5,
     "goldHistory": [
-      4519.5,
       4555.8,
       4681.9,
       4699.8,
@@ -549,14 +548,14 @@
       4108.2,
       4090.3,
       4215.0,
-      4334.1
+      4328.0,
+      4348.5
     ],
-    "goldHistoryStart": "2026-05-04",
-    "goldHistoryEnd": "2026-06-15",
-    "oil": 80.36,
-    "oilChange": -4.52,
+    "goldHistoryStart": "2026-05-05",
+    "goldHistoryEnd": "2026-06-16",
+    "oil": 80.16,
+    "oilChange": -0.59,
     "oilHistory": [
-      106.42,
       102.27,
       95.08,
       94.81,
@@ -585,14 +584,14 @@
       90.03,
       87.71,
       84.88,
-      80.36
+      80.75,
+      80.16
     ],
-    "oilHistoryStart": "2026-05-04",
-    "oilHistoryEnd": "2026-06-15",
-    "btc": 65838.31,
-    "btcChange": 490.96,
+    "oilHistoryStart": "2026-05-05",
+    "oilHistoryEnd": "2026-06-16",
+    "btc": 66326.9,
+    "btcChange": 147.61,
     "btcHistory": [
-      77927.94,
       76995.12,
       76657.71,
       77407.42,
@@ -621,14 +620,14 @@
       63474.25,
       64438.0,
       65347.35,
-      65838.31
+      66179.29,
+      66326.9
     ],
-    "btcHistoryStart": "2026-05-16",
-    "btcHistoryEnd": "2026-06-15",
-    "eth": 1720.41,
-    "ethChange": -0.08,
+    "btcHistoryStart": "2026-05-17",
+    "btcHistoryEnd": "2026-06-16",
+    "eth": 1772.41,
+    "ethChange": -16.97,
     "ethHistory": [
-      2177.61,
       2133.59,
       2105.01,
       2125.96,
@@ -657,10 +656,11 @@
       1661.6,
       1681.03,
       1720.49,
-      1720.41
+      1789.38,
+      1772.41
     ],
-    "ethHistoryStart": "2026-05-16",
-    "ethHistoryEnd": "2026-06-15"
+    "ethHistoryStart": "2026-05-17",
+    "ethHistoryEnd": "2026-06-16"
   },
   "sectors": [
     {
@@ -677,11 +677,6 @@
       "name": "公用事业",
       "symbol": "XLU",
       "changePercent": 1.09
-    },
-    {
-      "name": "房地产",
-      "symbol": "XLRE",
-      "changePercent": 0.98
     },
     {
       "name": "科技",
@@ -704,6 +699,11 @@
       "changePercent": 0.59
     },
     {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": 0.48
+    },
+    {
       "name": "消费",
       "symbol": "XLY",
       "changePercent": 0.26
@@ -714,138 +714,138 @@
       "changePercent": -0.18
     },
     {
-      "name": "通信",
-      "symbol": "XLC",
-      "changePercent": -0.42
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": -0.82
     }
   ],
   "news": [
     {
-      "title": "Dow Jones Futures Rise, Oil Prices Dive As Trump Announces Iran Deal; SpaceX's Next Test",
-      "summary": "Futures rose and oil dived as President Trump announced an Iran deal. The stock market still must do this. What's next for SpaceX?",
+      "title": "Another veteran analyst doubles down on stock market message",
+      "summary": "A year ago, a price target of 7,700 for the S&P 500 by the end of 2026 would have sounded aggressive to most strategists. By May, the index had already rallied 8% for the year, and the analyst behind that target found himself in an unusual position: his own forecast was starting to look ...",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/41879e00-88f3-34d4-8429-39e5c21c3e38/dow-jones-futures-rise%2C-oil.html?.tsrc=rss",
-      "publishedAt": "Mon, 15 Jun 2026 06:49:16 +0000",
+      "url": "https://www.thestreet.com/investing/stocks/another-veteran-analyst-doubles-down-on-stock-market-message-ed-yardeni?.tsrc=rss",
+      "publishedAt": "Tue, 16 Jun 2026 03:07:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "APA Corporation Acquires Savant Alaska in $70 Million Deal",
+      "summary": "APA Corporation (NASDAQ:APA) is included among the 14 Best S&P 500 Stocks to Buy Now According to Analysts. APA Corporation (NASDAQ:APA) is an independent energy company that explores for, develops, and produces natural gas, crude oil, and natural gas liquids. APA Corporation (NASDAQ:APA) announced ",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/energy/articles/apa-corporation-acquires-savant-alaska-020839773.html?.tsrc=rss",
+      "publishedAt": "Tue, 16 Jun 2026 02:08:39 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Walmart (WMT) – Among the 14 Best S&P 500 Stocks to Buy Now According to Analysts",
+      "summary": "Walmart Inc. (NASDAQ:WMT) is included among the 14 Best S&P 500 Stocks to Buy Now According to Analysts. Walmart Inc. (NASDAQ:WMT) engages in the operation of retail and wholesale stores and clubs, ecommerce websites, and mobile applications worldwide. The company’s 2.1 million associates serve cust",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-among-14-best-020738279.html?.tsrc=rss",
+      "publishedAt": "Tue, 16 Jun 2026 02:07:38 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Morgan Stanley Raises Price Target on Arista Networks (ANET). Here is Why",
+      "summary": "Arista Networks, Inc. (NYSE:ANET) is included among the 14 Best S&P 500 Stocks to Buy Now According to Analysts. Arista Networks, Inc. (NYSE:ANET) is an industry leader in data-driven, client-to-cloud networking for large data center/AI, campus, and routing environments. On June 12, Morgan Stanley l",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-raises-price-target-020648491.html?.tsrc=rss",
+      "publishedAt": "Tue, 16 Jun 2026 02:06:48 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Bernstein Initiates Coverage of Parker-Hannifin (PH) with a Bullish View",
+      "summary": "Parker-Hannifin Corporation (NYSE:PH) is included among the 14 Best S&P 500 Stocks to Buy Now According to Analysts. Parker-Hannifin Corporation (NYSE:PH) is a Fortune 250 global leader in motion and control technologies. The company helps customers solve complex challenges through expertise in elec",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-initiates-coverage-parker-hannifin-020633406.html?.tsrc=rss",
+      "publishedAt": "Tue, 16 Jun 2026 02:06:33 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Burlington Stores Is on a Hot Streak. The Stock Is Still Worth Checking Out.",
-      "summary": "Gas and groceries are expensive, and many consumers are feeling low.  The off-price retailer’s shares are up some 25% since Barron’s recommended them late last year, dwarfing the gains made by the S&P 500 and speeding well ahead of its peers tracked by the  exchange-traded fund and the  State Street",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/654e5d96-01ea-3540-bdfd-fc055a2b7e60/burlington-stores-is-on-a-hot.html?.tsrc=rss",
-      "publishedAt": "Mon, 15 Jun 2026 05:18:00 +0000",
+      "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
+      "summary": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/15/spacex-stock-record-ipo-debut.html",
+      "publishedAt": "Mon, 15 Jun 2026 20:37:28 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Aktsiaselts Infortar own share acquisition transactions",
-      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn Stock Exchange during the period of 8 June – 12 June 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)08.06.202627948,900009.06.202629448,861610.06.202631048,796811.06.202630949,000012.06.202635949,0000",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000875.html?.tsrc=rss",
-      "publishedAt": "Mon, 15 Jun 2026 05:00:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "‘I worry deeply about bioterrorism’: Is Europe sufficiently prepared for another pandemic?",
-      "summary": "Internationally renowned for their life-saving Covid vaccine, what is Moderna doing now? Their CEO joins us in the studio to discuss bioterrorism, pandemic preparedness and cancer treatment.View on euronews",
-      "source": "Yahoo Finance",
-      "url": "https://www.euronews.com/2026/06/15/i-worry-deeply-about-bioterrorism-is-europe-sufficiently-prepared-for-another-pandemic?.tsrc=rss",
-      "publishedAt": "Mon, 15 Jun 2026 04:48:57 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Markets celebrate U.S.-Iran deal as both sides confirm this time is real. Trump says oil will flow and ‘I never cared about regime change’",
-      "summary": "“Deal with the Islamic Republic of Iran is now complete. Congratulations to all!\"",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/markets-celebrate-u-iran-deal-230113403.html?.tsrc=rss",
-      "publishedAt": "Mon, 15 Jun 2026 02:35:13 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "U.S. and Iran reach deal to end the Mideast war, with agreement set to be signed Friday",
-      "summary": "The deal follows weeks of mixed messaging from both Washington and Tehran on the trajectory of the conflict.",
+      "title": "Qualcomm CEO says AI agents will replace apps — as chip giant works on 40 new AI-powered devices",
+      "summary": "Qualcomm CEO Cristiano Amon said he is bullish on smart glasses which could eventually become as big as the smartphone.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/14/us-iran-war-peace-deal.html",
-      "publishedAt": "Mon, 15 Jun 2026 06:55:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Markets cheer U.S.-Iran agreement, but some investors caution deal is yet to be signed",
-      "summary": "Asian stocks rallied Monday while oil prices tumbled after the U.S. and Iran agreed to a peace deal aimed at ending nearly four months of conflict.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/15/us-iran-deal-stocks-bonds-gold-oil.html",
-      "publishedAt": "Mon, 15 Jun 2026 03:50:07 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump says France must scrap tech 'sales tax' or face 100% wine tariffs: NY Post",
-      "summary": "President Donald Trump issued the threat ahead of this week's G7 summit in Évian-les-Bains, France.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/15/trump-france-tech-tax-wine-tariffs-champagne.html",
-      "publishedAt": "Mon, 15 Jun 2026 07:05:46 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
-      "summary": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/15/europe-japan-countries-welcome-us-iran-deal-strait-of-hormuz-reopening.html",
-      "publishedAt": "Mon, 15 Jun 2026 07:10:43 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "CNBC Daily Open: Iran deal fuels global relief rally",
-      "summary": "Iran peace deal sparks a global relief rally in stocks amid hopes that the end of the war will ease the energy crisis impacting economies worldwide.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/15/iran-deal-fuels-global-relief-stock-rally.html",
-      "publishedAt": "Mon, 15 Jun 2026 06:17:03 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Stock futures jump, oil prices fall as Trump says U.S. has reached peace deal with Iran",
-      "summary": "Oil prices fell and U.S. stock-index futures jumped Sunday after President Donald Trump said the U.S. has agreed to a peace deal with Iran, apparently ending months of hostilities that shut the Strait of Hormuz and sent the global economy into an oil shock.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/trump-says-u-s-had-reached-peace-deal-with-iran-57a93e56?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 15 Jun 2026 03:02:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Will the real Kevin Warsh please stand up? Ahead of his first Fed meeting, economists honestly don’t know what to expect.",
-      "summary": "Perhaps the only thing that can be said with certainty about Kevin Warsh’s press conference following his first meeting as Federal Reserve chair this week is that he will have a captive audience.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/will-the-real-kevin-warsh-please-stand-up-ahead-of-his-first-fed-meeting-economists-honestly-dont-know-what-to-expect-6fa95c8c?mod=mw_rss_topstories",
-      "publishedAt": "Sun, 14 Jun 2026 21:00:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "‘It seems too good to be true’: At a steak-dinner retirement seminar, the guy said annuities can outperform the market. Is that true?",
-      "summary": "“He claimed that fixed-rate annuities are the sparkly, rainbow-fairyland of investments.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/it-seems-too-good-to-be-true-at-a-steak-dinner-retirement-seminar-the-guy-said-annuities-can-outperform-the-market-is-that-true-33e11b0a?mod=mw_rss_topstories",
-      "publishedAt": "Sun, 14 Jun 2026 20:17:00 GMT",
+      "url": "https://www.cnbc.com/2026/06/16/qualcomm-ceo-ai-devices-agents.html",
+      "publishedAt": "Tue, 16 Jun 2026 05:08:38 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Defaults in debt markets are starting again, warns Pimco. Here’s the bond giant’s game plan.",
-      "summary": "Investors should increasingly seek out fixed income to anchor portfolios as equity valuations look stretched, says Pimco.",
+      "title": "Biotech IPO window is opening but big pharma M&A still sets the pace, top bankers tell CNBC",
+      "summary": "Biopharma dealmaking is driven by pressure to top up drug pipelines ahead of major patent expirations later this decade.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/16/biotech-deals-ipo-pharma-dealmaking-2026.html",
+      "publishedAt": "Tue, 16 Jun 2026 05:00:01 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "China economy weakens further in May as retail sales post first drop in over three years",
+      "summary": "China's retail sales fell for the first time in more than three years in May, while urban investment contracted more than expected, adding to signs the economic slump deepened.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/16/china-economy-may-retail-sales-industrial-output-fixed-asset-investment-.html",
+      "publishedAt": "Tue, 16 Jun 2026 04:09:52 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold",
+      "summary": "This is the BOJ's first hike since December, when it raised rates to its current level of 0.75%, also its highest level in over 30 years.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+      "publishedAt": "Tue, 16 Jun 2026 05:36:44 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "The biggest risk to your retirement isn’t a market crash — it’s a crisis you probably haven’t planned for",
+      "summary": "Health-related financial risks are the No. 1 threat to retirement security.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/defaults-in-debt-markets-are-starting-again-warns-pimco-heres-the-bond-giants-game-plan-16559c6d?mod=mw_rss_topstories",
-      "publishedAt": "Sun, 14 Jun 2026 17:34:00 GMT",
+      "url": "https://www.marketwatch.com/story/the-biggest-risk-to-your-retirement-isnt-a-market-crash-its-a-crisis-you-probably-havent-planned-for-eff75a99?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 16 Jun 2026 00:34:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "How to work in retirement without seeing your Social Security checks slashed",
+      "summary": "Claiming benefits before full retirement age while keeping a job can trigger unexpected withholdings — but the money isn’t lost forever.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/how-to-work-in-retirement-without-seeing-your-social-security-checks-slashed-05d6c830?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 16 Jun 2026 00:11:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Need a credit-score boost? Call your credit-card company and ask for this — but proceed with caution.",
+      "summary": "A credit-limit increase can help strained borrowers improve how their financial picture looks on paper.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/need-a-credit-score-boost-call-your-credit-card-company-and-ask-for-this-but-proceed-with-caution-c1d028c5?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 15 Jun 2026 23:07:00 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "We thought we found the perfect luxury retirement community, but it’s millions of dollars in debt. Are we trapped?",
-      "summary": "“If we were to leave, we would lose a portion of our buy-in — about $80,000.”",
+      "title": "Roku’s sale to Fox for $22 billion raises a big question",
+      "summary": "Roku’s stock is rallying to a four-year high after agreeing to be bought by Fox in a deal valued at $22 billion.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/we-thought-we-found-the-perfect-luxury-retirement-community-but-its-millions-of-dollars-in-debt-are-we-trapped-cde2e8f5?mod=mw_rss_topstories",
-      "publishedAt": "Sun, 14 Jun 2026 14:26:00 GMT",
-      "sentiment": "neutral"
+      "url": "https://www.marketwatch.com/story/rokus-sale-to-fox-for-22-billion-raises-a-big-question-aecb5346?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 15 Jun 2026 23:03:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Here’s when gas prices will come down if the U.S. deal to end the Iran war pans out",
+      "summary": "The average retail gasoline price was just above the psychologically significant $4-per-gallon mark on Monday.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/heres-when-gas-prices-will-go-down-now-that-theres-a-deal-to-end-the-iran-war-6a482f4d?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 15 Jun 2026 22:31:00 GMT",
+      "sentiment": "negative"
     }
   ],
-  "fearGreedIndex": 20,
+  "fearGreedIndex": 23,
   "valuation": {
     "sp500": {
-      "pe": 26.57,
-      "forwardPE": 24.15,
+      "pe": 27.03,
+      "forwardPE": 24.57,
       "pePercentile1y": 95,
       "pePercentile5y": null,
       "pePercentile10y": null,
@@ -858,18 +858,18 @@
       "currentPrice": 741.75
     },
     "nasdaq": {
-      "pe": 32.19,
-      "forwardPE": 27.99,
-      "pePercentile1y": 96,
+      "pe": 33.2,
+      "forwardPE": 28.87,
+      "pePercentile1y": 99,
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 18,
       "peRangeHigh": 45,
-      "drawdown52w": -3.65,
+      "drawdown52w": -0.62,
       "high52w": 748.65,
-      "drawdownATH": -3.65,
+      "drawdownATH": -0.62,
       "allTimeHigh": 748.65,
-      "currentPrice": 721.34
+      "currentPrice": 744.0
     }
   },
   "advanceDeclineRatio": null,
