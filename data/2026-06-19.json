@@ -2,10 +2,10 @@
   "date": "2026-06-19",
   "dataDate": "2026-06-18",
   "forecastDate": "2026-06-19",
-  "timestamp": "2026-06-19T15:09:43.897282+08:00",
+  "timestamp": "2026-06-20T14:24:11.942280+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": 12,
+  "sentimentScore": 10,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -409,8 +409,8 @@
     ],
     "vixHistoryStart": "2026-05-08",
     "vixHistoryEnd": "2026-06-18",
-    "dxy": 100.93,
-    "dxyChange": 0.08,
+    "dxy": 100.85,
+    "dxyChange": 0.0,
     "dxyHistory": [
       97.84,
       97.94,
@@ -441,7 +441,7 @@
       99.54,
       100.09,
       100.85,
-      100.93
+      100.85
     ],
     "dxyHistoryStart": "2026-05-08",
     "dxyHistoryEnd": "2026-06-19",
@@ -517,8 +517,8 @@
     ],
     "us2yHistoryStart": "2026-05-01",
     "us2yHistoryEnd": "2026-06-12",
-    "gold": 4165.5,
-    "goldChange": -58.6,
+    "gold": 4172.9,
+    "goldChange": -51.2,
     "goldHistory": [
       4720.4,
       4718.7,
@@ -549,12 +549,12 @@
       4330.9,
       4358.9,
       4224.1,
-      4165.5
+      4172.9
     ],
     "goldHistoryStart": "2026-05-08",
     "goldHistoryEnd": "2026-06-19",
-    "oil": 76.13,
-    "oilChange": -0.47,
+    "oil": 76.54,
+    "oilChange": -0.06,
     "oilHistory": [
       95.42,
       98.07,
@@ -585,14 +585,13 @@
       76.05,
       76.79,
       76.6,
-      76.13
+      76.54
     ],
     "oilHistoryStart": "2026-05-08",
     "oilHistoryEnd": "2026-06-19",
-    "btc": 62778.03,
-    "btcChange": -44.58,
+    "btc": 63654.37,
+    "btcChange": 388.21,
     "btcHistory": [
-      77549.3,
       75650.83,
       76485.46,
       76711.68,
@@ -621,14 +620,14 @@
       65716.96,
       64280.2,
       62822.61,
-      62778.03
+      63266.16,
+      63654.37
     ],
-    "btcHistoryStart": "2026-05-20",
-    "btcHistoryEnd": "2026-06-19",
-    "eth": 1696.66,
-    "ethChange": -8.78,
+    "btcHistoryStart": "2026-05-21",
+    "btcHistoryEnd": "2026-06-20",
+    "eth": 1726.8,
+    "ethChange": 20.55,
     "ethHistory": [
-      2129.84,
       2070.42,
       2113.97,
       2089.17,
@@ -657,10 +656,11 @@
       1794.39,
       1740.23,
       1705.44,
-      1696.66
+      1706.25,
+      1726.8
     ],
-    "ethHistoryStart": "2026-05-20",
-    "ethHistoryEnd": "2026-06-19"
+    "ethHistoryStart": "2026-05-21",
+    "ethHistoryEnd": "2026-06-20"
   },
   "sectors": [
     {
@@ -704,14 +704,14 @@
       "changePercent": -0.45
     },
     {
-      "name": "金融",
-      "symbol": "XLF",
-      "changePercent": -0.55
-    },
-    {
       "name": "医疗",
       "symbol": "XLV",
       "changePercent": -0.87
+    },
+    {
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": -0.89
     },
     {
       "name": "能源",
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "3 Reasons to Buy Apple Stock",
-      "summary": "Those who bet against the tech giant tend to lose.",
+      "title": "1 Top AI Stock to Buy and Hold for the Next Decade",
+      "summary": "The cloud business at the center of this company's AI strategy is growing at its fastest pace in nearly four years.",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/06/19/3-reasons-to-buy-apple-stock/?.tsrc=rss",
-      "publishedAt": "Fri, 19 Jun 2026 07:05:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Meet the Magnificent Vanguard ETF Obliterating the S&P 500 in 2026 Because of Its Unique Momentum-Driven Strategy",
-      "summary": "Most investors have probably never heard of this Vanguard ETF, but it routinely beats the market.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/06/19/meet-vanguard-etf-obliterating-the-sp-500-in-2026/?.tsrc=rss",
-      "publishedAt": "Fri, 19 Jun 2026 06:50:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "If You Have $1,000 to Invest Today, Should It Go Into SpaceX or the S&P 500? History Has a Clear Answer.",
-      "summary": "Always remember the difference between investing and speculating.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/06/19/if-you-have-1000-to-invest-today-should-it-go-into/?.tsrc=rss",
-      "publishedAt": "Fri, 19 Jun 2026 05:50:00 +0000",
+      "url": "https://www.fool.com/investing/2026/06/19/1-top-ai-stock-to-buy-and-hold-for-the-next-decade/?.tsrc=rss",
+      "publishedAt": "Sat, 20 Jun 2026 02:51:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Asia’s Stock Market Boom Isn’t Over. Why the Blockbuster Gains Can Continue.",
-      "summary": "Blistering bull markets in South Korea, Taiwan, and Japan have helped Asian stocks trounce the U.S. so far this year.  Not only are the markets still relatively cheap, they are also home to companies seeing continued growth from the artificial-intelligence boom, as well as increased spending on defe",
+      "title": "Dow Jones Futures Fall; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This",
+      "summary": "Dow Jones futures fell slightly Friday, along with S&P 500 futures and Nasdaq futures. Futures will reopen Sunday evening The stock market rebounded this past week, though the gains were concentrated in chips and AI-related plays, along with biotechs.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/0d962adb-e8eb-310f-8213-d47b1cd4f289/asia%E2%80%99s-stock-market-boom.html?.tsrc=rss",
-      "publishedAt": "Fri, 19 Jun 2026 05:15:00 +0000",
+      "url": "https://finance.yahoo.com/m/aa0411a1-2ba1-3057-bff9-1381bd5225f7/dow-jones-futures-fall%3B.html?.tsrc=rss",
+      "publishedAt": "Sat, 20 Jun 2026 02:33:39 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Schwab Plans S&P 500 Prediction Markets as Event Trading Moves Mainstream",
+      "summary": "Charles Schwab (NYSE: $SCHW) is preparing to enter the prediction-markets race with a product built around the S&am...",
+      "source": "Yahoo Finance",
+      "url": "https://www.cryptoprowl.com/releases/schwab-plans-sp-500-prediction-markets-as-event-trading-moves-mainstream-5931?.tsrc=rss",
+      "publishedAt": "Fri, 19 Jun 2026 22:31:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Making Six Figures but Betting Everything on U.S. Stocks? AVUV Fixes That Problem",
+      "summary": "You check your portfolio and it looks like every other portfolio in America. Apple, Microsoft, NVIDIA, Amazon, Meta, Alphabet, and a heaping side of S&P 500 index fund that is, when you look under the hood, basically more of the same seven names. You are 38, you have 25-plus years until retirement, ",
+      "source": "Yahoo Finance",
+      "url": "https://247wallst.com/investing/2026/06/19/making-six-figures-but-betting-everything-on-u-s-stocks-avuv-fixes-that-problem/?.tsrc=rss",
+      "publishedAt": "Fri, 19 Jun 2026 21:30:35 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "After Being Called the Next Trillion-Dollar AI Stock and Joining the S&P 500, Marvell's CFO Just Filed to Dump $65 Million of Stock. Here's Why.",
+      "summary": "Marvell's CFO just filed paperwork with the SEC to offload a significant chunk of stock.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/06/19/marvells-cfo-just-sold-65-million-of-stock-right-a/?.tsrc=rss",
+      "publishedAt": "Fri, 19 Jun 2026 21:27:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
+      "summary": "The U.S.-Iran deal has raised questions about how the Strait of Hormuz will be governed after the toll-free period ends.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/19/iran-oil-tanker-traffic-strait-hormuz-gulf-vlcc.html",
+      "publishedAt": "Fri, 19 Jun 2026 23:00:29 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Subramaniam’s One FedEx Was the Answer to the Company’s Problems",
-      "summary": "CEO Raj Subramaniam has broken down the delivery company’s business silos and elevated its stock price.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/ba7cfce9-a19c-3b33-931c-daf57990106f/subramaniam%E2%80%99s-one-fedex-was.html?.tsrc=rss",
-      "publishedAt": "Fri, 19 Jun 2026 05:00:00 +0000",
+      "title": "Musk's SpaceX stake is worth over $1 trillion. Here are the other billionaire shareholders",
+      "summary": "SpaceX shares were up 37% after its historic debut last week, which offered shares at a set price of $135.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/19/musk-spacex-billionaire-shareholders.html",
+      "publishedAt": "Fri, 19 Jun 2026 10:47:57 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Memory crisis hits such extremes that 'even Apple can't be safe'",
+      "summary": "Apple appears poised to take the rare step of increasing prices to deal with what CEO Tim Cook called an \"unsustainable\" memory shortage.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/19/memory-crisis-hits-such-extremes-that-even-apple-cant-be-safe-.html",
+      "publishedAt": "Fri, 19 Jun 2026 12:00:02 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "U.S.-Iran accord hits early snag after Swiss talks fail to proceed as planned",
-      "summary": "Analysts reckon a lasting resolution to the Middle East conflict will take some time to materialize.",
+      "title": "DOJ rebuffs judge's request to put in writing it won't move forward with 'anti-weaponization' fund",
+      "summary": "The DOJ in May announced it was creating the fund as part of a settlement of President Donald Trump's $10 billion lawsuit against the Internal Revenue Service.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/us-iran-talks-switzerland-canceled-interim-deal-markets.html",
-      "publishedAt": "Fri, 19 Jun 2026 06:37:26 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
-      "summary": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/18/the-average-spacex-buyer-post-ipo-is-almost-under-water-after-two-day-slide.html",
-      "publishedAt": "Thu, 18 Jun 2026 20:10:47 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Why Japan's $70 billion-plus intervention and a rate hike didn't prop up the yen more",
-      "summary": "Japan was willing to step in to defend the yen around the 160 level before, and it's at that point again.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/japan-yen-intervention-boj-rate-hike.html",
-      "publishedAt": "Fri, 19 Jun 2026 02:04:53 GMT",
+      "url": "https://www.cnbc.com/2026/06/19/doj-anti-weaponization-fund-trump.html",
+      "publishedAt": "Fri, 19 Jun 2026 22:53:09 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "UK political uncertainty grows as Andy Burnham clears path to challenge PM Starmer",
-      "summary": "Andy Burnham won the Makerfield by-election, defeating Reform UK by more than 9,000 votes with nearly 55% of the vote.",
+      "title": "The riskiest SpaceX stock trade of all had a big first week",
+      "summary": "SpaceX's IPO did not just mint the biggest debut in market history and a trillionaire, but it also triggered a historic land grab in risky leveraged ETFs.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/andy-burnham-makerfield-by-election.html",
-      "publishedAt": "Fri, 19 Jun 2026 06:41:31 GMT",
+      "url": "https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html",
+      "publishedAt": "Fri, 19 Jun 2026 15:53:11 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "My mother was co-owner of my late grandmother’s bank account. Should she share the money with her siblings?",
+      "summary": "“The will stated that the estate was to be divided equally among her children.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-mother-was-co-owner-of-my-late-grandmothers-bank-account-should-she-share-the-money-with-her-siblings-e54ed4df?mod=mw_rss_topstories",
+      "publishedAt": "Sat, 20 Jun 2026 05:18:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Zealand Pharma stock suffered its two worst days on record. Here's what's next for the weight loss drugmaker",
-      "summary": "While the market's enthusiasm for one of Zealand's experimental drugs has cooled, investors are shifting focus to amylin-based medicines as a growth driver",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/zealand-pharma-stock-weight-loss-drugmaker-novo-lilly.html",
-      "publishedAt": "Fri, 19 Jun 2026 05:00:01 GMT",
-      "sentiment": "positive"
+      "title": "My two sons will inherit a $30,000 annuity from their grandmother. What should I do with the money?",
+      "summary": "“My understanding is that they have five years to withdraw the money.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-two-sons-will-inherit-a-30-000-annuity-from-their-grandmother-what-should-i-do-with-the-money-8882f396?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 19 Jun 2026 19:00:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Employers to college students: Never mind that 4.0 GPA. Go out and get a summer job.",
+      "summary": "College students with any sort of work experience on their résumés are twice as likely to be employed shortly after graduating.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/employers-to-college-students-skip-the-perfect-gpa-and-go-get-a-summer-job-e9ca5530?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 19 Jun 2026 18:52:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘We are habitually frugal’: My wife and I have money. How do we help our children without ruining their independence?",
+      "summary": "“Partly due to some mental-health issues, they may continue to go through life living paycheck to paycheck, or worse.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/we-are-habitually-frugal-my-wife-and-i-have-money-how-do-we-help-our-children-without-ruining-their-independence-a1e30cec?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 19 Jun 2026 18:30:00 GMT",
+      "sentiment": "neutral"
     },
     {
       "title": "‘I’ll probably be working until I die’: I’m 60, work as a waiter and have $2,000 in a Roth IRA. What will happen to me?",
       "summary": "“I’m afraid I’m in a bad place.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/ill-probably-be-working-until-i-die-im-60-work-as-a-restaurant-server-and-have-2-000-in-an-ira-who-can-help-me-6e36253a?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 19 Jun 2026 04:01:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Is Tesla succeeding in AI? Watch this for a clue.",
-      "summary": "As Tesla has doubled down on artificial intelligence, investors are left trying to make sense of the company’s progress. According to analysts at Oppenheimer, tracking how Tesla spends its cash may provide some insight.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/is-tesla-succeeding-in-ai-watch-this-for-a-clue-c72bc49e?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 19 Jun 2026 02:27:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "This AI company wants to replace MRIs with a 60-second dip in the spa. Can that really work?",
-      "summary": "Midjourney is making a foray into healthcare with its latest body-scanner product, aiming to make medical imaging more accessible.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-ai-company-wants-to-replace-mris-with-a-60-second-dip-in-the-spa-can-that-really-work-3bce6681?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 18 Jun 2026 23:22:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "I’m 55 and retiring in 6 years. Should I be switching to Roth 401(k) contributions now?",
-      "summary": "People are still holding back on participating in Roth plans at work, Vanguard says.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-55-and-retiring-in-6-years-should-i-be-switching-to-roth-401-k-now-71d6c468?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 18 Jun 2026 23:11:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump’s Iran agreement is a massive buy signal for stocks",
-      "summary": "Hyperventilating experts were wrong about the Iran war. The end of the conflict is a massive buy signal for stocks.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/trumps-iran-agreement-changes-the-game-for-investors-these-are-the-two-sectors-to-buy-right-now-0705bc62?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 18 Jun 2026 23:09:00 GMT",
+      "publishedAt": "Fri, 19 Jun 2026 18:00:00 GMT",
       "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 14,
+  "fearGreedIndex": 23,
   "valuation": {
     "sp500": {
       "pe": 26.74,
