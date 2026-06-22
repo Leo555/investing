@@ -2,7 +2,7 @@
   "date": "2026-06-19",
   "dataDate": "2026-06-18",
   "forecastDate": "2026-06-19",
-  "timestamp": "2026-06-20T14:24:11.942280+08:00",
+  "timestamp": "2026-06-22T15:27:36.139450+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
   "sentimentScore": 10,
@@ -409,8 +409,8 @@
     ],
     "vixHistoryStart": "2026-05-08",
     "vixHistoryEnd": "2026-06-18",
-    "dxy": 100.85,
-    "dxyChange": 0.0,
+    "dxy": 100.88,
+    "dxyChange": 0.03,
     "dxyHistory": [
       97.84,
       97.94,
@@ -441,17 +441,13 @@
       99.54,
       100.09,
       100.85,
-      100.85
+      100.88
     ],
     "dxyHistoryStart": "2026-05-08",
-    "dxyHistoryEnd": "2026-06-19",
-    "us10y": 4.49,
-    "us10yChange": 0.03,
+    "dxyHistoryEnd": "2026-06-22",
+    "us10y": 4.45,
+    "us10yChange": -0.01,
     "us10yHistory": [
-      4.38,
-      4.45,
-      4.42,
-      4.36,
       4.39,
       4.36,
       4.41,
@@ -477,17 +473,17 @@
       4.53,
       4.54,
       4.46,
-      4.49
+      4.49,
+      4.47,
+      4.43,
+      4.46,
+      4.45
     ],
-    "us10yHistoryStart": "2026-05-01",
-    "us10yHistoryEnd": "2026-06-12",
-    "us2y": 3.62,
-    "us2yChange": 0.0,
+    "us10yHistoryStart": "2026-05-07",
+    "us10yHistoryEnd": "2026-06-18",
+    "us2y": 3.66,
+    "us2yChange": 0.01,
     "us2yHistory": [
-      3.58,
-      3.59,
-      3.6,
-      3.6,
       3.6,
       3.6,
       3.6,
@@ -513,12 +509,16 @@
       3.63,
       3.63,
       3.62,
-      3.62
+      3.62,
+      3.62,
+      3.63,
+      3.65,
+      3.66
     ],
-    "us2yHistoryStart": "2026-05-01",
-    "us2yHistoryEnd": "2026-06-12",
-    "gold": 4172.9,
-    "goldChange": -51.2,
+    "us2yHistoryStart": "2026-05-07",
+    "us2yHistoryEnd": "2026-06-18",
+    "gold": 4217.3,
+    "goldChange": -6.8,
     "goldHistory": [
       4720.4,
       4718.7,
@@ -549,12 +549,12 @@
       4330.9,
       4358.9,
       4224.1,
-      4172.9
+      4217.3
     ],
     "goldHistoryStart": "2026-05-08",
-    "goldHistoryEnd": "2026-06-19",
-    "oil": 76.54,
-    "oilChange": -0.06,
+    "goldHistoryEnd": "2026-06-22",
+    "oil": 75.44,
+    "oilChange": -1.16,
     "oilHistory": [
       95.42,
       98.07,
@@ -585,15 +585,13 @@
       76.05,
       76.79,
       76.6,
-      76.54
+      75.44
     ],
     "oilHistoryStart": "2026-05-08",
-    "oilHistoryEnd": "2026-06-19",
-    "btc": 63654.37,
-    "btcChange": 388.21,
+    "oilHistoryEnd": "2026-06-22",
+    "btc": 64193.55,
+    "btcChange": 463.18,
     "btcHistory": [
-      75650.83,
-      76485.46,
       76711.68,
       77092.59,
       75636.67,
@@ -621,15 +619,15 @@
       64280.2,
       62822.61,
       63266.16,
-      63654.37
+      64230.36,
+      63730.37,
+      64193.55
     ],
-    "btcHistoryStart": "2026-05-21",
-    "btcHistoryEnd": "2026-06-20",
-    "eth": 1726.8,
-    "ethChange": 20.55,
+    "btcHistoryStart": "2026-05-23",
+    "btcHistoryEnd": "2026-06-22",
+    "eth": 1744.98,
+    "ethChange": 29.37,
     "ethHistory": [
-      2070.42,
-      2113.97,
       2089.17,
       2104.08,
       2066.01,
@@ -657,10 +655,12 @@
       1740.23,
       1705.44,
       1706.25,
-      1726.8
+      1741.87,
+      1715.61,
+      1744.98
     ],
-    "ethHistoryStart": "2026-05-21",
-    "ethHistoryEnd": "2026-06-20"
+    "ethHistoryStart": "2026-05-23",
+    "ethHistoryEnd": "2026-06-22"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "1 Top AI Stock to Buy and Hold for the Next Decade",
-      "summary": "The cloud business at the center of this company's AI strategy is growing at its fastest pace in nearly four years.",
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn Stock Exchange during the period of 15 June – 19 June 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)15.06.202635049,000016.06.202632748,944017.06.202633149,000018.06.202634949,000019.06.202632949,000",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/06/19/1-top-ai-stock-to-buy-and-hold-for-the-next-decade/?.tsrc=rss",
-      "publishedAt": "Sat, 20 Jun 2026 02:51:00 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000004.html?.tsrc=rss",
+      "publishedAt": "Mon, 22 Jun 2026 05:00:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Dow Jones Futures Fall; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This",
-      "summary": "Dow Jones futures fell slightly Friday, along with S&P 500 futures and Nasdaq futures. Futures will reopen Sunday evening The stock market rebounded this past week, though the gains were concentrated in chips and AI-related plays, along with biotechs.",
+      "title": "Will the Stock Market Crash in 2026? History Shows This Is the Smartest Way to Prepare.",
+      "summary": "The S&P 500 CAPE ratio is hovering near its highest reading since the dot-com crash.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/aa0411a1-2ba1-3057-bff9-1381bd5225f7/dow-jones-futures-fall%3B.html?.tsrc=rss",
-      "publishedAt": "Sat, 20 Jun 2026 02:33:39 +0000",
+      "url": "https://www.fool.com/investing/2026/06/22/will-the-stock-market-crash-in-2026-history-shows/?.tsrc=rss",
+      "publishedAt": "Mon, 22 Jun 2026 04:20:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Schwab Plans S&P 500 Prediction Markets as Event Trading Moves Mainstream",
-      "summary": "Charles Schwab (NYSE: $SCHW) is preparing to enter the prediction-markets race with a product built around the S&am...",
+      "title": "Vanguard VBR vs. iShares IJJ: Is a Small-Cap or Mid-Cap ETF the Better Buy for Investors?",
+      "summary": "Compare diversification, sector exposure, and risk profiles as these two value-focused ETFs take different approaches to capturing market opportunities.",
       "source": "Yahoo Finance",
-      "url": "https://www.cryptoprowl.com/releases/schwab-plans-sp-500-prediction-markets-as-event-trading-moves-mainstream-5931?.tsrc=rss",
-      "publishedAt": "Fri, 19 Jun 2026 22:31:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Making Six Figures but Betting Everything on U.S. Stocks? AVUV Fixes That Problem",
-      "summary": "You check your portfolio and it looks like every other portfolio in America. Apple, Microsoft, NVIDIA, Amazon, Meta, Alphabet, and a heaping side of S&P 500 index fund that is, when you look under the hood, basically more of the same seven names. You are 38, you have 25-plus years until retirement, ",
-      "source": "Yahoo Finance",
-      "url": "https://247wallst.com/investing/2026/06/19/making-six-figures-but-betting-everything-on-u-s-stocks-avuv-fixes-that-problem/?.tsrc=rss",
-      "publishedAt": "Fri, 19 Jun 2026 21:30:35 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "After Being Called the Next Trillion-Dollar AI Stock and Joining the S&P 500, Marvell's CFO Just Filed to Dump $65 Million of Stock. Here's Why.",
-      "summary": "Marvell's CFO just filed paperwork with the SEC to offload a significant chunk of stock.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/06/19/marvells-cfo-just-sold-65-million-of-stock-right-a/?.tsrc=rss",
-      "publishedAt": "Fri, 19 Jun 2026 21:27:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
-      "summary": "The U.S.-Iran deal has raised questions about how the Strait of Hormuz will be governed after the toll-free period ends.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/iran-oil-tanker-traffic-strait-hormuz-gulf-vlcc.html",
-      "publishedAt": "Fri, 19 Jun 2026 23:00:29 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Musk's SpaceX stake is worth over $1 trillion. Here are the other billionaire shareholders",
-      "summary": "SpaceX shares were up 37% after its historic debut last week, which offered shares at a set price of $135.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/musk-spacex-billionaire-shareholders.html",
-      "publishedAt": "Fri, 19 Jun 2026 10:47:57 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Memory crisis hits such extremes that 'even Apple can't be safe'",
-      "summary": "Apple appears poised to take the rare step of increasing prices to deal with what CEO Tim Cook called an \"unsustainable\" memory shortage.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/memory-crisis-hits-such-extremes-that-even-apple-cant-be-safe-.html",
-      "publishedAt": "Fri, 19 Jun 2026 12:00:02 GMT",
+      "url": "https://www.fool.com/coverage/etfs/2026/06/21/vanguard-vbr-vs-ishares-ijj-is-a-small-cap-or-mid-cap-etf-the-better-buy-for-investors/?.tsrc=rss",
+      "publishedAt": "Mon, 22 Jun 2026 04:19:35 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "DOJ rebuffs judge's request to put in writing it won't move forward with 'anti-weaponization' fund",
-      "summary": "The DOJ in May announced it was creating the fund as part of a settlement of President Donald Trump's $10 billion lawsuit against the Internal Revenue Service.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/doj-anti-weaponization-fund-trump.html",
-      "publishedAt": "Fri, 19 Jun 2026 22:53:09 GMT",
-      "sentiment": "positive"
+      "title": "Schwab plots S&P 500 prediction markets push with Cboe",
+      "summary": "Major financial firms are racing to enter the prediction market space after the sector generated billions in trading volume over the past year. Charles Schwab, which oversees $11.77 trillion in client assets across 39.1 million active brokerage accounts, is now preparing its own entry into ...",
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/markets/schwab-plots-sp500-prediction-markets-with-cboe?.tsrc=rss",
+      "publishedAt": "Mon, 22 Jun 2026 03:33:00 +0000",
+      "sentiment": "neutral"
     },
     {
-      "title": "The riskiest SpaceX stock trade of all had a big first week",
-      "summary": "SpaceX's IPO did not just mint the biggest debut in market history and a trillionaire, but it also triggered a historic land grab in risky leveraged ETFs.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html",
-      "publishedAt": "Fri, 19 Jun 2026 15:53:11 GMT",
+      "title": "Dow futures drop as first day of U.S.-Iran talks sees Trump threaten Tehran on Hormuz: ‘You close it and you won’t have a country’",
+      "summary": "He also said the U.S. may take over the strait, adding \"I'll blow the s--t out of them. If they don't make a deal, we'll collect tolls.\"",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/energy/articles/dow-futures-drop-oil-jumps-232330890.html?.tsrc=rss",
+      "publishedAt": "Mon, 22 Jun 2026 03:29:33 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "My mother was co-owner of my late grandmother’s bank account. Should she share the money with her siblings?",
-      "summary": "“The will stated that the estate was to be divided equally among her children.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-mother-was-co-owner-of-my-late-grandmothers-bank-account-should-she-share-the-money-with-her-siblings-e54ed4df?mod=mw_rss_topstories",
-      "publishedAt": "Sat, 20 Jun 2026 05:18:00 GMT",
+      "title": "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon",
+      "summary": "The talks were the first round of negotiations under a memorandum of understanding signed last week, which extended a tenuous ceasefire by 60 days.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html",
+      "publishedAt": "Mon, 22 Jun 2026 02:17:46 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "My two sons will inherit a $30,000 annuity from their grandmother. What should I do with the money?",
-      "summary": "“My understanding is that they have five years to withdraw the money.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-two-sons-will-inherit-a-30-000-annuity-from-their-grandmother-what-should-i-do-with-the-money-8882f396?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 19 Jun 2026 19:00:00 GMT",
+      "title": "Oil falls as Qatar, Pakistan announce 60-day roadmap for U.S.-Iran deal",
+      "summary": "Oil prices fluctuated on Monday after U.S. President Donald Trump threatened renewed military action against Iran.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html",
+      "publishedAt": "Mon, 22 Jun 2026 06:17:15 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Employers to college students: Never mind that 4.0 GPA. Go out and get a summer job.",
-      "summary": "College students with any sort of work experience on their résumés are twice as likely to be employed shortly after graduating.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/employers-to-college-students-skip-the-perfect-gpa-and-go-get-a-summer-job-e9ca5530?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 19 Jun 2026 18:52:00 GMT",
+      "title": "UK Prime Minister Keir Starmer set to outline exit plan as pressure to quit builds",
+      "summary": "U.K. Prime Minister Keir Starmer is expected to set out a timetable for his departure later.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/22/keir-starmer-resign-uk-prime-minister-trump-andy-burnham.html",
+      "publishedAt": "Mon, 22 Jun 2026 07:23:45 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "‘We are habitually frugal’: My wife and I have money. How do we help our children without ruining their independence?",
-      "summary": "“Partly due to some mental-health issues, they may continue to go through life living paycheck to paycheck, or worse.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/we-are-habitually-frugal-my-wife-and-i-have-money-how-do-we-help-our-children-without-ruining-their-independence-a1e30cec?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 19 Jun 2026 18:30:00 GMT",
+      "title": "CNBC Daily Open: U.K.'s Keir Starmer on the verge of quitting",
+      "summary": "A war of words in Westminster could cost U.K. Prime Minister Keir Starmer his job, as the leader looks set to resign amid pressure from within his party.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/22/cnbc-daily-open-uks-keir-starmer-on-the-verge-of-quitting.html",
+      "publishedAt": "Mon, 22 Jun 2026 06:15:00 GMT",
       "sentiment": "neutral"
+    },
+    {
+      "title": "China imposes trade curbs on dozens of U.S. firms in retaliation for Pentagon blacklist",
+      "summary": "The Pentagon earlier this month updated its so-called 1260H list by adding a slew of Chinese technology companies to a roster of entities it believes have aided Beijing's military.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/22/china-trade-curbs-us-companies-export-controls-procurement-exclusion-pentagon-list-.html",
+      "publishedAt": "Mon, 22 Jun 2026 03:45:13 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "This bull market isn’t going to end because of Fed rate hikes under Warsh",
+      "summary": "Trump-selected Fed chair Kevin Warsh may hope the threat of rate hikes is enough. But stocks might gain ground if he does. Past rate-hike cycles can be a guide.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 21 Jun 2026 22:41:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The loneliness crisis has gotten so bad that lawmakers are ready to spend millions of dollars to fight it",
+      "summary": "The health damage of loneliness is similar to heavy smoking and obesity",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-loneliness-crisis-has-gotten-so-bad-that-lawmakers-are-ready-to-spend-millions-of-dollars-to-fight-it-f7e7c7b7?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 21 Jun 2026 21:22:00 GMT",
+      "sentiment": "negative"
     },
     {
       "title": "‘I’ll probably be working until I die’: I’m 60, work as a waiter and have $2,000 in a Roth IRA. What will happen to me?",
       "summary": "“I’m afraid I’m in a bad place.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/ill-probably-be-working-until-i-die-im-60-work-as-a-restaurant-server-and-have-2-000-in-an-ira-who-can-help-me-6e36253a?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 19 Jun 2026 18:00:00 GMT",
+      "publishedAt": "Sun, 21 Jun 2026 20:00:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "I’m spending $170,000 to upgrade my home for my aging parents. Can I get tax breaks?",
+      "summary": "“Given that at least half of the remodeling cost is to accommodate my disabled mother, I’m wondering if some of this may be tax deductible.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/im-spending-170-000-to-upgrade-my-home-for-my-aging-parents-can-i-get-tax-breaks-3adf0236?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 21 Jun 2026 19:00:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "My mother was co-owner of my late grandmother’s bank account. Should she share the money with her siblings?",
+      "summary": "“The will stated that the estate was to be divided equally among her children.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-mother-was-co-owner-of-my-late-grandmothers-bank-account-should-she-share-the-money-with-her-siblings-e54ed4df?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 21 Jun 2026 16:59:00 GMT",
       "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 23,
+  "fearGreedIndex": 20,
   "valuation": {
     "sp500": {
       "pe": 26.74,
