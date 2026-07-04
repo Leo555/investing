@@ -2,10 +2,10 @@
   "date": "2026-07-03",
   "dataDate": "2026-07-02",
   "forecastDate": "2026-07-03",
-  "timestamp": "2026-07-03T13:55:59.823042+08:00",
+  "timestamp": "2026-07-04T13:48:39.615975+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": 8,
+  "sentimentScore": 7,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -409,8 +409,8 @@
     ],
     "vixHistoryStart": "2026-05-21",
     "vixHistoryEnd": "2026-07-02",
-    "dxy": 100.72,
-    "dxyChange": -0.14,
+    "dxy": 100.86,
+    "dxyChange": 0.0,
     "dxyHistory": [
       99.19,
       99.32,
@@ -441,7 +441,7 @@
       101.19,
       101.39,
       100.86,
-      100.72
+      100.86
     ],
     "dxyHistoryStart": "2026-05-21",
     "dxyHistoryEnd": "2026-07-03",
@@ -517,8 +517,8 @@
     ],
     "us2yHistoryStart": "2026-05-14",
     "us2yHistoryEnd": "2026-06-26",
-    "gold": 4187.8,
-    "goldChange": 75.1,
+    "gold": 4187.3,
+    "goldChange": 74.6,
     "goldHistory": [
       4539.8,
       4521.0,
@@ -549,12 +549,12 @@
       4022.9,
       4068.3,
       4112.7,
-      4187.8
+      4187.3
     ],
     "goldHistoryStart": "2026-05-21",
     "goldHistoryEnd": "2026-07-03",
-    "oil": 69.17,
-    "oilChange": 0.48,
+    "oil": 68.78,
+    "oilChange": 0.09,
     "oilHistory": [
       96.35,
       96.6,
@@ -585,14 +585,13 @@
       69.5,
       68.58,
       68.69,
-      69.17
+      68.78
     ],
     "oilHistoryStart": "2026-05-21",
     "oilHistoryEnd": "2026-07-03",
-    "btc": 61647.46,
-    "btcChange": 208.88,
+    "btc": 62522.88,
+    "btcChange": -10.95,
     "btcHistory": [
-      63661.25,
       61658.39,
       60583.53,
       62898.84,
@@ -621,14 +620,14 @@
       58519.11,
       60415.22,
       61438.58,
-      61647.46
+      62533.83,
+      62522.88
     ],
-    "btcHistoryStart": "2026-06-03",
-    "btcHistoryEnd": "2026-07-03",
-    "eth": 1714.48,
-    "ethChange": 18.06,
+    "btcHistoryStart": "2026-06-04",
+    "btcHistoryEnd": "2026-07-04",
+    "eth": 1757.34,
+    "ethChange": 1.25,
     "ethHistory": [
-      1766.85,
       1598.26,
       1558.92,
       1674.55,
@@ -657,10 +656,11 @@
       1565.64,
       1620.73,
       1696.42,
-      1714.48
+      1756.09,
+      1757.34
     ],
-    "ethHistoryStart": "2026-06-03",
-    "ethHistoryEnd": "2026-07-03"
+    "ethHistoryStart": "2026-06-04",
+    "ethHistoryEnd": "2026-07-04"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Sandisk Is the Best-Performing S&P 500 Stock During the First Half of 2026. Here's What Stock I Think Will Dominate the Second Half (Hint: It's Not SpaceX)",
-      "summary": "Sandisk could stay on its monster run to finish 2026.",
+      "title": "Warren Buffett Just Sent Investors an 11-Word Warning About the Stock Market. History Says He's Right.",
+      "summary": "Right now is a smart time to make sure you're investing in the right places.",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/07/03/sandisk-is-the-best-performing-sp-500-stock-during/?.tsrc=rss",
-      "publishedAt": "Fri, 03 Jul 2026 04:50:00 +0000",
+      "url": "https://www.fool.com/investing/2026/07/04/warren-buffett-just-sent-investors-an-11-word-warn/?.tsrc=rss",
+      "publishedAt": "Sat, 04 Jul 2026 05:20:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Wall Street Analysts Are Predicting Something Never Seen Before, and It Should Come as a Huge Warning for Investors",
+      "summary": "Analysts are expecting a lot from the biggest companies in the market over the next five years.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/07/04/wall-street-analysts-are-predicting-something-weve/?.tsrc=rss",
+      "publishedAt": "Sat, 04 Jul 2026 04:20:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "The Rise of Active ETFs: Can Fund Managers Outperform Passive Investing?",
+      "summary": "Whether you want someone to oversee your ETF or prefer to go it alone, knowing what you can expect is important.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/07/03/the-rise-of-active-etfs-can-fund-managers-outperfo/?.tsrc=rss",
+      "publishedAt": "Sat, 04 Jul 2026 03:20:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Zuckerberg: Meta’s AI reorganization goals 'haven’t come to fruition’",
+      "summary": "Shares of Meta Platforms (META) have struggled in 2026, despite the company's aggressive push into artificial intelligence. The stock is down 11.7% year to date through July 2, trailing the S&P 500's roughly 9% gain over the same period. On July 2, Meta’s CEO Mark Zuckerberg acknowledged that ...",
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/investing/stocks/zuckerberg-meta-ai-reorganization-goals-havent-come-to-fruition?.tsrc=rss",
+      "publishedAt": "Sat, 04 Jul 2026 02:33:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Dow Jones Futures Rise After Tesla, Sandisk, AI Stocks Dive; Apple, Robinhood Flash Buy Signals",
+      "title": "Dow Jones Futures: Techs' Rise Signal AI Trend Isn't Over; Apple, Robinhood Flash Buy Signals",
       "summary": "The stock market had strong weekly gains, but it didn't feel that way with Sandisk and other AI plays selling off Thursday.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/c5c7ee9b-1c12-3518-9e81-d4125388c16f/dow-jones-futures-rise-after.html?.tsrc=rss",
-      "publishedAt": "Fri, 03 Jul 2026 03:00:28 +0000",
+      "url": "https://finance.yahoo.com/m/c5c7ee9b-1c12-3518-9e81-d4125388c16f/dow-jones-futures%3A-techs%27.html?.tsrc=rss",
+      "publishedAt": "Sat, 04 Jul 2026 01:47:16 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Nvidia revealed missing puzzle piece of its long-term strategy",
-      "summary": "Investors seem to be missing or misunderstanding the key details of Nvidia’s long-term strategy. We can see this in the stock's performance. Nvidia (NVDA) stock is up 5.94% year to date at the time of writing, Thursday morning, July 2. Meanwhile, the SPDR S&P 500 index (SPY) is up about 9.36% ...",
-      "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/stocks/nvidia-nuclear-power-conserve-water-long-term-strategy?.tsrc=rss",
-      "publishedAt": "Fri, 03 Jul 2026 01:37:00 +0000",
+      "title": "5 takeaways from President Donald Trump's interview with CNBC",
+      "summary": "The president defended his family's business and said he feels bad that the presidency creates a conflict of interest in any of his children's investments.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/5-takeaways-from-president-donald-trumps-interview-with-cnbc.html",
+      "publishedAt": "Thu, 02 Jul 2026 23:20:58 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "IWO vs. IWM: What's the Best Way to Buy Small-Cap Stocks?",
-      "summary": "Two iShares ETFs offer different ways to invest in Russell 2000 small caps.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/07/02/iwo-vs-iwm-whats-the-best-way-to-buy-small-cap-sto/?.tsrc=rss",
-      "publishedAt": "Thu, 02 Jul 2026 23:20:00 +0000",
+      "title": "First known congressional SpaceX stock buys surface after record IPO",
+      "summary": "The SpaceX stock purchases come as Elon Musk’s company deepens its role in federal contracting and remains closely tied to President Donald Trump’s Washington.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/03/spacex-stock-congress-meuser-cisneros-ipo-disclosure.html",
+      "publishedAt": "Fri, 03 Jul 2026 18:16:43 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Ford achieves quality milestone, as CEO targets flawless new vehicle launches",
+      "summary": "Ford CEO Jim Farley told CNBC that the automaker has learned from its past quality and recall issues, which have hurt its earnings and stained its reputation.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/03/ford-achieves-quality-milestone-targets-flawless-new-vehicle-launches.html",
+      "publishedAt": "Fri, 03 Jul 2026 12:08:21 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
+      "summary": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/03/new-jersey-deli-stockfraud-sentence-patten.html",
+      "publishedAt": "Sat, 04 Jul 2026 01:04:34 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Extreme heat wave threatens U.S. power grids and July 4 travel",
+      "summary": "The heat wave threatens to overwhelm U.S. grids and may force some to change their plans on one of the busiest travel weeks of the year.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/03/extreme-heat-us-power-grids-july-4-travel.html",
+      "publishedAt": "Fri, 03 Jul 2026 19:00:44 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more",
+      "summary": "Why it’s a good month to save on streaming, despite the return of ‘Enola Holmes’ to Netflix and ‘Silo’ to Apple",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-july-2026-on-netflix-hulu-hbo-max-and-more-58d07528?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Jul 2026 20:00:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Record beef imports are flooding the U.S. — so why is your Fourth of July BBQ so expensive?",
+      "summary": "Beef prices are sizzling and Washington’s recipe for high costs — import more meat — only grills your wallet.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/your-fourth-of-july-hamburger-meat-was-likely-imported-and-youre-right-to-have-a-beef-with-that-c25d7c31?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Jul 2026 19:34:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Your aging parent has a new romance. Here’s how to protect your inheritance — without looking greedy.",
+      "summary": "Before your single mom or dad remarries, talk with them about estate-planning issues.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/your-aging-parent-has-a-new-romance-heres-how-to-protect-your-inheritance-without-looking-greedy-cbc219ab?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Jul 2026 19:32:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Opening a ‘Trump account’ for your children? Here is the risk you need to reckon with first.",
+      "summary": "The new accounts ban bonds and international stocks, forcing parents to bet their children’s financial future entirely on U.S. equities.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/opening-a-trump-account-for-your-children-here-is-the-risk-you-need-to-recognize-first-fe206bc0?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Jul 2026 19:10:00 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "Q2 Earnings Season Nears Kickoff: Bank Earnings in Focus",
-      "summary": "The overall revisions trend heading into the start of the Q2 cycle remains positive, with expectations steadily increasing over recent months. JPMorgan, Bank of America, Citigroup, and Wells Fargo will help start the June-quarter reporting cycle for the Finance sector on July 14th.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-season-nears-kickoff-231000245.html?.tsrc=rss",
-      "publishedAt": "Thu, 02 Jul 2026 23:10:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
-      "summary": "A drop in the unemployment rate helped provide some upside to what was an otherwise downbeat jobs report — but it was for all the wrong reasons.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
-      "publishedAt": "Thu, 02 Jul 2026 18:09:31 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Venezuela quake toll climbs to 2,595 as damage estimates mount after strongest tremor in a century",
-      "summary": "Death toll from twin earthquakes that struck Venezuela jumped to 2,595, as rescue operations continued after the country's strongest tremors in over a century.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/03/venezuela-earthquakes-death-toll-rises-rescue-efforts-continue.html",
-      "publishedAt": "Fri, 03 Jul 2026 03:46:27 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Kuaishou shares jump after Tencent joins $2.8 billion raise for Kling AI subsidiary",
-      "summary": "Kuaishou shares rose as much as 6.89% at Friday's Hong Kong market open before paring gains to trade around 0.75% higher.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/03/kuaishou-shares-fall-after-securing-tencent-funding-for-kling-ai.html",
-      "publishedAt": "Fri, 03 Jul 2026 04:28:50 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
-      "summary": "The day before President Donald Trump walked back his tariff policy turned out to be one of his busiest days of 2025 for stock buying.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html",
-      "publishedAt": "Thu, 02 Jul 2026 21:03:39 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Nvidia offers start-up customers chance to swap compute power for revenue share",
-      "summary": "Nvidia says it will give start-ups the chance to swap access to compute power for a slice of future profits under a new program aimed at AI-focused firms.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html",
-      "publishedAt": "Fri, 03 Jul 2026 01:11:33 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Is the stock market open today? Here’s how Fourth of July weekend affects trading hours.",
-      "summary": "Since Independence Day falls on Saturday this year, here’s what to know about markets, mail delivery and more.",
+      "title": "‘I don’t think I’ll make it to 80’: I’m 70 and single. Do I take out a reverse mortgage or a home-equity agreement?",
+      "summary": "“I’m torn between these two options.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-friday-or-will-it-close-early-for-the-fourth-of-july-b9885f36?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 03 Jul 2026 04:09:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "My doctor friend objected to his hospital’s fundraising tactics. Did management go too far?",
-      "summary": "“This shocking program was exploiting doctors and the trust inherent in their relationships with patients.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/there-was-a-catch-my-doctor-friend-was-outraged-by-his-hospitals-fundraising-tactics-where-do-we-draw-the-line-797b9fff?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 02 Jul 2026 23:00:00 GMT",
+      "url": "https://www.marketwatch.com/story/i-dont-think-ill-make-it-to-80-im-70-and-single-do-i-take-out-a-reverse-mortgage-or-a-home-equity-agreement-3b623ee8?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 03 Jul 2026 19:00:00 GMT",
       "sentiment": "neutral"
-    },
-    {
-      "title": "‘I claimed Social Security at 62’: At 76, I’m working at Walmart. Why do I still owe payroll taxes?",
-      "summary": "“It seems like half of the workforce at our local Walmart is over 65.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-claimed-social-security-at-62-at-76-im-working-at-walmart-why-do-i-still-owe-payroll-taxes-8e22a97c?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 02 Jul 2026 22:45:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "When does my kid get the free ‘Trump account’ money?",
-      "summary": "As the accounts start working, here are 5 things families should know about what’s next",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/when-does-my-kid-get-the-free-trump-account-money-37c3f503?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 02 Jul 2026 22:41:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Dow scores fresh record despite tepid jobs report. Why the rest of 2026 is about workers.",
-      "summary": "“American workers are not getting a raise,” says J.P. Morgan Asset Management strategist.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/dow-scores-fresh-record-despite-tepid-jobs-report-why-the-rest-of-2026-is-about-workers-6247fbed?mod=mw_rss_topstories",
-      "publishedAt": "Thu, 02 Jul 2026 22:38:00 GMT",
-      "sentiment": "positive"
     }
   ],
-  "fearGreedIndex": 21,
+  "fearGreedIndex": 22,
   "valuation": {
     "sp500": {
       "pe": 26.67,
