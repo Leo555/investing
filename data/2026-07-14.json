@@ -2,10 +2,10 @@
   "date": "2026-07-14",
   "dataDate": "2026-07-13",
   "forecastDate": "2026-07-14",
-  "timestamp": "2026-07-14T12:53:15.914773+08:00",
+  "timestamp": "2026-07-15T12:53:39.879415+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": 11,
+  "sentimentScore": 10,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -21,17 +21,17 @@
     "avgVolume": 10726169000,
     "yearHigh": 27190.21,
     "yearHighDate": "2026-06-01",
-    "yearLow": 20492.63,
-    "yearLowDate": "2025-07-14",
-    "pe": 31.58,
+    "yearLow": 20507.06,
+    "yearLowDate": "2025-07-16",
+    "pe": 31.94,
     "marketCap": null,
     "sma20": 25972.7,
     "sma50": 26072.49,
     "sma200": null,
     "rsi14": 46.0,
-    "macdLine": 20.919,
-    "macdSignal": -7.0639,
-    "macdHistogram": 27.9829,
+    "macdLine": 19.4982,
+    "macdSignal": -9.0287,
+    "macdHistogram": 28.5269,
     "bollingerUpper": 26688.6,
     "bollingerMiddle": 25972.7,
     "bollingerLower": 25256.79,
@@ -206,15 +206,15 @@
     "yearHighDate": "2026-06-02",
     "yearLow": 6201.59,
     "yearLowDate": "2025-07-16",
-    "pe": 26.95,
+    "pe": 27.04,
     "marketCap": null,
     "sma20": 7469.52,
     "sma50": 7440.71,
     "sma200": null,
     "rsi14": 53.9,
-    "macdLine": 33.031,
-    "macdSignal": 23.1067,
-    "macdHistogram": 9.9244,
+    "macdLine": 32.8115,
+    "macdSignal": 22.8028,
+    "macdHistogram": 10.0087,
     "bollingerUpper": 7603.52,
     "bollingerMiddle": 7469.52,
     "bollingerLower": 7335.51,
@@ -373,10 +373,9 @@
     ]
   },
   "indicators": {
-    "vix": 17.16,
-    "vixChange": 2.13,
+    "vix": 16.5,
+    "vixChange": -0.66,
     "vixHistory": [
-      15.32,
       16.05,
       15.77,
       16.06,
@@ -405,12 +404,13 @@
       16.9,
       15.84,
       15.03,
-      17.16
+      17.16,
+      16.5
     ],
-    "vixHistoryStart": "2026-05-29",
-    "vixHistoryEnd": "2026-07-13",
-    "dxy": 101.19,
-    "dxyChange": -0.09,
+    "vixHistoryStart": "2026-06-01",
+    "vixHistoryEnd": "2026-07-14",
+    "dxy": 100.81,
+    "dxyChange": -0.47,
     "dxyHistory": [
       99.2,
       99.22,
@@ -441,14 +441,13 @@
       100.94,
       100.97,
       101.28,
-      101.19
+      100.81
     ],
     "dxyHistoryStart": "2026-06-01",
-    "dxyHistoryEnd": "2026-07-14",
-    "us10y": 4.61,
-    "us10yChange": 0.04,
+    "dxyHistoryEnd": "2026-07-15",
+    "us10y": 4.59,
+    "us10yChange": -0.02,
     "us10yHistory": [
-      4.45,
       4.47,
       4.45,
       4.49,
@@ -477,14 +476,14 @@
       4.57,
       4.54,
       4.57,
-      4.61
+      4.61,
+      4.59
     ],
-    "us10yHistoryStart": "2026-05-29",
-    "us10yHistoryEnd": "2026-07-13",
-    "us2y": 3.73,
-    "us2yChange": 0.04,
+    "us10yHistoryStart": "2026-06-01",
+    "us10yHistoryEnd": "2026-07-14",
+    "us2y": 3.7,
+    "us2yChange": -0.03,
     "us2yHistory": [
-      3.59,
       3.62,
       3.62,
       3.62,
@@ -513,14 +512,14 @@
       3.72,
       3.68,
       3.69,
-      3.73
+      3.73,
+      3.7
     ],
-    "us2yHistoryStart": "2026-05-29",
-    "us2yHistoryEnd": "2026-07-13",
-    "gold": 4027.3,
-    "goldChange": 30.3,
+    "us2yHistoryStart": "2026-06-01",
+    "us2yHistoryEnd": "2026-07-14",
+    "gold": 4035.6,
+    "goldChange": -25.5,
     "goldHistory": [
-      4475.2,
       4489.1,
       4436.7,
       4475.8,
@@ -549,14 +548,14 @@
       4130.6,
       4104.1,
       3997.0,
-      4027.3
+      4061.1,
+      4035.6
     ],
-    "goldHistoryStart": "2026-06-01",
-    "goldHistoryEnd": "2026-07-14",
-    "oil": 79.79,
-    "oilChange": 1.65,
+    "goldHistoryStart": "2026-06-02",
+    "goldHistoryEnd": "2026-07-15",
+    "oil": 79.82,
+    "oilChange": 0.48,
     "oilHistory": [
-      92.16,
       93.76,
       96.02,
       93.04,
@@ -585,14 +584,14 @@
       72.08,
       71.41,
       78.14,
-      79.79
+      79.34,
+      79.82
     ],
-    "oilHistoryStart": "2026-06-01",
-    "oilHistoryEnd": "2026-07-14",
-    "btc": 62641.28,
-    "btcChange": 792.4,
+    "oilHistoryStart": "2026-06-02",
+    "oilHistoryEnd": "2026-07-15",
+    "btc": 64755.02,
+    "btcChange": -74.29,
     "btcHistory": [
-      66179.29,
       65716.96,
       64280.2,
       62822.61,
@@ -621,14 +620,14 @@
       64154.88,
       63861.44,
       61848.88,
-      62641.28
+      64829.31,
+      64755.02
     ],
-    "btcHistoryStart": "2026-06-14",
-    "btcHistoryEnd": "2026-07-14",
-    "eth": 1783.57,
-    "ethChange": 27.67,
+    "btcHistoryStart": "2026-06-15",
+    "btcHistoryEnd": "2026-07-15",
+    "eth": 1876.23,
+    "ethChange": -5.25,
     "ethHistory": [
-      1789.38,
       1794.39,
       1740.23,
       1705.44,
@@ -657,10 +656,11 @@
       1812.44,
       1803.98,
       1755.9,
-      1783.57
+      1881.48,
+      1876.23
     ],
-    "ethHistoryStart": "2026-06-14",
-    "ethHistoryEnd": "2026-07-14"
+    "ethHistoryStart": "2026-06-15",
+    "ethHistoryEnd": "2026-07-15"
   },
   "sectors": [
     {
@@ -679,11 +679,6 @@
       "changePercent": 0.65
     },
     {
-      "name": "房地产",
-      "symbol": "XLRE",
-      "changePercent": 0.56
-    },
-    {
       "name": "日常消费品",
       "symbol": "XLP",
       "changePercent": 0.56
@@ -696,7 +691,12 @@
     {
       "name": "通信",
       "symbol": "XLC",
-      "changePercent": -0.04
+      "changePercent": -0.13
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": -0.49
     },
     {
       "name": "材料",
@@ -721,131 +721,131 @@
   ],
   "news": [
     {
-      "title": "Goldman Sachs drops new warning on interest rate hikes",
-      "summary": "Stock market investors are heading into CPI week with a familiar playbook. The hope is that inflation cools off further and the Fed stays on hold, with robust earnings taking over as the next driver of the S&P 500. For perspective, the S&P 500 recently traded near 7,575, up about 10.7% year ...",
+      "title": "Dow Jones Futures: Goldman, CrowdStrike Jump, But AI Stocks Need To Do This",
+      "summary": "The Nasdaq and AI stocks rallied, but still face key resistance. Goldman and CrowdStrike make big bullish moves.",
       "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/fed/goldman-sachs-drops-new-warning-on-interest-rate-hikes?.tsrc=rss",
-      "publishedAt": "Tue, 14 Jul 2026 03:07:00 +0000",
+      "url": "https://finance.yahoo.com/m/ff2fea6d-f6fc-389f-b0c6-62b745afe36d/dow-jones-futures%3A-goldman%2C.html?.tsrc=rss",
+      "publishedAt": "Wed, 15 Jul 2026 02:55:40 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher On Cooling Inflation Signs, Strong Big Bank Earnings: IBM, APLD, SKYH, NBIS in Focus",
+      "summary": "According to data from the Bureau of Labor Statistics (BLS), the Consumer Price Index (CPI) for June rose 3.5% year-on-year, below market expectations.",
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-higher-on-cooling-inflation-signs-strong-big-bank-earnings/cZZ28svR7qU?.tsrc=rss",
+      "publishedAt": "Wed, 15 Jul 2026 02:46:57 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cisco Stock: Market Risk, Not Portfolio Diversification",
+      "summary": "The networking giant is showing independent strength, but understanding how it swings with the market is the key to owning it.",
+      "source": "Yahoo Finance",
+      "url": "https://www.trefis.com/articles/607062/cisco-stock-market-risk-not-portfolio-diversification/2026-07-14?.tsrc=rss",
+      "publishedAt": "Wed, 15 Jul 2026 01:14:57 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "Elastic, Veeva Systems, and SentinelOne Shares Are Soaring, What You Need To Know",
-      "summary": "A number of stocks jumped in the afternoon session after investors appeared to rotate into oversold enterprise software names amid profit taking in chip stocks.",
+      "title": "LOW Paid Holders $47 Bil While The Stock Went Nowhere",
+      "summary": "The home improvement giant showered its owners with cash, yet the stock barely budged. Here’s what shareholders actually got, and what has to happen next for the trade to make sense.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-veeva-systems-sentinelone-shares-020639513.html?.tsrc=rss",
-      "publishedAt": "Tue, 14 Jul 2026 02:06:39 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Paylocity, Rapid7, and Braze Shares Skyrocket, What You Need To Know",
-      "summary": "A number of stocks jumped in the afternoon session after investors appeared to rotate into oversold enterprise software names amid profit taking in chip stocks.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/paylocity-rapid7-braze-shares-skyrocket-020639138.html?.tsrc=rss",
-      "publishedAt": "Tue, 14 Jul 2026 02:06:39 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Workiva, Wix, and Asure Software Stocks Trade Up, What You Need To Know",
-      "summary": "A number of stocks jumped in the afternoon session after investors appeared to rotate into oversold enterprise software names amid profit taking in chip stocks.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/workiva-wix-asure-software-stocks-015839996.html?.tsrc=rss",
-      "publishedAt": "Tue, 14 Jul 2026 01:58:39 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "monday.com, Marqeta, and GitLab Shares Skyrocket, What You Need To Know",
-      "summary": "A number of stocks jumped in the afternoon session after investors appeared to rotate into oversold enterprise software names amid profit taking in chip stocks. While the Nasdaq retreated and semiconductor leaders like Micron (-4%) sold off, major SaaS incumbents caught a strong bid.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/monday-com-marqeta-gitlab-shares-015039753.html?.tsrc=rss",
-      "publishedAt": "Tue, 14 Jul 2026 01:50:39 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Oil extends gains as Mideast tensions and Hormuz toll prospects raise supply worries",
-      "summary": "Oil prices rose on Tuesday after U.S. President Donald Trump announced plans to impose shipping fees in the Strait of Hormuz.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/14/oil-prices-today-brent-wti-hormuz-trump-toll-iran.html",
-      "publishedAt": "Tue, 14 Jul 2026 04:26:26 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "U.S. targets Iranian military assets in latest round of strikes as Tehran hits Gulf states",
-      "summary": "The U.S. has completed a third consecutive night of strikes against Iran, as Tehran targets U.S. military facilities in the region.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/14/us-iran-hormuz-strikes-oil-toll.html",
-      "publishedAt": "Tue, 14 Jul 2026 04:51:54 GMT",
+      "url": "https://www.trefis.com/articles/607029/low-paid-holders-47-bil-while-the-stock-went-nowhere/2026-07-14?.tsrc=rss",
+      "publishedAt": "Wed, 15 Jul 2026 00:50:53 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "China exports in June rise at fastest pace since 2021 as AI boom, tariff rush lift trade",
-      "summary": "China's exports to the U.S. jumped around 14% last month while imports grew 26%, according to CNBC calculation of the official data.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/14/china-june-trade-data-exports-imports.html",
-      "publishedAt": "Tue, 14 Jul 2026 04:32:15 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "South Carolina governor taps Lindsey Graham's sister to serve as interim senator",
-      "summary": "The death of Sen. Lindsey Graham ignited a scramble among South Carolina Republicans to prepare for a special primary election to replace him on the GOP ticket.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/13/trump-lindsey-graham-darline-south-carolina-senator.html",
-      "publishedAt": "Mon, 13 Jul 2026 21:03:13 GMT",
+      "title": "Review & Preview: Inflation Cools",
+      "summary": "It was a jam-packed day for the markets: earnings season started strong, oil futures fluctuated, Federal Reserve Chairman Kevin Warsh testified in front of lawmakers, and the latest June inflation report delivered a cooler-than-expected reading that should make policymakers hold off on raising inter",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/3096eb76-83d8-3913-b57f-b9c59114b43c/review-%26-preview%3A-inflation.html?.tsrc=rss",
+      "publishedAt": "Tue, 14 Jul 2026 23:55:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Trump's Hormuz toll plans bring oil supply risks back in spotlight",
-      "summary": "President Donald Trump's plan to impose a 20% fee on cargo passing through the Strait of Hormuz is threatening the global oil surplus.",
+      "title": "Oil rises after another round of U.S. strikes against Iran, naval blockade of the country's ports",
+      "summary": "Oil prices rose Wednesday after U.S. forces struck Tehran and Washington reinstated its naval blockade of Iranian ports near the Strait of Hormuz.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/14/trumps-hormuz-toll-plans-bring-oil-supply-risks-back-in-spotlight.html",
-      "publishedAt": "Tue, 14 Jul 2026 02:37:12 GMT",
+      "url": "https://www.cnbc.com/2026/07/15/oil-prices-today-brent-wti-hormuz-blockade.html",
+      "publishedAt": "Wed, 15 Jul 2026 04:40:58 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
+      "summary": "That second-quarter growth came below Beijing's full-year growth target range of 4.5% to 5%, the least ambitious goal in decades.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
+      "publishedAt": "Wed, 15 Jul 2026 04:37:57 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "The AI boom just found two new winners: Goldman Sachs and JPMorgan Chase",
+      "summary": "Goldman Sachs and JPMorgan showed that Wall Street is a major beneficiary of the AI boom, with record revenue driven by surging trading and investment banking.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/14/goldman-sachs-and-jpmorgan-chase-are-emerging-as-ai-winners.html",
+      "publishedAt": "Tue, 14 Jul 2026 19:50:48 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK Hynix South Korean shares jump 11% as Asia tech stocks rally",
+      "summary": "SK Hynix led a broad rally in Asian technology shares on Wednesday, tracking a rebound in U.S. semiconductor shares after a sharp selloff earlier this week.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/15/sk-hynix-asia-tech-stocks-rally-.html",
+      "publishedAt": "Wed, 15 Jul 2026 01:22:34 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "IBM stock craters 25%, the worst day on record, after company issues second-quarter earnings warning",
+      "summary": "The CEO blamed the shortfall on weakness in the software and infrastructure business because clients shifted money toward hardware purchases.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
+      "publishedAt": "Tue, 14 Jul 2026 21:01:06 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "The U.S. is maxing out its strategic oil reserves as Trump vows to control the Strait of Hormuz",
-      "summary": "Strategic Petroleum Reserve stockpiles are precariously low and have been hit by major equipment failures, leaks and spills, according to a government report.",
+      "title": "Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump",
+      "summary": "Americans got some relief at the gas pump in recent weeks, enough to slow down inflation. That might not last long as the U.S. and Iran continue to vie for control of the Strait of Hormuz.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-u-s-is-maxing-out-its-strategic-oil-reserves-as-trump-vows-to-control-the-strait-of-hormuz-b71f88a9?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 14 Jul 2026 02:30:00 GMT",
-      "sentiment": "neutral"
+      "url": "https://www.marketwatch.com/story/brace-for-4-gas-again-how-u-s-iran-tensions-are-threatening-to-end-the-price-break-at-the-pump-343a76e1?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 15 Jul 2026 00:28:00 GMT",
+      "sentiment": "negative"
     },
     {
-      "title": "Sandisk’s stock is plunging, but some analysts are getting even more bullish",
-      "summary": "One new stock-price target implies nearly 85% upside from current levels.",
+      "title": "This overlooked index is a better investment than the S&P 500",
+      "summary": "We did the math over a 30-year period, and it’s not even close.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/sandisks-stock-is-plunging-but-some-analysts-are-getting-even-more-bullish-cba3472f?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 14 Jul 2026 00:55:00 GMT",
-      "sentiment": "positive"
+      "url": "https://www.marketwatch.com/story/this-overlooked-index-is-a-better-investment-than-the-s-p-500-74c7e698?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 14 Jul 2026 23:32:00 GMT",
+      "sentiment": "neutral"
     },
     {
       "title": "‘It’s heartbreaking’: My brother claimed Social Security at 70. He died from cancer after one payment. Why wait to claim?",
       "summary": "“I’ve always been a little skeptical of the government’s encouragement to delay claiming benefits.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 13 Jul 2026 23:30:00 GMT",
+      "publishedAt": "Tue, 14 Jul 2026 22:15:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "I’m 67 with a $140,000 pension. Should I wait until 70 to claim Social Security so my wife gets more?",
-      "summary": "“When I pass, all my retirement income is reduced to $30,000 a year.”",
+      "title": "Your monthly Netflix bill is up 29% in just over a year. Critics say Washington needs to fix it.",
+      "summary": "Netflix is still a Wall Street favorite — and a target for government regulators",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-67-with-a-140-000-pension-should-i-wait-until-70-to-claim-social-security-so-my-wife-gets-more-63759d48?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 13 Jul 2026 23:03:00 GMT",
+      "url": "https://www.marketwatch.com/story/your-monthly-netflix-bill-is-up-29-in-just-over-a-year-critics-say-washington-needs-to-fix-it-bcab6e5b?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 14 Jul 2026 22:11:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Why a borrowing binge by investors is a warning sign for the stock market",
-      "summary": "Investors are increasingly borrowing to buy stocks, a reflection of greed in the stock market as they seek to amplify returns with margin debt. The growing pile of borrowed money has some on Wall Street nervous.",
+      "title": "Three powerful forces are draining family wealth — and your estate plan is completely unprepared",
+      "summary": "From Medicaid cuts to an IRA tax trap, here are the real threats to your family’s inheritance and what to do about them.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-a-borrowing-binge-by-investors-is-a-warning-sign-for-the-stock-market-996ee446?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 13 Jul 2026 22:19:00 GMT",
+      "url": "https://www.marketwatch.com/story/the-great-wealth-transfer-is-real-but-the-irs-or-a-nursing-home-might-get-your-money-first-d0c46676?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 14 Jul 2026 21:38:00 GMT",
       "sentiment": "negative"
     }
   ],
-  "fearGreedIndex": 22,
+  "fearGreedIndex": 25,
   "valuation": {
     "sp500": {
-      "pe": 26.95,
-      "forwardPE": 24.5,
+      "pe": 27.04,
+      "forwardPE": 24.58,
       "pePercentile1y": 94,
       "pePercentile5y": null,
       "pePercentile10y": null,
@@ -858,8 +858,8 @@
       "currentPrice": 749.17
     },
     "nasdaq": {
-      "pe": 31.58,
-      "forwardPE": 27.46,
+      "pe": 31.94,
+      "forwardPE": 27.77,
       "pePercentile1y": 87,
       "pePercentile5y": null,
       "pePercentile10y": null,
