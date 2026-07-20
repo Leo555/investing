@@ -2,10 +2,10 @@
   "date": "2026-07-20",
   "dataDate": "2026-07-17",
   "forecastDate": "2026-07-20",
-  "timestamp": "2026-07-18T12:50:35.383635+08:00",
+  "timestamp": "2026-07-20T13:42:00.811630+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bearish",
-  "sentimentScore": -27,
+  "sentimentScore": -28,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -409,10 +409,9 @@
     ],
     "vixHistoryStart": "2026-06-04",
     "vixHistoryEnd": "2026-07-17",
-    "dxy": 100.75,
-    "dxyChange": 0.02,
+    "dxy": 100.71,
+    "dxyChange": -0.04,
     "dxyHistory": [
-      99.41,
       100.07,
       100.05,
       99.91,
@@ -441,10 +440,11 @@
       100.94,
       100.5,
       100.73,
-      100.75
+      100.75,
+      100.71
     ],
-    "dxyHistoryStart": "2026-06-04",
-    "dxyHistoryEnd": "2026-07-17",
+    "dxyHistoryStart": "2026-06-05",
+    "dxyHistoryEnd": "2026-07-20",
     "us10y": 4.54,
     "us10yChange": -0.03,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-06-04",
     "us2yHistoryEnd": "2026-07-17",
-    "gold": 4012.7,
-    "goldChange": 27.1,
+    "gold": 4014.9,
+    "goldChange": 2.2,
     "goldHistory": [
-      4475.8,
       4337.1,
       4335.9,
       4260.0,
@@ -549,14 +548,14 @@
       4061.1,
       4044.0,
       3985.6,
-      4012.7
+      4012.7,
+      4014.9
     ],
-    "goldHistoryStart": "2026-06-04",
-    "goldHistoryEnd": "2026-07-17",
-    "oil": 82.49,
-    "oilChange": 3.54,
+    "goldHistoryStart": "2026-06-05",
+    "goldHistoryEnd": "2026-07-20",
+    "oil": 83.65,
+    "oilChange": 1.16,
     "oilHistory": [
-      93.04,
       90.54,
       91.3,
       88.2,
@@ -585,15 +584,14 @@
       79.34,
       79.6,
       78.95,
-      82.49
+      82.49,
+      83.65
     ],
-    "oilHistoryStart": "2026-06-04",
-    "oilHistoryEnd": "2026-07-17",
-    "btc": 63906.17,
-    "btcChange": -27.37,
+    "oilHistoryStart": "2026-06-05",
+    "oilHistoryEnd": "2026-07-20",
+    "btc": 64175.03,
+    "btcChange": -462.0,
     "btcHistory": [
-      63266.16,
-      64230.36,
       63730.37,
       63911.61,
       62515.96,
@@ -621,15 +619,15 @@
       64831.34,
       63920.25,
       63933.54,
-      63906.17
+      64774.66,
+      64637.03,
+      64175.03
     ],
-    "btcHistoryStart": "2026-06-18",
-    "btcHistoryEnd": "2026-07-18",
-    "eth": 1842.4,
-    "ethChange": 3.75,
+    "btcHistoryStart": "2026-06-20",
+    "btcHistoryEnd": "2026-07-20",
+    "eth": 1857.06,
+    "ethChange": -11.74,
     "ethHistory": [
-      1706.25,
-      1741.87,
       1715.61,
       1722.39,
       1662.72,
@@ -657,10 +655,12 @@
       1921.91,
       1867.66,
       1838.65,
-      1842.4
+      1862.73,
+      1868.8,
+      1857.06
     ],
-    "ethHistoryStart": "2026-06-18",
-    "ethHistoryEnd": "2026-07-18"
+    "ethHistoryStart": "2026-06-20",
+    "ethHistoryEnd": "2026-07-20"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "If Volatility Stays Low, Here’s What Happens to DIVO’s Monthly Income",
-      "summary": "DIVO's covered-call strategy looks solid on paper, but two macro forces are quietly working against its monthly payouts in ways most income investors overlook. Here is what the options chain and the Treasury market are signaling right now.",
+      "title": "Aktsiaselts Infortar own share acquisition transactions",
+      "summary": "Aktsiaselts Infortar acquired its own shares on the Nasdaq Tallinn Stock Exchange during the period of 13 July – 17 July 2026 as follows: DateAggregated volume (pcs)Weighted average price per day (EUR)13.07.202640850,400014.07.202636450,400015.07.202636250,304416.07.202637050,600017.07.202637650,715",
       "source": "Yahoo Finance",
-      "url": "https://247wallst.com/investing/etf/2026/07/17/if-volatility-stays-low-heres-what-happens-to-divos-monthly-income/?.tsrc=rss",
-      "publishedAt": "Sat, 18 Jul 2026 00:10:56 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Why ConocoPhillips Stock Flew Higher on Friday",
-      "summary": "The company agreed to take on a large stake in a series of oil plays in northern Iraq.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/07/17/why-conocophillips-stock-flew-higher-on-friday/?.tsrc=rss",
-      "publishedAt": "Fri, 17 Jul 2026 23:56:54 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Review & Preview: It Could Have Been Worse",
-      "summary": "REVIEW PREVIEW NEWSLETTER Summer Repeat. It sounds like a broken record, but once again tech was the reason behind the market’s downbeat end to the week. Insurance earnings helped rescue the Dow Jones Industrial Average from an even bigger decline.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/ab74aa16-bca4-36a9-a20c-e0bf021a9324/review-%26-preview%3A-it-could.html?.tsrc=rss",
-      "publishedAt": "Fri, 17 Jul 2026 23:55:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "nLIGHT (LASR) Stock Trades Up, Here Is Why",
-      "summary": "Shares of laser company nLIGHT (NASDAQ:LASR) jumped 5.8% in the afternoon session after investors focused on a $627 million defense contract, allowing the stock to rally against a broader selloff in the technology sector. The stock experienced significant volatility following a sharp rally driven by",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nlight-lasr-stock-trades-why-234546943.html?.tsrc=rss",
-      "publishedAt": "Fri, 17 Jul 2026 23:45:46 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Can ‘The Odyssey’ Beat the World Cup?",
-      "summary": "Christopher Nolan’s movies have strong staying power, but the World Cup has Lionel Messi. Which will get more viewers?",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/48a32597-6ae8-355b-a544-f6382f92c478/can-%E2%80%98the-odyssey%E2%80%99-beat-the.html?.tsrc=rss",
-      "publishedAt": "Fri, 17 Jul 2026 23:17:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Trump rips Canada as wildfire smoke spreads, says U.S. will add pollution cost to tariffs",
-      "summary": "The smoke coming from active wildfires in Canada has led to unhealthy air quality in swaths of the U.S., which could affect the World Cup final in New Jersey.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/17/trump-canada-wildfire-tariffs.html",
-      "publishedAt": "Fri, 17 Jul 2026 23:08:24 GMT",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aktsiaselts-infortar-own-share-acquisition-050000482.html?.tsrc=rss",
+      "publishedAt": "Mon, 20 Jul 2026 05:00:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Inside the Chinese fraud rings stealing billions from banks and retailers",
-      "summary": "Chinese organized crime groups are making as much as $1 billion annually in tap-to-pay fraud schemes targeting retailers and banks.",
+      "title": "Schwab Emerging Markets ETF vs. iShares World ETF: Which International ETF Is the Better Buy for Investors?",
+      "summary": "See how these popular developed and emerging markets ETFs stack up on fees, performance, and risk profiles.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/coverage/etfs/2026/07/19/schwab-emerging-markets-etf-vs-ishares-world-etf-which-international-etf-is-the-better-buy-for-investors/?.tsrc=rss",
+      "publishedAt": "Mon, 20 Jul 2026 03:16:45 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Dow Jones Futures: Oil Prices Rise Amid Iran News; Google, Tesla Ahead",
+      "summary": "Dow Jones futures: Iran attacks killed three U.S. servicemembers. Google earnings and capex guidance will be key this week. Tesla, Intel, GE Vernova also report.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/6c8dacfc-1037-32fc-a343-353600ff0076/dow-jones-futures%3A-oil-prices.html?.tsrc=rss",
+      "publishedAt": "Mon, 20 Jul 2026 03:04:27 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cathie Wood sells $11.7 million of tumbling semiconductor stock",
+      "summary": "Cathie Wood, head of Ark Investment Management, has built a reputation for backing artificial intelligence stocks. But even her highest-conviction holdings aren't immune to profit-taking. That's exactly what she's doing with AMD this week, selling more shares after the chipmaker's recent pullback. .",
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-11-7-million-of-tumbling-semiconductor-stock?.tsrc=rss",
+      "publishedAt": "Mon, 20 Jul 2026 02:33:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "MU, SNDK, CRWV, IREN Stocks Climb After Brutal Week: Retail Bets On Memory, Neocloud Rebound",
+      "summary": "Chip and AI-linked stocks have whacked in recent weeks after a sharp run-up, while inflation concerns, the U.S.-Iran conflict, and stretched valuations have also weighed on sentiment.",
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-crwv-iren-stocks-climb-after-brutal-week-retail-bets-on-memory-neocloud-rebound/cZZLNUzR7Mm?.tsrc=rss",
+      "publishedAt": "Mon, 20 Jul 2026 01:47:33 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Brent breaches $90 as Middle East risks mount with U.S-Iran tensions on the rise",
+      "summary": "American forces have started ninth consecutive night of strikes against Iranian targets.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/17/tap-pay-fraud-retail-crime.html",
-      "publishedAt": "Fri, 17 Jul 2026 13:12:11 GMT",
+      "url": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html",
+      "publishedAt": "Mon, 20 Jul 2026 04:43:02 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "The White House is dictating access to frontier AI models, shifting power from tech giants, sources say",
-      "summary": "The Trump administration is taking steps to control who gets access to the latest frontier models, people familiar with the matter told CNBC.",
+      "title": "FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close",
+      "summary": "The football governing body presided over the most lucrative sporting event in history and is poised to net over $9 billion in revenue for 2026.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/17/white-house-ai-access-anthropic-openai.html",
-      "publishedAt": "Fri, 17 Jul 2026 23:10:07 GMT",
+      "url": "https://www.cnbc.com/2026/07/20/world-cup-fifa-football-winner-tournament-spain.html",
+      "publishedAt": "Mon, 20 Jul 2026 05:17:16 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Taco Bell says it has removed lettuce linked to cyclosporiasis outbreak from its restaurants",
-      "summary": "Taco Bell, which the CDC linked to the cyclosporiasis outbreak, will likely recover soon from the health safety scare, according to analysts.",
+      "title": "Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics",
+      "summary": "Russia and Ukraine traded their heaviest strikes in months, fueling fears of escalation and further strain on oil supplies.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/17/cyclosporiasis-outbreak-linked-to-taco-bell-may-not-have-major-impact.html",
-      "publishedAt": "Fri, 17 Jul 2026 22:16:23 GMT",
+      "url": "https://www.cnbc.com/2026/07/20/nato-russia-ukraine-war-missile-attacks-drone-europe-defense-.html",
+      "publishedAt": "Mon, 20 Jul 2026 04:49:24 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "TSMC is accelerating Arizona factory buildout to capitalize on AI 'megatrend,' CFO says",
+      "summary": "Speaking in an interview with CNBC, TSMC's Wendell Huang said the fresh investment comes on the back of robust customer demand.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html",
+      "publishedAt": "Mon, 20 Jul 2026 04:44:27 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Economic outlook is worsening and Trump is getting blamed, CNBC survey finds",
-      "summary": "The public is as depressed about the economy as it has been since the years just after the pandemic, according to the All-America Economic Survey.",
+      "title": "U.S. hits Iran for ninth consecutive night as American casualties rise",
+      "summary": "The U.S. began a ninth straight night of strikes against Iran, escalating a campaign to destroy Tehran's ability to disrupt shipping in the Strait of Hormuz.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/17/economic-outlook-is-worsening-and-trump-is-getting-blamed-cnbc-survey-finds.html",
-      "publishedAt": "Fri, 17 Jul 2026 19:49:17 GMT",
-      "sentiment": "neutral"
+      "url": "https://www.cnbc.com/2026/07/20/us-iran-strait-of-hormuz-hostilities-casualties-.html",
+      "publishedAt": "Mon, 20 Jul 2026 03:00:28 GMT",
+      "sentiment": "positive"
     },
     {
-      "title": "Meet Kimi K3, the newest Chinese AI model haunting Silicon Valley",
-      "summary": "Moonshot AI’s new open model is catching up to Anthropic and OpenAI, raising questions about the future of the AI race.",
+      "title": "Oil prices rise, stock futures flat as fighting between U.S. and Iran intensifies",
+      "summary": "Oil prices rose while U.S stock-index futures were little changed on Sunday, amid an escalation of fighting in the Middle East and as investors await key tech earnings this week.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/meet-kimi-k3-the-newest-chinese-ai-model-haunting-silicon-valley-755ed738?mod=mw_rss_topstories",
-      "publishedAt": "Sat, 18 Jul 2026 01:17:00 GMT",
-      "sentiment": "neutral"
+      "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 20 Jul 2026 03:02:00 GMT",
+      "sentiment": "positive"
     },
     {
-      "title": "The World Cup–winning side will make $50 million — and the IRS gets a cut",
+      "title": "World Cup-champion Spain just won $50 million — and the IRS gets a cut",
       "summary": "“It doesn’t make a difference who wins the game. The IRS will get a piece.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/the-world-cupwinning-side-will-make-50-million-and-the-irs-gets-a-cut-10f0780b?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 17 Jul 2026 23:05:00 GMT",
+      "publishedAt": "Sun, 19 Jul 2026 22:29:00 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "SpaceX postponed a crucial launch — and its stock went on to close below IPO price for second day",
-      "summary": "Shares in SpaceX declined about 4% in premarket trading on Friday after aborted mission.",
+      "title": "Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?",
+      "summary": "Apple, Amazon, Nvidia and peers are quietly coming back to life, and that could easily jolt this sleepy stock market back into gear.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/spacex-postponed-a-crucial-launch-now-its-stock-is-set-to-slide-even-further-below-the-ipo-price-143adfe0?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 17 Jul 2026 22:55:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "The average stock is having a moment as semiconductors struggle. It’s a sign of a healthy market.",
-      "summary": "It has been a good week to be average on Wall Street.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-average-stock-is-having-a-moment-as-semiconductors-struggle-its-a-sign-of-a-healthy-market-0dc01e9a?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 17 Jul 2026 21:55:00 GMT",
+      "url": "https://www.marketwatch.com/story/can-the-magnificent-seven-save-a-stock-market-that-might-be-doomed-without-them-f88988f3?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 19 Jul 2026 19:06:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "19 (mostly) tech stocks that have fallen at least 25% in July",
-      "summary": "Seven of the worst performers for the month were still up by triple digits for 2026.",
+      "title": "Is there a deadline to claim the $1,000 ‘Trump account’ contribution for my kid?",
+      "summary": "Some children who don’t qualify for the government contribution may be eligible for an initial $250.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/18-tech-stocks-that-have-fallen-at-least-30-during-july-4c373d5e?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 17 Jul 2026 21:45:00 GMT",
-      "sentiment": "negative"
+      "url": "https://www.marketwatch.com/story/is-there-a-deadline-to-claim-the-1-000-trump-account-contribution-for-my-kid-1b70141c?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 19 Jul 2026 15:43:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Can former employers withhold money from your 401(k) when you’re laid off?",
+      "summary": "There are two main ways to move money from your workplace retirement plan when you leave your job. One can cost you.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/can-former-employers-withhold-money-from-your-401-k-when-youre-laid-off-5ceb4d4e?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 19 Jul 2026 14:45:00 GMT",
+      "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 25,
+  "fearGreedIndex": 29,
   "valuation": {
     "sp500": {
       "pe": 26.74,
