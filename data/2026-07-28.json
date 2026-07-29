@@ -2,10 +2,10 @@
   "date": "2026-07-28",
   "dataDate": "2026-07-27",
   "forecastDate": "2026-07-28",
-  "timestamp": "2026-07-28T13:17:01.847201+08:00",
+  "timestamp": "2026-07-29T13:23:58.185676+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bearish",
-  "sentimentScore": -25,
+  "sentimentScore": -27,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -23,15 +23,15 @@
     "yearHighDate": "2026-06-01",
     "yearLow": 20560.17,
     "yearLowDate": "2025-08-01",
-    "pe": 30.27,
+    "pe": 29.98,
     "marketCap": null,
     "sma20": 25813.04,
     "sma50": 26077.07,
     "sma200": null,
     "rsi14": 33.3,
-    "macdLine": -166.3232,
-    "macdSignal": -39.5958,
-    "macdHistogram": -126.7273,
+    "macdLine": -168.4125,
+    "macdSignal": -42.4961,
+    "macdHistogram": -125.9164,
     "bollingerUpper": 26545.22,
     "bollingerMiddle": 25813.04,
     "bollingerLower": 25080.86,
@@ -206,15 +206,15 @@
     "yearHighDate": "2026-06-02",
     "yearLow": 6212.69,
     "yearLowDate": "2025-08-01",
-    "pe": 26.59,
+    "pe": 26.65,
     "marketCap": null,
     "sma20": 7489.95,
     "sma50": 7472.04,
     "sma200": null,
     "rsi14": 39.0,
-    "macdLine": 3.1211,
-    "macdSignal": 22.7878,
-    "macdHistogram": -19.6667,
+    "macdLine": 2.8458,
+    "macdSignal": 22.4053,
+    "macdHistogram": -19.5596,
     "bollingerUpper": 7601.54,
     "bollingerMiddle": 7489.95,
     "bollingerLower": 7378.36,
@@ -409,8 +409,8 @@
     ],
     "vixHistoryStart": "2026-06-11",
     "vixHistoryEnd": "2026-07-27",
-    "dxy": 101.54,
-    "dxyChange": 0.03,
+    "dxy": 101.26,
+    "dxyChange": -0.25,
     "dxyHistory": [
       99.75,
       99.63,
@@ -441,10 +441,10 @@
       101.14,
       101.43,
       101.51,
-      101.54
+      101.26
     ],
     "dxyHistoryStart": "2026-06-12",
-    "dxyHistoryEnd": "2026-07-28",
+    "dxyHistoryEnd": "2026-07-29",
     "us10y": 4.64,
     "us10yChange": -0.06,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-06-11",
     "us2yHistoryEnd": "2026-07-27",
-    "gold": 4042.0,
-    "goldChange": -32.5,
+    "gold": 4028.9,
+    "goldChange": -7.4,
     "goldHistory": [
-      4328.0,
       4330.9,
       4358.9,
       4224.1,
@@ -549,14 +548,14 @@
       4046.6,
       4067.6,
       4074.5,
-      4042.0
+      4036.3,
+      4028.9
     ],
-    "goldHistoryStart": "2026-06-15",
-    "goldHistoryEnd": "2026-07-28",
-    "oil": 81.64,
-    "oilChange": -0.97,
+    "goldHistoryStart": "2026-06-16",
+    "goldHistoryEnd": "2026-07-29",
+    "oil": 81.96,
+    "oilChange": 2.7,
     "oilHistory": [
-      80.75,
       76.05,
       76.79,
       76.6,
@@ -585,14 +584,14 @@
       92.19,
       89.31,
       82.61,
-      81.64
+      79.26,
+      81.96
     ],
-    "oilHistoryStart": "2026-06-15",
-    "oilHistoryEnd": "2026-07-28",
-    "btc": 63392.47,
-    "btcChange": -296.36,
+    "oilHistoryStart": "2026-06-16",
+    "oilHistoryEnd": "2026-07-29",
+    "btc": 63870.11,
+    "btcChange": 182.45,
     "btcHistory": [
-      60281.35,
       58531.71,
       60414.94,
       61420.89,
@@ -621,14 +620,14 @@
       64358.53,
       65378.24,
       63688.83,
-      63392.47
+      63687.66,
+      63870.11
     ],
-    "btcHistoryStart": "2026-06-28",
-    "btcHistoryEnd": "2026-07-28",
-    "eth": 1880.74,
-    "ethChange": -8.85,
+    "btcHistoryStart": "2026-06-29",
+    "btcHistoryEnd": "2026-07-29",
+    "eth": 1904.71,
+    "ethChange": -4.0,
     "ethHistory": [
-      1611.82,
       1566.02,
       1620.57,
       1695.67,
@@ -657,10 +656,11 @@
       1874.9,
       1949.27,
       1889.59,
-      1880.74
+      1908.71,
+      1904.71
     ],
-    "ethHistoryStart": "2026-06-28",
-    "ethHistoryEnd": "2026-07-28"
+    "ethHistoryStart": "2026-06-29",
+    "ethHistoryEnd": "2026-07-29"
   },
   "sectors": [
     {
@@ -721,131 +721,131 @@
   ],
   "news": [
     {
-      "title": "Morgan Stanley sees a troubling S&P 500 repeat",
-      "summary": "Investors were betting the S&P 500’s next leg higher would come from a broader rally, with more cyclical and speculative stocks joining the biggest winners. Morgan Stanley sees something else. Instead of spreading the risk, investors are apparently retreating toward high-quality ...",
+      "title": "A Tired Tech Trade Looks Set to Sink the Stock Market",
+      "summary": "The stock market is doubting everything it once held true, and it has the potential to end the years of easy returns.",
       "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/morgan-stanley-sp500-2021-market-pattern?.tsrc=rss",
-      "publishedAt": "Tue, 28 Jul 2026 03:07:00 +0000",
+      "url": "https://finance.yahoo.com/m/1d5af187-c9ad-3635-bb86-7e61a0e8e64f/a-tired-tech-trade-looks-set.html?.tsrc=rss",
+      "publishedAt": "Wed, 29 Jul 2026 05:00:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Dow Jones Futures: Oil Jumps On Iran News; Seagate, SK Hynix, KLA, Bloom Energy Earnings Late",
+      "summary": "Futures fell as oil prices jumped on an Iran news. Seagate, SK Hynix, KLA, Bloom Energy are key earnings late. Will the Fed surprise?",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/0eb51c4d-da78-36ad-bd11-f37d9adcc2f8/dow-jones-futures%3A-oil-jumps.html?.tsrc=rss",
+      "publishedAt": "Wed, 29 Jul 2026 03:06:28 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "SNDK, NVDA, SKHY, ASML Stocks Extend Slide Overnight Amid China's AI Challenge, Tech Rotation",
-      "summary": "New Chinese AI technologies and a remarkably strong listing by the country’s largest memory chip firm weighed on sentiment toward U.S. semiconductors.",
+      "title": "The Smartest Dividend Stock to Buy With $1,000 Right Now (Spoiler: It Yields 5.6%.)",
+      "summary": "Add the effect of stock buybacks to the dividend, and you're looking at a total yield approaching 11%.",
       "source": "Yahoo Finance",
-      "url": "https://stocktwits.com/news-articles/markets/equity/sndk-nvda-skhy-asml-stocks-extend-slide-overnight-amid-china-ai-challenge-tech-rotation/cZZCeckR766?.tsrc=rss",
-      "publishedAt": "Tue, 28 Jul 2026 02:23:17 +0000",
-      "sentiment": "positive"
+      "url": "https://www.fool.com/investing/2026/07/28/the-smartest-dividend-stock-to-buy-with-1000-sny/?.tsrc=rss",
+      "publishedAt": "Wed, 29 Jul 2026 02:50:00 +0000",
+      "sentiment": "neutral"
     },
     {
-      "title": "US Stock Futures Retreat Amid Chip Pressure Even As Oil Pulls Back On Iran Optimism: APLD, CAPR, NVDA, AMKR In Focus",
-      "summary": "Markets are largely focused on pivotal earnings from major hyperscalers this week, including Amazon.com, Apple, Meta and Microsoft.",
+      "title": "2 Reasons to Sell EFX and 1 Stock to Buy Instead",
+      "summary": "Over the past six months, Equifax’s stock price fell to $177.62. Shareholders have lost 13.5% of their capital, which is disappointing considering the S&P 500 has climbed by 6.3%. This was partly due to its softer quarterly results and may have investors wondering how to approach the situation.",
       "source": "Yahoo Finance",
-      "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-retreat-amid-chip-pressure-even-as-oil-pulls-back-on-iran-optimism-apld-capr-nvda-amkr-in-focus/cZZC43pR76z?.tsrc=rss",
-      "publishedAt": "Tue, 28 Jul 2026 01:49:50 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "3 Reasons SBH is Risky and 1 Stock to Buy Instead",
-      "summary": "Sally Beauty currently trades at $14.64 per share and has shown little upside over the past six months, posting a small loss of 3.7%. The stock also fell short of the S&P 500’s 6.2% gain during that period.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sbh-risky-1-005302142.html?.tsrc=rss",
-      "publishedAt": "Tue, 28 Jul 2026 00:53:02 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-sell-efx-1-012502492.html?.tsrc=rss",
+      "publishedAt": "Wed, 29 Jul 2026 01:25:02 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "2 Reasons to Like ELF (and 1 Not So Much)",
-      "summary": "Over the past six months, e.l.f. Beauty’s stock price fell to $77.27. Shareholders have lost 10.9% of their capital, which is disappointing considering the S&P 500 has climbed by 6.2%. This might have investors contemplating their next move.",
+      "title": "3 Reasons to Avoid CB and 1 Stock to Buy Instead",
+      "summary": "Over the past six months, Chubb has been a great trade, beating the S&P 500 by 11.6%. Its stock price has climbed to $357.81, representing a healthy 17.8% increase. This performance may have investors wondering how to approach the situation.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-elf-1-not-003702629.html?.tsrc=rss",
-      "publishedAt": "Tue, 28 Jul 2026 00:37:02 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-cb-1-011702525.html?.tsrc=rss",
+      "publishedAt": "Wed, 29 Jul 2026 01:17:02 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Iran launches surprise ballistic missile attack on U.S. forces in the Middle East",
+      "summary": "Centcom in a post on X said that the attack originated from Iran, but all missiles were intercepted.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
+      "publishedAt": "Wed, 29 Jul 2026 02:06:49 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Why America's super rich have embraced the appeal of British soccer teams",
+      "summary": "American investors now control more than half the Premier League. CNBC examines why U.K. soccer clubs have become attractive long-term assets.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/29/why-america-super-rich-love-football-clubs-british.html",
+      "publishedAt": "Wed, 29 Jul 2026 05:00:02 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Oil extends losses as a pause in U.S.-Iran hostilities raises de-escalation hopes",
-      "summary": "Speaking to reporters aboard Air Force One on Monday en route to Michigan, Trump dismissed suggestions that the U.S. was running short on weapons.",
+      "title": "Oil jumps as U.S.-Iran resume strikes after a brief pause",
+      "summary": "Oil rose sharply amid renewed tensions in the Middle East after Iran launched an attack on U.S. forces using ballistic missiles.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/oil-price-today-wti-brent-us-iran-hormuz.html",
-      "publishedAt": "Tue, 28 Jul 2026 05:06:22 GMT",
+      "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
+      "publishedAt": "Wed, 29 Jul 2026 00:52:49 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Asian technology stocks extend sell-off with SoftBank down 10% as AI plays take a hit",
+      "summary": "Chinese internet stocks listed in Hong Kong bucked the broader regional weakness with Tencent, Meituan, Baidu and Kuaishou all trading higher.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
+      "publishedAt": "Wed, 29 Jul 2026 04:12:30 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "U.S. and Korean tech stocks are now tightly linked — and that could be a worry for investors",
-      "summary": "The 60-day correlation between the Kospi and Nasdaq 100 recently climbed to about 0.50, its highest level since 2021, according to data provided by Rayliant.",
+      "title": "BTS' concerts have been so successful, it's now bad for its own agency Hybe's shares",
+      "summary": "Shares of Hybe tanked 16.09% on Tuesday, marking its worst day since June 2022. It then extended losses to tumble as much as 16.31% on Wednesday.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/nasdaq-kospi-wall-street-korea-markets-skhynox-samsung.html",
-      "publishedAt": "Tue, 28 Jul 2026 01:34:28 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Apple ends day as world's most valuable company, passing Nvidia",
-      "summary": "Nvidia had held the top spot as the most valuable company since June 2025, when it took the crown from Microsoft.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/apple-most-valuable-company-nvidia.html",
-      "publishedAt": "Mon, 27 Jul 2026 21:12:26 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK Hynix shares plunge 13% in Seoul as chip sell-off deepens",
-      "summary": "South Korean semiconductor shares tumbled on Tuesday, extending a rout in chipmakers after another weak session on Wall Street.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
-      "publishedAt": "Tue, 28 Jul 2026 03:55:49 GMT",
+      "url": "https://www.cnbc.com/2026/07/29/bts-concerts-hybe-record-results-shares-crash.html",
+      "publishedAt": "Wed, 29 Jul 2026 05:11:49 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "Trump administration asks Supreme Court to intervene to allow mail-in voting restrictions",
-      "summary": "A federal appeals court on Saturday kept the restrictions blocked in 23 states that sued, finding states must prepare for potentially disruptive election changes.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/trump-supreme-court-mail-in-voting-restrictions.html",
-      "publishedAt": "Mon, 27 Jul 2026 22:23:50 GMT",
+      "title": "Saudi Arabia has a new, and pricier, workaround to export its oil",
+      "summary": "Loadings at a Mediterranean port have picked up as Saudi Arabia races to offer its oil to buyers through a lengthier — and more expensive — backdoor.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/saudi-arabia-has-a-new-and-pricier-workaround-to-export-its-oil-fb5085a5?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 29 Jul 2026 01:28:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Nvidia’s potential new deal with OpenAI would revive a spooky tech-bubble habit, analyst warns",
-      "summary": "Investors are fretting over a report that Nvidia could backstop an OpenAI data-center lease, in what would be the largest such arrangement yet.",
+      "title": "Seagate’s earnings are welcome news for the battered AI trade",
+      "summary": "The storage maker’s June-quarter results come in ahead of Wall Street’s expectations, and the stock rallies after hours",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 28 Jul 2026 01:19:00 GMT",
+      "url": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 29 Jul 2026 00:21:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
-      "summary": "“Investors frequently receive only a small fraction of the shares they request — if they receive any at all.”",
+      "title": "Ford matches GM in one crucial way, and the stock jumps",
+      "summary": "Ford leans on pickup trucks and other traditionally powered vehicles to limit sales decline.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 27 Jul 2026 22:30:00 GMT",
+      "url": "https://www.marketwatch.com/story/ford-matches-gm-in-one-crucial-way-and-the-stock-jumps-bf2f708c?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 29 Jul 2026 00:18:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
-      "summary": "“His proposal involves a proprietary equity hedge strategy to manage $700,000 of my assets.”",
+      "title": "Bloom Energy sees sales top $1 billion as AI proves a validation moment for fuel-cell technology",
+      "summary": "Fuel-cell maker also raises its 2026 guidance for the second straight time",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 27 Jul 2026 22:00:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "‘I feel lucky’: I’m 71 and inherited $20,000. What should I do with this money?",
-      "summary": "“I have an IRA, a high-yield savings account, four CDs and checking and savings accounts.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 27 Jul 2026 21:46:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Stop snacking. Restricting eating for only 8 or 9 hours a day may keep your mind sharp.",
-      "summary": "A new study found cognitive improvements for shorter durations of eating",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/stop-snacking-restricting-eating-for-only-8-or-9-hours-a-day-may-keep-your-mind-sharp-1dc7e495?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 27 Jul 2026 21:37:00 GMT",
+      "url": "https://www.marketwatch.com/story/bloom-energy-sees-sales-top-1-billion-as-ai-proves-a-validation-moment-for-fuel-cell-technology-5cb69476?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 29 Jul 2026 00:17:00 GMT",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Medicare is about to change a drug program that held down the cost of premiums. Here’s what to know.",
+      "summary": "Experts say this could mean that more seniors will switch to Medicare Advantage plans",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/medicare-is-about-to-change-a-program-that-held-down-the-cost-of-premiums-heres-what-to-know-42c0612e?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 28 Jul 2026 22:06:00 GMT",
+      "sentiment": "negative"
     }
   ],
   "fearGreedIndex": 29,
   "valuation": {
     "sp500": {
-      "pe": 26.59,
-      "forwardPE": 24.17,
+      "pe": 26.65,
+      "forwardPE": 24.23,
       "pePercentile1y": 84,
       "pePercentile5y": null,
       "pePercentile10y": null,
@@ -858,8 +858,8 @@
       "currentPrice": 739.09
     },
     "nasdaq": {
-      "pe": 30.27,
-      "forwardPE": 26.32,
+      "pe": 29.98,
+      "forwardPE": 26.07,
       "pePercentile1y": 78,
       "pePercentile5y": null,
       "pePercentile10y": null,
