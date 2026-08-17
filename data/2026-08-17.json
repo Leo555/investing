@@ -2,10 +2,10 @@
   "date": "2026-08-17",
   "dataDate": "2026-08-14",
   "forecastDate": "2026-08-17",
-  "timestamp": "2026-08-15T10:53:07.378275+08:00",
+  "timestamp": "2026-08-17T11:01:24.752524+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
-  "sentimentScore": 25,
+  "sentimentScore": 23,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -17,8 +17,8 @@
     "high": 26862.17,
     "low": 26661.95,
     "previousClose": 26803.03,
-    "volume": 6405507000,
-    "avgVolume": 8416193850,
+    "volume": 7212180000,
+    "avgVolume": 8456527500,
     "yearHigh": 27190.21,
     "yearHighDate": "2026-06-01",
     "yearLow": 20690.25,
@@ -185,7 +185,7 @@
       {
         "date": "2026-08-14",
         "close": 26729.16,
-        "volume": 6405507000
+        "volume": 7212180000
       }
     ]
   },
@@ -200,8 +200,8 @@
     "high": 7810.01,
     "low": 7776.31,
     "previousClose": 7798.99,
-    "volume": 2210210000,
-    "avgVolume": 5066532000,
+    "volume": 4159900000,
+    "avgVolume": 5164016500,
     "yearHigh": 7816.7,
     "yearHighDate": "2026-08-13",
     "yearLow": 6316.91,
@@ -368,7 +368,7 @@
       {
         "date": "2026-08-14",
         "close": 7785.76,
-        "volume": 2210210000
+        "volume": 4159900000
       }
     ]
   },
@@ -409,10 +409,9 @@
     ],
     "vixHistoryStart": "2026-07-06",
     "vixHistoryEnd": "2026-08-14",
-    "dxy": 99.64,
-    "dxyChange": -0.32,
+    "dxy": 99.53,
+    "dxyChange": -0.14,
     "dxyHistory": [
-      100.85,
       101.14,
       101.05,
       100.94,
@@ -441,10 +440,11 @@
       99.82,
       100.01,
       99.96,
-      99.64
+      99.67,
+      99.53
     ],
-    "dxyHistoryStart": "2026-07-06",
-    "dxyHistoryEnd": "2026-08-14",
+    "dxyHistoryStart": "2026-07-07",
+    "dxyHistoryEnd": "2026-08-17",
     "us10y": 4.7,
     "us10yChange": 0.06,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-07-06",
     "us2yHistoryEnd": "2026-08-14",
-    "gold": 4432.0,
-    "goldChange": 68.4,
+    "gold": 4448.9,
+    "goldChange": 68.5,
     "goldHistory": [
-      4155.1,
       4145.3,
       4070.9,
       4130.6,
@@ -549,14 +548,14 @@
       4383.0,
       4408.9,
       4363.6,
-      4432.0
+      4380.4,
+      4448.9
     ],
-    "goldHistoryStart": "2026-07-06",
-    "goldHistoryEnd": "2026-08-14",
-    "oil": 82.4,
-    "oilChange": 1.15,
+    "goldHistoryStart": "2026-07-07",
+    "goldHistoryEnd": "2026-08-17",
+    "oil": 82.67,
+    "oilChange": 0.27,
     "oilHistory": [
-      68.55,
       70.44,
       73.52,
       72.08,
@@ -585,15 +584,14 @@
       83.2,
       83.27,
       81.25,
-      82.4
+      82.4,
+      82.67
     ],
-    "oilHistoryStart": "2026-07-06",
-    "oilHistoryEnd": "2026-08-14",
-    "btc": 63075.15,
-    "btcChange": 245.33,
+    "oilHistoryStart": "2026-07-07",
+    "oilHistoryEnd": "2026-08-17",
+    "btc": 63351.57,
+    "btcChange": 514.19,
     "btcHistory": [
-      63944.35,
-      64769.14,
       64628.11,
       65095.61,
       66264.36,
@@ -620,16 +618,16 @@
       63560.38,
       63369.42,
       63452.96,
-      62829.82,
-      63075.15
+      62833.64,
+      63075.67,
+      62837.38,
+      63351.57
     ],
-    "btcHistoryStart": "2026-07-16",
-    "btcHistoryEnd": "2026-08-15",
-    "eth": 1882.54,
-    "ethChange": 4.63,
+    "btcHistoryStart": "2026-07-18",
+    "btcHistoryEnd": "2026-08-17",
+    "eth": 1900.83,
+    "ethChange": 26.97,
     "ethHistory": [
-      1839.2,
-      1863.0,
       1868.72,
       1894.02,
       1919.78,
@@ -656,11 +654,13 @@
       1878.8,
       1876.47,
       1885.88,
-      1877.91,
-      1882.54
+      1878.22,
+      1882.65,
+      1873.86,
+      1900.83
     ],
-    "ethHistoryStart": "2026-07-16",
-    "ethHistoryEnd": "2026-08-15"
+    "ethHistoryStart": "2026-07-18",
+    "ethHistoryEnd": "2026-08-17"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Review & Preview: Headline Fatigue",
-      "summary": "REVIEW PREVIEW NEWSLETTER Zen. The S&P 500 pulled back a touch from its record high today, but the index still wrapped a third-straight week of gains. The market benchmark dipped 0.2%, while the Nasdaq Composite fell 0.",
+      "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Nears Key Level; Walmart Looms",
+      "summary": "The S&P 500 and Nasdaq look ready to run, but they haven't quite done so. Sandisk surged but must do this. Walmart, Target loom.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/e8636703-b88f-3346-ba95-c1d74a6e7577/review-%26-preview%3A-headline.html?.tsrc=rss",
-      "publishedAt": "Fri, 14 Aug 2026 23:55:00 +0000",
+      "url": "https://finance.yahoo.com/m/79b73c1c-e364-315f-8433-18e9ae96269d/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
+      "publishedAt": "Mon, 17 Aug 2026 02:46:13 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Wall Street ends lower as investors weigh data, Middle East tensions",
-      "summary": "VIDEO SHOWS: n/a STORY: U.S. stocks ended lower on Friday, with the Dow, S&P 500 and Nasdaq each down less than three-tenths of a percent. The S&P 500 dropped marginally a day after its record high close. Shares of chipmakers dropped, with investors nervous about high valuations of AI-related stocks",
+      "title": "Dow Futures Slip, S&P 500, Nasdaq Futures Climb Ahead Of Key Retail Earnings, Fed Minutes: NLST, AVGO, LUNR, MRK Stocks In Focus",
+      "summary": "Dow futures were down 0.09%, while the S&P 500 futures climbed 0.09% and the Nasdaq-100 futures were up 0.25% at the time of writing.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/video/wall-street-ends-lower-investors-225242650.html?.tsrc=rss",
-      "publishedAt": "Fri, 14 Aug 2026 22:53:02 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Covenant Logistics (CVLG): Buy, Sell, or Hold Post Q2 Earnings?",
-      "summary": "Since August 2021, the S&P 500 has delivered a total return of 73.7%. But one standout stock has more than doubled the market - over the past five years, Covenant Logistics has surged 201% to $33.37 per share. Its momentum hasn’t stopped as it’s also gained 18.8% in the last six months, beating the ",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/covenant-logistics-cvlg-buy-sell-000500151.html?.tsrc=rss",
-      "publishedAt": "Sat, 15 Aug 2026 00:05:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "3 Reasons to Sell PVH and 1 Stock to Buy Instead",
-      "summary": "Over the past six months, PVH has been a great trade, beating the S&P 500 by 11.1%. Its stock price has climbed to $84.88, representing a healthy 24.5% increase. This was partly due to its solid quarterly results, and the performance may have investors wondering how to approach the situation.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-pvh-1-230100390.html?.tsrc=rss",
-      "publishedAt": "Fri, 14 Aug 2026 23:01:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "MongoDB (MDB) Dips More Than Broader Market: What You Should Know",
-      "summary": "MongoDB (MDB) reached $460.33 at the closing of the latest trading day, reflecting a -2.53% change compared to its last close.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-mdb-dips-more-broader-221501517.html?.tsrc=rss",
-      "publishedAt": "Fri, 14 Aug 2026 22:15:01 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
-      "summary": "OpenAI's C-suite turnover gives investors another reason for concern as the company pushes toward a mammoth IPO.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
-      "publishedAt": "Fri, 14 Aug 2026 19:07:11 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Berkshire Hathaway boosts Alphabet to a top three holding, ups Delta and housing bets",
-      "summary": "Berkshire owned about 106 million shares in the parent of Google, worth $37.9 billion at the end of June, according to a regulatory filing released Friday.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html",
-      "publishedAt": "Fri, 14 Aug 2026 21:06:48 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
-      "summary": "Nvidia's stake in SpaceX, which came through an investment in xAI, was worth about $21 billion at the end of the second quarter.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
-      "publishedAt": "Fri, 14 Aug 2026 21:45:19 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump family-backed crypto firm World Liberty gets conditional bank charter approval",
-      "summary": "The OCC conditionally approved World Liberty Trust Co.’s national trust bank charter. That would allow the Trump family-backed firm to issue stablecoins.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/world-liberty-trump-occ-bank-charter-stablecoin.html",
-      "publishedAt": "Fri, 14 Aug 2026 23:41:50 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Regulators and banks step up scrutiny of prediction markets",
-      "summary": "The CFTC is reviewing prediction betting platforms' so-called mention markets, people familiar with the matter confirmed to CNBC.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/prediction-markets-scrutiny-mounts-from-regulators-and-banks.html",
-      "publishedAt": "Fri, 14 Aug 2026 19:21:49 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Berkshire Hathaway doubles down on the U.S. housing market with a fresh bet on this stock",
-      "summary": "Berkshire Hathaway has upped its bet on the U.S. housing market, and also boosted its stakes in Alphabet and Delta Air Lines.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 14 Aug 2026 21:34:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "16 beaten-down AI stocks that are beloved by BofA analysts",
-      "summary": "A recent selloff in AI-linked stocks offers opportunities for investors across the hardware, internet and energy sectors, according to analysts.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/16-beaten-down-ai-stocks-that-are-beloved-by-bofa-analysts-3423dab2?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 14 Aug 2026 19:09:00 GMT",
+      "url": "https://stocktwits.com/news-articles/markets/equity/dow-futures-slip-s-and-p-500-nasdaq-futures-climb-ahead-of-key-retail-earnings-fed-minutes-nlst-avgo-lunr-mrk-stocks-in-focus/cZo6n1CRJKQ?.tsrc=rss",
+      "publishedAt": "Mon, 17 Aug 2026 02:02:44 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "Parents putting money in ‘Trump accounts’ could get a $2,500 tax break. Here’s how.",
-      "summary": "A proposed rule could let families do a “discount Roth conversion.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/parents-putting-money-in-trump-accounts-could-get-a-2-500-tax-break-heres-how-fb6fb2f7?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 14 Aug 2026 18:51:00 GMT",
+      "title": "Gilead Sciences (GILD): Buy, Sell, or Hold Post Q2 Earnings?",
+      "summary": "Over the last six months, Gilead Sciences’s shares have sunk to $137.77, producing a disappointing 11.3% loss - a stark contrast to the S&P 500’s 13.1% gain. This might have investors contemplating their next move.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gilead-sciences-gild-buy-sell-204500665.html?.tsrc=rss",
+      "publishedAt": "Sun, 16 Aug 2026 20:45:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "3 Reasons to Sell NMRK and 1 Stock to Buy Instead",
+      "summary": "Newmark currently trades at $15.31 per share and has shown little upside over the past six months, posting a middling return of 4.7%. The stock also fell short of the S&P 500’s 13.1% gain during that period.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-nmrk-1-194900719.html?.tsrc=rss",
+      "publishedAt": "Sun, 16 Aug 2026 19:49:00 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "A plan to save Social Security involves high earners paying more in taxes — without getting more in benefits",
-      "summary": "Eliminating the tax cap is just one of the proposals that could help shore up Social Security’s finances.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/a-plan-to-save-social-security-involves-wealthy-people-paying-more-without-getting-an-increase-in-benefits-f9d70307?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 14 Aug 2026 18:47:00 GMT",
+      "title": "Zoom (ZM): Buy, Sell, or Hold Post Q1 Earnings?",
+      "summary": "Over the past six months, Zoom has been a great trade, beating the S&P 500 by 10.4%. Its stock price has climbed to $109.49, representing a healthy 23.5% increase. This was partly due to its solid quarterly results, and the performance may have investors wondering how to approach the situation.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zoom-zm-buy-sell-hold-190900309.html?.tsrc=rss",
+      "publishedAt": "Sun, 16 Aug 2026 19:09:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Japan second-quarter GDP grows 1.1% on an annualized basis, missing expectations",
+      "summary": "On an annualized basis, Japan saw growth of 1.1%, against estimates of 2%.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
+      "publishedAt": "Mon, 17 Aug 2026 02:21:02 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year.",
-      "summary": "Congress changed three charitable-deduction rules this year. The most common way people give money to charities these days is now also probably the most expensive way.",
+      "title": "Top U.S. commander acknowledges mental health issues on USS Lincoln",
+      "summary": "Cooper's visit and statement come after reports of widespread morale and mental health concerns aboard the Lincoln.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/16/top-us-commander-acknowledges-mental-health-issues-on-uss-lincoln.html",
+      "publishedAt": "Sun, 16 Aug 2026 19:58:32 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "What the results of a Connecticut congressional primary race may mean for Social Security",
+      "summary": "Rep. John Larson of Connecticut, an advocate for expanding Social Security, was ousted in a Democratic primary contest Tuesday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/16/social-security-john-larson-connecticut-primary.html",
+      "publishedAt": "Sun, 16 Aug 2026 13:30:01 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations",
+      "summary": "The rapid drawdown of the U.S. Strategic Petroleum Reserve could damage the caverns that store the oil, experts warn.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/15/strategic-petroleum-reserve-spr-oil-iran-war-caverns.html",
+      "publishedAt": "Sat, 15 Aug 2026 14:19:35 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Secret outperformer: Dispelling the 'myths' about an unloved stock market",
+      "summary": "European markets fly under the radar when compared with larger and more liquid U.S. markets, but Goldman Sachs offered to dispel some of the myths.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/16/goldman-stock-market-outperformance.html",
+      "publishedAt": "Sun, 16 Aug 2026 09:45:45 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "U.S. stock futures little changed as investors ponder the Fed’s next move",
+      "summary": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors await hints from the Fed concerning the outlook for interest rates.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/congress-changed-the-rules-around-charitable-giving-do-it-earlier-in-the-year-to-save-money-392e5de3?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 14 Aug 2026 18:45:00 GMT",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 17 Aug 2026 02:24:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Can I claim 50% of my husband’s Social Security now — and switch to my higher benefit at 70?",
+      "summary": "“I would like to offer a piece of advice for women who are or have been married.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 16 Aug 2026 18:15:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "My friend’s mother died. Can she stop Medicaid from taking the family home?",
+      "summary": "“She has contacted the mortgage company, but they will not discuss the mortgage.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 16 Aug 2026 17:30:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
+      "summary": "“We were advised to return the bonus and take out a home-equity loan.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 16 Aug 2026 17:00:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
+      "summary": "“I don’t expect my marginal tax rate to be materially different in the future.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 16 Aug 2026 16:22:00 GMT",
       "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 34,
+  "fearGreedIndex": 31,
   "valuation": {
     "sp500": {
       "pe": 26.15,
