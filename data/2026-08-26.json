@@ -1,0 +1,877 @@
+{
+  "date": "2026-08-26",
+  "dataDate": "2026-08-25",
+  "forecastDate": "2026-08-26",
+  "timestamp": "2026-08-26T11:06:39.075600+08:00",
+  "marketStatus": "closed",
+  "overallSentiment": "neutral",
+  "sentimentScore": -9,
+  "nasdaq": {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "price": 26151.3,
+    "change": 171.11,
+    "changePercent": 0.66,
+    "tradingDate": "2026-08-25",
+    "open": 26148.71,
+    "high": 26225.83,
+    "low": 26034.35,
+    "previousClose": 25980.19,
+    "volume": 6619369000,
+    "avgVolume": 8396862450,
+    "yearHigh": 27190.21,
+    "yearHighDate": "2026-06-01",
+    "yearLow": 20690.25,
+    "yearLowDate": "2026-03-30",
+    "pe": 30.39,
+    "marketCap": null,
+    "sma20": 26182.83,
+    "sma50": 25959.18,
+    "sma200": null,
+    "rsi14": 45.3,
+    "macdLine": 90.7616,
+    "macdSignal": 183.036,
+    "macdHistogram": -92.2745,
+    "bollingerUpper": 27345.25,
+    "bollingerMiddle": 26182.83,
+    "bollingerLower": 25020.41,
+    "atr14": 266.74,
+    "priceHistory": [
+      {
+        "date": "2026-07-15",
+        "close": 26269.23,
+        "volume": 7379560000
+      },
+      {
+        "date": "2026-07-16",
+        "close": 25881.95,
+        "volume": 8294880000
+      },
+      {
+        "date": "2026-07-17",
+        "close": 25520.24,
+        "volume": 7820470000
+      },
+      {
+        "date": "2026-07-20",
+        "close": 25508.07,
+        "volume": 7184070000
+      },
+      {
+        "date": "2026-07-21",
+        "close": 25837.21,
+        "volume": 8001540000
+      },
+      {
+        "date": "2026-07-22",
+        "close": 25690.9,
+        "volume": 7473050000
+      },
+      {
+        "date": "2026-07-23",
+        "close": 25137.69,
+        "volume": 7655810000
+      },
+      {
+        "date": "2026-07-24",
+        "close": 24975.82,
+        "volume": 7266300000
+      },
+      {
+        "date": "2026-07-27",
+        "close": 24932.08,
+        "volume": 7797890000
+      },
+      {
+        "date": "2026-07-28",
+        "close": 24876.91,
+        "volume": 8584960000
+      },
+      {
+        "date": "2026-07-29",
+        "close": 24442.94,
+        "volume": 8276280000
+      },
+      {
+        "date": "2026-07-30",
+        "close": 25122.18,
+        "volume": 9048570000
+      },
+      {
+        "date": "2026-07-31",
+        "close": 25373.85,
+        "volume": 11942500000
+      },
+      {
+        "date": "2026-08-03",
+        "close": 25913.9,
+        "volume": 11118460000
+      },
+      {
+        "date": "2026-08-04",
+        "close": 26584.99,
+        "volume": 9717920000
+      },
+      {
+        "date": "2026-08-05",
+        "close": 26363.44,
+        "volume": 9116070000
+      },
+      {
+        "date": "2026-08-06",
+        "close": 26348.35,
+        "volume": 8936850000
+      },
+      {
+        "date": "2026-08-07",
+        "close": 26690.62,
+        "volume": 8183970000
+      },
+      {
+        "date": "2026-08-10",
+        "close": 26605.36,
+        "volume": 7675200000
+      },
+      {
+        "date": "2026-08-11",
+        "close": 26445.45,
+        "volume": 7684920000
+      },
+      {
+        "date": "2026-08-12",
+        "close": 26588.49,
+        "volume": 7873190000
+      },
+      {
+        "date": "2026-08-13",
+        "close": 26803.03,
+        "volume": 8380820000
+      },
+      {
+        "date": "2026-08-14",
+        "close": 26729.16,
+        "volume": 7212180000
+      },
+      {
+        "date": "2026-08-17",
+        "close": 26644.91,
+        "volume": 7644090000
+      },
+      {
+        "date": "2026-08-18",
+        "close": 26289.71,
+        "volume": 7360790000
+      },
+      {
+        "date": "2026-08-19",
+        "close": 26331.09,
+        "volume": 8173140000
+      },
+      {
+        "date": "2026-08-20",
+        "close": 26067.17,
+        "volume": 8244680000
+      },
+      {
+        "date": "2026-08-21",
+        "close": 26180.46,
+        "volume": 7410100000
+      },
+      {
+        "date": "2026-08-24",
+        "close": 25980.19,
+        "volume": 7318150000
+      },
+      {
+        "date": "2026-08-25",
+        "close": 26151.3,
+        "volume": 6619369000
+      }
+    ]
+  },
+  "sp500": {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "price": 7677.28,
+    "change": 24.42,
+    "changePercent": 0.32,
+    "tradingDate": "2026-08-25",
+    "open": 7676.66,
+    "high": 7686.11,
+    "low": 7650.92,
+    "previousClose": 7652.86,
+    "volume": 2376000000,
+    "avgVolume": 4867805000,
+    "yearHigh": 7816.7,
+    "yearHighDate": "2026-08-13",
+    "yearLow": 6316.91,
+    "yearLowDate": "2026-03-30",
+    "pe": 25.8,
+    "marketCap": null,
+    "sma20": 7668.83,
+    "sma50": 7551.14,
+    "sma200": null,
+    "rsi14": 44.6,
+    "macdLine": 41.3053,
+    "macdSignal": 63.6729,
+    "macdHistogram": -22.3676,
+    "bollingerUpper": 7908.97,
+    "bollingerMiddle": 7668.83,
+    "bollingerLower": 7428.7,
+    "atr14": 47.8,
+    "priceHistory": [
+      {
+        "date": "2026-07-15",
+        "close": 7572.4,
+        "volume": 5236550000
+      },
+      {
+        "date": "2026-07-16",
+        "close": 7533.77,
+        "volume": 5365300000
+      },
+      {
+        "date": "2026-07-17",
+        "close": 7457.69,
+        "volume": 5303290000
+      },
+      {
+        "date": "2026-07-20",
+        "close": 7443.28,
+        "volume": 5152910000
+      },
+      {
+        "date": "2026-07-21",
+        "close": 7509.2,
+        "volume": 5149030000
+      },
+      {
+        "date": "2026-07-22",
+        "close": 7498.96,
+        "volume": 4890390000
+      },
+      {
+        "date": "2026-07-23",
+        "close": 7408.3,
+        "volume": 5515210000
+      },
+      {
+        "date": "2026-07-24",
+        "close": 7411.98,
+        "volume": 4860620000
+      },
+      {
+        "date": "2026-07-27",
+        "close": 7413.18,
+        "volume": 5038290000
+      },
+      {
+        "date": "2026-07-28",
+        "close": 7428.78,
+        "volume": 5590890000
+      },
+      {
+        "date": "2026-07-29",
+        "close": 7316.15,
+        "volume": 5836350000
+      },
+      {
+        "date": "2026-07-30",
+        "close": 7437.63,
+        "volume": 5594430000
+      },
+      {
+        "date": "2026-07-31",
+        "close": 7489.72,
+        "volume": 5391020000
+      },
+      {
+        "date": "2026-08-03",
+        "close": 7600.5,
+        "volume": 5201470000
+      },
+      {
+        "date": "2026-08-04",
+        "close": 7736.52,
+        "volume": 5906940000
+      },
+      {
+        "date": "2026-08-05",
+        "close": 7723.55,
+        "volume": 5615640000
+      },
+      {
+        "date": "2026-08-06",
+        "close": 7709.96,
+        "volume": 5330830000
+      },
+      {
+        "date": "2026-08-07",
+        "close": 7757.64,
+        "volume": 5019970000
+      },
+      {
+        "date": "2026-08-10",
+        "close": 7753.11,
+        "volume": 4879540000
+      },
+      {
+        "date": "2026-08-11",
+        "close": 7728.2,
+        "volume": 4739500000
+      },
+      {
+        "date": "2026-08-12",
+        "close": 7748.5,
+        "volume": 4574170000
+      },
+      {
+        "date": "2026-08-13",
+        "close": 7798.99,
+        "volume": 4833230000
+      },
+      {
+        "date": "2026-08-14",
+        "close": 7785.76,
+        "volume": 4159900000
+      },
+      {
+        "date": "2026-08-17",
+        "close": 7745.06,
+        "volume": 4452630000
+      },
+      {
+        "date": "2026-08-18",
+        "close": 7691.76,
+        "volume": 4602700000
+      },
+      {
+        "date": "2026-08-19",
+        "close": 7707.98,
+        "volume": 5184100000
+      },
+      {
+        "date": "2026-08-20",
+        "close": 7641.16,
+        "volume": 4759610000
+      },
+      {
+        "date": "2026-08-21",
+        "close": 7674.37,
+        "volume": 4497270000
+      },
+      {
+        "date": "2026-08-24",
+        "close": 7652.86,
+        "volume": 4400800000
+      },
+      {
+        "date": "2026-08-25",
+        "close": 7677.28,
+        "volume": 2376000000
+      }
+    ]
+  },
+  "indicators": {
+    "vix": 15.45,
+    "vixChange": -0.4,
+    "vixHistory": [
+      15.67,
+      16.73,
+      18.77,
+      18.65,
+      17.05,
+      16.64,
+      18.7,
+      18.58,
+      18.67,
+      18.21,
+      20.66,
+      17.09,
+      15.99,
+      15.86,
+      16.5,
+      15.81,
+      15.15,
+      14.9,
+      15.46,
+      15.28,
+      14.55,
+      14.63,
+      14.25,
+      15.19,
+      15.84,
+      14.89,
+      16.01,
+      15.13,
+      15.85,
+      15.45
+    ],
+    "vixHistoryStart": "2026-07-15",
+    "vixHistoryEnd": "2026-08-25",
+    "dxy": 98.95,
+    "dxyChange": 0.03,
+    "dxyHistory": [
+      100.73,
+      100.75,
+      100.99,
+      101.18,
+      101.14,
+      101.43,
+      101.47,
+      101.51,
+      101.38,
+      100.8,
+      100.01,
+      99.8,
+      99.96,
+      99.89,
+      99.69,
+      99.97,
+      99.6,
+      99.81,
+      99.82,
+      100.01,
+      99.96,
+      99.67,
+      99.64,
+      99.65,
+      98.83,
+      98.9,
+      98.8,
+      99.0,
+      98.92,
+      98.95
+    ],
+    "dxyHistoryStart": "2026-07-16",
+    "dxyHistoryEnd": "2026-08-26",
+    "us10y": 4.64,
+    "us10yChange": -0.06,
+    "us10yHistory": [
+      4.55,
+      4.57,
+      4.54,
+      4.6,
+      4.63,
+      4.66,
+      4.7,
+      4.68,
+      4.64,
+      4.6,
+      4.62,
+      4.66,
+      4.74,
+      4.69,
+      4.63,
+      4.62,
+      4.67,
+      4.66,
+      4.7,
+      4.68,
+      4.68,
+      4.64,
+      4.7,
+      4.72,
+      4.71,
+      4.65,
+      4.7,
+      4.74,
+      4.7,
+      4.64
+    ],
+    "us10yHistoryStart": "2026-07-15",
+    "us10yHistoryEnd": "2026-08-25",
+    "us2y": 3.7,
+    "us2yChange": 0.0,
+    "us2yHistory": [
+      3.69,
+      3.7,
+      3.71,
+      3.7,
+      3.73,
+      3.74,
+      3.8,
+      3.81,
+      3.8,
+      3.76,
+      3.66,
+      3.67,
+      3.68,
+      3.7,
+      3.73,
+      3.72,
+      3.73,
+      3.71,
+      3.72,
+      3.73,
+      3.71,
+      3.7,
+      3.7,
+      3.7,
+      3.7,
+      3.7,
+      3.7,
+      3.71,
+      3.7,
+      3.7
+    ],
+    "us2yHistoryStart": "2026-07-15",
+    "us2yHistoryEnd": "2026-08-25",
+    "gold": 4716.8,
+    "goldChange": 78.7,
+    "goldHistory": [
+      3985.6,
+      4012.7,
+      4010.3,
+      4071.1,
+      4146.9,
+      4046.6,
+      4067.6,
+      4074.5,
+      4036.3,
+      4034.7,
+      4100.1,
+      4049.1,
+      4033.7,
+      4095.4,
+      4245.8,
+      4242.0,
+      4340.7,
+      4361.8,
+      4383.0,
+      4408.9,
+      4363.6,
+      4380.4,
+      4417.8,
+      4366.0,
+      4489.4,
+      4516.3,
+      4624.1,
+      4640.8,
+      4638.1,
+      4716.8
+    ],
+    "goldHistoryStart": "2026-07-16",
+    "goldHistoryEnd": "2026-08-26",
+    "oil": 80.29,
+    "oilChange": -2.07,
+    "oilHistory": [
+      78.95,
+      82.49,
+      83.23,
+      84.91,
+      86.83,
+      92.19,
+      89.31,
+      82.61,
+      79.26,
+      84.46,
+      83.59,
+      84.67,
+      80.34,
+      75.77,
+      75.22,
+      77.29,
+      78.18,
+      82.13,
+      83.2,
+      83.27,
+      81.25,
+      82.4,
+      84.5,
+      84.94,
+      85.83,
+      87.83,
+      87.06,
+      85.01,
+      82.36,
+      80.29
+    ],
+    "oilHistoryStart": "2026-07-16",
+    "oilHistoryEnd": "2026-08-26",
+    "btc": 79057.35,
+    "btcChange": 177.93,
+    "btcHistory": [
+      63735.08,
+      63874.13,
+      64803.41,
+      62888.41,
+      62780.24,
+      63371.4,
+      63550.01,
+      64217.99,
+      64579.57,
+      64302.93,
+      64850.45,
+      64906.3,
+      65029.73,
+      63959.64,
+      63614.07,
+      63369.42,
+      63452.96,
+      62833.64,
+      63075.67,
+      62914.44,
+      64243.0,
+      64632.57,
+      69223.87,
+      72686.98,
+      78407.25,
+      77011.38,
+      77498.47,
+      78649.61,
+      78879.42,
+      79057.35
+    ],
+    "btcHistoryStart": "2026-07-27",
+    "btcHistoryEnd": "2026-08-26",
+    "eth": 2464.63,
+    "ethChange": 11.21,
+    "ethHistory": [
+      1910.59,
+      1902.26,
+      1923.87,
+      1861.08,
+      1846.9,
+      1880.29,
+      1857.69,
+      1872.8,
+      1904.27,
+      1903.05,
+      1913.92,
+      1915.48,
+      1917.73,
+      1873.41,
+      1878.8,
+      1876.47,
+      1885.88,
+      1878.22,
+      1882.65,
+      1875.31,
+      1902.84,
+      1913.73,
+      2245.54,
+      2314.25,
+      2521.87,
+      2413.77,
+      2450.34,
+      2471.71,
+      2453.42,
+      2464.63
+    ],
+    "ethHistoryStart": "2026-07-27",
+    "ethHistoryEnd": "2026-08-26"
+  },
+  "sectors": [
+    {
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": 0.94
+    },
+    {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": 0.77
+    },
+    {
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": 0.34
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": 0.21
+    },
+    {
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": 0.15
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": 0.07
+    },
+    {
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": 0.0
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": -0.3
+    },
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": -0.34
+    },
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": -1.06
+    },
+    {
+      "name": "能源",
+      "symbol": "XLE",
+      "changePercent": -1.66
+    }
+  ],
+  "news": [
+    {
+      "title": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading — MRNA, SPCX, PSKY, OpenAI In Focus",
+      "summary": "Treasury yields declined, as the benchmark 10-year Treasury note yield dropped by over 7 basis points to reach 4.63%.",
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-rangebound-as-investors-await-nvidia-earnings/cZYNONDRJom?.tsrc=rss",
+      "publishedAt": "Wed, 26 Aug 2026 00:02:57 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Prediction: Nvidia's Shares Will Fall for a 5th Consecutive Quarter After Reporting Earnings on Aug. 26",
+      "summary": "Nvidia's stock has a dubious post-earnings track record, fueled by investors' lofty expectations.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/08/25/prediction-nvda-shares-fall-5th-straight-quarter/?.tsrc=rss",
+      "publishedAt": "Tue, 25 Aug 2026 23:26:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Samsara Inc. (IOT) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "summary": "Samsara Inc. (IOT) closed the most recent trading day at $39.14, moving 2.95% from the previous trading session.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/samsara-inc-iot-stock-falls-221502610.html?.tsrc=rss",
+      "publishedAt": "Tue, 25 Aug 2026 22:15:02 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Bill Gates owns $25 billion in blue-chip S&P 500 stock",
+      "summary": "The largest holding in his portfolio also helps fund the Gates Foundation.",
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/investing/stocks/bill-gates-owns-25-billion-rsg-stock?.tsrc=rss",
+      "publishedAt": "Tue, 25 Aug 2026 22:07:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "These 3 International Dividend ETFs Pay Up to Three Times SCHD and Are Beating the S&P 500 This Year",
+      "summary": "SCHD is the default income benchmark, but three international dividend ETFs are quietly outpacing it on yield and, in some cases, total return too. The fund structures are radically different, and only one of the three actually belongs in most portfolios.",
+      "source": "Yahoo Finance",
+      "url": "https://247wallst.com/investing/etf/2026/08/25/these-3-international-dividend-etfs-pay-up-to-three-times-schd-and-are-beating-the-sp-500-this-year/?.tsrc=rss",
+      "publishedAt": "Tue, 25 Aug 2026 22:05:17 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump's Saudi nuclear deal reaches Congress as experts warn of proliferation risk",
+      "summary": "Some Democratic lawmakers and nonproliferation advocates have criticized the pact for not including a permanent prohibition on enrichment or reprocessing.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/26/trump-saudi-nuclear-agreement-congress-iran-deal-.html",
+      "publishedAt": "Wed, 26 Aug 2026 02:34:28 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Sen. Darline Graham, Trump's pick for South Carolina Senate, wins GOP primary",
+      "summary": "Sen. Darline Graham on Tuesday defeated Rep. Ralph Norman, winning the GOP nomination for a South Carolina Senate seat.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/25/trump-darline-graham-south-carolina-primary.html",
+      "publishedAt": "Wed, 26 Aug 2026 01:07:28 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "HP partners with U.S.-blacklisted Huawei for licensing the Chinese company's WiFi tech",
+      "summary": "It's a sign of adoption of Huawei technology outside China, despite the U.S. restricting the company from working with American suppliers such as Google.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html",
+      "publishedAt": "Wed, 26 Aug 2026 02:01:01 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Oil falls on easing concerns of renewed tensions as the U.S. pivots to economic pressure on Iran",
+      "summary": "Oil fell Wednesday, as investors continue to assess the U.S. pivot toward economic sanctions rather than military strikes to add pressure on Iran.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/26/oil-falls-as-the-us-pivots-to-economic-pressure-on-iran-.html",
+      "publishedAt": "Wed, 26 Aug 2026 01:29:20 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "From military alliance to economic partnership: How Trump is redefining U.S.-South Korea ties",
+      "summary": "Trump last Sunday instructed the Pentagon to cut military drills because they were \"costly\" and send \"inappropriate and hostile\" signals to North Korea.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/26/trump-us-south-korea-alliance-military-drills-.html",
+      "publishedAt": "Wed, 26 Aug 2026 02:06:21 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Are older Americans spoiling the economy for everyone else?",
+      "summary": "How to get seniors to spend $12 trillion in home equity.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 26 Aug 2026 01:41:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "5 cheap U.S. cities to retire in — if you can deal with this one thing",
+      "summary": "You don’t have to leave the country to find an affordable place that matches your retirement vision.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 26 Aug 2026 01:35:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
+      "summary": "“We don’t know whether they have signed leases or are renting month to month.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 26 Aug 2026 00:30:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 26 Aug 2026 00:01:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
+      "summary": "“The property is very old and requires significant ongoing maintenance.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 25 Aug 2026 23:01:00 GMT",
+      "sentiment": "positive"
+    }
+  ],
+  "fearGreedIndex": 65,
+  "valuation": {
+    "sp500": {
+      "pe": 25.8,
+      "forwardPE": 23.45,
+      "pePercentile1y": 95,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 14,
+      "peRangeHigh": 35,
+      "drawdown52w": -1.73,
+      "high52w": 779.37,
+      "drawdownATH": -1.73,
+      "allTimeHigh": 779.37,
+      "currentPrice": 765.91
+    },
+    "nasdaq": {
+      "pe": 30.39,
+      "forwardPE": 26.43,
+      "pePercentile1y": 80,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 18,
+      "peRangeHigh": 45,
+      "drawdown52w": -5.07,
+      "high52w": 748.65,
+      "drawdownATH": -5.07,
+      "allTimeHigh": 748.65,
+      "currentPrice": 710.72
+    }
+  },
+  "advanceDeclineRatio": null,
+  "putCallRatio": null
+}
