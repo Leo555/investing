@@ -1,0 +1,877 @@
+{
+  "date": "2026-08-31",
+  "dataDate": "2026-08-28",
+  "forecastDate": "2026-08-31",
+  "timestamp": "2026-08-28T21:57:27.477689+08:00",
+  "marketStatus": "closed",
+  "overallSentiment": "neutral",
+  "sentimentScore": 15,
+  "nasdaq": {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "price": 26542.26,
+    "change": 0.91,
+    "changePercent": 0.0,
+    "tradingDate": "2026-08-28",
+    "open": 26515.99,
+    "high": 26605.46,
+    "low": 26503.02,
+    "previousClose": 26541.35,
+    "volume": 1591711000,
+    "avgVolume": 7781998050,
+    "yearHigh": 27190.21,
+    "yearHighDate": "2026-06-01",
+    "yearLow": 20690.25,
+    "yearLowDate": "2026-03-30",
+    "pe": 30.8,
+    "marketCap": null,
+    "sma20": 26396.57,
+    "sma50": 25961.81,
+    "sma200": null,
+    "rsi14": 48.6,
+    "macdLine": 112.0982,
+    "macdSignal": 136.6697,
+    "macdHistogram": -24.5715,
+    "bollingerUpper": 26905.74,
+    "bollingerMiddle": 26396.57,
+    "bollingerLower": 25887.4,
+    "atr14": 256.93,
+    "priceHistory": [
+      {
+        "date": "2026-07-20",
+        "close": 25508.07,
+        "volume": 7184070000
+      },
+      {
+        "date": "2026-07-21",
+        "close": 25837.21,
+        "volume": 8001540000
+      },
+      {
+        "date": "2026-07-22",
+        "close": 25690.9,
+        "volume": 7473050000
+      },
+      {
+        "date": "2026-07-23",
+        "close": 25137.69,
+        "volume": 7655810000
+      },
+      {
+        "date": "2026-07-24",
+        "close": 24975.82,
+        "volume": 7266300000
+      },
+      {
+        "date": "2026-07-27",
+        "close": 24932.08,
+        "volume": 7797890000
+      },
+      {
+        "date": "2026-07-28",
+        "close": 24876.91,
+        "volume": 8584960000
+      },
+      {
+        "date": "2026-07-29",
+        "close": 24442.94,
+        "volume": 8276280000
+      },
+      {
+        "date": "2026-07-30",
+        "close": 25122.18,
+        "volume": 9048570000
+      },
+      {
+        "date": "2026-07-31",
+        "close": 25373.85,
+        "volume": 11942500000
+      },
+      {
+        "date": "2026-08-03",
+        "close": 25913.9,
+        "volume": 11118460000
+      },
+      {
+        "date": "2026-08-04",
+        "close": 26584.99,
+        "volume": 9717920000
+      },
+      {
+        "date": "2026-08-05",
+        "close": 26363.44,
+        "volume": 9116070000
+      },
+      {
+        "date": "2026-08-06",
+        "close": 26348.35,
+        "volume": 8936850000
+      },
+      {
+        "date": "2026-08-07",
+        "close": 26690.62,
+        "volume": 8183970000
+      },
+      {
+        "date": "2026-08-10",
+        "close": 26605.36,
+        "volume": 7675200000
+      },
+      {
+        "date": "2026-08-11",
+        "close": 26445.45,
+        "volume": 7684920000
+      },
+      {
+        "date": "2026-08-12",
+        "close": 26588.49,
+        "volume": 7873190000
+      },
+      {
+        "date": "2026-08-13",
+        "close": 26803.03,
+        "volume": 8380820000
+      },
+      {
+        "date": "2026-08-14",
+        "close": 26729.16,
+        "volume": 7212180000
+      },
+      {
+        "date": "2026-08-17",
+        "close": 26644.91,
+        "volume": 7644090000
+      },
+      {
+        "date": "2026-08-18",
+        "close": 26289.71,
+        "volume": 7360790000
+      },
+      {
+        "date": "2026-08-19",
+        "close": 26331.09,
+        "volume": 8173140000
+      },
+      {
+        "date": "2026-08-20",
+        "close": 26067.17,
+        "volume": 8244680000
+      },
+      {
+        "date": "2026-08-21",
+        "close": 26180.46,
+        "volume": 7410100000
+      },
+      {
+        "date": "2026-08-24",
+        "close": 25980.19,
+        "volume": 7318150000
+      },
+      {
+        "date": "2026-08-25",
+        "close": 26151.3,
+        "volume": 7483990000
+      },
+      {
+        "date": "2026-08-26",
+        "close": 26130.2,
+        "volume": 7065320000
+      },
+      {
+        "date": "2026-08-27",
+        "close": 26541.35,
+        "volume": 7448410000
+      },
+      {
+        "date": "2026-08-28",
+        "close": 26542.26,
+        "volume": 1591711000
+      }
+    ]
+  },
+  "sp500": {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "price": 7738.79,
+    "change": 7.8,
+    "changePercent": 0.1,
+    "tradingDate": "2026-08-28",
+    "open": 7735.17,
+    "high": 7747.37,
+    "low": 7733.99,
+    "previousClose": 7730.99,
+    "volume": 278900051,
+    "avgVolume": 4558014002,
+    "yearHigh": 7816.7,
+    "yearHighDate": "2026-08-13",
+    "yearLow": 6316.91,
+    "yearLowDate": "2026-03-30",
+    "pe": 26.01,
+    "marketCap": null,
+    "sma20": 7713.93,
+    "sma50": 7564.33,
+    "sma200": null,
+    "rsi14": 48.3,
+    "macdLine": 40.2469,
+    "macdSignal": 50.7258,
+    "macdHistogram": -10.4789,
+    "bollingerUpper": 7810.4,
+    "bollingerMiddle": 7713.93,
+    "bollingerLower": 7617.47,
+    "atr14": 46.85,
+    "priceHistory": [
+      {
+        "date": "2026-07-20",
+        "close": 7443.28,
+        "volume": 5152910000
+      },
+      {
+        "date": "2026-07-21",
+        "close": 7509.2,
+        "volume": 5149030000
+      },
+      {
+        "date": "2026-07-22",
+        "close": 7498.96,
+        "volume": 4890390000
+      },
+      {
+        "date": "2026-07-23",
+        "close": 7408.3,
+        "volume": 5515210000
+      },
+      {
+        "date": "2026-07-24",
+        "close": 7411.98,
+        "volume": 4860620000
+      },
+      {
+        "date": "2026-07-27",
+        "close": 7413.18,
+        "volume": 5038290000
+      },
+      {
+        "date": "2026-07-28",
+        "close": 7428.78,
+        "volume": 5590890000
+      },
+      {
+        "date": "2026-07-29",
+        "close": 7316.15,
+        "volume": 5836350000
+      },
+      {
+        "date": "2026-07-30",
+        "close": 7437.63,
+        "volume": 5594430000
+      },
+      {
+        "date": "2026-07-31",
+        "close": 7489.72,
+        "volume": 5391020000
+      },
+      {
+        "date": "2026-08-03",
+        "close": 7600.5,
+        "volume": 5201470000
+      },
+      {
+        "date": "2026-08-04",
+        "close": 7736.52,
+        "volume": 5906940000
+      },
+      {
+        "date": "2026-08-05",
+        "close": 7723.55,
+        "volume": 5615640000
+      },
+      {
+        "date": "2026-08-06",
+        "close": 7709.96,
+        "volume": 5330830000
+      },
+      {
+        "date": "2026-08-07",
+        "close": 7757.64,
+        "volume": 5019970000
+      },
+      {
+        "date": "2026-08-10",
+        "close": 7753.11,
+        "volume": 4879540000
+      },
+      {
+        "date": "2026-08-11",
+        "close": 7728.2,
+        "volume": 4739500000
+      },
+      {
+        "date": "2026-08-12",
+        "close": 7748.5,
+        "volume": 4574170000
+      },
+      {
+        "date": "2026-08-13",
+        "close": 7798.99,
+        "volume": 4833230000
+      },
+      {
+        "date": "2026-08-14",
+        "close": 7785.76,
+        "volume": 4159900000
+      },
+      {
+        "date": "2026-08-17",
+        "close": 7745.06,
+        "volume": 4452630000
+      },
+      {
+        "date": "2026-08-18",
+        "close": 7691.76,
+        "volume": 4602700000
+      },
+      {
+        "date": "2026-08-19",
+        "close": 7707.98,
+        "volume": 5184100000
+      },
+      {
+        "date": "2026-08-20",
+        "close": 7641.16,
+        "volume": 4759610000
+      },
+      {
+        "date": "2026-08-21",
+        "close": 7674.37,
+        "volume": 4497270000
+      },
+      {
+        "date": "2026-08-24",
+        "close": 7652.86,
+        "volume": 4400800000
+      },
+      {
+        "date": "2026-08-25",
+        "close": 7677.28,
+        "volume": 4260240000
+      },
+      {
+        "date": "2026-08-26",
+        "close": 7675.7,
+        "volume": 4100600000
+      },
+      {
+        "date": "2026-08-27",
+        "close": 7730.99,
+        "volume": 4362240000
+      },
+      {
+        "date": "2026-08-28",
+        "close": 7738.79,
+        "volume": 278900051
+      }
+    ]
+  },
+  "indicators": {
+    "vix": 14.52,
+    "vixChange": 0.01,
+    "vixHistory": [
+      18.65,
+      17.05,
+      16.64,
+      18.7,
+      18.58,
+      18.67,
+      18.21,
+      20.66,
+      17.09,
+      15.99,
+      15.86,
+      16.5,
+      15.81,
+      15.15,
+      14.9,
+      15.46,
+      15.28,
+      14.55,
+      14.63,
+      14.25,
+      15.19,
+      15.84,
+      14.89,
+      16.01,
+      15.13,
+      15.85,
+      15.45,
+      15.21,
+      14.51,
+      14.52
+    ],
+    "vixHistoryStart": "2026-07-20",
+    "vixHistoryEnd": "2026-08-28",
+    "dxy": 99.22,
+    "dxyChange": 0.06,
+    "dxyHistory": [
+      100.99,
+      101.18,
+      101.14,
+      101.43,
+      101.47,
+      101.51,
+      101.38,
+      100.8,
+      100.01,
+      99.8,
+      99.96,
+      99.89,
+      99.69,
+      99.97,
+      99.6,
+      99.81,
+      99.82,
+      100.01,
+      99.96,
+      99.67,
+      99.64,
+      99.65,
+      98.83,
+      98.9,
+      98.8,
+      99.0,
+      98.92,
+      99.17,
+      99.16,
+      99.22
+    ],
+    "dxyHistoryStart": "2026-07-20",
+    "dxyHistoryEnd": "2026-08-28",
+    "us10y": 4.68,
+    "us10yChange": 0.01,
+    "us10yHistory": [
+      4.6,
+      4.63,
+      4.66,
+      4.7,
+      4.68,
+      4.64,
+      4.6,
+      4.62,
+      4.66,
+      4.74,
+      4.69,
+      4.63,
+      4.62,
+      4.67,
+      4.66,
+      4.7,
+      4.68,
+      4.68,
+      4.64,
+      4.7,
+      4.72,
+      4.71,
+      4.65,
+      4.7,
+      4.74,
+      4.7,
+      4.64,
+      4.66,
+      4.67,
+      4.68
+    ],
+    "us10yHistoryStart": "2026-07-20",
+    "us10yHistoryEnd": "2026-08-28",
+    "us2y": 3.68,
+    "us2yChange": 0.0,
+    "us2yHistory": [
+      3.7,
+      3.73,
+      3.74,
+      3.8,
+      3.81,
+      3.8,
+      3.76,
+      3.66,
+      3.67,
+      3.68,
+      3.7,
+      3.73,
+      3.72,
+      3.73,
+      3.71,
+      3.72,
+      3.73,
+      3.71,
+      3.7,
+      3.7,
+      3.7,
+      3.7,
+      3.7,
+      3.7,
+      3.71,
+      3.7,
+      3.7,
+      3.69,
+      3.68,
+      3.68
+    ],
+    "us2yHistoryStart": "2026-07-20",
+    "us2yHistoryEnd": "2026-08-28",
+    "gold": 4661.1,
+    "goldChange": 51.4,
+    "goldHistory": [
+      4010.3,
+      4071.1,
+      4146.9,
+      4046.6,
+      4067.6,
+      4074.5,
+      4036.3,
+      4034.7,
+      4100.1,
+      4049.1,
+      4033.7,
+      4095.4,
+      4245.8,
+      4242.0,
+      4340.7,
+      4361.8,
+      4383.0,
+      4408.9,
+      4363.6,
+      4380.4,
+      4417.8,
+      4366.0,
+      4489.4,
+      4516.3,
+      4624.1,
+      4640.8,
+      4638.1,
+      4598.2,
+      4609.7,
+      4661.1
+    ],
+    "goldHistoryStart": "2026-07-20",
+    "goldHistoryEnd": "2026-08-28",
+    "oil": 82.64,
+    "oilChange": -0.89,
+    "oilHistory": [
+      83.23,
+      84.91,
+      86.83,
+      92.19,
+      89.31,
+      82.61,
+      79.26,
+      84.46,
+      83.59,
+      84.67,
+      80.34,
+      75.77,
+      75.22,
+      77.29,
+      78.18,
+      82.13,
+      83.2,
+      83.27,
+      81.25,
+      82.4,
+      84.5,
+      84.94,
+      85.83,
+      87.83,
+      87.06,
+      85.01,
+      82.36,
+      82.23,
+      83.53,
+      82.64
+    ],
+    "oilHistoryStart": "2026-07-20",
+    "oilHistoryEnd": "2026-08-28",
+    "btc": 79381.11,
+    "btcChange": -915.89,
+    "btcHistory": [
+      64803.41,
+      62888.41,
+      62780.24,
+      63371.4,
+      63550.01,
+      64217.99,
+      64579.57,
+      64302.93,
+      64850.45,
+      64906.3,
+      65029.73,
+      63959.64,
+      63614.07,
+      63369.42,
+      63475.09,
+      62829.82,
+      63076.89,
+      62837.38,
+      64239.06,
+      64595.78,
+      69221.14,
+      72660.84,
+      78447.0,
+      76998.18,
+      77588.63,
+      78727.76,
+      78879.42,
+      78709.0,
+      80297.0,
+      79381.11
+    ],
+    "btcHistoryStart": "2026-07-29",
+    "btcHistoryEnd": "2026-08-28",
+    "eth": 2512.07,
+    "ethChange": -3.06,
+    "ethHistory": [
+      1924.39,
+      1859.87,
+      1845.8,
+      1880.32,
+      1858.38,
+      1874.02,
+      1905.27,
+      1903.55,
+      1913.68,
+      1915.6,
+      1917.94,
+      1874.43,
+      1880.54,
+      1876.47,
+      1887.62,
+      1877.91,
+      1882.78,
+      1873.86,
+      1902.71,
+      1912.23,
+      2248.77,
+      2313.52,
+      2521.42,
+      2413.31,
+      2454.05,
+      2473.83,
+      2453.42,
+      2494.51,
+      2515.13,
+      2512.07
+    ],
+    "ethHistoryStart": "2026-07-29",
+    "ethHistoryEnd": "2026-08-28"
+  },
+  "sectors": [
+    {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": 1.14
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": 0.7
+    },
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": 0.48
+    },
+    {
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": 0.41
+    },
+    {
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": 0.38
+    },
+    {
+      "name": "能源",
+      "symbol": "XLE",
+      "changePercent": 0.31
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": 0.31
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": 0.25
+    },
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": -0.11
+    },
+    {
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": -0.24
+    },
+    {
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": -0.52
+    }
+  ],
+  "news": [
+    {
+      "title": "Stock Market Today: Dow, S&P Rise Before Warsh Speech; Marvell, Affirm, PayPal Are Big Movers (Live Coverage)",
+      "summary": "Stocks were mixed while Treasury yields edged higher before Fed chief Kevin Warsh's Jackson Hole speech. Marvell, Affirm, PayPal are big movers.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/af609e0d-241a-3766-b67c-b22ac8fea8da/stock-market-today%3A-dow%2C-s%26p.html?.tsrc=rss",
+      "publishedAt": "Fri, 28 Aug 2026 13:45:40 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Fed Credibility Is On The Line In Warsh Jackson Hole Speech (Live Coverage)",
+      "summary": "The speech gives Warsha chance make up for his July 29 news conference that sent long-term Treasury yields jumping amid doubts about his determination to rein in inflation.  The S&P 500 futures opened slightly higher while the 10-year Treasury yield edged up ahead of the big speech.  The development",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/ce2f609a-3e44-38db-bcd2-0b73bcf11125/fed-credibility-is-on-the.html?.tsrc=rss",
+      "publishedAt": "Fri, 28 Aug 2026 13:40:13 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Stock Market News for Aug 28, 2026",
+      "summary": "U.S. stocks ended higher on Thursday, led by a tech rally after semiconductor giant NVIDIA issued a robust revenue forecast, reassuring investors about the potential of artificial intelligence (AI).",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-28-133400922.html?.tsrc=rss",
+      "publishedAt": "Fri, 28 Aug 2026 13:34:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "2 Energy Stocks with Exciting Potential and 1 That Underwhelm",
+      "summary": "Even if they go mostly unnoticed, energy businesses are the backbone of our country, providing the energy we need to power our lives and businesses.Still, their generally high capital requirements expose them to the ups and downs of commodity prices and economic cycles, and the industry’s six-month ",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/energy/articles/2-energy-stocks-exciting-potential-130452395.html?.tsrc=rss",
+      "publishedAt": "Fri, 28 Aug 2026 13:04:52 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Baby Boomers Should Move to These 5 Safe Dividend ETFs Before September",
+      "summary": "September historically crushes stock portfolios, and with hedge funds building the largest Nasdaq short position ever recorded, retirees depending on a bull market for income face a shrinking window to reposition into safety.",
+      "source": "Yahoo Finance",
+      "url": "https://247wallst.com/investing/2026/08/28/baby-boomers-should-move-to-these-5-safe-dividend-etfs-before-september/?.tsrc=rss",
+      "publishedAt": "Fri, 28 Aug 2026 12:42:08 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
+      "summary": "Prior Fed chairs have used the speech as an opportunity to lay out broad policy frameworks and intentions.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/27/fed-chairman-kevin-warsh-delivers-his-key-jackson-hole-speech-friday.html",
+      "publishedAt": "Fri, 28 Aug 2026 11:39:47 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'",
+      "summary": "Iran said the conflict in the Gaza Strip has to end, Israel has to withdraw from Lebanon and also halt its attacks on Syria.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/28/us-iran-war-trump-hormuz-oman-centcom.html",
+      "publishedAt": "Fri, 28 Aug 2026 12:39:02 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
+      "summary": "Marvell Technology shares fell Friday despite a second-quarter revenue beat, as its fiscal 2028 outlook failed to meet investors' expectations.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html",
+      "publishedAt": "Fri, 28 Aug 2026 13:42:43 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare",
+      "summary": "The U.S. has shifted to a campaign of economic warfare, after a dozen waves of airstrikes in July failed to force Tehran to abandon its claim to Hormuz.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/28/navy-blockade-iran-oil-exports-sanctions-trump.html",
+      "publishedAt": "Fri, 28 Aug 2026 11:50:45 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Labor Department to propose expansion of association health plans, which could lower insurance costs for some workers",
+      "summary": "The agency has submitted a rule proposal to the White House that could allow more workers to get health insurance through association health plans.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/28/trump-labor-department-proposal-association-health-insurance-plans.html",
+      "publishedAt": "Fri, 28 Aug 2026 11:00:01 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Home prices in Chicago have jumped more over the past year than in any other U.S. city",
+      "summary": "Nationally, home prices are rising at a slow pace as housing inventory remains relatively low. But some markets, particularly in the Midwest, are seeing big gains.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/home-prices-in-chicago-have-risen-the-most-in-the-u-s-over-the-past-year-3ee317a8?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 28 Aug 2026 13:37:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Micron’s Chinese rival just reported its first earnings as a public company — and sales are booming",
+      "summary": "CXMT, the Chinese memory-chip producer, on Friday reported its first financials as a public company that showed that how much it is benefiting from surge in artificial-intelligence services lifting prices.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/microns-chinese-rival-just-reported-its-first-earnings-as-a-public-company-and-sales-are-booming-182c6a42?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 28 Aug 2026 13:01:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "This new Social Security math could lead us down a dangerous road",
+      "summary": "What are taxpayers entitled to?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-new-social-security-math-could-lead-us-down-a-dangerous-road-3c44d7d7?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 28 Aug 2026 12:48:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "How a plan to fix a $326 billion hole on bank balance sheets could underpin a Warsh and Bessent Treasury twist",
+      "summary": "It looks like Federal Reserve Chair Kevin Warsh and Treasury Secretary Scott Bessent are acting in a coordinated way to reduce long-term bond yields, according to Citrini Research.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/how-bank-of-america-and-three-other-lenders-could-win-big-from-scott-bessents-and-kevin-warshs-bond-market-mechanations-4e56b581?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 28 Aug 2026 12:44:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
+      "summary": "“I’m curious what would happen if the account owner were to die suddenly at the same time as the 98% beneficiary.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
+      "publishedAt": "Fri, 28 Aug 2026 12:15:00 GMT",
+      "sentiment": "neutral"
+    }
+  ],
+  "fearGreedIndex": 73,
+  "valuation": {
+    "sp500": {
+      "pe": 26.01,
+      "forwardPE": 23.65,
+      "pePercentile1y": 97,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 14,
+      "peRangeHigh": 35,
+      "drawdown52w": -0.95,
+      "high52w": 779.37,
+      "drawdownATH": -0.95,
+      "allTimeHigh": 779.37,
+      "currentPrice": 772.0
+    },
+    "nasdaq": {
+      "pe": 30.8,
+      "forwardPE": 26.78,
+      "pePercentile1y": 88,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 18,
+      "peRangeHigh": 45,
+      "drawdown52w": -3.79,
+      "high52w": 748.65,
+      "drawdownATH": -3.79,
+      "allTimeHigh": 748.65,
+      "currentPrice": 720.27
+    }
+  },
+  "advanceDeclineRatio": null,
+  "putCallRatio": null
+}
