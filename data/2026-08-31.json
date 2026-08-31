@@ -2,40 +2,40 @@
   "date": "2026-08-31",
   "dataDate": "2026-08-28",
   "forecastDate": "2026-08-31",
-  "timestamp": "2026-08-28T21:57:27.477689+08:00",
+  "timestamp": "2026-08-31T16:17:03.363868+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": 15,
+  "sentimentScore": 4,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
-    "price": 26542.26,
-    "change": 0.91,
-    "changePercent": 0.0,
+    "price": 26402.42,
+    "change": -138.93,
+    "changePercent": -0.52,
     "tradingDate": "2026-08-28",
     "open": 26515.99,
-    "high": 26605.46,
-    "low": 26503.02,
+    "high": 26700.68,
+    "low": 26359.27,
     "previousClose": 26541.35,
-    "volume": 1591711000,
-    "avgVolume": 7781998050,
+    "volume": 8457870000,
+    "avgVolume": 8125306000,
     "yearHigh": 27190.21,
     "yearHighDate": "2026-06-01",
     "yearLow": 20690.25,
     "yearLowDate": "2026-03-30",
-    "pe": 30.8,
+    "pe": 30.63,
     "marketCap": null,
-    "sma20": 26396.57,
-    "sma50": 25961.81,
+    "sma20": 26389.58,
+    "sma50": 25959.02,
     "sma200": null,
-    "rsi14": 48.6,
-    "macdLine": 112.0982,
-    "macdSignal": 136.6697,
-    "macdHistogram": -24.5715,
-    "bollingerUpper": 26905.74,
-    "bollingerMiddle": 26396.57,
-    "bollingerLower": 25887.4,
-    "atr14": 256.93,
+    "rsi14": 45.8,
+    "macdLine": 101.9497,
+    "macdSignal": 136.8178,
+    "macdHistogram": -34.8681,
+    "bollingerUpper": 26894.37,
+    "bollingerMiddle": 26389.58,
+    "bollingerLower": 25884.78,
+    "atr14": 274.0,
     "priceHistory": [
       {
         "date": "2026-07-20",
@@ -184,41 +184,41 @@
       },
       {
         "date": "2026-08-28",
-        "close": 26542.26,
-        "volume": 1591711000
+        "close": 26402.42,
+        "volume": 8457870000
       }
     ]
   },
   "sp500": {
     "symbol": "^GSPC",
     "name": "S&P 500",
-    "price": 7738.79,
-    "change": 7.8,
-    "changePercent": 0.1,
+    "price": 7711.76,
+    "change": -19.23,
+    "changePercent": -0.25,
     "tradingDate": "2026-08-28",
     "open": 7735.17,
-    "high": 7747.37,
-    "low": 7733.99,
+    "high": 7771.48,
+    "low": 7700.91,
     "previousClose": 7730.99,
-    "volume": 278900051,
-    "avgVolume": 4558014002,
+    "volume": 4297560000,
+    "avgVolume": 4758947000,
     "yearHigh": 7816.7,
     "yearHighDate": "2026-08-13",
     "yearLow": 6316.91,
     "yearLowDate": "2026-03-30",
-    "pe": 26.01,
+    "pe": 25.92,
     "marketCap": null,
-    "sma20": 7713.93,
-    "sma50": 7564.33,
+    "sma20": 7712.58,
+    "sma50": 7563.79,
     "sma200": null,
-    "rsi14": 48.3,
-    "macdLine": 40.2469,
-    "macdSignal": 50.7258,
-    "macdHistogram": -10.4789,
-    "bollingerUpper": 7810.4,
-    "bollingerMiddle": 7713.93,
-    "bollingerLower": 7617.47,
-    "atr14": 46.85,
+    "rsi14": 45.3,
+    "macdLine": 38.3653,
+    "macdSignal": 50.8657,
+    "macdHistogram": -12.5004,
+    "bollingerUpper": 7808.37,
+    "bollingerMiddle": 7712.58,
+    "bollingerLower": 7616.8,
+    "atr14": 50.72,
     "priceHistory": [
       {
         "date": "2026-07-20",
@@ -367,16 +367,15 @@
       },
       {
         "date": "2026-08-28",
-        "close": 7738.79,
-        "volume": 278900051
+        "close": 7711.76,
+        "volume": 4297560000
       }
     ]
   },
   "indicators": {
-    "vix": 14.52,
-    "vixChange": 0.01,
+    "vix": 15.24,
+    "vixChange": 0.81,
     "vixHistory": [
-      18.65,
       17.05,
       16.64,
       18.7,
@@ -405,14 +404,14 @@
       15.45,
       15.21,
       14.51,
-      14.52
+      14.43,
+      15.24
     ],
-    "vixHistoryStart": "2026-07-20",
-    "vixHistoryEnd": "2026-08-28",
-    "dxy": 99.22,
-    "dxyChange": 0.06,
+    "vixHistoryStart": "2026-07-21",
+    "vixHistoryEnd": "2026-08-31",
+    "dxy": 99.5,
+    "dxyChange": -0.2,
     "dxyHistory": [
-      100.99,
       101.18,
       101.14,
       101.43,
@@ -441,12 +440,13 @@
       98.92,
       99.17,
       99.16,
-      99.22
+      99.7,
+      99.5
     ],
-    "dxyHistoryStart": "2026-07-20",
-    "dxyHistoryEnd": "2026-08-28",
-    "us10y": 4.68,
-    "us10yChange": 0.01,
+    "dxyHistoryStart": "2026-07-21",
+    "dxyHistoryEnd": "2026-08-31",
+    "us10y": 4.72,
+    "us10yChange": 0.05,
     "us10yHistory": [
       4.6,
       4.63,
@@ -477,12 +477,12 @@
       4.64,
       4.66,
       4.67,
-      4.68
+      4.72
     ],
     "us10yHistoryStart": "2026-07-20",
     "us10yHistoryEnd": "2026-08-28",
-    "us2y": 3.68,
-    "us2yChange": 0.0,
+    "us2y": 3.73,
+    "us2yChange": 0.05,
     "us2yHistory": [
       3.7,
       3.73,
@@ -513,14 +513,13 @@
       3.7,
       3.69,
       3.68,
-      3.68
+      3.73
     ],
     "us2yHistoryStart": "2026-07-20",
     "us2yHistoryEnd": "2026-08-28",
-    "gold": 4661.1,
-    "goldChange": 51.4,
+    "gold": 4493.4,
+    "goldChange": 15.3,
     "goldHistory": [
-      4010.3,
       4071.1,
       4146.9,
       4046.6,
@@ -549,14 +548,14 @@
       4638.1,
       4598.2,
       4609.7,
-      4661.1
+      4478.1,
+      4493.4
     ],
-    "goldHistoryStart": "2026-07-20",
-    "goldHistoryEnd": "2026-08-28",
-    "oil": 82.64,
-    "oilChange": -0.89,
+    "goldHistoryStart": "2026-07-21",
+    "goldHistoryEnd": "2026-08-31",
+    "oil": 85.42,
+    "oilChange": 2.02,
     "oilHistory": [
-      83.23,
       84.91,
       86.83,
       92.19,
@@ -585,16 +584,14 @@
       82.36,
       82.23,
       83.53,
-      82.64
+      83.4,
+      85.42
     ],
-    "oilHistoryStart": "2026-07-20",
-    "oilHistoryEnd": "2026-08-28",
-    "btc": 79381.11,
-    "btcChange": -915.89,
+    "oilHistoryStart": "2026-07-21",
+    "oilHistoryEnd": "2026-08-31",
+    "btc": 78152.9,
+    "btcChange": -263.02,
     "btcHistory": [
-      64803.41,
-      62888.41,
-      62780.24,
       63371.4,
       63550.01,
       64217.99,
@@ -621,16 +618,16 @@
       78879.42,
       78709.0,
       80297.0,
-      79381.11
+      77738.78,
+      78221.79,
+      78415.92,
+      78152.9
     ],
-    "btcHistoryStart": "2026-07-29",
-    "btcHistoryEnd": "2026-08-28",
-    "eth": 2512.07,
-    "ethChange": -3.06,
+    "btcHistoryStart": "2026-08-01",
+    "btcHistoryEnd": "2026-08-31",
+    "eth": 2440.35,
+    "ethChange": -29.22,
     "ethHistory": [
-      1924.39,
-      1859.87,
-      1845.8,
       1880.32,
       1858.38,
       1874.02,
@@ -657,56 +654,44 @@
       2453.42,
       2494.51,
       2515.13,
-      2512.07
+      2441.62,
+      2452.5,
+      2469.57,
+      2440.35
     ],
-    "ethHistoryStart": "2026-07-29",
-    "ethHistoryEnd": "2026-08-28"
+    "ethHistoryStart": "2026-08-01",
+    "ethHistoryEnd": "2026-08-31"
   },
   "sectors": [
     {
       "name": "通信",
       "symbol": "XLC",
-      "changePercent": 1.14
+      "changePercent": 1.42
     },
     {
       "name": "消费",
       "symbol": "XLY",
-      "changePercent": 0.7
-    },
-    {
-      "name": "日常消费品",
-      "symbol": "XLP",
-      "changePercent": 0.48
-    },
-    {
-      "name": "金融",
-      "symbol": "XLF",
-      "changePercent": 0.41
-    },
-    {
-      "name": "材料",
-      "symbol": "XLB",
-      "changePercent": 0.38
+      "changePercent": 1.15
     },
     {
       "name": "能源",
       "symbol": "XLE",
-      "changePercent": 0.31
+      "changePercent": 0.63
     },
     {
-      "name": "房地产",
-      "symbol": "XLRE",
-      "changePercent": 0.31
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": 0.43
     },
     {
-      "name": "公用事业",
-      "symbol": "XLU",
-      "changePercent": 0.25
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": 0.38
     },
     {
-      "name": "工业",
-      "symbol": "XLI",
-      "changePercent": -0.11
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": -0.09
     },
     {
       "name": "医疗",
@@ -714,162 +699,177 @@
       "changePercent": -0.24
     },
     {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": -0.4
+    },
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": -0.93
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": -1.04
+    },
+    {
       "name": "科技",
       "symbol": "XLK",
-      "changePercent": -0.52
+      "changePercent": -1.55
     }
   ],
   "news": [
     {
-      "title": "Stock Market Today: Dow, S&P Rise Before Warsh Speech; Marvell, Affirm, PayPal Are Big Movers (Live Coverage)",
-      "summary": "Stocks were mixed while Treasury yields edged higher before Fed chief Kevin Warsh's Jackson Hole speech. Marvell, Affirm, PayPal are big movers.",
+      "title": "The Stock Market Is Uncertain Right Now. History Says That's Actually Good News for Long-Term Investors.",
+      "summary": "Despite a double-digit gain for the S&P 500 index in 2026, there are reasons to be a bit cautious.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/af609e0d-241a-3766-b67c-b22ac8fea8da/stock-market-today%3A-dow%2C-s%26p.html?.tsrc=rss",
-      "publishedAt": "Fri, 28 Aug 2026 13:45:40 +0000",
+      "url": "https://www.fool.com/investing/2026/08/31/market-uncertain-history-says-good-news-investors/?.tsrc=rss",
+      "publishedAt": "Mon, 31 Aug 2026 07:20:00 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Fed Credibility Is On The Line In Warsh Jackson Hole Speech (Live Coverage)",
-      "summary": "The speech gives Warsha chance make up for his July 29 news conference that sent long-term Treasury yields jumping amid doubts about his determination to rein in inflation.  The S&P 500 futures opened slightly higher while the 10-year Treasury yield edged up ahead of the big speech.  The development",
+      "title": "The S&P 500 Failed to Beat Inflation Only 4 Times in 20 Years. Here's the Pattern.",
+      "summary": "Stocks beat inflation 16 of 20 years, but faced above-4% CPI just three times. AI earnings now carry real returns.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/ce2f609a-3e44-38db-bcd2-0b73bcf11125/fed-credibility-is-on-the.html?.tsrc=rss",
-      "publishedAt": "Fri, 28 Aug 2026 13:40:13 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Stock Market News for Aug 28, 2026",
-      "summary": "U.S. stocks ended higher on Thursday, led by a tech rally after semiconductor giant NVIDIA issued a robust revenue forecast, reassuring investors about the potential of artificial intelligence (AI).",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-28-133400922.html?.tsrc=rss",
-      "publishedAt": "Fri, 28 Aug 2026 13:34:00 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "2 Energy Stocks with Exciting Potential and 1 That Underwhelm",
-      "summary": "Even if they go mostly unnoticed, energy businesses are the backbone of our country, providing the energy we need to power our lives and businesses.Still, their generally high capital requirements expose them to the ups and downs of commodity prices and economic cycles, and the industry’s six-month ",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/2-energy-stocks-exciting-potential-130452395.html?.tsrc=rss",
-      "publishedAt": "Fri, 28 Aug 2026 13:04:52 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Baby Boomers Should Move to These 5 Safe Dividend ETFs Before September",
-      "summary": "September historically crushes stock portfolios, and with hedge funds building the largest Nasdaq short position ever recorded, retirees depending on a bull market for income face a shrinking window to reposition into safety.",
-      "source": "Yahoo Finance",
-      "url": "https://247wallst.com/investing/2026/08/28/baby-boomers-should-move-to-these-5-safe-dividend-etfs-before-september/?.tsrc=rss",
-      "publishedAt": "Fri, 28 Aug 2026 12:42:08 +0000",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
-      "summary": "Prior Fed chairs have used the speech as an opportunity to lay out broad policy frameworks and intentions.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/27/fed-chairman-kevin-warsh-delivers-his-key-jackson-hole-speech-friday.html",
-      "publishedAt": "Fri, 28 Aug 2026 11:39:47 GMT",
+      "url": "https://beincrypto.com/sp-500-inflation-real-returns-earnings/?.tsrc=rss",
+      "publishedAt": "Mon, 31 Aug 2026 06:55:25 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'",
-      "summary": "Iran said the conflict in the Gaza Strip has to end, Israel has to withdraw from Lebanon and also halt its attacks on Syria.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/28/us-iran-war-trump-hormuz-oman-centcom.html",
-      "publishedAt": "Fri, 28 Aug 2026 12:39:02 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
-      "summary": "Marvell Technology shares fell Friday despite a second-quarter revenue beat, as its fiscal 2028 outlook failed to meet investors' expectations.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html",
-      "publishedAt": "Fri, 28 Aug 2026 13:42:43 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare",
-      "summary": "The U.S. has shifted to a campaign of economic warfare, after a dozen waves of airstrikes in July failed to force Tehran to abandon its claim to Hormuz.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/28/navy-blockade-iran-oil-exports-sanctions-trump.html",
-      "publishedAt": "Fri, 28 Aug 2026 11:50:45 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Labor Department to propose expansion of association health plans, which could lower insurance costs for some workers",
-      "summary": "The agency has submitted a rule proposal to the White House that could allow more workers to get health insurance through association health plans.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/28/trump-labor-department-proposal-association-health-insurance-plans.html",
-      "publishedAt": "Fri, 28 Aug 2026 11:00:01 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Home prices in Chicago have jumped more over the past year than in any other U.S. city",
-      "summary": "Nationally, home prices are rising at a slow pace as housing inventory remains relatively low. But some markets, particularly in the Midwest, are seeing big gains.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/home-prices-in-chicago-have-risen-the-most-in-the-u-s-over-the-past-year-3ee317a8?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 28 Aug 2026 13:37:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Micron’s Chinese rival just reported its first earnings as a public company — and sales are booming",
-      "summary": "CXMT, the Chinese memory-chip producer, on Friday reported its first financials as a public company that showed that how much it is benefiting from surge in artificial-intelligence services lifting prices.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/microns-chinese-rival-just-reported-its-first-earnings-as-a-public-company-and-sales-are-booming-182c6a42?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 28 Aug 2026 13:01:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "This new Social Security math could lead us down a dangerous road",
-      "summary": "What are taxpayers entitled to?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-new-social-security-math-could-lead-us-down-a-dangerous-road-3c44d7d7?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 28 Aug 2026 12:48:00 GMT",
+      "title": "Buckle Up for Wall Street’s Worst Month",
+      "summary": "The S&P 500 and Dow Jones Industrial Average have both tended to decline by 1.1% in September. Things don’t look much better for the Nasdaq Composite, either.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/a5367535-a8d7-37fd-a9ba-103dc9b7bb37/buckle-up-for-wall-street%E2%80%99s.html?.tsrc=rss",
+      "publishedAt": "Mon, 31 Aug 2026 05:00:00 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "How a plan to fix a $326 billion hole on bank balance sheets could underpin a Warsh and Bessent Treasury twist",
-      "summary": "It looks like Federal Reserve Chair Kevin Warsh and Treasury Secretary Scott Bessent are acting in a coordinated way to reduce long-term bond yields, according to Citrini Research.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/how-bank-of-america-and-three-other-lenders-could-win-big-from-scott-bessents-and-kevin-warshs-bond-market-mechanations-4e56b581?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 28 Aug 2026 12:44:00 GMT",
+      "title": "How Are Nasdaq, Dow, S&P 500 Futures Reacting As US Launches Fresh Strike On Iran?",
+      "summary": "Geopolitics are back in the center stage over the weekend after the U.S. struck two Iranian rocket launchers late Sunday.",
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/how-are-nasdaq-dow-s-and-p-500-futures-reacting-as-us-launches-fresh-strike-on-iran/cZYyguQRJrm?.tsrc=rss",
+      "publishedAt": "Mon, 31 Aug 2026 02:13:55 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
-      "summary": "“I’m curious what would happen if the account owner were to die suddenly at the same time as the 98% beneficiary.”",
+      "title": "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme",
+      "summary": "Nine of the decade's best-performing S&P 500 stocks trace their gains to AI chips, networking, and data center demand.",
+      "source": "Yahoo Finance",
+      "url": "https://beincrypto.com/top-10-sp-500-ai-stocks-decade/?.tsrc=rss",
+      "publishedAt": "Mon, 31 Aug 2026 02:13:36 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Trump threatens to blow up Iran's Kharg Island oil hub as hostilities escalate once again",
+      "summary": "The last major U.S. strikes on Iran were carried out in late July.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html",
+      "publishedAt": "Mon, 31 Aug 2026 05:49:48 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "China's Xi builds diplomatic clout with multiple state visits ahead of Trump summit",
+      "summary": "Chinese President Xi Jinping is expected to make his first visit to India before traveling to the U.S. for a meeting with U.S. President Donald Trump.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/31/china-xi-us-trump-visit-sco-brics-modi-india.html",
+      "publishedAt": "Mon, 31 Aug 2026 04:57:24 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Russia preparing 'massive strikes' on Ukraine's energy sites after deadliest attack of the year",
+      "summary": "Russia's Defense Ministry has announced preparations for \"massive strikes\" on Ukraine's energy infrastructure.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/31/russia-massive-strikes-ukraine-energy-infrastructure.html",
+      "publishedAt": "Mon, 31 Aug 2026 07:29:27 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "France is becoming the ‘poster child’ of sovereign debt problems as government borrowing costs hit near 2008 highs",
+      "summary": "France's debt burden and political gridlock are pushing borrowing costs toward levels not seen since 2008.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/31/france-debt-bond-yields-budget.html",
+      "publishedAt": "Mon, 31 Aug 2026 05:08:47 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "U.S.-Iran escalation shows Washington's frustration with slow-moving sanctions",
+      "summary": "Renewed hostilities reopen the question of whether the conflict is grinding toward a settlement or further escalation.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/31/us-trump-hormuz-iran-kharg-larak-oil-analysts-sanctions-.html",
+      "publishedAt": "Mon, 31 Aug 2026 06:59:11 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
+      "summary": "U.S. stock-index futures declined on Sunday, as investors ponder the likelihood of a fresh interest-rate hike and as new fighting between the U.S. and Iran threatens to reignite the conflict.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 28 Aug 2026 12:15:00 GMT",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 31 Aug 2026 03:03:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
+      "summary": "“The property is very old and requires significant ongoing maintenance.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 30 Aug 2026 22:31:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 30 Aug 2026 22:15:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+      "summary": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 30 Aug 2026 22:15:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+      "summary": "“These shares are the only assets in her estate without designated beneficiaries.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 30 Aug 2026 14:30:00 GMT",
       "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 73,
+  "fearGreedIndex": 62,
   "valuation": {
     "sp500": {
-      "pe": 26.01,
-      "forwardPE": 23.65,
-      "pePercentile1y": 97,
+      "pe": 25.92,
+      "forwardPE": 23.56,
+      "pePercentile1y": 96,
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 14,
       "peRangeHigh": 35,
-      "drawdown52w": -0.95,
+      "drawdown52w": -1.29,
       "high52w": 779.37,
-      "drawdownATH": -0.95,
+      "drawdownATH": -1.29,
       "allTimeHigh": 779.37,
-      "currentPrice": 772.0
+      "currentPrice": 769.35
     },
     "nasdaq": {
-      "pe": 30.8,
-      "forwardPE": 26.78,
-      "pePercentile1y": 88,
+      "pe": 30.63,
+      "forwardPE": 26.63,
+      "pePercentile1y": 85,
       "pePercentile5y": null,
       "pePercentile10y": null,
       "peRangeLow": 18,
       "peRangeHigh": 45,
-      "drawdown52w": -3.79,
+      "drawdown52w": -4.3,
       "high52w": 748.65,
-      "drawdownATH": -3.79,
+      "drawdownATH": -4.3,
       "allTimeHigh": 748.65,
-      "currentPrice": 720.27
+      "currentPrice": 716.43
     }
   },
   "advanceDeclineRatio": null,
