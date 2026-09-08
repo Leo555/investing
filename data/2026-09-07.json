@@ -2,7 +2,7 @@
   "date": "2026-09-07",
   "dataDate": "2026-09-04",
   "forecastDate": "2026-09-07",
-  "timestamp": "2026-09-07T15:06:43.003642+08:00",
+  "timestamp": "2026-09-08T15:01:05.176610+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
   "sentimentScore": 18,
@@ -373,10 +373,9 @@
     ]
   },
   "indicators": {
-    "vix": 14.53,
-    "vixChange": 0.21,
+    "vix": 15.3,
+    "vixChange": 0.77,
     "vixHistory": [
-      18.67,
       18.21,
       20.66,
       17.09,
@@ -405,12 +404,13 @@
       16.34,
       15.2,
       14.32,
-      14.53
+      14.53,
+      15.3
     ],
-    "vixHistoryStart": "2026-07-27",
-    "vixHistoryEnd": "2026-09-04",
-    "dxy": 99.11,
-    "dxyChange": -0.05,
+    "vixHistoryStart": "2026-07-28",
+    "vixHistoryEnd": "2026-09-07",
+    "dxy": 98.85,
+    "dxyChange": -0.31,
     "dxyHistory": [
       101.38,
       100.8,
@@ -441,10 +441,10 @@
       99.56,
       99.0,
       99.16,
-      99.11
+      98.85
     ],
     "dxyHistoryStart": "2026-07-28",
-    "dxyHistoryEnd": "2026-09-07",
+    "dxyHistoryEnd": "2026-09-08",
     "us10y": 4.78,
     "us10yChange": 0.02,
     "us10yHistory": [
@@ -517,8 +517,8 @@
     ],
     "us2yHistoryStart": "2026-07-27",
     "us2yHistoryEnd": "2026-09-04",
-    "gold": 4476.6,
-    "goldChange": 46.8,
+    "gold": 4453.3,
+    "goldChange": 23.5,
     "goldHistory": [
       4036.3,
       4034.7,
@@ -549,12 +549,12 @@
       4366.3,
       4491.7,
       4429.8,
-      4476.6
+      4453.3
     ],
     "goldHistoryStart": "2026-07-28",
-    "goldHistoryEnd": "2026-09-07",
-    "oil": 91.48,
-    "oilChange": 0.0,
+    "goldHistoryEnd": "2026-09-08",
+    "oil": 94.05,
+    "oilChange": 2.57,
     "oilHistory": [
       79.26,
       84.46,
@@ -585,14 +585,13 @@
       91.01,
       91.3,
       91.48,
-      91.48
+      94.05
     ],
     "oilHistoryStart": "2026-07-28",
-    "oilHistoryEnd": "2026-09-07",
-    "btc": 79591.26,
-    "btcChange": -455.45,
+    "oilHistoryEnd": "2026-09-08",
+    "btc": 78315.37,
+    "btcChange": -613.98,
     "btcHistory": [
-      65029.73,
       63959.64,
       63614.07,
       63369.42,
@@ -621,14 +620,14 @@
       79648.88,
       79781.06,
       80046.71,
-      79591.26
+      78929.35,
+      78315.37
     ],
-    "btcHistoryStart": "2026-08-08",
-    "btcHistoryEnd": "2026-09-07",
-    "eth": 2497.06,
-    "ethChange": -10.81,
+    "btcHistoryStart": "2026-08-09",
+    "btcHistoryEnd": "2026-09-08",
+    "eth": 2468.03,
+    "ethChange": -14.23,
     "ethHistory": [
-      1917.94,
       1874.43,
       1880.54,
       1876.47,
@@ -657,10 +656,11 @@
       2451.56,
       2480.99,
       2507.87,
-      2497.06
+      2482.26,
+      2468.03
     ],
-    "ethHistoryStart": "2026-08-08",
-    "ethHistoryEnd": "2026-09-07"
+    "ethHistoryStart": "2026-08-09",
+    "ethHistoryEnd": "2026-09-08"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
-      "summary": "Two questions are set to lead the week: Will the data push the Fed toward a rate hike, and what can Oracle tell Wall Street about the state of Big Tech's AI debt load?",
+      "title": "Dow, S&P 500 Futures Decline Amid Rising Oil Prices As Iran War Escalates: MU, ORCL, INTC, BE Stocks In Focus",
+      "summary": "The U.S. struck three Iranian oil tankers on Saturday, while Iran’s Islamic Revolutionary Guard Corps (IRGC) responded by striking three tankers and three U.S.-linked vessels in other areas.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/economy/article/inflation-data-oracle-earnings-and-an-energy-supply-crunch-what-to-watch-this-week-120429533.html?.tsrc=rss",
-      "publishedAt": "Sun, 06 Sep 2026 12:04:29 +0000",
+      "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-futures-decline-amid-rising-oil-prices-as-iran-war-escalates-mu-orcl-intc-be-stocks-in-focus/cZt3K4yRJxo?.tsrc=rss",
+      "publishedAt": "Tue, 08 Sep 2026 02:19:20 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
-      "summary": "Dow Jones futures: The U.S. and Iran exchanged attacks. Nvidia, Micron, Sandisk are buys, but for how long? Apple, inflation data loom.",
+      "title": "BE Stock Soars Overnight On S&P 500 Inclusion: Analyst Sees Upside Of Over 28%",
+      "summary": "UBS analyst Manav Gupta raised the price target on Bloom Energy stock to $325 from $300 and maintained a ‘Buy’ rating on the shares, implying an upside of more than 28% from its last close.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/d5001ca0-1c20-3379-83c3-ddca4526f9c2/dow-jones-futures-fall-with.html?.tsrc=rss",
-      "publishedAt": "Mon, 07 Sep 2026 03:06:47 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Meet the Dirt Cheap 6.4%-Yielding Dividend Stock That's Beating the Market in 2026",
-      "summary": "Altria has crushed it in 2026, but be well aware of the risks.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/09/06/meet-the-dirt-cheap-6-yielding-dividend-stock-that/?.tsrc=rss",
-      "publishedAt": "Sun, 06 Sep 2026 20:25:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "The Stock Market Just Entered Its Worst Month of the Year. History Says This Is What Investors Should Do.",
-      "summary": "Even though September has historically been a rough month, history says investors shouldn't try to avoid it.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/09/06/stock-market-worst-month-of-year-history-says-do/?.tsrc=rss",
-      "publishedAt": "Sun, 06 Sep 2026 17:07:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "This Stock Has the Highest Dividend Yield in the S&P 500. It Just Raised Its Dividend Again.",
-      "summary": "Vici Properties continues to hand more cash to shareholders.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/09/06/this-stock-has-the-highest-dividend-yield-in-the-s/?.tsrc=rss",
-      "publishedAt": "Sun, 06 Sep 2026 11:35:00 +0000",
+      "url": "https://stocktwits.com/news-articles/markets/equity/be-stock-soars-overnight-on-s-and-p-500-inclusion-analyst-sees-upside-of-over-28/cZt3LqeRJxN?.tsrc=rss",
+      "publishedAt": "Tue, 08 Sep 2026 01:24:51 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Israel-Hezbollah clashes deepen threat to fragile truce as Lebanon's president calls for U.S. support",
-      "summary": "Lebanese President Joseph Aoun called on the U.S. to help stop Israeli attacks after Sunday strikes killed at least seven people.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/07/us-iran-war-trump-hormuz-israel-hezbollah-fighting-strikes-.html",
-      "publishedAt": "Mon, 07 Sep 2026 05:15:44 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
-      "summary": "Treasury yields face a test at 4.8%, with a sustained move above that potentially creating \"meaningful problems\" for other asset classes, said Miller Tabak.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html",
-      "publishedAt": "Mon, 07 Sep 2026 02:01:52 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "China pulls in Big Tobacco to help with smaller-than-expected finance-industry capital injections",
-      "summary": "With a bigger capital cushion, financial institutions may also be asked to do more to mobilize resources in capital markets, analysts say.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html",
-      "publishedAt": "Mon, 07 Sep 2026 06:27:53 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Volcano eruption disrupts hundreds of flights at Southeast Asia's second-busiest airport",
-      "summary": "Mount Anak Krakatau’s eruption disrupted hundreds of flights across Indonesia, with flight cancellations extending into Monday.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/07/flights-canceled-jakarta-airport-anak-krakatau-eruption-disrupts-regional-travel-volcano.html",
-      "publishedAt": "Mon, 07 Sep 2026 01:31:03 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI data centers are transforming rural land markets — and fueling a backlash",
-      "summary": "The data center buildout is driving up the price of rural land as some farmers and property owners buy in and others push back against development.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/06/ai-data-centers-are-transforming-rural-land-markets-fueling-backlash.html",
-      "publishedAt": "Sun, 06 Sep 2026 12:00:01 GMT",
+      "title": "The S&P 500 Is at a Near-Record High. Here's What History Says Every Long-Term Investor Should Do Right Now.",
+      "summary": "Don't panic, but the market looks expensive, with the S&P 500 hovering near all-time highs. It has been here many times before.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/09/07/the-sp-500-is-at-a-near-record-high-heres-what-his/?.tsrc=rss",
+      "publishedAt": "Mon, 07 Sep 2026 23:35:00 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "‘I currently give him $1,000 a month’: My grandson has severe mental illness. How do I protect him after I’m gone?",
-      "summary": "“I’m desperately trying to plan ahead while I’m still able.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
-      "publishedAt": "Sun, 06 Sep 2026 21:30:00 GMT",
+      "title": "S&P 500 Investors Brace for Brutal Holiday Pattern",
+      "summary": "Wall Street's return from holiday carries an unusually grim warning",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-investors-brace-brutal-215051560.html?.tsrc=rss",
+      "publishedAt": "Mon, 07 Sep 2026 21:50:51 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "S&P 500 Adds 3 Surging Stocks in Major Shake-Up",
+      "summary": "Three market winners are about to gain a powerful catalyst",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-adds-3-surging-214536624.html?.tsrc=rss",
+      "publishedAt": "Mon, 07 Sep 2026 21:45:36 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Iran foreign ministry takes aim at Canada for support of U.S. actions in Strait of Hormuz",
+      "summary": "Canada had condemned Iran’s \"destabilizing actions\" in the Middle East, saying that it would work with partners to maintain significant pressure on Iran.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/08/us-iran-war-trump-hormuz-canada-trade-talks-greenland.html",
+      "publishedAt": "Tue, 08 Sep 2026 05:29:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
-      "summary": "“I am frustrated and financially exhausted from continuing to invest my own money into  these properties.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
-      "publishedAt": "Sun, 06 Sep 2026 21:00:00 GMT",
+      "title": "Cholesterol drug setback casts doubt over multibillion-dollar race",
+      "summary": "Novartis’ failure raises the stakes for Amgen and Eli Lilly in the race to turn lower Lp(a) levels into fewer heart attacks and strokes.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/08/novartis-cholesterol-setback-drug-race-eli-lilly-amgen.html",
+      "publishedAt": "Tue, 08 Sep 2026 05:00:01 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "My wife and I are in our 70s. Should we move to California and take on a bigger mortgage to be near our kids?",
-      "summary": "“We currently live in a relatively low-cost, lower-tax Northwest state.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-wife-and-i-are-in-our-70s-should-we-move-to-california-and-take-on-a-bigger-mortgage-to-be-near-our-kids-1d619084?mod=mw_rss_topstories",
-      "publishedAt": "Sun, 06 Sep 2026 20:00:00 GMT",
+      "title": "Nvidia supplier Wistron's shares drop after it announces $1.5 billion global stock sale",
+      "summary": "Wistron shares fall Tuesday after announcement of $1.5 billion global share sale",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/08/nvidia-supplier-wistron-share-sale.html",
+      "publishedAt": "Tue, 08 Sep 2026 03:54:54 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Mistral bags $24 billion valuation as Samsung leads funding for Europe's AI champion",
+      "summary": "Mistral is betting on open-weight AI models to help it compete with players like OpenAI and Anthropic.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html",
+      "publishedAt": "Tue, 08 Sep 2026 05:00:01 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
-      "summary": "“It always baffled me how some people managed to retire with significant wealth.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
-      "publishedAt": "Sun, 06 Sep 2026 20:00:00 GMT",
+      "title": "Global markets keep shrugging off shocks. Here's what could break that streak, according to HSBC",
+      "summary": "Markets have shrugged off a barrage of shocks in recent years but that resilience may not last forever, according to HSBC.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/08/global-markets-shrug-off-shocks-hsbc-sees-what-could-break-the-streak.html",
+      "publishedAt": "Tue, 08 Sep 2026 04:02:43 GMT",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
+      "summary": "The West Texas Intermediate and Brent crude contracts previously rose to near-seven-week highs.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 08 Sep 2026 03:09:00 GMT",
+      "sentiment": "positive"
     },
     {
       "title": "Why does almost nobody want to befriend older people like me — except scammers?",
       "summary": "“I’d rather leave my estate to people who spent time with me because they genuinely valued my company.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
-      "publishedAt": "Sun, 06 Sep 2026 19:45:00 GMT",
+      "publishedAt": "Mon, 07 Sep 2026 22:00:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?",
+      "summary": "“Am I required to create three new inherited IRAs so that the firm can divide it equally?”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 07 Sep 2026 22:00:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
+      "summary": "“It always baffled me how some people managed to retire with significant wealth.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 07 Sep 2026 19:30:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "We’re in our 60s. We earn $345,000 and have $1 million in 403(b)s. Is it too late for Roth conversions?",
+      "summary": "“Roth assets would provide our children with tax-free distributions.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/were-in-our-60s-my-wife-and-i-have-345-000-in-annual-pensions-and-1-million-in-403-b-s-is-it-too-late-for-roth-conversions-5df35d42?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 07 Sep 2026 16:30:00 GMT",
       "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 71,
+  "fearGreedIndex": 69,
   "valuation": {
     "sp500": {
       "pe": 24.88,
