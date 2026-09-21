@@ -2,10 +2,10 @@
   "date": "2026-09-21",
   "dataDate": "2026-09-18",
   "forecastDate": "2026-09-21",
-  "timestamp": "2026-09-19T15:07:47.112973+08:00",
+  "timestamp": "2026-09-21T15:44:40.527127+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": 5,
+  "sentimentScore": 7,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -373,10 +373,9 @@
     ]
   },
   "indicators": {
-    "vix": 14.81,
-    "vixChange": -0.63,
+    "vix": 14.96,
+    "vixChange": 0.15,
     "vixHistory": [
-      15.46,
       15.28,
       14.55,
       14.63,
@@ -405,14 +404,14 @@
       17.2,
       17.71,
       15.44,
-      14.81
+      14.81,
+      14.96
     ],
-    "vixHistoryStart": "2026-08-10",
-    "vixHistoryEnd": "2026-09-18",
-    "dxy": 100.22,
-    "dxyChange": 0.0,
+    "vixHistoryStart": "2026-08-11",
+    "vixHistoryEnd": "2026-09-21",
+    "dxy": 100.33,
+    "dxyChange": 0.11,
     "dxyHistory": [
-      99.6,
       99.81,
       99.82,
       100.01,
@@ -441,10 +440,11 @@
       99.65,
       100.31,
       100.22,
-      100.22
+      100.22,
+      100.33
     ],
-    "dxyHistoryStart": "2026-08-07",
-    "dxyHistoryEnd": "2026-09-18",
+    "dxyHistoryStart": "2026-08-10",
+    "dxyHistoryEnd": "2026-09-21",
     "us10y": 5.0,
     "us10yChange": 0.05,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-08-07",
     "us2yHistoryEnd": "2026-09-18",
-    "gold": 4424.9,
-    "goldChange": 25.2,
+    "gold": 4389.9,
+    "goldChange": -35.0,
     "goldHistory": [
-      4399.7,
       4419.7,
       4441.1,
       4467.5,
@@ -549,14 +548,14 @@
       4332.8,
       4387.5,
       4399.7,
-      4424.9
+      4424.9,
+      4389.9
     ],
-    "goldHistoryStart": "2026-08-07",
-    "goldHistoryEnd": "2026-09-18",
-    "oil": 100.3,
-    "oilChange": -1.61,
+    "goldHistoryStart": "2026-08-10",
+    "goldHistoryEnd": "2026-09-21",
+    "oil": 93.92,
+    "oilChange": -6.38,
     "oilHistory": [
-      78.18,
       82.13,
       83.2,
       83.27,
@@ -585,15 +584,14 @@
       105.83,
       102.43,
       101.91,
-      100.3
+      100.3,
+      93.92
     ],
-    "oilHistoryStart": "2026-08-07",
-    "oilHistoryEnd": "2026-09-18",
-    "btc": 81046.33,
-    "btcChange": -77.79,
+    "oilHistoryStart": "2026-08-10",
+    "oilHistoryEnd": "2026-09-21",
+    "btc": 81501.72,
+    "btcChange": 304.39,
     "btcHistory": [
-      78447.0,
-      76998.18,
       77588.63,
       78727.76,
       78879.42,
@@ -621,15 +619,15 @@
       75622.8,
       76353.28,
       81124.12,
-      81046.33
+      81226.58,
+      81197.33,
+      81501.72
     ],
-    "btcHistoryStart": "2026-08-20",
-    "btcHistoryEnd": "2026-09-19",
-    "eth": 2625.5,
-    "ethChange": 5.78,
+    "btcHistoryStart": "2026-08-22",
+    "btcHistoryEnd": "2026-09-21",
+    "eth": 2647.94,
+    "ethChange": 9.25,
     "ethHistory": [
-      2521.42,
-      2413.31,
       2454.05,
       2473.83,
       2453.42,
@@ -657,10 +655,12 @@
       2390.61,
       2443.64,
       2619.72,
-      2625.5
+      2629.91,
+      2638.69,
+      2647.94
     ],
-    "ethHistoryStart": "2026-08-20",
-    "ethHistoryEnd": "2026-09-19"
+    "ethHistoryStart": "2026-08-22",
+    "ethHistoryEnd": "2026-09-21"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Dow Jones Futures: Nasdaq, S&P 500 Hold; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+      "title": "History Says This Chip ETF Keeps Beating the S&P 500. It Has Trailed the Index Only Twice Since 2016.",
+      "summary": "The fund's wins came by double-digit margins -- and its two losses were about twice as deep as the market's.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/09/20/history-says-this-chip-etf-keeps-beating-the-s-and-p-500-it-has-trailed-the-index-only-twice-since-2016/?.tsrc=rss",
+      "publishedAt": "Mon, 21 Sep 2026 03:18:01 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
       "summary": "The stock market showed choppy, mixed weekly action. But Robinhood, Sandisk, AMD and Moderna rallied into buy areas.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures%3A-nasdaq%2C.html?.tsrc=rss",
-      "publishedAt": "Sat, 19 Sep 2026 01:36:29 +0000",
+      "url": "https://finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures-rise%3B-can.html?.tsrc=rss",
+      "publishedAt": "Mon, 21 Sep 2026 02:50:22 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "SPMO Owns the S&P 500’s 100 Fastest-Rising Stocks. Its Momentum Screen Has Beaten the Index by 67-Points Over the Last Five Years",
-      "summary": "A simple momentum screen applied to S&P 500 stocks has quietly built a performance gap that turns identical starting portfolios into dramatically different ending balances, and the strategy costs almost nothing to implement.",
+      "title": "Strategists Say Market's ‘Wall of Worry' Is Healthy, Not a Warning Sign",
+      "summary": "Oil surged and yields hit 5%, yet the S&P held steady. Strategists explain why this wall of worry looks healthy.",
       "source": "Yahoo Finance",
-      "url": "https://247wallst.com/investing/2026/09/18/spmo-owns-the-sp-500s-100-fastest-rising-stocks-its-momentum-screen-has-beaten-the-index-by-67-points-over-the-last-five-years/?.tsrc=rss",
-      "publishedAt": "Fri, 18 Sep 2026 23:52:05 +0000",
+      "url": "https://beincrypto.com/wall-of-worry-stock-market-resilience/?.tsrc=rss",
+      "publishedAt": "Mon, 21 Sep 2026 02:26:42 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Climb Ahead Of Key China Summit: CRML, APLD, GME, AMD Stocks In Focus",
+      "summary": "This week, the market is turning its attention to an important summit between the U.S. and China, where U.S. President Donald Trump and Chinese President Xi Jinping are expected to discuss key economic issues.",
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-climb-ahead-of-key-china-summit-crml-apld-gme-amd-stocks-in-focus/cZMRbIGRB4E?.tsrc=rss",
+      "publishedAt": "Mon, 21 Sep 2026 02:23:32 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Jefferies stays bullish on S&P 500, sees 9,000 by end-2027",
+      "summary": "Investing.com -- Jefferies expects the S&P 500 to extend its gains through the end of 2026 and into next year, arguing that stronger-than-expected corporate earnings and continued artificial intelligence investment can outweigh risks from inflation, higher oil prices and elevated bond yields.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-stays-bullish-p-500-223344444.html?.tsrc=rss",
+      "publishedAt": "Sun, 20 Sep 2026 22:33:44 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus",
-      "summary": "An interest rate hike amid soaring energy costs and rising inflation concerns has weighed on the Dow.",
-      "source": "Yahoo Finance",
-      "url": "https://stocktwits.com/news-articles/markets/equity/dow-drops-to-record-worst-week-in-six-months-amid-elevated-yields-oil-nvda-tsla-spcx-onon-in-focus/cZtHOYsRBEK?.tsrc=rss",
-      "publishedAt": "Fri, 18 Sep 2026 23:35:58 +0000",
+      "title": "Iran vows 'painful' retaliation as Trump piles on pressure ahead of UN General Assembly meeting",
+      "summary": "Trump threatened to destroy Iran's economy or eliminate its leadership if Tehran doesn't strike a deal, complicating efforts at diplomacy.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/21/us-iran-war-trump-hormuz.html",
+      "publishedAt": "Mon, 21 Sep 2026 04:04:18 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "PagSeguro Digital Ltd. (PAGS) Stock Falls Amid Market Uptick: What Investors Need to Know",
-      "summary": "The latest trading day saw PagSeguro Digital Ltd. (PAGS) settling at $9.26, representing a -3.14% change from its previous close.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pagseguro-digital-ltd-pags-stock-221503519.html?.tsrc=rss",
-      "publishedAt": "Fri, 18 Sep 2026 22:15:03 +0000",
-      "sentiment": "negative"
+      "title": "Bessent calls meeting with China Vice Premier He Lifeng 'successful' ahead of Trump-Xi summit",
+      "summary": "Treasury Secretary Scott Bessent said his meeting with Chinese Vice Premier He Lifeng was \"successful\" ahead of the Sept. 24 Trump-Xi summit.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html",
+      "publishedAt": "Mon, 21 Sep 2026 00:45:26 GMT",
+      "sentiment": "neutral"
     },
     {
-      "title": "Innovative Industrial Properties (IIPR) Stock Sinks As Market Gains: Here's Why",
-      "summary": "Innovative Industrial Properties (IIPR) reached $55.62 at the closing of the latest trading day, reflecting a -1.44% change compared to its last close.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/innovative-industrial-properties-iipr-stock-221503611.html?.tsrc=rss",
-      "publishedAt": "Fri, 18 Sep 2026 22:15:03 +0000",
+      "title": "‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+      "summary": "Tariffs, fuel prices and interest rates are squeezing American companies, particularly manufacturers, auto suppliers, retailers and transportation businesses.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+      "publishedAt": "Sun, 20 Sep 2026 12:47:23 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Trump says he's banning MS NOW, CNN and Politico from White House",
-      "summary": "Trump, who often accuses mainstream media outlets of writing \"fake news,\" said on Truth Social that those outlets shouldn't be allowed to \"FICTION and LIES.\"",
+      "title": "CNBC Daily Open: May the 'AI Force' be with you",
+      "summary": "President Trump announces the creation of an 'AI Force' as the technology looks set to be a key topic with Chinese President Xi Jinping this week.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/trump-white-house-ban-msnow-cnn-politico.html",
-      "publishedAt": "Fri, 18 Sep 2026 23:43:21 GMT",
+      "url": "https://www.cnbc.com/2026/09/21/cnbc-daily-open-trump-china-ai-force.html",
+      "publishedAt": "Mon, 21 Sep 2026 06:41:34 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Trump says U.S. to build a 'large Military presence' in Greenland as part of a security deal with it and Denmark",
-      "summary": "Greenland has maintained it is not for sale, and the European Union earlier this year united to rebuke Trump over his push to acquire the island.",
+      "title": "Chinese biopharma stocks jump as U.S. weighs keeping door open to drug deals",
+      "summary": "Chinese biopharma stocks rose on Monday after a report that the U.S. may continue to allow most drug licensing deals with Chinese firms.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/trump-greenland-denmark-military-deal.html",
-      "publishedAt": "Fri, 18 Sep 2026 23:28:06 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "A new arms race is unfolding on the ocean floor",
-      "summary": "Countries and companies are investing in technologies for underwater use amid concerns about the vulnerability of critical infrastructure on the ocean floor.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/19/underwater-war-sea-drones-defense-tech.html",
-      "publishedAt": "Sat, 19 Sep 2026 05:00:01 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
-      "summary": "The disclosure comes as scrutiny over misbehaving artificial intelligence intensifies in Washington and Silicon Valley.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
-      "publishedAt": "Sat, 19 Sep 2026 01:41:49 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
-      "summary": "Suleyman joined \"Squawk Box\" to discuss OpenAI's latest incidents of \"concerning model behavior\" disclosed earlier this week.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
-      "publishedAt": "Fri, 18 Sep 2026 21:35:55 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
-      "summary": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 18 Sep 2026 23:30:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
-      "summary": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 18 Sep 2026 23:00:00 GMT",
-      "sentiment": "neutral"
+      "url": "https://www.cnbc.com/2026/09/21/chinese-biopharma-stocks-jump-as-us-plans-to-continue-drug-licensing-deals-.html",
+      "publishedAt": "Mon, 21 Sep 2026 04:20:33 GMT",
+      "sentiment": "positive"
     },
     {
       "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
       "summary": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 18 Sep 2026 22:45:00 GMT",
+      "publishedAt": "Mon, 21 Sep 2026 02:40:00 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "Why investors shouldn’t be spooked by fears of an October stock-market crash",
-      "summary": "You may be able to profit from investors’ irrational belief that crashes are especially likely to occur in October.",
+      "title": "I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy?",
+      "summary": "“I racked up this debt to cover my living expenses for two years without an income stream.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-investors-shouldnt-be-spooked-by-fears-of-an-october-stock-market-crash-ac0eb2e1?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 18 Sep 2026 22:41:00 GMT",
-      "sentiment": "negative"
+      "url": "https://www.marketwatch.com/story/i-am-drowning-in-debt-i-have-125-000-in-credit-card-debt-will-9-000-in-disability-income-affect-my-bankruptcy-f897c131?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 20 Sep 2026 17:30:00 GMT",
+      "sentiment": "neutral"
     },
     {
-      "title": "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
-      "summary": "Selling a condominium unit has become a challenge for many, as buyers get spooked at the prospect of bearing ever-rising HOA fees — even if the home comes with a lower price tag.",
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/its-almost-impossible-to-sell-a-condo-these-days-i-feel-trapped-1f96ce37?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 18 Sep 2026 21:16:00 GMT",
-      "sentiment": "negative"
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 20 Sep 2026 16:30:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
+      "summary": "The Federal Reserve announced a quarter-percentage-point interest-rate hike Wednesday, to a range of 3.75%-4.0%.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 20 Sep 2026 15:00:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Snoopy cups at Starbucks and McDonald’s SpongeBob toys are commanding huge markups on eBay",
+      "summary": "Adults are scooping up promotional items out of nostalgia — and playing into a frenzy around collectibles .",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/starbuckss-snoopy-cups-and-mcdonalds-spongebob-toys-are-commanding-huge-markups-on-ebay-ed3e514d?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 20 Sep 2026 14:08:00 GMT",
+      "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 71,
+  "fearGreedIndex": 70,
   "valuation": {
     "sp500": {
       "pe": 24.61,
