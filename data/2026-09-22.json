@@ -2,10 +2,10 @@
   "date": "2026-09-22",
   "dataDate": "2026-09-21",
   "forecastDate": "2026-09-22",
-  "timestamp": "2026-09-22T15:27:27.666961+08:00",
+  "timestamp": "2026-09-23T15:30:01.247508+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bullish",
-  "sentimentScore": 34,
+  "sentimentScore": 36,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -23,15 +23,15 @@
     "yearHighDate": "2026-06-01",
     "yearLow": 20690.25,
     "yearLowDate": "2026-03-30",
-    "pe": 30.22,
+    "pe": 30.47,
     "marketCap": null,
     "sma20": 26314.19,
     "sma50": 26088.38,
     "sma200": null,
     "rsi14": 62.5,
-    "macdLine": 95.8958,
-    "macdSignal": 40.0888,
-    "macdHistogram": 55.807,
+    "macdLine": 94.2458,
+    "macdSignal": 37.7905,
+    "macdHistogram": 56.4553,
     "bollingerUpper": 26846.37,
     "bollingerMiddle": 26314.19,
     "bollingerLower": 25782.02,
@@ -212,9 +212,9 @@
     "sma50": 7621.02,
     "sma200": null,
     "rsi14": 55.5,
-    "macdLine": 3.6946,
-    "macdSignal": 1.6165,
-    "macdHistogram": 2.0781,
+    "macdLine": 3.3856,
+    "macdSignal": 1.1864,
+    "macdHistogram": 2.1992,
     "bollingerUpper": 7769.74,
     "bollingerMiddle": 7663.41,
     "bollingerLower": 7557.07,
@@ -373,10 +373,9 @@
     ]
   },
   "indicators": {
-    "vix": 14.87,
-    "vixChange": 0.06,
+    "vix": 14.16,
+    "vixChange": -0.71,
     "vixHistory": [
-      15.28,
       14.55,
       14.63,
       14.25,
@@ -405,12 +404,13 @@
       17.71,
       15.44,
       14.81,
-      14.87
+      14.87,
+      14.16
     ],
-    "vixHistoryStart": "2026-08-11",
-    "vixHistoryEnd": "2026-09-21",
-    "dxy": 100.46,
-    "dxyChange": 0.03,
+    "vixHistoryStart": "2026-08-12",
+    "vixHistoryEnd": "2026-09-23",
+    "dxy": 100.75,
+    "dxyChange": 0.32,
     "dxyHistory": [
       99.82,
       100.01,
@@ -441,10 +441,10 @@
       100.22,
       100.22,
       100.43,
-      100.46
+      100.75
     ],
     "dxyHistoryStart": "2026-08-11",
-    "dxyHistoryEnd": "2026-09-22",
+    "dxyHistoryEnd": "2026-09-23",
     "us10y": 4.96,
     "us10yChange": -0.04,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-08-10",
     "us2yHistoryEnd": "2026-09-21",
-    "gold": 4359.6,
-    "goldChange": -24.3,
+    "gold": 4362.7,
+    "goldChange": -13.7,
     "goldHistory": [
-      4441.1,
       4467.5,
       4420.4,
       4437.3,
@@ -549,14 +548,14 @@
       4399.7,
       4424.9,
       4383.9,
-      4359.6
+      4376.4,
+      4362.7
     ],
-    "goldHistoryStart": "2026-08-11",
-    "goldHistoryEnd": "2026-09-22",
-    "oil": 93.26,
-    "oilChange": -2.52,
+    "goldHistoryStart": "2026-08-12",
+    "goldHistoryEnd": "2026-09-23",
+    "oil": 89.72,
+    "oilChange": -4.87,
     "oilHistory": [
-      83.2,
       83.27,
       81.25,
       82.4,
@@ -585,14 +584,14 @@
       101.91,
       100.3,
       95.78,
-      93.26
+      94.59,
+      89.72
     ],
-    "oilHistoryStart": "2026-08-11",
-    "oilHistoryEnd": "2026-09-22",
-    "btc": 85226.33,
-    "btcChange": -1195.62,
+    "oilHistoryStart": "2026-08-12",
+    "oilHistoryEnd": "2026-09-23",
+    "btc": 86328.26,
+    "btcChange": 208.07,
     "btcHistory": [
-      78727.76,
       78879.42,
       78709.0,
       80297.0,
@@ -621,14 +620,14 @@
       81226.58,
       81197.33,
       86421.95,
-      85226.33
+      86120.19,
+      86328.26
     ],
-    "btcHistoryStart": "2026-08-23",
-    "btcHistoryEnd": "2026-09-22",
-    "eth": 2725.12,
-    "ethChange": -53.07,
+    "btcHistoryStart": "2026-08-24",
+    "btcHistoryEnd": "2026-09-23",
+    "eth": 2749.05,
+    "ethChange": -4.07,
     "ethHistory": [
-      2473.83,
       2453.42,
       2494.51,
       2515.13,
@@ -657,10 +656,11 @@
       2629.91,
       2638.69,
       2778.19,
-      2725.12
+      2753.12,
+      2749.05
     ],
-    "ethHistoryStart": "2026-08-23",
-    "ethHistoryEnd": "2026-09-22"
+    "ethHistoryStart": "2026-08-24",
+    "ethHistoryEnd": "2026-09-23"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Dow Futures Slip While S&P 500, Nasdaq Futures Climb After AI Rally: GME, IBRX, AMD, PSKY Stocks In Focus",
-      "summary": "U.S. markets on Monday gained on surging AI stocks, with the S&P 500 hitting a new 52-week high.",
+      "title": "Dow Jones Futures: Nasdaq Hits New High; Sandisk, Micron Trigger Buy Signals",
+      "summary": "The Nasdaq hit a new high with memory giants Sandisk and Micron flashing buy signals. But financials are struggling.",
       "source": "Yahoo Finance",
-      "url": "https://stocktwits.com/news-articles/markets/equity/dow-futures-slip-while-s-and-p-500-nasdaq-futures-climb-after-ai-rally-gme-ibrx-amd-psky-stocks-in-focus/cZMPewURBIH?.tsrc=rss",
-      "publishedAt": "Tue, 22 Sep 2026 02:44:33 +0000",
+      "url": "https://finance.yahoo.com/m/280f5dd6-365f-3a6a-91c9-2a9551e64657/dow-jones-futures%3A-nasdaq.html?.tsrc=rss",
+      "publishedAt": "Wed, 23 Sep 2026 03:09:51 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Trump, Xi Meet on S&P 500's Best Day Since Early August: Will Markets Stay Bullish?",
-      "summary": "Trump and Xi meet in Washington as the S&P 500 posts its best day since Aug. 4, driven by a rally in AI stocks.",
+      "title": "S&P 500 Profits Are on Track for a Third Straight Quarter of 25%+ Growth. The Index Hasn't Kept Up.",
+      "summary": "From the end of June to mid-September, expected earnings rose nearly five times as quickly as the index itself.",
       "source": "Yahoo Finance",
-      "url": "https://beincrypto.com/trump-xi-summit-best-day/?.tsrc=rss",
-      "publishedAt": "Mon, 21 Sep 2026 23:20:00 +0000",
+      "url": "https://www.fool.com/investing/2026/09/22/s-and-p-500-profits-are-on-track-for-a-third-straight-quarter-of-25-growth-the-index-hasn-t-kept-up/?.tsrc=rss",
+      "publishedAt": "Wed, 23 Sep 2026 02:57:01 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Here Are Morgan Stanley's New Top Stock Picks For The Next 12-Months",
-      "summary": "Morgan Stanley unveils 2027 'Vintage Values' roster after 2026 roster outperforms S&P 500.",
+      "title": "Dow, S&P 500, Nasdaq Futures Climb Amid Iran Diplomacy Hopes, AI Rally: IONQ, VKTX, INFQ, BB Stocks In Focus",
+      "summary": "President Donald Trump confirmed that U.S. and Iranian officials met on the sidelines of the United Nations General Assembly on Tuesday.",
       "source": "Yahoo Finance",
-      "url": "https://stocktwits.com/news-articles/markets/equity/here-are-morgan-stanley-s-new-top-stock-picks-for-the-next-12-months/cZMRDYdRBIV?.tsrc=rss",
-      "publishedAt": "Mon, 21 Sep 2026 23:18:38 +0000",
+      "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-climb-amid-iran-diplomacy-hopes-ai-rally-ionq-vktx-infq-bb-stocks-in-focus/cZMEhQVRB7N?.tsrc=rss",
+      "publishedAt": "Wed, 23 Sep 2026 02:18:08 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Jim Cramer drops another stock market warning",
-      "summary": "The “Mad Money” host sees a decades-old pattern returning under new leadership.",
+      "title": "Review & Preview: Musing Over AI",
+      "summary": "The Nasdaq closes at a record for second straight day. Plus, two Fed officials on why the central bank had no choice but to raise rates.",
       "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/cramer-fed-rate-hike-fighting-fed-warning?.tsrc=rss",
-      "publishedAt": "Mon, 21 Sep 2026 23:00:00 +0000",
+      "url": "https://finance.yahoo.com/m/105cc8ee-f464-3780-a004-04850029c88e/review-%26-preview%3A-musing-over.html?.tsrc=rss",
+      "publishedAt": "Tue, 22 Sep 2026 23:55:00 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The Market Is Near Another All-Time High and You’re 66 With Cash to Invest. Buying Now Feels Like the Top. These 3 ETFs Are How You Get In Anyway",
+      "summary": "Buying into an all-time high at 66 feels like the worst possible timing, but the data on what actually happens next might change how you think about that cash sitting on the sidelines.",
+      "source": "Yahoo Finance",
+      "url": "https://247wallst.com/investing/etf/2026/09/22/the-market-is-near-another-all-time-high-and-youre-66-with-cash-to-invest-buying-now-feels-like-the-top-these-3-etfs-are-how-you-get-in-anyway/?.tsrc=rss",
+      "publishedAt": "Tue, 22 Sep 2026 22:25:53 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Iran floats conditions for Hormuz reopening as Trump says deal could come after midterms",
+      "summary": "Tehran's proposal could pave the way for restoring traffic through the Strait of Hormuz, reviving fragile hopes for a diplomatic off-ramp.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html",
+      "publishedAt": "Wed, 23 Sep 2026 05:37:48 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "DOJ defends Trump ban of 3 news outlets, says White House access is a 'privilege — not a right'",
+      "summary": "The Department of Justice also argued President Trump was motivated by national security concerns in banning MS NOW, CNN and Politico from the White House.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/23/trump-white-house-ban-media-doj-cnn-msnow-politico.html",
+      "publishedAt": "Wed, 23 Sep 2026 05:49:57 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
+      "summary": "Republican lawmakers have called for an export ban as high diesel prices hit farmers and truckers ahead of the November midterm elections.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
+      "publishedAt": "Tue, 22 Sep 2026 23:43:48 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "CNBC Daily Open: Nothing artificial about 'Super Intelligence'",
+      "summary": "President Donald Trump seeks to rebrand AI ahead of his meeting with China's Xi Jinping, while rejecting a \"globalist scheme\" to regulate the technology.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/23/trump-super-intelligence-artificial-intelligence.html",
+      "publishedAt": "Wed, 23 Sep 2026 06:10:07 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "In photos: Key takeaways from day one of the UN General Assembly",
+      "summary": "World leaders descended on New York for the annual United Nations General Assembly, where the agenda covers topics from wars to the risks posed by AI.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/23/unga-trump-iran-china-greenland-ukraine-russia-.html",
+      "publishedAt": "Wed, 23 Sep 2026 03:13:02 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "Why Whirlpool (WHR) Outpaced the Stock Market Today",
-      "summary": "Whirlpool (WHR) concluded the recent trading session at $32.64, signifying a +2.1% move from its prior day's close.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-whirlpool-whr-outpaced-stock-221505410.html?.tsrc=rss",
-      "publishedAt": "Mon, 21 Sep 2026 22:15:05 +0000",
+      "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
+      "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 23 Sep 2026 02:15:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
-      "summary": "Trump, facing low approval on the economy ahead of the midterm election, has an added incentive to emerge from the summit with China's Xi touting trade wins.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html",
-      "publishedAt": "Mon, 21 Sep 2026 22:25:33 GMT",
+      "title": "‘She gave a neighbor $2,000’: Social Security overpaid my mother, 82, by $20,000. What else is hiding in her finances?",
+      "summary": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
+      "publishedAt": "Wed, 23 Sep 2026 02:00:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "All Iranian airlines to be 'shut down' from Wednesday, Bessent tells CNBC",
-      "summary": "The Treasury Secretary said that Washington was pressuring Iran \"like never before\"",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
-      "publishedAt": "Tue, 22 Sep 2026 05:50:50 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
-      "summary": "Alibaba shares jumped 3% in Hong Kong on Tuesday as the tech giant unveiled a new AI chip and plans to sharply expand its global data center capacity",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
-      "publishedAt": "Tue, 22 Sep 2026 05:15:21 GMT",
+      "title": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy",
+      "summary": "Some analysts say the upbeat data on the Nasdaq’s outlook is backed up by improving fundamentals.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-nasdaqs-rapid-rise-to-a-record-is-sending-a-message-to-investors-dont-wait-for-a-pullback-to-buy-5f533ed8?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 22 Sep 2026 21:44:00 GMT",
       "sentiment": "positive"
     },
     {
-      "title": "Oil rises amid worries of growing Iran-U.S. tensions after Bessent issues Iranian airline shutdown warning",
-      "summary": "Oil rose Tuesday, amid concerns of growing Iran-U.S. tensions. after U.S. Treasury Secretary Scott Bessent told CNBC that all Iranian airlines will be shut down from Wednesday.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/22/oil-iran-us-bessent-un-crude.html",
-      "publishedAt": "Tue, 22 Sep 2026 07:24:18 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Meta's Muse AI agent downloads are surging. Here's how it compares to ChatGPT, Grok and Claude",
-      "summary": "Meta's Muse AI personal agent tool had 730,000 and 2.5 million downloads over the roughly five-day and thirteen-day time frames after its launch.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/21/meta-muse-personal-ai-agent-downloads.html",
-      "publishedAt": "Mon, 21 Sep 2026 23:03:57 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Princeton’s 15-year run as the nation’s top college is over. MIT is now No. 1.",
-      "summary": "A change in methodology in the U.S. News rankings helped boost schools where students have high earnings",
+      "title": "Sandisk’s stock is rising: Why one analyst says AI could help it reach new heights",
+      "summary": "Larger AI models and inference are turning NAND from a commodity into a critical component, a Rosenblatt analyst said.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/princetons-15-year-run-as-the-nations-top-college-is-over-mit-is-now-no-1-e9f17169?mod=mw_rss_topstories",
-      "publishedAt": "Tue, 22 Sep 2026 04:02:00 GMT",
+      "url": "https://www.marketwatch.com/story/sandisks-stock-is-rising-why-one-analyst-says-ai-could-help-it-reach-new-heights-5541ded8?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 22 Sep 2026 21:30:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Want to bet on risky, high-beta stocks? Why you should wait for mid-October.",
+      "summary": "Coming soon is one of the only weeks of the year in which aggressive traders should bet that the highest-beta stocks will beat the lowest ones.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/want-to-bet-on-risky-high-beta-stocks-why-you-should-wait-for-this-week-in-october-d9094820?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 22 Sep 2026 21:27:00 GMT",
       "sentiment": "positive"
-    },
-    {
-      "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
-      "summary": "Muse is gaining popularity and helping convince investors that Meta’s AI bets are paying off.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 21 Sep 2026 22:01:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
-      "summary": "An analyst at BNP has taken a positive view of AT&T’s stock, writing that investors should have “little to quibble with on the mobile side.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 21 Sep 2026 21:57:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Bitcoin hits an 8-month high — and sends a clear message about risk appetite right now",
-      "summary": "The lack of clarity around crypto’s regulatory framework hasn’t stopped bitcoin from surging, as investors haven’t abandoned hopes for clearer U.S. rules.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/bitcoin-hits-an-8-month-high-and-sends-a-clear-message-about-risk-appetite-right-now-edc7b9a5?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 21 Sep 2026 21:47:00 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
-      "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
-      "publishedAt": "Mon, 21 Sep 2026 21:30:00 GMT",
-      "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 78,
+  "fearGreedIndex": 71,
   "valuation": {
     "sp500": {
       "pe": 24.99,
@@ -858,8 +858,8 @@
       "currentPrice": 773.5
     },
     "nasdaq": {
-      "pe": 30.22,
-      "forwardPE": 26.28,
+      "pe": 30.47,
+      "forwardPE": 26.5,
       "pePercentile1y": 98,
       "pePercentile5y": null,
       "pePercentile10y": null,
