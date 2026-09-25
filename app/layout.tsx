@@ -48,11 +48,20 @@ export const metadata: Metadata = {
     siteName: '投资晴雨表',
     title: '投资晴雨表 | 美股纳指标普每日行情分析与定投参考',
     description: '免费美股每日分析工具：纳斯达克/标普500走势、PE估值分位、VIX恐惧贪婪、技术指标、行业板块。数据每日自动更新。',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: '投资晴雨表 | 美股纳指标普每日行情分析与定投参考',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: '投资晴雨表 | 美股纳指标普每日行情分析与定投参考',
     description: '免费美股每日分析：纳指标普走势、PE估值、VIX恐惧贪婪、RSI/MACD技术指标。每日自动更新。',
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
