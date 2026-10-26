@@ -2,7 +2,7 @@
   "date": "2026-10-26",
   "dataDate": "2026-10-23",
   "forecastDate": "2026-10-26",
-  "timestamp": "2026-10-24T14:58:18.474224+08:00",
+  "timestamp": "2026-10-26T15:31:34.044213+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bearish",
   "sentimentScore": -21,
@@ -373,10 +373,9 @@
     ]
   },
   "indicators": {
-    "vix": 19.45,
-    "vixChange": 0.42,
+    "vix": 19.67,
+    "vixChange": 0.22,
     "vixHistory": [
-      17.1,
       17.2,
       17.71,
       15.44,
@@ -405,14 +404,14 @@
       17.31,
       16.68,
       19.03,
-      19.45
+      19.45,
+      19.67
     ],
-    "vixHistoryStart": "2026-09-14",
-    "vixHistoryEnd": "2026-10-23",
-    "dxy": 101.81,
-    "dxyChange": 0.2,
+    "vixHistoryStart": "2026-09-15",
+    "vixHistoryEnd": "2026-10-26",
+    "dxy": 101.76,
+    "dxyChange": -0.05,
     "dxyHistory": [
-      99.46,
       99.65,
       100.31,
       100.22,
@@ -441,10 +440,11 @@
       101.73,
       101.78,
       101.61,
-      101.81
+      101.81,
+      101.76
     ],
-    "dxyHistoryStart": "2026-09-14",
-    "dxyHistoryEnd": "2026-10-23",
+    "dxyHistoryStart": "2026-09-15",
+    "dxyHistoryEnd": "2026-10-26",
     "us10y": 4.99,
     "us10yChange": 0.04,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-09-14",
     "us2yHistoryEnd": "2026-10-23",
-    "gold": 4007.9,
-    "goldChange": -52.5,
+    "gold": 4020.1,
+    "goldChange": 12.2,
     "goldHistory": [
-      4351.9,
       4332.8,
       4387.5,
       4399.7,
@@ -549,14 +548,14 @@
       4142.6,
       4150.0,
       4060.4,
-      4007.9
+      4007.9,
+      4020.1
     ],
-    "goldHistoryStart": "2026-09-14",
-    "goldHistoryEnd": "2026-10-23",
-    "oil": 103.27,
-    "oilChange": 3.8,
+    "goldHistoryStart": "2026-09-15",
+    "goldHistoryEnd": "2026-10-26",
+    "oil": 101.4,
+    "oilChange": -1.87,
     "oilHistory": [
-      101.39,
       105.83,
       102.43,
       101.91,
@@ -585,15 +584,14 @@
       101.79,
       97.15,
       99.47,
-      103.27
+      103.27,
+      101.4
     ],
-    "oilHistoryStart": "2026-09-14",
-    "oilHistoryEnd": "2026-10-23",
-    "btc": 80687.02,
-    "btcChange": -39.42,
+    "oilHistoryStart": "2026-09-15",
+    "oilHistoryEnd": "2026-10-26",
+    "btc": 79953.23,
+    "btcChange": -434.99,
     "btcHistory": [
-      84069.47,
-      84260.05,
       84171.14,
       83514.23,
       83583.21,
@@ -621,15 +619,15 @@
       84408.33,
       81255.4,
       80726.44,
-      80687.02
+      80525.44,
+      80388.22,
+      79953.23
     ],
-    "btcHistoryStart": "2026-09-24",
-    "btcHistoryEnd": "2026-10-24",
-    "eth": 2374.98,
-    "ethChange": 12.4,
+    "btcHistoryStart": "2026-09-26",
+    "btcHistoryEnd": "2026-10-26",
+    "eth": 2315.62,
+    "ethChange": -24.3,
     "ethHistory": [
-      2692.0,
-      2688.36,
       2674.95,
       2686.61,
       2680.99,
@@ -657,10 +655,12 @@
       2482.74,
       2382.15,
       2362.58,
-      2374.98
+      2343.82,
+      2339.92,
+      2315.62
     ],
-    "ethHistoryStart": "2026-09-24",
-    "ethHistoryEnd": "2026-10-24"
+    "ethHistoryStart": "2026-09-26",
+    "ethHistoryEnd": "2026-10-26"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Viper Energy (VNOM): 3 reasons we love this stock",
-      "summary": "Over the past six months, Viper Energy’s shares (currently trading at $45.05) have posted a disappointing 5.7% loss, well below the S&P 500’s 9.1% gain. This may have investors wondering how to approach the situation.",
+      "title": "Nasdaq Futures Slip Amid Tech Selloff While S&P 500, Dow Edge Higher Ahead Of Crucial Earnings Week: IREN, CRWV, NBIS, MRNA, EWZ In Focus",
+      "summary": "Technology stocks sold off sharply last week amid growing concerns around artificial intelligence’s sustainability and debt woes.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/viper-energy-vnom-3-reasons-004039620.html?.tsrc=rss",
-      "publishedAt": "Sat, 24 Oct 2026 00:40:39 +0000",
+      "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-slip-amid-tech-selloff-while-s-and-p-500-dow-edge-higher-ahead-of-crucial-earnings-week-iren-crwv-nbis-mrna-ewz-in-focus/cZUdNRYRBUx?.tsrc=rss",
+      "publishedAt": "Mon, 26 Oct 2026 02:44:59 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "3 Reasons MTD is risky and 1 stock to buy instead",
-      "summary": "Over the past six months, Mettler-Toledo has been a great trade, beating the S&P 500 by 24.1%. Its stock price has climbed to $1,685, representing a healthy 33.3% increase. This was partly thanks to its solid quarterly results, and the performance may have investors wondering how to approach the sit",
+      "title": "U.S. stock futures muted after bruising tech losses; Fed, earnings on tap",
+      "summary": "Investing.com-- U.S. stock index futures steadied early-Monday after deep, technology-driven losses battered Wall Street through the past two weeks, with focus turning to a Federal Reserve meeting and a host of major earnings this week.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-mtd-risky-1-002439993.html?.tsrc=rss",
-      "publishedAt": "Sat, 24 Oct 2026 00:24:39 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "S&P 500, Dow Drop As Elevated Oil Prices Stoke Inflation Fears Ahead Of Fed Meeting Next Week — AAPL, AXP, CART, UBER In Focus",
-      "summary": "Brent crude rose 3.1% to end the session at $116.72 a barrel, the highest level since April.",
-      "source": "Yahoo Finance",
-      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-drop-as-elevated-oil-prices-stoke-inflation-fears-ahead-of-fed-meeting-next-week-aapl-axp-cart-uber-in-focus/cZxyHWvRBU4?.tsrc=rss",
-      "publishedAt": "Fri, 23 Oct 2026 22:35:57 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-edge-higher-011151135.html?.tsrc=rss",
+      "publishedAt": "Mon, 26 Oct 2026 01:11:51 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "Wes Moss Says $1 Million in the S&P 500 Pays Just $12,000 a Year in Dividends. Here’s His Fix.",
-      "summary": "A million dollars in the S&P 500 generates far less dividend income than most retirees expect, and climbing toward higher yields introduces risks that only show up when markets turn ugly.",
+      "title": "Microsoft, Alphabet, and Amazon Make Up About 15% of the S&P 500. All 3 Report Earnings Within 2 Days.",
+      "summary": "Together they make up about 15% of the index. What might two days of earnings reports do to an S&P 500 fund?",
       "source": "Yahoo Finance",
-      "url": "https://247wallst.com/personal-finance/2026/10/23/wes-moss-says-1-million-in-the-sp-500-pays-just-12000-a-year-in-dividends-heres-his-fix/?.tsrc=rss",
-      "publishedAt": "Fri, 23 Oct 2026 22:00:07 +0000",
+      "url": "https://www.fool.com/investing/2026/10/25/microsoft-alphabet-and-amazon-make-up-about-15-of-the-s-and-p-500-all-3-report-earnings-within-2-days/?.tsrc=rss",
+      "publishedAt": "Mon, 26 Oct 2026 00:27:01 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Here's the AI Chip Stock That Hedge Funds Are Loading Up On",
-      "summary": "Just a few months ago, they were shorting it.",
+      "title": "Vanguard S&P 500 ETF Long-Term Outlook: What Historical Trends Suggest for Patient Investors",
+      "summary": "Long-term earnings growth is going to be key for S&P 500 performance.",
       "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/10/24/heres-the-ai-chip-stock-that-hedge-funds-are-loadi/?.tsrc=rss",
-      "publishedAt": "Sat, 24 Oct 2026 06:50:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
-      "summary": "Sen. Susan Collins announced Canada was dropping Canadian tariffs, but the White House later said it was \"replacing\" the ones removed from the list.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
-      "publishedAt": "Fri, 23 Oct 2026 21:26:59 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-      "summary": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-      "publishedAt": "Sat, 24 Oct 2026 06:41:14 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
-      "summary": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
-      "publishedAt": "Sat, 24 Oct 2026 06:23:02 GMT",
+      "url": "https://www.fool.com/investing/2026/10/25/vanguard-sp-500-etf-long-term-outlook-history-says/?.tsrc=rss",
+      "publishedAt": "Sun, 25 Oct 2026 23:50:00 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "What a day in customer service looks like — as AI changes everything",
-      "summary": "Customer service can be a \"really, really difficult job.\" Will AI make it easier — or cause even more headaches?",
+      "title": "Cramer Beat the S&P At His Hedge Fund But Advises Retail to Join The Index",
+      "summary": "Jim Cramer says his old hedge fund returned 24% a year, yet he tells a retiree to put two-thirds in an S&P 500 index fund.",
+      "source": "Yahoo Finance",
+      "url": "https://beincrypto.com/cramer-index-fund-advice-retail-investors/?.tsrc=rss",
+      "publishedAt": "Sun, 25 Oct 2026 23:40:53 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
+      "summary": "It's the first time since Brazil returned to direct elections in 1989 that a candidate has won the final runoff after losing in the first round.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
-      "publishedAt": "Sat, 24 Oct 2026 05:00:01 GMT",
+      "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+      "publishedAt": "Mon, 26 Oct 2026 04:09:41 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "AI's 'Black October': Critical PHP flaws set off global security scramble",
-      "summary": "Governments and businesses around the globe are scrambling to contain the fallout after the PHP vulnerabilities leaked online.",
+      "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
+      "summary": "Oil prices fell as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could erode demand.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html",
-      "publishedAt": "Fri, 23 Oct 2026 16:55:37 GMT",
+      "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+      "publishedAt": "Mon, 26 Oct 2026 05:18:01 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Defense tech investment boom sparks bubble warning as private equity pours in",
+      "summary": "Private equity growth investments in defense reached $4 billion in the first nine months of 2026, up from $500 million in 2024.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
+      "publishedAt": "Mon, 26 Oct 2026 06:00:01 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+      "summary": "Elon Musk said in an X post that SpaceX has closed $40 billion in debt financing to purchase GPUs.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+      "publishedAt": "Mon, 26 Oct 2026 00:37:51 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘Ticking time bomb’: The world's pension funds face an ageing crisis",
+      "summary": "The world's pension systems are confronting a demographic crisis as longer lifespans and dwindling birth rates threaten to stretch retirement finances.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html",
+      "publishedAt": "Mon, 26 Oct 2026 05:22:30 GMT",
       "sentiment": "negative"
+    },
+    {
+      "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
+      "summary": "SpaceX is rapidly growing an AI business that rents out access to advanced chips.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 26 Oct 2026 01:50:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "summary": "“My late father bought our house for $250,000 in the 1990s.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 25 Oct 2026 20:15:00 GMT",
+      "sentiment": "neutral"
     },
     {
       "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
       "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 23 Oct 2026 22:49:00 GMT",
+      "publishedAt": "Sun, 25 Oct 2026 20:00:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-      "summary": "If market pressures keep building, Anthropic “could reasonably decide it is better to stay private and wait for a better opportunity,” one portfolio manager says.",
+      "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
+      "summary": "“Last summer, they complained about needing to replace their roof. A few months later, they bought a new SUV.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 23 Oct 2026 22:00:00 GMT",
+      "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 25 Oct 2026 19:30:00 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
-      "summary": "Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.",
+      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
+      "summary": "“Nothing has been set aside for his needs.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 23 Oct 2026 21:46:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-      "summary": "A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a postresults bump. But not for Bloom Energy, the fuel-cell maker that has flourished due to data-center demand.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 23 Oct 2026 21:13:00 GMT",
-      "sentiment": "positive"
-    },
-    {
-      "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
-      "summary": "Reports of Starlink’s discussions with cell-tower owners were noticed by shareholders of Verizon, AT&T and T-Mobile.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 23 Oct 2026 21:11:00 GMT",
-      "sentiment": "positive"
+      "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 25 Oct 2026 18:00:00 GMT",
+      "sentiment": "neutral"
     }
   ],
-  "fearGreedIndex": 51,
+  "fearGreedIndex": 50,
   "valuation": {
     "sp500": {
       "pe": 24.13,
