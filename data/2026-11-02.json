@@ -2,10 +2,10 @@
   "date": "2026-11-02",
   "dataDate": "2026-10-30",
   "forecastDate": "2026-11-02",
-  "timestamp": "2026-10-31T16:07:01.372166+08:00",
+  "timestamp": "2026-11-02T17:00:06.733703+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bearish",
-  "sentimentScore": -24,
+  "sentimentScore": -18,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -373,10 +373,9 @@
     ]
   },
   "indicators": {
-    "vix": 19.42,
-    "vixChange": 2.22,
+    "vix": 19.07,
+    "vixChange": -0.35,
     "vixHistory": [
-      14.87,
       14.21,
       15.18,
       15.67,
@@ -405,14 +404,14 @@
       17.52,
       16.91,
       17.2,
-      19.42
+      19.42,
+      19.07
     ],
-    "vixHistoryStart": "2026-09-21",
-    "vixHistoryEnd": "2026-10-30",
-    "dxy": 101.88,
-    "dxyChange": -0.16,
+    "vixHistoryStart": "2026-09-22",
+    "vixHistoryEnd": "2026-11-02",
+    "dxy": 101.55,
+    "dxyChange": -0.33,
     "dxyHistory": [
-      100.43,
       100.6,
       101.1,
       101.29,
@@ -441,10 +440,11 @@
       102.32,
       102.19,
       102.04,
-      101.88
+      101.88,
+      101.55
     ],
-    "dxyHistoryStart": "2026-09-21",
-    "dxyHistoryEnd": "2026-10-30",
+    "dxyHistoryStart": "2026-09-22",
+    "dxyHistoryEnd": "2026-11-02",
     "us10y": 4.93,
     "us10yChange": -0.06,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-09-21",
     "us2yHistoryEnd": "2026-10-30",
-    "gold": 3898.9,
-    "goldChange": -132.5,
+    "gold": 3913.6,
+    "goldChange": 14.7,
     "goldHistory": [
-      4383.9,
       4376.4,
       4318.4,
       4298.0,
@@ -549,14 +548,14 @@
       4074.6,
       4051.6,
       4031.4,
-      3898.9
+      3898.9,
+      3913.6
     ],
-    "goldHistoryStart": "2026-09-21",
-    "goldHistoryEnd": "2026-10-30",
-    "oil": 104.12,
-    "oilChange": 2.12,
+    "goldHistoryStart": "2026-09-22",
+    "goldHistoryEnd": "2026-11-02",
+    "oil": 100.02,
+    "oilChange": -4.1,
     "oilHistory": [
-      95.78,
       94.59,
       92.16,
       94.61,
@@ -585,15 +584,14 @@
       99.9,
       102.78,
       102.0,
-      104.12
+      104.12,
+      100.02
     ],
-    "oilHistoryStart": "2026-09-21",
-    "oilHistoryEnd": "2026-10-30",
-    "btc": 77215.86,
-    "btcChange": 353.96,
+    "oilHistoryStart": "2026-09-22",
+    "oilHistoryEnd": "2026-11-02",
+    "btc": 78169.51,
+    "btcChange": 376.42,
     "btcHistory": [
-      84543.44,
-      84765.63,
       86417.75,
       85916.96,
       85528.21,
@@ -621,15 +619,15 @@
       81184.45,
       78880.16,
       76861.9,
-      77215.86
+      77446.62,
+      77793.09,
+      78169.51
     ],
-    "btcHistoryStart": "2026-10-01",
-    "btcHistoryEnd": "2026-10-31",
-    "eth": 2240.65,
-    "ethChange": 7.08,
+    "btcHistoryStart": "2026-10-03",
+    "btcHistoryEnd": "2026-11-02",
+    "eth": 2295.7,
+    "ethChange": 36.77,
     "ethHistory": [
-      2667.58,
-      2686.33,
       2730.13,
       2715.52,
       2696.49,
@@ -657,10 +655,12 @@
       2357.24,
       2270.68,
       2233.57,
-      2240.65
+      2253.01,
+      2258.93,
+      2295.7
     ],
-    "ethHistoryStart": "2026-10-01",
-    "ethHistoryEnd": "2026-10-31"
+    "ethHistoryStart": "2026-10-03",
+    "ethHistoryEnd": "2026-11-02"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "‘Hard to Know If We’re in an AI Bubble’ Jeff Bezos Says, But Should a Retiree Buy AI Stocks? — ‘I Would Usually Tell a Retiree to Buy the S&P 500’",
-      "summary": "Amazon founder Jeff Bezos won’t call the top of the AI boom, but he knows exactly what he’d tell someone living off their savings. Fox News host Bret Baier asked Bezos whether the industry is in a bubble. “It’s hard...",
+      "title": "Bitcoin 39% Below Peak, Meme Coins Down Up to 99%, but S&P 500 Near Record",
+      "summary": "Bitcoin sits 39% below its high and meme coins up to 99%, while the S&P 500 trails its record by 3%. See the gap.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hard-know-ai-bubble-jeff-013019732.html?.tsrc=rss",
-      "publishedAt": "Sat, 31 Oct 2026 01:30:19 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "S&P 500, Nasdaq End Third Straight Week Lower As Investors Move Away From Tech, AI —  AMZN, INTC, LLY, RBLX In Focus",
-      "summary": "The S&P 500 and Nasdaq 100 ended the week down 0.6% and 2%, respectively.",
-      "source": "Yahoo Finance",
-      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-third-straight-week-lower-as-investors-move-away-from-tech-ai-amzn-intc-lly-rblx-in-focus/cZUKKlTR9cJ?.tsrc=rss",
-      "publishedAt": "Sat, 31 Oct 2026 00:05:39 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Review & Preview: Ending on a Down Note",
-      "summary": "Boo! A frightful pre-Halloween hit the broader market. Tech stocks in particular had a brutal day, capping off a poor month.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/b0499f52-933b-3c3a-a9fe-a4d478f02828/review-%26-preview%3A-ending-on-a.html?.tsrc=rss",
-      "publishedAt": "Fri, 30 Oct 2026 23:55:00 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Okta Stock Can Find More Buyers as It Joins the S&P 500",
-      "summary": "Okta can expect a new pool of buyers for its stock as a member of the S&P 500. Kenvue is being acquired and will therefore depart the index.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/9caa5bbe-db77-33ed-aec8-9298712adc25/okta-stock-can-find-more.html?.tsrc=rss",
-      "publishedAt": "Fri, 30 Oct 2026 22:20:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Okta jumps after-hours following tapped inclusion in the S&P 500",
-      "summary": "Investing.com -- Okta Inc (NASDAQ:OKTA) shares climbed 2.1% in extended trading Friday after S&P Dow Jones Indices selected the identity and access management provider to join the benchmark S&P 500 index. The after-hours rebound helped the cybersecurity firm pare steep regular-session losses, follow",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/okta-jumps-hours-following-tapped-215908289.html?.tsrc=rss",
-      "publishedAt": "Fri, 30 Oct 2026 21:59:08 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
-      "summary": "Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
-      "publishedAt": "Fri, 30 Oct 2026 20:30:57 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
-      "summary": "The U.S. Department of the Treasury has announced new Series I bond rates through April 2027.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
-      "publishedAt": "Fri, 30 Oct 2026 17:15:53 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Alaska Senate election: DOJ wants to 'segregate' all ballots for 2nd Sullivan candidate",
-      "summary": "The winner of the Alaska election could determine whether Republicans retain their majority in the U.S. Senate or if Democrats take control of the chamber.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
-      "publishedAt": "Fri, 30 Oct 2026 22:57:55 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
-      "summary": "Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
-      "publishedAt": "Sat, 31 Oct 2026 06:00:02 GMT",
+      "url": "https://beincrypto.com/bitcoin-meme-coins-below-peak/?.tsrc=rss",
+      "publishedAt": "Mon, 02 Nov 2026 05:00:00 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
-      "summary": "Higher cocoa and sugar prices are fueling above-average cost inflation for candy",
+      "title": "Dow Jones Futures Rise But Market Still Ails; Midterm Elections Ahead",
+      "summary": "Techs led another stock market sell-off. It's a time to be defensive. Apple, Palantir, jobs and midterm elections loom.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-rise-but.html?.tsrc=rss",
+      "publishedAt": "Mon, 02 Nov 2026 04:01:36 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "What Could Surprise Microsoft Stock Investors On The Upside?",
+      "summary": "For questions about this article or underlying research, email help@trefis.com.",
+      "source": "Yahoo Finance",
+      "url": "https://www.trefis.com/stock/msft/articles/621784/what-could-surprise-microsoft-stock-investors-on-the-upside/2026-11-02?.tsrc=rss",
+      "publishedAt": "Mon, 02 Nov 2026 08:35:20 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "What Are AT&T Stock Bulls Not Worried About?",
+      "summary": "For questions about this article or underlying research, email help@trefis.com.",
+      "source": "Yahoo Finance",
+      "url": "https://www.trefis.com/stock/t/articles/621786/what-are-att-stock-bulls-not-worried-about/2026-11-02?.tsrc=rss",
+      "publishedAt": "Mon, 02 Nov 2026 08:35:18 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The Dates That Matter Most For Cisco Stock",
+      "summary": "For questions about this article or underlying research, email help@trefis.com.",
+      "source": "Yahoo Finance",
+      "url": "https://www.trefis.com/stock/csco/articles/621799/the-dates-that-matter-most-for-cisco-stock/2026-11-02?.tsrc=rss",
+      "publishedAt": "Mon, 02 Nov 2026 08:35:16 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
+      "summary": "The remarks come as reports suggest that both sides are gearing up for additional military strikes after the U.S. midterm elections.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
-      "publishedAt": "Fri, 30 Oct 2026 16:55:41 GMT",
+      "url": "https://www.cnbc.com/2026/11/02/us-iran-war-trump-hormuz-rubio.html",
+      "publishedAt": "Mon, 02 Nov 2026 02:39:35 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
-      "summary": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
-      "publishedAt": "Sat, 31 Oct 2026 04:30:00 GMT",
-      "sentiment": "negative"
+      "title": "Ryanair CEO warns fares could rise by up to 20% in 2027 as fuel bill jumps by $2.2 billion",
+      "summary": "Ryanair's CEO Michael O'Leary told CNBC that European airlines may have \"significantly higher airfares\" of up to 20% next year as fuel costs rise.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/ryanair-h1-earnings-iran-war-fuel-costs.html",
+      "publishedAt": "Mon, 02 Nov 2026 08:42:42 GMT",
+      "sentiment": "positive"
     },
     {
-      "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
-      "summary": "Friday’s big plunge raises disturbing parallels with the top of the dot-com bubble",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 30 Oct 2026 23:14:00 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "This cybersecurity stock will be the next to join the S&P 500",
-      "summary": "Okta is slated to join the index on Wednesday, replacing Kenvue.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 30 Oct 2026 22:20:00 GMT",
+      "title": "Apollo launches $11 billion private credit platform, backed by Abu Dhabi",
+      "summary": "Apollo has launched a 10 billion euro European private credit platform backed by major global investors.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/apollo-private-credit-abu-dhabi.html",
+      "publishedAt": "Mon, 02 Nov 2026 08:22:27 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-      "summary": "Safe-haven gold fell to its lowest price in a year, despite jitters around the potential for fresh Middle East attacks following the U.S. midterm elections on Tuesday",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 30 Oct 2026 21:30:00 GMT",
-      "sentiment": "negative"
+      "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
+      "summary": "The 2027 budget will rise 12.8% to 820.9 trillion won, and will include a 21.3 trillion won investment into semiconductors, physical AI and AI data centers.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
+      "publishedAt": "Mon, 02 Nov 2026 06:02:03 GMT",
+      "sentiment": "positive"
     },
     {
-      "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
-      "summary": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
+      "title": "Sam Altman makes surprise South Korea visit as OpenAI builds on chip partnerships",
+      "summary": "OpenAI CEO Sam Altman made an unannounced visit to South Korea over the weekend, meeting with Samsung executives and reportedly SK Group executives.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/openai-sam-altman-samsung-sk-south-korea.html",
+      "publishedAt": "Mon, 02 Nov 2026 02:58:53 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
+      "summary": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 30 Oct 2026 21:23:00 GMT",
+      "url": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 02 Nov 2026 08:56:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.",
+      "summary": "Alex Barrow, founder of Macro Ops, says the bull market is on borrowed time and will ratchet back painfully for investors who aren’t prepared.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/marine-sniper-turned-macro-strategist-says-this-bull-market-has-six-to-12-months-left-heres-his-playbook-8b48ce6e?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 02 Nov 2026 07:25:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Want to help your adult kids and grandkids? Give them money while you’re still alive.",
+      "summary": "How to manage “giving while living” without endangering your own retirement.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 02 Nov 2026 03:23:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "This is the biggest threat to the AI-powered bull market",
+      "summary": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 02 Nov 2026 00:22:00 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Apple’s new earnings era begins at a critical time for Big Tech",
+      "summary": "A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 02 Nov 2026 00:21:00 GMT",
       "sentiment": "negative"
     }
   ],
-  "fearGreedIndex": 30,
+  "fearGreedIndex": 37,
   "valuation": {
     "sp500": {
       "pe": 23.99,
