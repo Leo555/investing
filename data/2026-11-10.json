@@ -1,0 +1,877 @@
+{
+  "date": "2026-11-10",
+  "dataDate": "2026-11-09",
+  "forecastDate": "2026-11-10",
+  "timestamp": "2026-11-10T17:25:00.608950+08:00",
+  "marketStatus": "closed",
+  "overallSentiment": "bearish",
+  "sentimentScore": -20,
+  "nasdaq": {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "price": 25253.14,
+    "change": 673.71,
+    "changePercent": 2.74,
+    "tradingDate": "2026-11-09",
+    "open": 24777.44,
+    "high": 25354.3,
+    "low": 24762.57,
+    "previousClose": 24579.43,
+    "volume": 9188050000,
+    "avgVolume": 8719014500,
+    "yearHigh": 27722.75,
+    "yearHighDate": "2026-10-06",
+    "yearLow": 20690.25,
+    "yearLowDate": "2026-03-30",
+    "pe": 27.98,
+    "marketCap": null,
+    "sma20": 25975.61,
+    "sma50": 26434.83,
+    "sma200": null,
+    "rsi14": 40.1,
+    "macdLine": -476.5018,
+    "macdSignal": -315.5665,
+    "macdHistogram": -160.9352,
+    "bollingerUpper": 27445.07,
+    "bollingerMiddle": 25975.61,
+    "bollingerLower": 24506.15,
+    "atr14": 584.57,
+    "priceHistory": [
+      {
+        "date": "2026-09-29",
+        "close": 26797.54,
+        "volume": 7097250000
+      },
+      {
+        "date": "2026-09-30",
+        "close": 26861.06,
+        "volume": 8300260000
+      },
+      {
+        "date": "2026-10-01",
+        "close": 26871.6,
+        "volume": 7329610000
+      },
+      {
+        "date": "2026-10-02",
+        "close": 27190.86,
+        "volume": 7954430000
+      },
+      {
+        "date": "2026-10-05",
+        "close": 27477.31,
+        "volume": 7828480000
+      },
+      {
+        "date": "2026-10-06",
+        "close": 27599.79,
+        "volume": 8451470000
+      },
+      {
+        "date": "2026-10-07",
+        "close": 27538.69,
+        "volume": 7315500000
+      },
+      {
+        "date": "2026-10-08",
+        "close": 27193.34,
+        "volume": 8820120000
+      },
+      {
+        "date": "2026-10-09",
+        "close": 27366.17,
+        "volume": 6845310000
+      },
+      {
+        "date": "2026-10-12",
+        "close": 27245.9,
+        "volume": 6285170000
+      },
+      {
+        "date": "2026-10-13",
+        "close": 27204.38,
+        "volume": 6986280000
+      },
+      {
+        "date": "2026-10-14",
+        "close": 26692.87,
+        "volume": 8568280000
+      },
+      {
+        "date": "2026-10-15",
+        "close": 26713.03,
+        "volume": 10869960000
+      },
+      {
+        "date": "2026-10-16",
+        "close": 26140.03,
+        "volume": 9505000000
+      },
+      {
+        "date": "2026-10-19",
+        "close": 26430.89,
+        "volume": 7537660000
+      },
+      {
+        "date": "2026-10-20",
+        "close": 26424.82,
+        "volume": 7660360000
+      },
+      {
+        "date": "2026-10-21",
+        "close": 26702.86,
+        "volume": 7818990000
+      },
+      {
+        "date": "2026-10-22",
+        "close": 26008.86,
+        "volume": 9012120000
+      },
+      {
+        "date": "2026-10-23",
+        "close": 25955.34,
+        "volume": 6554790000
+      },
+      {
+        "date": "2026-10-26",
+        "close": 26169.38,
+        "volume": 7402660000
+      },
+      {
+        "date": "2026-10-27",
+        "close": 26477.81,
+        "volume": 7914230000
+      },
+      {
+        "date": "2026-10-28",
+        "close": 26549.85,
+        "volume": 7985070000
+      },
+      {
+        "date": "2026-10-29",
+        "close": 26184.72,
+        "volume": 7405880000
+      },
+      {
+        "date": "2026-10-30",
+        "close": 25437.0,
+        "volume": 9068930000
+      },
+      {
+        "date": "2026-11-02",
+        "close": 25164.31,
+        "volume": 9146120000
+      },
+      {
+        "date": "2026-11-03",
+        "close": 25372.01,
+        "volume": 8347090000
+      },
+      {
+        "date": "2026-11-04",
+        "close": 25736.51,
+        "volume": 9953250000
+      },
+      {
+        "date": "2026-11-05",
+        "close": 24315.0,
+        "volume": 12833900000
+      },
+      {
+        "date": "2026-11-06",
+        "close": 24579.43,
+        "volume": 10621670000
+      },
+      {
+        "date": "2026-11-09",
+        "close": 25253.14,
+        "volume": 9188050000
+      }
+    ]
+  },
+  "sp500": {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "price": 7549.94,
+    "change": 173.08,
+    "changePercent": 2.35,
+    "tradingDate": "2026-11-09",
+    "open": 7422.24,
+    "high": 7577.39,
+    "low": 7422.24,
+    "previousClose": 7376.86,
+    "volume": 5819360000,
+    "avgVolume": 5705699500,
+    "yearHigh": 7844.52,
+    "yearHighDate": "2026-10-06",
+    "yearLow": 6316.91,
+    "yearLowDate": "2026-03-30",
+    "pe": 23.95,
+    "marketCap": null,
+    "sma20": 7644.94,
+    "sma50": 7676.21,
+    "sma200": null,
+    "rsi14": 43.1,
+    "macdLine": -60.5791,
+    "macdSignal": -30.1574,
+    "macdHistogram": -30.4217,
+    "bollingerUpper": 7878.26,
+    "bollingerMiddle": 7644.94,
+    "bollingerLower": 7411.62,
+    "atr14": 114.86,
+    "priceHistory": [
+      {
+        "date": "2026-09-29",
+        "close": 7670.84,
+        "volume": 5023590000
+      },
+      {
+        "date": "2026-09-30",
+        "close": 7651.54,
+        "volume": 4276550000
+      },
+      {
+        "date": "2026-10-01",
+        "close": 7666.45,
+        "volume": 5783800000
+      },
+      {
+        "date": "2026-10-02",
+        "close": 7722.72,
+        "volume": 5277430000
+      },
+      {
+        "date": "2026-10-05",
+        "close": 7773.95,
+        "volume": 5840900000
+      },
+      {
+        "date": "2026-10-06",
+        "close": 7818.93,
+        "volume": 5019650000
+      },
+      {
+        "date": "2026-10-07",
+        "close": 7801.77,
+        "volume": 5111150000
+      },
+      {
+        "date": "2026-10-08",
+        "close": 7765.36,
+        "volume": 6082070000
+      },
+      {
+        "date": "2026-10-09",
+        "close": 7811.54,
+        "volume": 4782640000
+      },
+      {
+        "date": "2026-10-12",
+        "close": 7807.24,
+        "volume": 4148500000
+      },
+      {
+        "date": "2026-10-13",
+        "close": 7805.45,
+        "volume": 4869340000
+      },
+      {
+        "date": "2026-10-14",
+        "close": 7718.94,
+        "volume": 5955580000
+      },
+      {
+        "date": "2026-10-15",
+        "close": 7744.06,
+        "volume": 6055670000
+      },
+      {
+        "date": "2026-10-16",
+        "close": 7659.44,
+        "volume": 5482060000
+      },
+      {
+        "date": "2026-10-19",
+        "close": 7690.73,
+        "volume": 4587260000
+      },
+      {
+        "date": "2026-10-20",
+        "close": 7712.57,
+        "volume": 5004770000
+      },
+      {
+        "date": "2026-10-21",
+        "close": 7757.17,
+        "volume": 4921480000
+      },
+      {
+        "date": "2026-10-22",
+        "close": 7663.43,
+        "volume": 5972620000
+      },
+      {
+        "date": "2026-10-23",
+        "close": 7623.68,
+        "volume": 5062330000
+      },
+      {
+        "date": "2026-10-26",
+        "close": 7676.77,
+        "volume": 5838070000
+      },
+      {
+        "date": "2026-10-27",
+        "close": 7722.6,
+        "volume": 5160120000
+      },
+      {
+        "date": "2026-10-28",
+        "close": 7743.98,
+        "volume": 5466960000
+      },
+      {
+        "date": "2026-10-29",
+        "close": 7720.39,
+        "volume": 5827600000
+      },
+      {
+        "date": "2026-10-30",
+        "close": 7580.07,
+        "volume": 6149170000
+      },
+      {
+        "date": "2026-11-02",
+        "close": 7541.4,
+        "volume": 5712790000
+      },
+      {
+        "date": "2026-11-03",
+        "close": 7568.92,
+        "volume": 5481240000
+      },
+      {
+        "date": "2026-11-04",
+        "close": 7688.62,
+        "volume": 7390830000
+      },
+      {
+        "date": "2026-11-05",
+        "close": 7353.73,
+        "volume": 7654840000
+      },
+      {
+        "date": "2026-11-06",
+        "close": 7376.86,
+        "volume": 5701900000
+      },
+      {
+        "date": "2026-11-09",
+        "close": 7549.94,
+        "volume": 5819360000
+      }
+    ]
+  },
+  "indicators": {
+    "vix": 20.14,
+    "vixChange": 0.22,
+    "vixHistory": [
+      16.34,
+      16.39,
+      15.31,
+      15.52,
+      15.01,
+      15.08,
+      15.41,
+      14.84,
+      15.21,
+      15.27,
+      16.87,
+      16.46,
+      19.99,
+      18.44,
+      17.31,
+      16.68,
+      19.03,
+      19.45,
+      18.39,
+      17.52,
+      16.91,
+      17.2,
+      19.42,
+      21.15,
+      20.83,
+      16.61,
+      28.18,
+      25.64,
+      19.92,
+      20.14
+    ],
+    "vixHistoryStart": "2026-09-30",
+    "vixHistoryEnd": "2026-11-10",
+    "dxy": 101.66,
+    "dxyChange": 0.01,
+    "dxyHistory": [
+      101.45,
+      102.1,
+      101.93,
+      102.17,
+      101.83,
+      102.24,
+      102.14,
+      102.21,
+      102.58,
+      102.18,
+      102.55,
+      102.0,
+      101.84,
+      101.98,
+      101.73,
+      101.78,
+      101.61,
+      101.81,
+      101.96,
+      102.32,
+      102.19,
+      102.04,
+      101.88,
+      101.75,
+      101.87,
+      101.51,
+      101.55,
+      102.3,
+      101.65,
+      101.66
+    ],
+    "dxyHistoryStart": "2026-09-30",
+    "dxyHistoryEnd": "2026-11-10",
+    "us10y": 4.86,
+    "us10yChange": 0.0,
+    "us10yHistory": [
+      5.26,
+      5.29,
+      5.24,
+      5.28,
+      5.31,
+      5.27,
+      5.28,
+      5.23,
+      5.24,
+      5.24,
+      5.22,
+      5.19,
+      5.09,
+      5.1,
+      5.14,
+      5.12,
+      5.15,
+      4.95,
+      4.99,
+      4.99,
+      4.99,
+      5.05,
+      4.99,
+      4.93,
+      4.89,
+      4.95,
+      4.89,
+      4.84,
+      4.86,
+      4.86
+    ],
+    "us10yHistoryStart": "2026-09-29",
+    "us10yHistoryEnd": "2026-11-09",
+    "us2y": 4.03,
+    "us2yChange": 0.03,
+    "us2yHistory": [
+      4.07,
+      4.03,
+      3.98,
+      3.99,
+      4.02,
+      4.04,
+      4.04,
+      4.04,
+      4.06,
+      4.05,
+      4.06,
+      4.09,
+      4.09,
+      4.07,
+      4.07,
+      4.08,
+      4.06,
+      4.02,
+      4.03,
+      4.03,
+      4.04,
+      3.99,
+      4.0,
+      3.97,
+      3.98,
+      4.03,
+      4.03,
+      3.99,
+      4.0,
+      4.03
+    ],
+    "us2yHistoryStart": "2026-09-29",
+    "us2yHistoryEnd": "2026-11-09",
+    "gold": 4104.0,
+    "goldChange": -10.5,
+    "goldHistory": [
+      4186.7,
+      4202.3,
+      4162.3,
+      4156.8,
+      4187.1,
+      4140.7,
+      4157.0,
+      4216.3,
+      4190.6,
+      4177.3,
+      4107.9,
+      4170.1,
+      4181.1,
+      4160.1,
+      4142.6,
+      4150.0,
+      4060.4,
+      4007.9,
+      4038.4,
+      4074.6,
+      4051.6,
+      4031.4,
+      3898.9,
+      3969.6,
+      3940.4,
+      4073.0,
+      4113.5,
+      4074.9,
+      4114.5,
+      4104.0
+    ],
+    "goldHistoryStart": "2026-09-30",
+    "goldHistoryEnd": "2026-11-10",
+    "oil": 85.11,
+    "oilChange": -1.74,
+    "oilHistory": [
+      90.42,
+      92.87,
+      91.11,
+      89.43,
+      89.44,
+      88.28,
+      91.49,
+      91.85,
+      93.74,
+      94.14,
+      95.09,
+      97.97,
+      101.41,
+      103.66,
+      101.79,
+      97.15,
+      99.47,
+      103.27,
+      101.76,
+      99.9,
+      102.78,
+      102.0,
+      104.12,
+      96.46,
+      96.09,
+      88.12,
+      90.52,
+      90.83,
+      86.85,
+      85.11
+    ],
+    "oilHistoryStart": "2026-09-30",
+    "oilHistoryEnd": "2026-11-10",
+    "btc": 74288.85,
+    "btcChange": -892.81,
+    "btcHistory": [
+      82134.49,
+      83458.77,
+      81578.94,
+      82376.32,
+      81701.86,
+      81283.79,
+      81702.45,
+      81983.94,
+      83028.69,
+      84408.33,
+      81255.4,
+      80726.44,
+      80525.44,
+      80388.22,
+      79876.22,
+      80809.64,
+      81184.45,
+      78880.16,
+      76871.75,
+      77498.6,
+      77782.52,
+      76780.73,
+      77813.11,
+      80668.65,
+      75663.45,
+      75850.44,
+      75695.54,
+      74405.67,
+      75181.66,
+      74288.85
+    ],
+    "btcHistoryStart": "2026-10-11",
+    "btcHistoryEnd": "2026-11-10",
+    "eth": 2100.04,
+    "ethChange": -32.8,
+    "ethHistory": [
+      2468.52,
+      2509.07,
+      2416.87,
+      2453.58,
+      2422.81,
+      2391.44,
+      2393.63,
+      2404.85,
+      2453.68,
+      2482.74,
+      2382.15,
+      2362.58,
+      2343.82,
+      2339.92,
+      2310.22,
+      2347.54,
+      2357.24,
+      2270.68,
+      2233.57,
+      2253.01,
+      2258.93,
+      2251.87,
+      2291.19,
+      2434.86,
+      2229.05,
+      2236.1,
+      2232.01,
+      2126.85,
+      2132.84,
+      2100.04
+    ],
+    "ethHistoryStart": "2026-10-11",
+    "ethHistoryEnd": "2026-11-10"
+  },
+  "sectors": [
+    {
+      "name": "工业",
+      "symbol": "XLI",
+      "changePercent": 3.82
+    },
+    {
+      "name": "科技",
+      "symbol": "XLK",
+      "changePercent": 3.73
+    },
+    {
+      "name": "消费",
+      "symbol": "XLY",
+      "changePercent": 2.92
+    },
+    {
+      "name": "通信",
+      "symbol": "XLC",
+      "changePercent": 2.45
+    },
+    {
+      "name": "医疗",
+      "symbol": "XLV",
+      "changePercent": 1.91
+    },
+    {
+      "name": "材料",
+      "symbol": "XLB",
+      "changePercent": 1.91
+    },
+    {
+      "name": "公用事业",
+      "symbol": "XLU",
+      "changePercent": 1.53
+    },
+    {
+      "name": "金融",
+      "symbol": "XLF",
+      "changePercent": 1.45
+    },
+    {
+      "name": "房地产",
+      "symbol": "XLRE",
+      "changePercent": 1.45
+    },
+    {
+      "name": "日常消费品",
+      "symbol": "XLP",
+      "changePercent": 0.9
+    },
+    {
+      "name": "能源",
+      "symbol": "XLE",
+      "changePercent": 0.52
+    }
+  ],
+  "news": [
+    {
+      "title": "Tech leads stock rally as traders track Wall St rebound",
+      "summary": "Stocks rallied Tuesday to extend a Wall Street surge led by technology firms as investors took advantage of lower prices following last week's rout, while another plunge in oil prices added to the upbeat mood.The Nasdaq's 2.7 percent spike led a strong day on Wall Street, and Asian investors took up",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-leads-asian-stock-rally-023930562.html?.tsrc=rss",
+      "publishedAt": "Tue, 10 Nov 2026 08:23:52 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The Zacks Analyst Blog Highlights Nucor, UCB and Cheniere Energy",
+      "summary": "NUE, UCBJY and LNG headline fresh stock picks as investors weigh AI regulation, inflation risks, oil prices and global economic developments.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nucor-062000448.html?.tsrc=rss",
+      "publishedAt": "Tue, 10 Nov 2026 06:20:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Goldman CEO Solomon Defends US Data Center Buildout After Democratic Midterm Wins",
+      "summary": "Goldman Sachs CEO David Solomon warns that blocking the US data center buildout would push AI capacity overseas.",
+      "source": "Yahoo Finance",
+      "url": "https://beincrypto.com/goldman-solomon-us-data-center-buildout/?.tsrc=rss",
+      "publishedAt": "Tue, 10 Nov 2026 04:33:00 +0000",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Asia stocks rally as Korean chips surge and oil retreat lifts sentiment",
+      "summary": "Investing.com -- Asian stocks extended a sharp global technology rebound on Tuesday, with South Korea and Japan leading regional gains as investors returned to beaten-down chipmakers following Wall Street’s biggest rally in about seven months.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-rally-korean-chips-042232811.html?.tsrc=rss",
+      "publishedAt": "Tue, 10 Nov 2026 04:22:32 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The Nasdaq Fell Into Correction Territory Recently. Should You Buy the Dip?",
+      "summary": "The decline in the Nasdaq is being led by what took it up: AI investment.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/11/09/the-nasdaq-fell-into-correction-territory-recently/?.tsrc=rss",
+      "publishedAt": "Tue, 10 Nov 2026 03:50:00 +0000",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+      "summary": "Jensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
+      "publishedAt": "Tue, 10 Nov 2026 06:52:30 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+      "summary": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
+      "publishedAt": "Tue, 10 Nov 2026 09:00:01 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump’s C-SPAN call marks latest surprise post-midterm appearance",
+      "summary": "Trump called C-SPAN's new primetime show unannounced after a surprise White House briefing-room and ballroom appearances.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/trump-cspan-call-elections.html",
+      "publishedAt": "Tue, 10 Nov 2026 06:19:09 GMT",
+      "sentiment": "positive"
+    },
+    {
+      "title": "FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound",
+      "summary": "The agency has found evidence of a potential increased risk of a rare eye condition linked to the use of GLP-1 drugs used for weight management and diabetes.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
+      "publishedAt": "Tue, 10 Nov 2026 08:22:49 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
+      "summary": "“Iran militarily is effectively over,” Trump said, citing the destruction of its navy and surging inflation that he said has hollowed out Tehran's economy.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html",
+      "publishedAt": "Tue, 10 Nov 2026 07:00:02 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+      "summary": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 10 Nov 2026 03:38:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+      "summary": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
+      "publishedAt": "Tue, 10 Nov 2026 00:48:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
+      "summary": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 09 Nov 2026 23:52:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
+      "summary": "The rocket-launch company just posted a steeper loss than analysts were expecting.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 09 Nov 2026 22:49:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
+      "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 09 Nov 2026 22:49:00 GMT",
+      "sentiment": "neutral"
+    }
+  ],
+  "fearGreedIndex": 32,
+  "valuation": {
+    "sp500": {
+      "pe": 23.95,
+      "forwardPE": 21.77,
+      "pePercentile1y": 70,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 14,
+      "peRangeHigh": 35,
+      "drawdown52w": -3.7,
+      "high52w": 781.62,
+      "drawdownATH": -3.7,
+      "allTimeHigh": 781.62,
+      "currentPrice": 752.69
+    },
+    "nasdaq": {
+      "pe": 27.98,
+      "forwardPE": 24.33,
+      "pePercentile1y": 49,
+      "pePercentile5y": null,
+      "pePercentile10y": null,
+      "peRangeLow": 18,
+      "peRangeHigh": 45,
+      "drawdown52w": -10.95,
+      "high52w": 762.86,
+      "drawdownATH": -10.95,
+      "allTimeHigh": 762.86,
+      "currentPrice": 679.35
+    }
+  },
+  "advanceDeclineRatio": null,
+  "putCallRatio": null
+}
