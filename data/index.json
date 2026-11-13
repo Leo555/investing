@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-13",
+    "overallSentiment": "neutral",
+    "sentimentScore": -10,
+    "nasdaqPrice": 25366.09,
+    "nasdaqChange": -100.1,
+    "nasdaqChangePercent": -0.39,
+    "sp500Price": 7592.4,
+    "sp500Change": -26.98,
+    "sp500ChangePercent": -0.35,
+    "vix": 18.96,
+    "newsCount": 15
+  },
+  {
     "date": "2026-11-12",
     "overallSentiment": "neutral",
     "sentimentScore": -7,
