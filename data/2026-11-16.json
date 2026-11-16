@@ -2,10 +2,10 @@
   "date": "2026-11-16",
   "dataDate": "2026-11-13",
   "forecastDate": "2026-11-16",
-  "timestamp": "2026-11-14T16:43:14.158156+08:00",
+  "timestamp": "2026-11-16T17:08:16.967476+08:00",
   "marketStatus": "closed",
   "overallSentiment": "neutral",
-  "sentimentScore": -3,
+  "sentimentScore": -6,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -373,10 +373,9 @@
     ]
   },
   "indicators": {
-    "vix": 19.3,
-    "vixChange": 0.6,
+    "vix": 19.94,
+    "vixChange": 0.64,
     "vixHistory": [
-      15.52,
       15.01,
       15.08,
       15.41,
@@ -405,14 +404,14 @@
       19.46,
       17.49,
       18.7,
-      19.3
+      19.3,
+      19.94
     ],
-    "vixHistoryStart": "2026-10-05",
-    "vixHistoryEnd": "2026-11-13",
-    "dxy": 103.41,
-    "dxyChange": 0.24,
+    "vixHistoryStart": "2026-10-06",
+    "vixHistoryEnd": "2026-11-16",
+    "dxy": 103.38,
+    "dxyChange": -0.03,
     "dxyHistory": [
-      102.17,
       101.83,
       102.24,
       102.14,
@@ -441,10 +440,11 @@
       102.23,
       102.91,
       103.17,
-      103.41
+      103.41,
+      103.38
     ],
-    "dxyHistoryStart": "2026-10-05",
-    "dxyHistoryEnd": "2026-11-13",
+    "dxyHistoryStart": "2026-10-06",
+    "dxyHistoryEnd": "2026-11-16",
     "us10y": 5.15,
     "us10yChange": 0.05,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-10-05",
     "us2yHistoryEnd": "2026-11-13",
-    "gold": 3886.3,
-    "goldChange": 1.0,
+    "gold": 3863.8,
+    "goldChange": -22.5,
     "goldHistory": [
-      4156.8,
       4187.1,
       4140.7,
       4157.0,
@@ -549,14 +548,14 @@
       4030.2,
       4000.5,
       3885.3,
-      3886.3
+      3886.3,
+      3863.8
     ],
-    "goldHistoryStart": "2026-10-05",
-    "goldHistoryEnd": "2026-11-13",
-    "oil": 88.56,
-    "oilChange": -0.18,
+    "goldHistoryStart": "2026-10-06",
+    "goldHistoryEnd": "2026-11-16",
+    "oil": 88.58,
+    "oilChange": 0.02,
     "oilHistory": [
-      89.43,
       89.44,
       88.28,
       91.49,
@@ -585,15 +584,14 @@
       86.04,
       86.53,
       88.74,
-      88.56
+      88.56,
+      88.58
     ],
-    "oilHistoryStart": "2026-10-05",
-    "oilHistoryEnd": "2026-11-13",
-    "btc": 67025.18,
-    "btcChange": -1182.37,
+    "oilHistoryStart": "2026-10-06",
+    "oilHistoryEnd": "2026-11-16",
+    "btc": 64356.7,
+    "btcChange": -857.19,
     "btcHistory": [
-      81701.86,
-      81283.79,
       81702.45,
       81983.94,
       83028.69,
@@ -621,15 +619,15 @@
       73849.0,
       71340.79,
       68207.55,
-      67025.18
+      63499.56,
+      65213.89,
+      64356.7
     ],
-    "btcHistoryStart": "2026-10-15",
-    "btcHistoryEnd": "2026-11-14",
-    "eth": 1897.4,
-    "ethChange": -25.36,
+    "btcHistoryStart": "2026-10-17",
+    "btcHistoryEnd": "2026-11-16",
+    "eth": 1797.04,
+    "ethChange": -30.34,
     "ethHistory": [
-      2422.81,
-      2391.44,
       2393.63,
       2404.85,
       2453.68,
@@ -657,10 +655,12 @@
       2054.19,
       2012.16,
       1922.76,
-      1897.4
+      1743.75,
+      1827.38,
+      1797.04
     ],
-    "ethHistoryStart": "2026-10-15",
-    "ethHistoryEnd": "2026-11-14"
+    "ethHistoryStart": "2026-10-17",
+    "ethHistoryEnd": "2026-11-16"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Booster Diverts.",
-      "summary": "The new market rally is isn't giving clear directions. A SpaceX Starship launch is imminent. Nvidia earnings and Anthropic IPO loom.",
+      "title": "Morgan Stanley raises S&P 500 target on earnings growth, lower oil and AI adoption",
+      "summary": "Investing.com -- Morgan Stanley raised its 12-month S&P 500 price target to 8,700, citing healthy earnings growth, lower oil, more stable interest rates and broadening artificial intelligence adoption. The target implies about 15% upside from the index’s Friday closing price.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
-      "publishedAt": "Sat, 14 Nov 2026 00:41:41 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-raises-p-500-085149491.html?.tsrc=rss",
+      "publishedAt": "Mon, 16 Nov 2026 08:51:49 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "The 60/40 Portfolio Is Having a Disappointing Year. Blame Bonds.",
-      "summary": "The 60% stock/40% bond portfolio is up just 5% this year, the poorest showing since 2022’s double drubbing. Plus, investment newsletter commentary on business activity, the data-center backlash, and holiday sales.",
+      "title": "TSLA, SPCX Diverge Overnight As Retail Traders Split On Merger Winner — Could SpaceX Get Tesla’s S&P 500 Seat?",
+      "summary": "TD Securities estimated that S&P 500 inclusion could generate about $100 billion in buying from index funds.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/m/e5dcf856-6a7b-3e77-94cd-b1000bbf154c/the-60%2F40-portfolio-is-having.html?.tsrc=rss",
-      "publishedAt": "Fri, 13 Nov 2026 23:25:00 +0000",
+      "url": "https://stocktwits.com/news-articles/markets/equity/tsla-spcx-retail-split-merger-winner-could-spacex-get-tesla-sp500-seat/cNb7KL4R9Xm?.tsrc=rss",
+      "publishedAt": "Mon, 16 Nov 2026 08:31:47 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "BC-Select Stock Indices",
-      "summary": "NEW YORK (AP) — Prices as of 5:30:00 PM Friday, November 13. Change High Low  Dow Jones 15 Utilities 1118.",
+      "title": "The S&P 500 Looks Cheaper Than It Has in Over 3 Years, but There’s a Catch",
+      "summary": "Earnings expectations are rising faster than stock prices this year.",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223014609.html?.tsrc=rss",
-      "publishedAt": "Fri, 13 Nov 2026 22:30:14 +0000",
-      "sentiment": "positive"
+      "url": "https://www.fool.com/investing/2026/11/16/the-s-and-p-500-looks-cheaper-than-it-has-in-over-3-years-but-there-s-a-catch/?.tsrc=rss",
+      "publishedAt": "Mon, 16 Nov 2026 07:44:30 +0000",
+      "sentiment": "neutral"
     },
     {
-      "title": "Is There Any Reason To Invest In Edwards Lifesciences Stock?",
-      "summary": "For questions about this article or underlying research, email help@trefis.com.",
+      "title": "Dow Jones Futures: Techs Fall As Jensen Huang Mulls Nvidia Return; Anthropic IPO Looms",
+      "summary": "Nvidia earnings are due as Jensen Huang reportedly mulls a return. The Anthropic IPO is ahead.",
       "source": "Yahoo Finance",
-      "url": "https://www.trefis.com/stock/ew/articles/624863/is-there-any-reason-to-invest-in-edwards-lifesciences-stock/2026-11-13?.tsrc=rss",
-      "publishedAt": "Sat, 14 Nov 2026 01:20:00 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Cathie Wood buys $15 million of popular AI stock",
-      "summary": "Here are Cathie Wood’s latest moves.",
-      "source": "Yahoo Finance",
-      "url": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-15-million-of-popular-ai-stock?.tsrc=rss",
-      "publishedAt": "Sat, 14 Nov 2026 01:13:39 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-      "summary": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-      "publishedAt": "Sat, 14 Nov 2026 01:34:11 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
-      "summary": "The Federal Aviation Administration issued a nationwide ground stop on Friday afternoon, disrupting thousands of departing of flights.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "publishedAt": "Sat, 14 Nov 2026 05:08:24 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
-      "summary": "Jensen Huang’s exit tests Nvidia’s succession planning and governance, and offers lessons for companies that elevate their CEOs to rockstar status.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
-      "publishedAt": "Sat, 14 Nov 2026 07:08:45 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Ecuador wants to monetize its biodiversity — while still drilling for oil",
-      "summary": "Ecuador is planning to channel funds into its biodiversity, but faces a key challenge: its reliance on oil.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
-      "publishedAt": "Sat, 14 Nov 2026 06:00:01 GMT",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
-      "summary": "A Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-      "publishedAt": "Sat, 14 Nov 2026 08:11:28 GMT",
+      "url": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-techs-fall.html?.tsrc=rss",
+      "publishedAt": "Mon, 16 Nov 2026 04:08:09 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
-      "summary": "Homeland Security Secretary Mullin said that there was ‘zero evidence’ of cyberattack as fewer flights amid fuel-cost surge may hamper rebookings.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-      "publishedAt": "Sat, 14 Nov 2026 02:42:00 GMT",
+      "title": "The AI Trade Is Going To Change: Morgan Stanley Reportedly Says 2027 Will Be Increasingly About Returns For AI Adopters",
+      "summary": "Morgan Stanley recommends “max overweight” on global stocks, noting an intact AI capital spending cycle that it sees extending to a resilient economic and earnings growth into next year, as per a Bloomberg report.",
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/the-ai-trade-is-going-to-change-morgan-stanley-reportedly-says-2027-will-be-increasingly-about-returns-for-ai-adopters/cNb7BlpR9Xd?.tsrc=rss",
+      "publishedAt": "Mon, 16 Nov 2026 03:37:04 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "14 dividend stocks selected for long-term growth",
-      "summary": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
-      "publishedAt": "Sat, 14 Nov 2026 01:58:00 GMT",
-      "sentiment": "positive"
+      "title": "Tech world's calls for Jensen Huang to return to Nvidia are growing",
+      "summary": "Calls for Jensen Huang's return as Nvidia CEO are growing, with tech executives and major shareholders backing a potential comeback following his resignation.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html",
+      "publishedAt": "Mon, 16 Nov 2026 08:05:10 GMT",
+      "sentiment": "negative"
     },
     {
-      "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
-      "summary": "There is already a demographic ‘run’ on Social Security.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 13 Nov 2026 23:12:00 GMT",
+      "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+      "summary": "The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+      "publishedAt": "Mon, 16 Nov 2026 08:38:16 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "4 expert tips for signing up for Medicare",
-      "summary": "A day in the life of a Medicare counselor",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 13 Nov 2026 22:45:00 GMT",
+      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "summary": "Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "publishedAt": "Sun, 15 Nov 2026 12:00:01 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
-      "summary": "Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.",
+      "title": "AI is reshaping banking jobs – but its ability to drive profits remains unclear",
+      "summary": "Europe's banks are using AI to cut routine work, redeploy staff and hire more technical talent.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/how-ai-is-changing-banking-jobs-hiring-and-revenue.html",
+      "publishedAt": "Mon, 16 Nov 2026 06:20:55 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+      "summary": "A deepening reliance on external demand leaves China more exposed to shocks abroad as domestic momentum fades, analysts say.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+      "publishedAt": "Mon, 16 Nov 2026 03:53:59 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil",
+      "summary": "Ulf Lindahl says a storm is brewing for investors in the U.S. stock market, who will also be facing $500 oil in a few years. Here is where he’d shelter.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 13 Nov 2026 22:21:00 GMT",
+      "url": "https://www.marketwatch.com/story/why-this-40-year-market-veteran-is-making-a-lonely-bet-on-a-40-stock-market-crash-and-500-oil-c62aefdb?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 16 Nov 2026 08:06:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?",
+      "summary": "“I’m torn between respecting my brother’s wishes and being fair to my sister.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 16 Nov 2026 04:15:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "A big chunk of your 401(k) is likely invested in Nvidia",
+      "summary": "The scandal at the computer-chip giant is exactly what’s wrong with the S&P 500.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 16 Nov 2026 03:11:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+      "summary": "“I know older people can easily feel patronized, and I don’t want that to happen.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 15 Nov 2026 23:30:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
+      "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+      "publishedAt": "Sun, 15 Nov 2026 23:00:00 GMT",
       "sentiment": "negative"
     }
   ],
-  "fearGreedIndex": 13,
+  "fearGreedIndex": 10,
   "valuation": {
     "sp500": {
       "pe": 24.0,
