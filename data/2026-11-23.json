@@ -2,10 +2,10 @@
   "date": "2026-11-23",
   "dataDate": "2026-11-20",
   "forecastDate": "2026-11-23",
-  "timestamp": "2026-11-21T17:20:36.092598+08:00",
+  "timestamp": "2026-11-23T18:26:49.802461+08:00",
   "marketStatus": "closed",
   "overallSentiment": "bearish",
-  "sentimentScore": -34,
+  "sentimentScore": -36,
   "nasdaq": {
     "symbol": "^IXIC",
     "name": "NASDAQ Composite",
@@ -373,10 +373,9 @@
     ]
   },
   "indicators": {
-    "vix": 35.89,
-    "vixChange": 7.45,
+    "vix": 30.13,
+    "vixChange": -5.76,
     "vixHistory": [
-      15.21,
       15.27,
       16.87,
       16.46,
@@ -405,14 +404,14 @@
       25.46,
       24.56,
       28.44,
-      35.89
+      35.89,
+      30.13
     ],
-    "vixHistoryStart": "2026-10-12",
-    "vixHistoryEnd": "2026-11-20",
-    "dxy": 103.81,
-    "dxyChange": -0.09,
+    "vixHistoryStart": "2026-10-13",
+    "vixHistoryEnd": "2026-11-23",
+    "dxy": 103.84,
+    "dxyChange": 0.03,
     "dxyHistory": [
-      102.58,
       102.18,
       102.55,
       102.0,
@@ -441,10 +440,11 @@
       103.49,
       103.86,
       103.9,
-      103.81
+      103.81,
+      103.84
     ],
-    "dxyHistoryStart": "2026-10-12",
-    "dxyHistoryEnd": "2026-11-20",
+    "dxyHistoryStart": "2026-10-13",
+    "dxyHistoryEnd": "2026-11-23",
     "us10y": 4.91,
     "us10yChange": -0.14,
     "us10yHistory": [
@@ -517,10 +517,9 @@
     ],
     "us2yHistoryStart": "2026-10-12",
     "us2yHistoryEnd": "2026-11-20",
-    "gold": 3515.4,
-    "goldChange": -170.1,
+    "gold": 3619.6,
+    "goldChange": 104.2,
     "goldHistory": [
-      4190.6,
       4177.3,
       4107.9,
       4170.1,
@@ -549,14 +548,14 @@
       3864.2,
       3741.9,
       3685.5,
-      3515.4
+      3515.4,
+      3619.6
     ],
-    "goldHistoryStart": "2026-10-12",
-    "goldHistoryEnd": "2026-11-20",
-    "oil": 83.98,
-    "oilChange": 0.77,
+    "goldHistoryStart": "2026-10-13",
+    "goldHistoryEnd": "2026-11-23",
+    "oil": 83.1,
+    "oilChange": -0.88,
     "oilHistory": [
-      93.74,
       94.14,
       95.09,
       97.97,
@@ -585,15 +584,14 @@
       86.01,
       83.26,
       83.21,
-      83.98
+      83.98,
+      83.1
     ],
-    "oilHistoryStart": "2026-10-12",
-    "oilHistoryEnd": "2026-11-20",
-    "btc": 57786.43,
-    "btcChange": -1269.76,
+    "oilHistoryStart": "2026-10-13",
+    "oilHistoryEnd": "2026-11-23",
+    "btc": 61291.84,
+    "btcChange": 280.32,
     "btcHistory": [
-      80726.44,
-      80525.44,
       80388.22,
       79876.22,
       80809.64,
@@ -621,15 +619,15 @@
       62181.04,
       62126.33,
       59056.19,
-      57786.43
+      60049.88,
+      61011.52,
+      61291.84
     ],
-    "btcHistoryStart": "2026-10-22",
-    "btcHistoryEnd": "2026-11-21",
-    "eth": 1631.73,
-    "ethChange": 11.99,
+    "btcHistoryStart": "2026-10-24",
+    "btcHistoryEnd": "2026-11-23",
+    "eth": 1720.08,
+    "ethChange": 3.58,
     "ethHistory": [
-      2362.58,
-      2343.82,
       2339.92,
       2310.22,
       2347.54,
@@ -657,10 +655,12 @@
       1755.71,
       1759.19,
       1619.74,
-      1631.73
+      1678.04,
+      1716.5,
+      1720.08
     ],
-    "ethHistoryStart": "2026-10-22",
-    "ethHistoryEnd": "2026-11-21"
+    "ethHistoryStart": "2026-10-24",
+    "ethHistoryEnd": "2026-11-23"
   },
   "sectors": [
     {
@@ -721,127 +721,127 @@
   ],
   "news": [
     {
-      "title": "Gene Munster Says AI Sell-Off Is About Fear, Not Fundamentals — ‘The Window For Investment Gains Remains Open’",
-      "summary": "In a note on Friday, Munster argued that investors may be getting caught up in worries about what could go wrong, rather than what AI could ultimately deliver.",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures surge amid relief rally",
+      "summary": "Buyers stepped back in for the holiday-shortened week after a bruising sell-off that left the S&P 500 and Dow in correction territory.",
       "source": "Yahoo Finance",
-      "url": "https://stocktwits.com/news-articles/markets/equity/gene-munster-ai-selloff-fear-not-fundamentals/cNbm0tJR91Z?.tsrc=rss",
-      "publishedAt": "Sat, 21 Nov 2026 08:56:21 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Could You Have Spotted Monolithic Power Stock's 52% Run?",
-      "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
-      "source": "Yahoo Finance",
-      "url": "https://www.trefis.com/stock/mpwr/articles/627264/could-you-have-spotted-monolithic-power-stocks-52-run/2026-11-20?.tsrc=rss",
-      "publishedAt": "Sat, 21 Nov 2026 06:32:47 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "If the Nasdaq's Correction Turns Into a Bear Market, This Is the First Stock I'll Buy",
-      "summary": "Another 7.5% fall would send the index into a bear market. Which battered giant would I buy first?",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/11/20/if-the-nasdaq-s-correction-turns-into-a-bear-market-this-is-the-first-stock-i-ll-buy/?.tsrc=rss",
-      "publishedAt": "Sat, 21 Nov 2026 04:17:02 +0000",
-      "sentiment": "negative"
-    },
-    {
-      "title": "The S&P 500 Just Entered Correction Territory. Here's What It Means for Investors Right Now.",
-      "summary": "After plunging 8.6% for the week, the S&P 500 is now in a correction.",
-      "source": "Yahoo Finance",
-      "url": "https://www.fool.com/investing/2026/11/20/the-sp-500-just-entered-correction-territory-heres-what-it-means-for-investors-right-now/?.tsrc=rss",
-      "publishedAt": "Sat, 21 Nov 2026 03:58:35 +0000",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "3 Dividend Stocks With At Least 2% Yield",
-      "summary": "Wall Street just reminded investors that stock prices can swing hard, with the S&P 500 sliding into correction territory after several strong years. When markets reset like this, predictable cash payouts start to look a lot more attractive. That is where a group of companies that steadily raise thei",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-least-2-031439959.html?.tsrc=rss",
-      "publishedAt": "Sat, 21 Nov 2026 03:14:39 +0000",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html?.tsrc=rss",
+      "publishedAt": "Mon, 23 Nov 2026 09:11:18 +0000",
       "sentiment": "positive"
     },
     {
-      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-      "summary": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
-      "publishedAt": "Fri, 20 Nov 2026 22:59:33 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "How China is using summits to expand its global influence",
-      "summary": "Chinese President Xi Jinping has helped coordinate yet another photo-op of global significance.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html",
-      "publishedAt": "Sat, 21 Nov 2026 06:00:02 GMT",
+      "title": "Stocks are tumbling. Has the AI bubble finally burst?",
+      "summary": "Over the past couple of years, stock-market skeptics have talked of an AI bubble. Did it just pop?",
+      "source": "Yahoo Finance",
+      "url": "https://www.usatoday.com/story/money/personal-finance/2026/11/23/ai-bubble-stock-market-selloff/92915438007/?.tsrc=rss",
+      "publishedAt": "Mon, 23 Nov 2026 10:10:03 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "An early breakdown in the polar vortex is threatening already depleted gas stocks",
-      "summary": "Colder weather and low wind speeds could strain Europe’s gas market, where storage started winter at its lowest level in more than a decade.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html",
-      "publishedAt": "Sat, 21 Nov 2026 06:00:02 GMT",
+      "title": "This is where RBC sees the S&P 500 heading over the next 12 months",
+      "summary": "Investing.com -- RBC Capital Markets sees the S&P 500 reaching 8,050 over the next 12 months, a 16.5% gain from Friday’s close, as bearish investor sentiment, a solid economic backdrop and strong corporate earnings point to a path higher. These factors should offset additional compression in price-t",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/where-rbc-sees-p-500-095313357.html?.tsrc=rss",
+      "publishedAt": "Mon, 23 Nov 2026 09:53:13 +0000",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Stock Market Sell-Off: Here's My Honest Take On What Every Long-Term Investor Should Do Right Now",
+      "summary": "The market is in a correction, and history says the worst move is running for the exits.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/11/23/stock-market-sell-off-heres-my-honest-take-on-what-every-long-term-investor-should-do-right-now/?.tsrc=rss",
+      "publishedAt": "Mon, 23 Nov 2026 09:46:02 +0000",
       "sentiment": "negative"
     },
     {
-      "title": "A massive bearish trade just happened in the chip stocks",
-      "summary": "Options traders place big bets that semiconductor stocks have further to fall",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html",
-      "publishedAt": "Fri, 20 Nov 2026 19:33:31 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Europe's cyber weak spot is the everyday businesses nobody thought to protect",
-      "summary": "Known vulnerabilities are leaving everyday businesses increasingly exposed to cyber sabotage, as AI enables cybercriminals to work better and faster.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/21/cyber-attacks-fridges-cybersecurity.html",
-      "publishedAt": "Sat, 21 Nov 2026 06:00:02 GMT",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Tech outages are rattling Americans so much that they’re stockpiling cash and supplies",
-      "summary": "A lack of clarity from world leaders is prompting some people to prepare for the worst.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-are-these-tech-outages-rattling-americans-so-much-that-theyre-stockpiling-cash-and-supplies-07516bdd?mod=mw_rss_topstories",
-      "publishedAt": "Sat, 21 Nov 2026 03:20:00 GMT",
+      "title": "The S&P 500 Just Had Its Worst Week in 18 Months. Is This a Buying Opportunity?",
+      "summary": "The S&P 500 just had a brutal week, but history says it could be a gift for buyers.",
+      "source": "Yahoo Finance",
+      "url": "https://www.fool.com/investing/2026/11/23/the-s-and-p-500-just-had-its-worst-week-in-18-months-is-this-a-buying-opportunity/?.tsrc=rss",
+      "publishedAt": "Mon, 23 Nov 2026 09:05:02 +0000",
       "sentiment": "neutral"
     },
     {
-      "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
-      "summary": "All 11 S&P 500 sectors finished more than 1% lower this week for the first time since April 2025.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Nov 2026 22:46:00 GMT",
+      "title": "Anthropic, Nvidia shares rise in premarket trading after major tech selloff",
+      "summary": "The Nasdaq slid 10% last week in its worst week since the early days of Covid in 2020.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+      "publishedAt": "Mon, 23 Nov 2026 10:24:25 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
-      "summary": "A major semiconductor index just posted its worst weekly performance in 25 years.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Nov 2026 22:44:00 GMT",
+      "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+      "summary": "The U.S. is investigating Megaspeed and Alice Huang after it emerged a former associate of hers was reportedly \"deeply involved\" in the firm's activities",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html",
+      "publishedAt": "Mon, 23 Nov 2026 05:08:03 GMT",
       "sentiment": "neutral"
     },
     {
-      "title": "These stocks were crushed the most this week as the tech wreck accelerated",
-      "summary": "94% of stocks in the S&P 500 declined for the week, 11 of them by at least 20%. But for now, analysts still think you can make a lot of money if you buy them.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Nov 2026 22:44:00 GMT",
+      "title": "Zelenskyy praises ‘exemplary’ drone operation that sank Russian warship in a Libyan port",
+      "summary": "The incident comes alongside a suspected Ukrainian drone strike on a Russian cargo ship in the Baltic Sea over the weekend.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/ukraine-russia-warship-libya.html",
+      "publishedAt": "Mon, 23 Nov 2026 10:14:52 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Stuck: How a frozen housing market is hitting buyers, sellers and the economy",
+      "summary": "A sharp spike in mortgage rates in September has pushed the already chilly real estate sector into a deep freeze.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/housing-market-real-estate-economy.html",
+      "publishedAt": "Mon, 23 Nov 2026 10:00:01 GMT",
       "sentiment": "negative"
     },
     {
-      "title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
-      "summary": "One fund manager says the continued uncertainty makes Nvidia vulnerable to more selling, even as the stock has erased $1.16 trillion in market value in the past seven trading sessions.",
+      "title": "French biotech rejects short seller’s cancer-risk claims after shares plunge 17%",
+      "summary": "Short seller Scorpion Capital has accused Abivax of serious scientific and safety shortcomings in its experimental inflammatory bowel disease drug.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/abivax-scorpion-capital-obefazimod.html",
+      "publishedAt": "Mon, 23 Nov 2026 09:45:42 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "A 66-year-old nurse faces retirement with just $500 saved. Who’s to blame?",
+      "summary": "“Retirement is a financial status, not an age.”",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
-      "publishedAt": "Fri, 20 Nov 2026 21:58:00 GMT",
+      "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 23 Nov 2026 10:15:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "James Bond films were shot all over the world. Here are 5 properties made famous by 007.",
+      "summary": "As actor Robert Pattinson steps in the role of 007, here are some of the lavish homes where we’ve see James Bond in action.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/james-bond-films-were-shot-all-over-the-world-here-are-5-properties-made-famous-by-007-dabafbe6?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 23 Nov 2026 10:02:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Google co-founder Sergey Brin and ex-wife Nicole Shanahan list Malibu home for $33.5 million",
+      "summary": "The elegant Malibu estate that Google co-founder Sergey Brin purchased with his ex-wife, Nicole Shanahan, has hit the selling block for $33.5 million—months after it was listed as a rental.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/google-co-founder-sergey-brin-and-ex-wife-nicole-shanahan-list-malibu-home-for-33-5-million-0121adcd?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 23 Nov 2026 10:01:00 GMT",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Stocks are serving up a ‘fat pitch’ for investors right now, says Morgan Stanley’s top strategist",
+      "summary": "Morgan Stanley points to trough Nasdaq valuations, implied earnings declines and a capitulation in both sentiment and positioning as reasons to be bullish.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/stocks-are-serving-up-a-fat-pitch-for-investors-right-now-as-morgan-stanleys-top-strategist-19abe30a?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 23 Nov 2026 09:40:00 GMT",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade",
+      "summary": "The big question for traders is whether the S&P 500’s swift fall into a correction is the start of something much worse for the stock market or actually a harbinger of a reversal.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/stock-market-slides-this-steep-and-fast-trigger-a-rebound-91-of-the-time-over-the-last-decade-798bd2c2?mod=mw_rss_topstories",
+      "publishedAt": "Mon, 23 Nov 2026 08:37:00 GMT",
       "sentiment": "negative"
     }
   ],
-  "fearGreedIndex": 12,
+  "fearGreedIndex": 11,
   "valuation": {
     "sp500": {
       "pe": 21.95,
